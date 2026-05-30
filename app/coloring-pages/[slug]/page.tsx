@@ -98,7 +98,7 @@ export default async function ColoringPageDetail({ params }: Props) {
             {page.description}
           </p>
 
-          <DownloadButton pdfUrl={page.pdfUrl} title={page.title} />
+          <DownloadButton imageUrl={page.imageUrl} title={page.title} />
 
           {/* Tags */}
           <div className="mt-8 flex flex-wrap gap-2">

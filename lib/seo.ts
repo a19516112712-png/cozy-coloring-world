@@ -8,7 +8,7 @@ const siteDescription =
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Cozy Coloring World | Free Printable Coloring Pages PDF",
+    default: "Cozy Coloring World | Free Printable Coloring Pages JPG",
     template: "%s | Cozy Coloring World",
   },
   description: siteDescription,
@@ -17,7 +17,7 @@ export const defaultMetadata: Metadata = {
     "cute coloring pages",
     "cozy coloring pages",
     "kawaii coloring pages",
-    "coloring pages PDF",
+    "coloring pages JPG",
     "printable coloring pages for kids",
     "adult coloring pages",
     "cottagecore coloring",
@@ -26,7 +26,7 @@ export const defaultMetadata: Metadata = {
     "fantasy coloring pages",
     "kids coloring pages",
     "easy coloring pages",
-    "PDF coloring pages free",
+    "JPG coloring pages free",
     "coloring pages to print",
   ],
   authors: [{ name: "Cozy Coloring World", url: siteUrl }],
@@ -48,7 +48,7 @@ export const defaultMetadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName,
-    title: "Cozy Coloring World | Free Printable Coloring Pages PDF",
+    title: "Cozy Coloring World | Free Printable Coloring Pages JPG",
     description: siteDescription,
     images: [
       {
@@ -62,7 +62,7 @@ export const defaultMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cozy Coloring World | Free Printable Coloring Pages PDF",
+    title: "Cozy Coloring World | Free Printable Coloring Pages JPG",
     description: "Download free cute printable coloring pages for kids and adults.",
     images: ["/og-image.png"],
     site: "@cozycoloringworld",
@@ -104,7 +104,7 @@ export function generatePageMetadata({
       "cute coloring pages",
       "cozy coloring pages",
       "kawaii coloring pages",
-      "coloring pages PDF",
+      "coloring pages JPG",
       "printable coloring pages for kids",
       "free coloring pages download",
     ],

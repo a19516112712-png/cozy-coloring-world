@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = coloringPages.find((p) => p.slug === slug);
   if (!page) return {};
   return generatePageMetadata({
-    title: `${page.title} | Free Printable Coloring Page PDF`,
+    title: `${page.title} | Free Printable Coloring Page JPG`,
     description: `Download and print this free ${page.title.toLowerCase()} coloring page. ${page.description}. Perfect for kids and adults who love coloring!`,
     path: `/coloring/${slug}`,
     imageUrl: page.imageUrl,
@@ -40,7 +40,7 @@ const difficultyColors: Record<string, string> = {
 const pageFAQs = [
   {
     question: "How do I download and print this coloring page?",
-    answer: "Click the 'Download PDF' button to get your free high-quality PDF. Open the file and print on standard 8.5x11 letter paper or A4 size. For best results, use cardstock or thicker paper, especially if using markers or watercolors.",
+    answer: "Click the 'Download JPG' button to get your free high-quality JPG image. Open the file and print on standard 8.5x11 letter paper or A4 size. For best results, use cardstock or thicker paper, especially if using markers or watercolors.",
   },
   {
     question: "Are these coloring pages really free?",
@@ -145,7 +145,7 @@ export default async function ColoringDetailPage({ params }: Props) {
               <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
                 <PinterestSaveButton
                   imageUrl={page.imageUrl}
-                  description={`Free printable ${page.title} coloring page from Cozy Coloring World. Download this cute coloring page PDF! ${page.description}`}
+                  description={`Free printable ${page.title} coloring page from Cozy Coloring World. Download this cute coloring page JPG! ${page.description}`}
                 />
               </div>
             </div>
@@ -173,15 +173,15 @@ export default async function ColoringDetailPage({ params }: Props) {
 
             {/* Intro description */}
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
-              {page.description}. Download this free printable PDF and start coloring today!
+              {page.description}. Download this free printable JPG and start coloring today!
             </p>
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
-              <DownloadButton pdfUrl={page.pdfUrl} title={page.title} />
+              <DownloadButton imageUrl={page.imageUrl} title={page.title} />
               <PinterestSaveButton
                 imageUrl={page.imageUrl}
-                description={`Free printable ${page.title} coloring page. ${page.description}. Download this cute PDF from Cozy Coloring World!`}
+                description={`Free printable ${page.title} coloring page. ${page.description}. Download this cute JPG from Cozy Coloring World!`}
               />
             </div>
 
@@ -202,7 +202,7 @@ export default async function ColoringDetailPage({ params }: Props) {
               </h3>
               <ul className="space-y-2 text-cocoa/75">
                 <li>🖍️ <strong>High-quality design</strong> — crisp lines and thoughtful details for an enjoyable coloring experience</li>
-                <li>📄 <strong>Printable PDF format</strong> — download once, print as many copies as you want</li>
+                <li>📄 <strong>Printable JPG format</strong> — download once, print as many copies as you want</li>
                 <li>👶👵 <strong>For all ages</strong> — suitable for kids, teens, and adults who love coloring</li>
                 <li>🎨 <strong>Works with any medium</strong> — colored pencils, markers, crayons, gel pens, or watercolors</li>
                 <li>💯 <strong>100% free</strong> — no sign-up required, no subscription needed</li>

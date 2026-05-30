@@ -58,7 +58,7 @@ export default function ColoringCard({ page }: ColoringCardProps) {
         </div>
 
         {/* Download Button */}
-        <DownloadButton pdfUrl={page.pdfUrl} title={page.title} />
+        <DownloadButton imageUrl={page.imageUrl} title={page.title} />
       </div>
     </div>
   );

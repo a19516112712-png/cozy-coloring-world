@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = categories.find((c) => c.slug === slug);
   if (!category) return {};
   return generatePageMetadata({
-    title: `${category.name} Coloring Pages | Free Printable PDFs`,
+    title: `${category.name} Coloring Pages | Free Printable JPGs`,
     description: category.description,
     path: `/categories/${slug}`,
   });

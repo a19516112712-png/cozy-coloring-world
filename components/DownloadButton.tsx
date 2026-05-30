@@ -3,11 +3,11 @@
 import { useState } from "react";
 
 interface DownloadButtonProps {
-  pdfUrl: string;
+  imageUrl: string;
   title: string;
 }
 
-export default function DownloadButton({ pdfUrl, title }: DownloadButtonProps) {
+export default function DownloadButton({ imageUrl, title }: DownloadButtonProps) {
   const [clicked, setClicked] = useState(false);
 
   const handleDownload = () => {
@@ -17,8 +17,9 @@ export default function DownloadButton({ pdfUrl, title }: DownloadButtonProps) {
     
     // Trigger download
     const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = `${title.replace(/\s+/g, "-").toLowerCase()}.pdf`;
+    link.href = imageUrl;
+    const ext = imageUrl.split('.').pop();
+    link.download = `${title.replace(/\s+/g, "-").toLowerCase()}.${ext}`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -38,7 +39,7 @@ export default function DownloadButton({ pdfUrl, title }: DownloadButtonProps) {
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
-          Download PDF
+          Download JPG
         </>
       )}
     </button>

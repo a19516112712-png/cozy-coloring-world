@@ -16,7 +16,7 @@ export default function CategoryCard({ category }: CategoryCardProps) {
       <div className="relative aspect-[4/3] overflow-hidden bg-cream">
         <Image
           src={category.imageUrl}
-          alt={`${category.name} coloring pages — free printable ${category.name.toLowerCase()} PDF downloads`}
+          alt={`${category.name} coloring pages — free printable ${category.name.toLowerCase()} JPG downloads`}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"

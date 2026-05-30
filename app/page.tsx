@@ -122,7 +122,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-3xl mx-auto">
           {[
             { emoji: "🔍", title: "Browse & Choose", desc: "Pick from our cozy collections of 29+ free designs" },
-            { emoji: "📥", title: "Download Free PDF", desc: "One click — no sign-up, no subscription needed" },
+            { emoji: "📥", title: "Download Free JPG", desc: "One click — no sign-up, no subscription needed" },
             { emoji: "🖍️", title: "Print & Color", desc: "Print at home and enjoy relaxing coloring time" },
           ].map((item, i) => (
             <div key={i} className="text-center p-5 rounded-cozy border border-blush/20 bg-white shadow-card">
@@ -152,12 +152,12 @@ export default function HomePage() {
               Free Printable Coloring Pages for Kids and Adults
             </h2>
             <p className="text-center text-cocoa/45 text-sm mb-8">
-              Discover the joy of coloring — download, print, and relax with our free PDF collection
+              Discover the joy of coloring — download, print, and relax with our free JPG collection
             </p>
 
             <h3 className="text-xl font-semibold text-cocoa mt-8 mb-3">What Are Coloring Pages?</h3>
             <p className="text-cocoa/70 text-sm leading-relaxed mb-5">
-              Coloring pages are printable black-and-white illustrations for filling with colors. Our free printable coloring pages feature cozy, kawaii, and cottagecore designs — from cute animals and woodland villages to fantasy castles. Every page is a free PDF download with no sign-up required.
+              Coloring pages are printable black-and-white illustrations for filling with colors. Our free printable coloring pages feature cozy, kawaii, and cottagecore designs — from cute animals and woodland villages to fantasy castles. Every page is a free JPG download with no sign-up required.
             </p>
 
             <h3 className="text-xl font-semibold text-cocoa mt-8 mb-3">Benefits of Coloring</h3>
@@ -170,7 +170,7 @@ export default function HomePage() {
 
             <h3 className="text-xl font-semibold text-cocoa mt-8 mb-3">How to Print</h3>
             <p className="text-cocoa/70 text-sm leading-relaxed mb-5">
-              Use standard 8.5×11 letter paper or A4. For markers and watercolors, use cardstock (80lb+). Select &ldquo;High Quality&rdquo; in printer settings. Click download, open PDF, print — as many copies as you want!
+              Use standard 8.5×11 letter paper or A4. For markers and watercolors, use cardstock (80lb+). Select &ldquo;High Quality&rdquo; in printer settings. Click download, open JPG, print — as many copies as you want!
             </p>
 
             <h3 className="text-xl font-semibold text-cocoa mt-8 mb-3">Frequently Asked Questions</h3>

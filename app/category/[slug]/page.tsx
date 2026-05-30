@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = categories.find((c) => c.slug === slug);
   if (!category) return {};
   return generatePageMetadata({
-    title: `${category.name} Coloring Pages | Free Printable PDF Downloads`,
-    description: `Download free printable ${category.name.toLowerCase()} coloring pages. ${category.description}. All PDFs are free for personal use!`,
+    title: `${category.name} Coloring Pages | Free Printable JPG Downloads`,
+    description: `Download free printable ${category.name.toLowerCase()} coloring pages. ${category.description}. All JPGs are free for personal use!`,
     path: `/category/${slug}`,
   });
 }
@@ -63,7 +63,7 @@ export default async function CategoryPage({ params }: Props) {
           <span className="text-sm font-medium text-rose bg-rose/10 px-4 py-1.5 rounded-pill">
             {pages.length} free printable pages
           </span>
-          <span className="text-sm text-cocoa/40">📥 Instant PDF download</span>
+          <span className="text-sm text-cocoa/40">📥 Instant JPG download</span>
         </div>
       </div>
 
