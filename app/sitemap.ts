@@ -61,6 +61,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/rainy-day-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${baseUrl}/blog/fantasy-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${baseUrl}/blog/free-printable-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cute-bear-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cute-cat-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/tea-party-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/garden-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/bookstore-coloring-pages-blog`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/kawaii-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/printable-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/coloring-pages-for-adults`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/relaxing-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cute-animal-worlds`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/best-free-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
   ];
 
   return [
