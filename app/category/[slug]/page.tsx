@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
+import RelatedArticles from "@/components/RelatedArticles";
 import CategoryColoringCard from "@/components/CategoryColoringCard";
 import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";

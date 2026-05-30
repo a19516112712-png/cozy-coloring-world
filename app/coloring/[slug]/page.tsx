@@ -8,6 +8,7 @@ import DownloadButton from "@/components/DownloadButton";
 import PinterestSaveButton from "@/components/PinterestSaveButton";
 import AdBanner from "@/components/AdBanner";
 import AmazonBookPromo from "@/components/AmazonBookPromo";
+import RelatedArticles from "@/components/RelatedArticles";
 import { coloringPages } from "@/data/coloring-pages";
 import { categories } from "@/data/categories";
 
@@ -352,6 +353,14 @@ export default async function ColoringDetailPage({ params }: Props) {
                   </div>
                 </div>
               )}
+              {/* Related Articles */}
+              <RelatedArticles
+                categoryId={page.category}
+                categoryName={category?.name}
+                currentSlug={page.slug}
+                type="article"
+                count={4}
+              />
             </div>
           </aside>
         </div>
