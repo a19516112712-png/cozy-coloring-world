@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import { blogPosts } from "@/data/blogPosts";
+import BlogCardImage from "@/components/BlogCardImage";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Coloring Blog | Tips, Ideas & Inspiration | Tiny Animal Worlds",
@@ -53,13 +53,7 @@ export default function BlogPage() {
               className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-pink/20"
             >
               <div className="relative aspect-[16/9] overflow-hidden bg-cream">
-                <Image
-                  src={post.coverImage}
-                  alt={post.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+                <BlogCardImage src={post.coverImage} alt={post.title} />
                 <div className="absolute top-3 left-3">
                   <span className="bg-cream/90 backdrop-blur-sm text-cocoa text-xs font-semibold px-2.5 py-1 rounded-full">
                     {post.category}

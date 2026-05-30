@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     description: "Discover enchanting tiny animal coloring pages featuring miniature villages, mushroom houses, and adorable woodland creatures. Free printable JPG downloads for all ages!",
     date: "2026-06-10",
     category: "Tiny Animal",
-    coverImage: "/images/coloring/10_Cute_animal_village_coloring_p.jpg",
+    coverImage: "/images/coloring/1_Cute_animal_village_coloring_p.jpg",
     readTime: "8 min read",
   },
   {
