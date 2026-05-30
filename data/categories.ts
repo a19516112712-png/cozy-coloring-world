@@ -18,7 +18,7 @@ export const categories: Category[] = [
     color: "#FADADD",
     emoji: "🐱",
     imageUrl: "/images/categories/cute-animals.svg",
-    count: 12,
+    count: 9,
   },
   {
     id: "cozy-coloring",
@@ -28,7 +28,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🏡",
     imageUrl: "/images/categories/cozy-coloring.svg",
-    count: 27,
+    count: 90,
   },
   {
     id: "kawaii-coloring",
