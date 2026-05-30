@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Everything you need to know about printable coloring pages! 280+ free JPG downloads, printing tips, paper recommendations, and creative ideas for kids and adults",
@@ -164,6 +165,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">Absolutely! Use any image editing tool to resize. Our images are high-resolution (2550x3300 pixels), so they maintain quality even when resized.</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="printable-coloring-pages-guide"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />

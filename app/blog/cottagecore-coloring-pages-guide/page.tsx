@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Embrace the cottagecore aesthetic with our coloring pages! Flower gardens, herb cottages, countryside bakeries, and pastoral scenes",
@@ -164,6 +165,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">Roses, lavender, daisies, wildflowers, sunflowers, and climbing ivy are common motifs in cottagecore designs.</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="cottagecore-coloring-pages-guide"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />

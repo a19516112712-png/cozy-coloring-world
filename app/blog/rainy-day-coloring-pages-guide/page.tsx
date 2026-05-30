@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Turn rainy days into creative adventures! Our rainy day coloring pages feature cozy window scenes, cute animals in rain boots, and peaceful indoor moments",
@@ -131,6 +132,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">Definitely! The intricate details in our rainy day scenes make them perfect for adult coloring and mindfulness practice.</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="rainy-day-coloring-pages-guide"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />

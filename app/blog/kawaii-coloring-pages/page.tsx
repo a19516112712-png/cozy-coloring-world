@@ -4,6 +4,7 @@ import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Kawaii Coloring Pages: Free Printable Super Cute Japanese-Inspired Designs",
@@ -83,7 +84,30 @@ export default function BlogPost() {
               Ready to start your coloring adventure? Browse our <Link href="/coloring-pages" className="text-rose hover:underline">complete collection of 180+ free printable coloring pages</Link>, or explore our <Link href="/categories" className="text-rose hover:underline">fifteen curated categories</Link> to find exactly what you are looking for. Every page is a free JPG download with no catch.
             </p>
           </div>
-          <Newsletter />
+          
+          {/* Related Coloring Pages */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">Related Coloring Pages</h2>
+            <RelatedArticles
+              categoryId="cute-animals"
+              type="coloring"
+              count={6}
+              title="Coloring Pages You'll Love"
+            />
+          </section>
+
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="kawaii-coloring-pages"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
+          </section>
+
+          <Newsletter className="mb-12" />
         </div>
       </article>
     </>

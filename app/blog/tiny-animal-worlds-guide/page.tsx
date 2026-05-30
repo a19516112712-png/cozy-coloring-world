@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Discover the enchanting realm of tiny animal worlds! Miniature villages, market squares, and tiny homes filled with adorable animal communities",
@@ -164,6 +165,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">Some colorists enjoy using magnifying lamps or glasses for the smallest details. It adds to the cozy, focused experience!</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="tiny-animal-worlds-guide"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />

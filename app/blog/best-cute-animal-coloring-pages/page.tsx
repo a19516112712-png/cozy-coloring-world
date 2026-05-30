@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Discover the best cute animal coloring pages! 50+ free printable JPG downloads featuring adorable cats, bunnies, bears, and more",
@@ -164,6 +165,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">Absolutely! Share the link to our website so your friends can download their own free coloring pages.</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="best-cute-animal-coloring-pages"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />

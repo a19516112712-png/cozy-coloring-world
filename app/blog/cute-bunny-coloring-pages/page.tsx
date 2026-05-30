@@ -3,6 +3,7 @@ import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Cute Bunny Coloring Pages: Free Printable Rabbit and Bunny Scenes",
@@ -76,7 +77,30 @@ export default function BlogPost() {
           </p>
         </div>
 
-        <Newsletter />
+        
+          {/* Related Coloring Pages */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">Related Coloring Pages</h2>
+            <RelatedArticles
+              categoryId="cute-animals"
+              type="coloring"
+              count={6}
+              title="Coloring Pages You'll Love"
+            />
+          </section>
+
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="cute-bunny-coloring-pages"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
+          </section>
+
+          <Newsletter className="mb-12" />
       </div>
     </article>
   );

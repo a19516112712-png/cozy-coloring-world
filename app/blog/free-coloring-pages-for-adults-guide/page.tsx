@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Discover the best free coloring pages for adults! 280+ relaxing printable designs for stress relief, mindfulness, and creative expression",
@@ -164,6 +165,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">It varies widely! Simple pages might take 30-60 minutes while detailed designs can span multiple sessions over several hours. Take your time and enjoy the process.</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="free-coloring-pages-for-adults-guide"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Explore our complete cozy coloring pages collection! Warm reading nooks, rainy window scenes, and comforting interiors",
@@ -164,6 +165,18 @@ export default function BlogPost() {
               <p className="text-cocoa/60">Yes! Many of our cozy coloring pages look beautiful framed. Print on high-quality paper for the best results.</p>
             </div>
             </div>
+          </section>
+
+          
+          {/* You May Also Like */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2>
+            <RelatedArticles
+              currentSlug="cozy-coloring-pages-collection"
+              type="article"
+              count={3}
+              title="More Articles to Explore"
+            />
           </section>
 
           <Newsletter className="mb-12" />
