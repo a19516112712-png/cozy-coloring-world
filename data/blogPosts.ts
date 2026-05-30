@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     description: "Discover enchanting tiny animal coloring pages featuring miniature villages, mushroom houses, and adorable woodland creatures. Free printable JPG downloads for all ages!",
     date: "2026-06-10",
     category: "Tiny Animal",
-    coverImage: "/images/coloring/1_Cute_animal_village_coloring_p.jpg",
+    coverImage: "/images/blog-covers/tiny-animal-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
     description: "Escape to the countryside with our cottagecore coloring pages. Charming cottages, flower gardens, and pastoral scenes.",
     date: "2026-06-11",
     category: "Cottagecore",
-    coverImage: "/images/coloring/11_Hedgehog_Enchanted_Forest.jpg",
+    coverImage: "/images/blog-covers/cottagecore-coloring-pages.jpg",
     readTime: "7 min read",
   },
   {
@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
     description: "The ultimate collection of cozy coloring pages! From reading nooks to rainy windows, find your perfect relaxing coloring page.",
     date: "2026-06-12",
     category: "Cozy",
-    coverImage: "/images/coloring/12_Cute_rabbit_book_club_coloring.jpg",
+    coverImage: "/images/blog-covers/cozy-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -42,7 +42,7 @@ export const blogPosts: BlogPost[] = [
     description: "Hop into fun with our cute frog coloring pages! Frogs in bakeries, by ponds, in mushroom villages.",
     date: "2026-06-13",
     category: "Cute Frog",
-    coverImage: "/images/coloring/15_Frog_Fairy_House.jpg",
+    coverImage: "/images/blog-covers/cute-frog-coloring-pages.jpg",
     readTime: "7 min read",
   },
   {
@@ -51,7 +51,7 @@ export const blogPosts: BlogPost[] = [
     description: "Adorable bunny coloring pages featuring rabbits in gardens, cottages, and tea parties.",
     date: "2026-06-14",
     category: "Cute Bunny",
-    coverImage: "/images/coloring/10_Cute_squirrel_tea_party_colori.jpg",
+    coverImage: "/images/blog-covers/cute-bunny-coloring-pages.jpg",
     readTime: "7 min read",
   },
   {
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     description: "Warm up with our coffee shop coloring pages! Charming cafes, steaming lattes, and cozy corners.",
     date: "2026-06-15",
     category: "Coffee Shop",
-    coverImage: "/images/coloring/13_cat_coffee_shop_with_outdoor_s.jpg",
+    coverImage: "/images/blog-covers/coffee-shop-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -69,7 +69,7 @@ export const blogPosts: BlogPost[] = [
     description: "Treat yourself to our bakery coloring pages! Cupcake shops, bread bakeries, and sweet pastry scenes.",
     date: "2026-06-16",
     category: "Bakery",
-    coverImage: "/images/coloring/17_Bear_Star_Bakery.jpg",
+    coverImage: "/images/blog-covers/bakery-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
     description: "Perfect for gloomy days! Cozy windows, umbrellas, and indoor comfort coloring pages.",
     date: "2026-06-17",
     category: "Rainy Day",
-    coverImage: "/images/coloring/12_cat_sewing_room.jpg",
+    coverImage: "/images/blog-covers/rainy-day-coloring-pages.jpg",
     readTime: "7 min read",
   },
   {
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
     description: "Enter magical realms with our fantasy coloring pages! Unicorns, dragons, enchanted forests.",
     date: "2026-06-18",
     category: "Fantasy",
-    coverImage: "/images/coloring/13_Duck_Unicorn_Garden.jpg",
+    coverImage: "/images/blog-covers/fantasy-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -96,7 +96,7 @@ export const blogPosts: BlogPost[] = [
     description: "The complete guide to free printable coloring pages! Over 180 cute, cozy, and kawaii designs. All free JPG downloads.",
     date: "2026-06-19",
     category: "Free Printable",
-    coverImage: "/images/coloring/10_Cozy_Autumn_Fox_Cottage.jpg",
+    coverImage: "/images/blog-covers/free-printable-coloring-pages.jpg",
     readTime: "9 min read",
   },
   {
@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
     description: "Explore our adorable collection of cute bear coloring pages! From cozy winter cabins to honey shops and camping adventures, all free JPG downloads for kids and adults.",
     date: "2026-06-20",
     category: "Cute Bear",
-    coverImage: "/images/coloring/16_Cute_bear_apple_orchard_colori.jpg",
+    coverImage: "/images/blog-covers/cute-bear-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -114,7 +114,7 @@ export const blogPosts: BlogPost[] = [
     description: "Discover purr-fectly adorable cute cat coloring pages! From cozy cafes and bookshops to rainy window scenes and knitting rooms, free JPG downloads for cat lovers everywhere.",
     date: "2026-06-21",
     category: "Cute Cat",
-    coverImage: "/images/coloring/14_cat_gardening_in_backyard.jpg",
+    coverImage: "/images/blog-covers/cute-cat-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -123,7 +123,7 @@ export const blogPosts: BlogPost[] = [
     description: "Sip into creativity with our tea party coloring pages! Elegant tea sets, garden tea parties, and cozy afternoon tea scenes, all free JPG downloads for coloring enthusiasts.",
     date: "2026-06-22",
     category: "Tea Party",
-    coverImage: "/images/coloring/10_Cute_squirrel_tea_party_colori.jpg",
+    coverImage: "/images/blog-covers/tea-party-coloring-pages.jpg",
     readTime: "7 min read",
   },
   {
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
     description: "Step into blooming creativity with our garden coloring pages! Flower gardens, greenhouses, butterfly meadows, and botanical scenes, all free JPG downloads for nature-loving colorists.",
     date: "2026-06-23",
     category: "Garden",
-    coverImage: "/images/coloring/11_Cute_cat_flower_greenhouse_col.jpg",
+    coverImage: "/images/blog-covers/garden-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
     description: "Get lost in the pages of our bookstore coloring pages! Charming bookshops, magical libraries, and cozy reading corners, free JPG downloads for book lovers who love to color.",
     date: "2026-06-24",
     category: "Bookstore",
-    coverImage: "/images/coloring/16_Cat_Potion_Store.jpg",
+    coverImage: "/images/blog-covers/bookstore-coloring-pages-blog.jpg",
     readTime: "8 min read",
   },
   {
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
     description: "Discover the adorable world of kawaii coloring pages! Super cute animals, smiling foods, pastel dreamscapes, and Japanese-inspired designs. All free JPG downloads for kawaii lovers.",
     date: "2026-06-25",
     category: "Kawaii",
-    coverImage: "/images/coloring/14_Mouse_Crystal_Cave.jpg",
+    coverImage: "/images/blog-covers/kawaii-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -159,7 +159,7 @@ export const blogPosts: BlogPost[] = [
     description: "Your complete guide to printable coloring pages! Learn how to print, what paper to use, and discover 180+ free JPG coloring page downloads. Perfect for kids and adults.",
     date: "2026-06-26",
     category: "Printable",
-    coverImage: "/images/coloring/16_Cute_fox_lantern_festival_colo.jpg",
+    coverImage: "/images/blog-covers/printable-coloring-pages.jpg",
     readTime: "9 min read",
   },
   {
@@ -168,7 +168,7 @@ export const blogPosts: BlogPost[] = [
     description: "Discover the best coloring pages for adults! Intricate designs, detailed patterns, and relaxing scenes for stress relief. 180+ free JPG downloads for mindful coloring.",
     date: "2026-06-27",
     category: "Adults",
-    coverImage: "/images/coloring/12_Panda_Floating_Island_Home.jpg",
+    coverImage: "/images/blog-covers/coloring-pages-for-adults.jpg",
     readTime: "8 min read",
   },
   {
@@ -177,7 +177,7 @@ export const blogPosts: BlogPost[] = [
     description: "Unwind with our relaxing coloring pages! Calm scenes, gentle patterns, and soothing designs for stress relief and mindfulness. 180+ free JPG downloads for peaceful coloring.",
     date: "2026-06-28",
     category: "Relaxing",
-    coverImage: "/images/coloring/15_cat_bedroom_with_blankets_and_.jpg",
+    coverImage: "/images/blog-covers/relaxing-coloring-pages.jpg",
     readTime: "8 min read",
   },
   {
@@ -186,7 +186,7 @@ export const blogPosts: BlogPost[] = [
     description: "Enter the enchanting realm of cute animal worlds! Tiny villages, miniature homes, and adorable animal communities. 180+ free JPG downloads for imaginative coloring adventures.",
     date: "2026-06-29",
     category: "Animal Worlds",
-    coverImage: "/images/coloring/10_Cute_frog_fishing_village_colo.jpg",
+    coverImage: "/images/blog-covers/cute-animal-worlds.jpg",
     readTime: "8 min read",
   },
   {
@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
     description: "Discover the best free coloring pages of 2026! Our top-rated collection of 180+ printable JPG downloads. Cute, cozy, and creative designs for kids and adults.",
     date: "2026-06-30",
     category: "Best Free",
-    coverImage: "/images/coloring/17_Cute_frog_countryside_market_c.jpg",
+    coverImage: "/images/blog-covers/best-free-coloring-pages.jpg",
     readTime: "9 min read",
   },
 ];
