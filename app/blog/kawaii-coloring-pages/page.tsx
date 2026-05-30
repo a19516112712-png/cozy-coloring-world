@@ -32,6 +32,7 @@ export default function BlogPost() {
       />
       <article className="page-container py-12 sm:py-16">
         <div className="max-w-3xl mx-auto">
+          
           <nav className="mb-6 text-sm" aria-label="Breadcrumb">
             <Link href="/" className="text-rose hover:underline">Home</Link>
             <span className="mx-2 text-cocoa/30">/</span>

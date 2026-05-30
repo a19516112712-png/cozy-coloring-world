@@ -7,6 +7,7 @@ export const metadata: Metadata = generatePageMetadata({
   path: "/terms",
 });
 
+
 export default function TermsPage() {
   return (
     <div className="page-container py-12 sm:py-16 max-w-3xl">

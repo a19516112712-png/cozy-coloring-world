@@ -4,7 +4,7 @@ import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import RelatedArticles from "@/components/RelatedArticles";
-import CategoryColoringCard from "@/components/CategoryColoringCard";
+import Breadcrumb from "@/components/Breadcrumb";import CategoryColoringCard from "@/components/CategoryColoringCard";
 import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
 
@@ -37,14 +37,11 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div className="page-container py-12 sm:py-16">
-      {/* Breadcrumb */}
-      <nav className="mb-8 text-sm" aria-label="Breadcrumb">
-        <Link href="/" className="text-rose hover:underline">Home</Link>
-        <span className="mx-2 text-cocoa/30">/</span>
-        <Link href="/categories" className="text-rose hover:underline">Categories</Link>
-        <span className="mx-2 text-cocoa/30">/</span>
-        <span className="text-cocoa/60">{category.name}</span>
-      </nav>
+      <Breadcrumb items={[
+        { name: "Home", url: "https://tinyanimalworlds.com" },
+        { name: "Categories", url: "https://tinyanimalworlds.com/categories" },
+        { name: category.name, url: `https://tinyanimalworlds.com/category/${category.slug}` },
+      ]} />
 
       {/* Hero Header */}
       <div className="text-center mb-10">
@@ -103,6 +100,13 @@ export default async function CategoryPage({ params }: Props) {
       {/* Bottom Ad */}
       <AdBanner slot="2222222222" className="mt-10" />
 
+      {/* Related Articles */}
+      <RelatedArticles
+        categoryId={category.id}
+        type="article"
+        count={6}
+        title="Related Articles"
+      />
       {/* All Categories Quick Links */}
       <section className="mt-16 pt-10 border-t border-blush/20">
         <h3 className="text-lg font-semibold text-cocoa mb-5 text-center">Explore More Categories</h3>

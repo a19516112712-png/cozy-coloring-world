@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
-import { generateFAQSchema, generateImageSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import DownloadButton from "@/components/DownloadButton";
 import PinterestSaveButton from "@/components/PinterestSaveButton";
 import AdBanner from "@/components/AdBanner";
 import AmazonBookPromo from "@/components/AmazonBookPromo";
 import RelatedArticles from "@/components/RelatedArticles";
 import { coloringPages } from "@/data/coloring-pages";
+import { generateFAQSchema, generateImageSchema } from "@/lib/schema";
 import { categories } from "@/data/categories";
 
 interface Props {
@@ -79,15 +79,6 @@ export default async function ColoringDetailPage({ params }: Props) {
     .filter((p) => p.category !== page.category)
     .sort(() => Math.random() - 0.5)
     .slice(0, 3);
-
-  // Breadcrumb schema
-  const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: baseUrl },
-    { name: "Coloring Pages", url: `${baseUrl}/coloring-pages` },
-    ...(category ? [{ name: category.name, url: `${baseUrl}/categories/${category.slug}` }] : []),
-    { name: page.title, url: `${baseUrl}/coloring/${slug}` },
-  ]);
-
   const faqSchema = generateFAQSchema(pageFAQs);
   const imageSchema = generateImageSchema(
     `${baseUrl}${page.imageUrl}`,
@@ -98,10 +89,6 @@ export default async function ColoringDetailPage({ params }: Props) {
   return (
     <>
       {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

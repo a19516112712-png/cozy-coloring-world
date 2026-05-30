@@ -13,7 +13,6 @@ interface Props {
 
 export default function RelatedArticles({
   categoryId,
-  categoryName,
   currentSlug,
   type = "article",
   count = 6,

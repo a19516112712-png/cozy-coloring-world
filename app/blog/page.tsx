@@ -3,7 +3,7 @@ import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
 import { blogPosts } from "@/data/blogPosts";
 import BlogCardImage from "@/components/BlogCardImage";
-
+import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = generatePageMetadata({
   title: "Coloring Blog | Tips, Ideas & Inspiration | Tiny Animal Worlds",
   description: "Explore our coloring blog with 21 articles on cute coloring pages, cozy coloring ideas, printable downloads, and creative inspiration for kids and adults!",
@@ -35,6 +35,10 @@ export default function BlogPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogListSchema) }}
       />
       <div className="page-container py-12 sm:py-16">
+        <Breadcrumb items={[
+          { name: "Home", url: "https://tinyanimalworlds.com" },
+          { name: "Blog", url: "https://tinyanimalworlds.com/blog" },
+        ]} />
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl font-bold text-cocoa">
             Coloring Blog
