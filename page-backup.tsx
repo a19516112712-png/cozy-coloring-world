@@ -66,13 +66,11 @@ export default async function ColoringPageDetail({ params }: Props) {
         {/* Main Content */}
         <div className="lg:col-span-3">
           {/* Image Preview */}
-          <div className="relative aspect-[4/3] bg-cream rounded-cozy border border-blush/20 overflow-hidden mb-6">
-  <img
-    src={page.imageUrl}
-    alt={page.altText}
-    className="w-full h-full object-contain"
-  />
-</div>
+          <div className="aspect-[4/3] bg-cream rounded-cozy border border-blush/20 overflow-hidden flex items-center justify-center mb-6">
+            <span className="text-8xl opacity-15">
+              {category?.emoji || "🎨"}
+            </span>
+          </div>
 
           <div className="flex flex-wrap items-center gap-3 mb-6">
             <span className={`text-sm font-medium px-3 py-1 rounded-pill ${difficultyColors[page.difficulty]}`}>
