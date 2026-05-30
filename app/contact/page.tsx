@@ -22,7 +22,7 @@ export default function ContactPage() {
         <div className="space-y-4 text-center">
           <div className="flex items-center justify-center gap-3 text-cocoa/80">
             <span className="text-xl">📧</span>
-            <span>hello@cozycoloringworld.com</span>
+            <span>hello@cozy-coloring-world.vercel.app</span>
           </div>
           <p className="text-sm text-cocoa/50 mt-6">
             For business inquiries, collaborations, or just to say hi — we read every message! 🎨

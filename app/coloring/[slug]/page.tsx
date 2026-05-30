@@ -52,7 +52,7 @@ const pageFAQs = [
   },
   {
     question: "Can I share my colored pages online?",
-    answer: "Absolutely! We love seeing your creativity. Share your finished coloring pages on social media and tag us. Please link back to cozycoloringworld.com when sharing so others can download the original pages too.",
+    answer: "Absolutely! We love seeing your creativity. Share your finished coloring pages on social media and tag us. Please link back to cozy-coloring-world.vercel.app when sharing so others can download the original pages too.",
   },
   {
     question: "Are these coloring pages suitable for both kids and adults?",
@@ -66,7 +66,7 @@ export default async function ColoringDetailPage({ params }: Props) {
   if (!page) notFound();
 
   const category = categories.find((c) => c.id === page.category);
-  const baseUrl = "https://cozycoloringworld.com";
+  const baseUrl = "https://cozy-coloring-world.vercel.app";
 
   // Related pages: same category, exclude current
   const relatedPages = coloringPages

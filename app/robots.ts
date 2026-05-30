@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://cozycoloringworld.com/sitemap.xml",
+    sitemap: "https://cozy-coloring-world.vercel.app/sitemap.xml",
   };
 }

@@ -33,7 +33,7 @@ export default function CategoryColoringCard({ page }: CategoryColoringCardProps
           <button
             onClick={(e) => {
               e.preventDefault();
-              const url = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent("https://cozycoloringworld.com/coloring/" + page.slug)}&media=${encodeURIComponent("https://cozycoloringworld.com" + page.imageUrl)}&description=${encodeURIComponent("Free printable " + page.title + " coloring page. " + page.description)}`;
+              const url = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent("https://cozy-coloring-world.vercel.app/coloring/" + page.slug)}&media=${encodeURIComponent("https://cozy-coloring-world.vercel.app" + page.imageUrl)}&description=${encodeURIComponent("Free printable " + page.title + " coloring page. " + page.description)}`;
               window.open(url, "_blank", "width=750,height=600");
             }}
             className="inline-flex items-center gap-1 px-3 py-1.5 rounded-pill bg-[#e60023] text-white text-xs font-semibold hover:bg-[#cc001f] transition-all shadow-lg"

@@ -38,7 +38,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold text-cocoa mt-8">4. Contact</h2>
         <p>
           If you have questions about this privacy policy, please contact us at{" "}
-          hello@cozycoloringworld.com.
+          hello@cozy-coloring-world.vercel.app.
         </p>
       </div>
     </div>
