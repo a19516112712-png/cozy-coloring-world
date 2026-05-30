@@ -49,11 +49,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
+  // Blog post routes
+  const blogRoutes: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/blog/tiny-animal-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cottagecore-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cozy-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cute-frog-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/cute-bunny-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/coffee-shop-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/bakery-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/rainy-day-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/fantasy-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/free-printable-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+  ];
+
   return [
     ...staticRoutes,
     ...categoryRoutes,
     ...legacyCategoryRoutes,
     ...coloringRoutes,
     ...legacyColoringRoutes,
+    ...blogRoutes,
   ];
 }

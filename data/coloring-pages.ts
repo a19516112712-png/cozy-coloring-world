@@ -1,3253 +1,7205 @@
 export interface ColoringPage {
 
+
+
   id: string;
+
+
 
   slug: string;
 
+
+
   title: string;
+
+
 
   category: string;
 
+
+
   description: string;
+
+
 
   longDescription: string;
 
+
+
   difficulty: "Easy" | "Medium" | "Hard";
+
+
 
   imageUrl: string;
 
+
+
   tags: string[];
+
+
 
   keywords: string[];
 
+
+
   altText: string;
 
+
+
   createdAt: string;
+
+
 
 }
 
 
 
+
+
+
+
 export const coloringPages: ColoringPage[] = [
 
+
+
   {
+
+
 
     id: "cute-frog-fishing-village-colo",
 
+
+
     slug: "cute-frog-fishing-village-colo",
+
+
 
     title: 'Cute Frog Fishing Village Colo',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable frog in a charming village scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Frog Fishing Village Colo illustration! The design features an adorable frog in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/10_Cute_frog_fishing_village_colo.jpg",
 
+
+
     tags: ["frog", "fishing", "village"],
+
+
 
     keywords: ["cute frog fishing village colo coloring page", "free printable frog fishing village", "cute frog fishing village colo coloring printable", "cozy coloring coloring pages free", "cute frog fishing village JPG download", "printable frog fishing village for kids"],
 
+
+
     altText: 'Cute Frog Fishing Village Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-11",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-tea-party-colori",
 
+
+
     slug: "cute-squirrel-tea-party-colori",
+
+
 
     title: 'Cute Squirrel Tea Party Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming tea scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Tea Party Colori illustration! The design features an adorable squirrel in a cozy tea setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/10_Cute_squirrel_tea_party_colori.jpg",
 
+
+
     tags: ["squirrel", "tea", "party", "colori"],
+
+
 
     keywords: ["cute squirrel tea party colori coloring page", "free printable squirrel tea party", "cute squirrel tea party colori coloring printable", "cozy coloring coloring pages free", "cute squirrel tea party JPG download", "printable squirrel tea party for kids"],
 
+
+
     altText: 'Cute Squirrel Tea Party Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-11",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-flower-greenhouse-col",
 
+
+
     slug: "cute-cat-flower-greenhouse-col",
+
+
 
     title: 'Cute Cat Flower Greenhouse Col',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable cat in a charming flower scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Cat Flower Greenhouse Col illustration! The design features an adorable cat in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/11_Cute_cat_flower_greenhouse_col.jpg",
 
+
+
     tags: ["cat", "flower", "greenhouse", "col"],
+
+
 
     keywords: ["cute cat flower greenhouse col coloring page", "free printable cat flower greenhouse", "cute cat flower greenhouse col coloring printable", "cozy coloring coloring pages free", "cute cat flower greenhouse JPG download", "printable cat flower greenhouse for kids"],
 
+
+
     altText: 'Cute Cat Flower Greenhouse Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-12",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-sewing-cottage-co",
 
+
+
     slug: "cute-hamster-sewing-cottage-co",
+
+
 
     title: 'Cute Hamster Sewing Cottage Co',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hamster in a charming sewing scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hamster Sewing Cottage Co illustration! The design features an adorable hamster in a cozy sewing setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/11_Cute_hamster_sewing_cottage_co.jpg",
 
+
+
     tags: ["hamster", "sewing", "cottage"],
+
+
 
     keywords: ["cute hamster sewing cottage co coloring page", "free printable hamster sewing cottage", "cute hamster sewing cottage co coloring printable", "cozy coloring coloring pages free", "cute hamster sewing cottage JPG download", "printable hamster sewing cottage for kids"],
 
+
+
     altText: 'Cute Hamster Sewing Cottage Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-12",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-village-florist-color",
 
+
+
     slug: "cute-fox-village-florist-color",
+
+
 
     title: 'Cute Fox Village Florist Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming village scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Village Florist Color illustration! The design features an adorable fox in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/12_Cute_fox_village_florist_color.jpg",
 
+
+
     tags: ["fox", "village", "florist"],
+
+
 
     keywords: ["cute fox village florist color coloring page", "free printable fox village florist", "cute fox village florist color coloring printable", "cozy coloring coloring pages free", "cute fox village florist JPG download", "printable fox village florist for kids"],
 
+
+
     altText: 'Cute Fox Village Florist Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-13",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-rabbit-book-club",
 
+
+
     slug: "cute-rabbit-book-club",
+
+
 
     title: 'Cute Rabbit Book Club',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable rabbit in a charming book scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Rabbit Book Club illustration! The design features an adorable rabbit in a cozy book setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/12_Cute_rabbit_book_club_coloring.jpg",
 
+
+
     tags: ["rabbit", "book", "club"],
+
+
 
     keywords: ["cute rabbit book club coloring page", "free printable rabbit book club", "cute rabbit book club coloring printable", "cozy coloring coloring pages free", "cute rabbit book club JPG download", "printable rabbit book club for kids"],
 
+
+
     altText: 'Cute Rabbit Book Club — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-13",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-otter-riverside-cottage-c",
 
+
+
     slug: "cute-otter-riverside-cottage-c",
+
+
 
     title: 'Cute Otter Riverside Cottage C',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable otter in a charming riverside scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Otter Riverside Cottage C illustration! The design features an adorable otter in a cozy riverside setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/13_Cute_otter_riverside_cottage_c.jpg",
 
+
+
     tags: ["otter", "riverside", "cottage"],
+
+
 
     keywords: ["cute otter riverside cottage c coloring page", "free printable otter riverside cottage", "cute otter riverside cottage c coloring printable", "cozy coloring coloring pages free", "cute otter riverside cottage JPG download", "printable otter riverside cottage for kids"],
 
+
+
     altText: 'Cute Otter Riverside Cottage C — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-14",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-rabbit-winter-cabin-color",
 
+
+
     slug: "cute-rabbit-winter-cabin-color",
+
+
 
     title: 'Cute Rabbit Winter Cabin Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable rabbit in a charming winter scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Rabbit Winter Cabin Color illustration! The design features an adorable rabbit in a cozy winter setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/13_Cute_rabbit_winter_cabin_color.jpg",
 
+
+
     tags: ["rabbit", "winter", "cabin"],
+
+
 
     keywords: ["cute rabbit winter cabin color coloring page", "free printable rabbit winter cabin", "cute rabbit winter cabin color coloring printable", "cozy coloring coloring pages free", "cute rabbit winter cabin JPG download", "printable rabbit winter cabin for kids"],
 
+
+
     altText: 'Cute Rabbit Winter Cabin Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-14",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-lantern-festival-co",
 
+
+
     slug: "cute-mouse-lantern-festival-co",
+
+
 
     title: 'Cute Mouse Lantern Festival Co',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming lantern scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Lantern Festival Co illustration! The design features an adorable mouse in a cozy lantern setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/14_Cute_mouse_lantern_festival_co.jpg",
 
+
+
     tags: ["mouse", "lantern", "festival"],
+
+
 
     keywords: ["cute mouse lantern festival co coloring page", "free printable mouse lantern festival", "cute mouse lantern festival co coloring printable", "cozy coloring coloring pages free", "cute mouse lantern festival JPG download", "printable mouse lantern festival for kids"],
 
+
+
     altText: 'Cute Mouse Lantern Festival Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-15",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-sewing-room-colorin",
 
+
+
     slug: "cute-mouse-sewing-room-colorin",
+
+
 
     title: 'Cute Mouse Sewing Room Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming sewing scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Sewing Room Colorin illustration! The design features an adorable mouse in a cozy sewing setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/14_Cute_mouse_sewing_room_colorin.jpg",
 
+
+
     tags: ["mouse", "sewing", "room"],
+
+
 
     keywords: ["cute mouse sewing room colorin coloring page", "free printable mouse sewing room", "cute mouse sewing room colorin coloring printable", "cozy coloring coloring pages free", "cute mouse sewing room JPG download", "printable mouse sewing room for kids"],
 
+
+
     altText: 'Cute Mouse Sewing Room Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-15",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-bakery-cottage-color",
 
+
+
     slug: "cute-duck-bakery-cottage-color",
+
+
 
     title: 'Cute Duck Bakery Cottage Color',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable duck in a charming bakery scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Duck Bakery Cottage Color illustration! The design features an adorable duck in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/15_Cute_duck_bakery_cottage_color.jpg",
 
+
+
     tags: ["duck", "bakery", "cottage"],
+
+
 
     keywords: ["cute duck bakery cottage color coloring page", "free printable duck bakery cottage", "cute duck bakery cottage color coloring printable", "cozy coloring coloring pages free", "cute duck bakery cottage JPG download", "printable duck bakery cottage for kids"],
 
+
+
     altText: 'Cute Duck Bakery Cottage Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-16",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-treehouse-colori",
 
+
+
     slug: "cute-squirrel-treehouse-colori",
+
+
 
     title: 'Cute Squirrel Treehouse Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming treehouse scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Treehouse Colori illustration! The design features an adorable squirrel in a cozy treehouse setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/15_Cute_squirrel_treehouse_colori.jpg",
 
+
+
     tags: ["squirrel", "treehouse", "colori"],
+
+
 
     keywords: ["cute squirrel treehouse colori coloring page", "free printable squirrel treehouse colori", "cute squirrel treehouse colori coloring printable", "cozy coloring coloring pages free", "cute squirrel treehouse colori JPG download", "printable squirrel treehouse colori for kids"],
 
+
+
     altText: 'Cute Squirrel Treehouse Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-16",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-apple-orchard-colori",
 
+
+
     slug: "cute-bear-apple-orchard-colori",
+
+
 
     title: 'Cute Bear Apple Orchard Colori',
 
+
+
     category: "cute-animals",
 
+
+
     description: 'A super cute bear coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Bear Apple Orchard Colori illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/16_Cute_bear_apple_orchard_colori.jpg",
 
+
+
     tags: ["bear", "apple", "orchard", "colori"],
+
+
 
     keywords: ["cute bear apple orchard colori coloring page", "free printable bear apple orchard", "cute bear apple orchard colori coloring printable", "cute animals coloring pages free", "cute bear apple orchard JPG download", "printable bear apple orchard for kids"],
 
+
+
     altText: 'Cute Bear Apple Orchard Colori — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-17",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-lantern-festival-colo",
 
+
+
     slug: "cute-fox-lantern-festival-colo",
+
+
 
     title: 'Cute Fox Lantern Festival Colo',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming lantern scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Lantern Festival Colo illustration! The design features an adorable fox in a cozy lantern setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/16_Cute_fox_lantern_festival_colo.jpg",
 
+
+
     tags: ["fox", "lantern", "festival"],
+
+
 
     keywords: ["cute fox lantern festival colo coloring page", "free printable fox lantern festival", "cute fox lantern festival colo coloring printable", "cozy coloring coloring pages free", "cute fox lantern festival JPG download", "printable fox lantern festival for kids"],
 
+
+
     altText: 'Cute Fox Lantern Festival Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-17",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-frog-countryside-market-c",
 
+
+
     slug: "cute-frog-countryside-market-c",
+
+
 
     title: 'Cute Frog Countryside Market C',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable frog in a charming countryside scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Frog Countryside Market C illustration! The design features an adorable frog in a cozy countryside setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/17_Cute_frog_countryside_market_c.jpg",
 
+
+
     tags: ["frog", "countryside", "market"],
+
+
 
     keywords: ["cute frog countryside market c coloring page", "free printable frog countryside market", "cute frog countryside market c coloring printable", "cozy coloring coloring pages free", "cute frog countryside market JPG download", "printable frog countryside market for kids"],
 
+
+
     altText: 'Cute Frog Countryside Market C — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-18",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-penguin-ice-cream-shop-co",
 
+
+
     slug: "cute-penguin-ice-cream-shop-co",
+
+
 
     title: 'Cute Penguin Ice Cream Shop Co',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable penguin in a charming shop scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Penguin Ice Cream Shop Co illustration! The design features an adorable penguin in a cozy shop setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/17_Cute_penguin_ice_cream_shop_co.jpg",
 
+
+
     tags: ["penguin", "ice", "cream", "shop"],
+
+
 
     keywords: ["cute penguin ice cream shop co coloring page", "free printable penguin ice cream", "cute penguin ice cream shop co coloring printable", "cozy coloring coloring pages free", "cute penguin ice cream JPG download", "printable penguin ice cream for kids"],
 
+
+
     altText: 'Cute Penguin Ice Cream Shop Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-18",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-fairy-garden-colori",
 
+
+
     slug: "cute-bunny-fairy-garden-colori",
+
+
 
     title: 'Cute Bunny Fairy Garden Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bunny in a charming garden scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bunny Fairy Garden Colori illustration! The design features an adorable bunny in a cozy garden setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/18_Cute_bunny_fairy_garden_colori.jpg",
 
+
+
     tags: ["bunny", "fairy", "garden", "colori"],
+
+
 
     keywords: ["cute bunny fairy garden colori coloring page", "free printable bunny fairy garden", "cute bunny fairy garden colori coloring printable", "cozy coloring coloring pages free", "cute bunny fairy garden JPG download", "printable bunny fairy garden for kids"],
 
+
+
     altText: 'Cute Bunny Fairy Garden Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-19",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-bakery-wagon-colorin",
 
+
+
     slug: "cute-duck-bakery-wagon-colorin",
+
+
 
     title: 'Cute Duck Bakery Wagon Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable duck in a charming bakery scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Bakery Wagon Colorin illustration! The design features an adorable duck in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/18_Cute_duck_bakery_wagon_colorin.jpg",
 
+
+
     tags: ["duck", "bakery", "wagon"],
+
+
 
     keywords: ["cute duck bakery wagon colorin coloring page", "free printable duck bakery wagon", "cute duck bakery wagon colorin coloring printable", "cozy coloring coloring pages free", "cute duck bakery wagon JPG download", "printable duck bakery wagon for kids"],
 
+
+
     altText: 'Cute Duck Bakery Wagon Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-19",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-honey-shop",
 
+
+
     slug: "cute-bear-honey-shop",
+
+
 
     title: 'Cute Bear Honey Shop',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable bear in a charming honey scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Bear Honey Shop illustration! The design features an adorable bear in a cozy honey setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/19_Cute_bear_honey_shop_coloring_.jpg",
 
+
+
     tags: ["bear", "honey", "shop"],
+
+
 
     keywords: ["cute bear honey shop coloring page", "free printable bear honey shop", "cute bear honey shop coloring printable", "cozy coloring coloring pages free", "cute bear honey shop JPG download", "printable bear honey shop for kids"],
 
+
+
     altText: 'Cute Bear Honey Shop — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-20",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-riverside-caf-c",
 
+
+
     slug: "cute-squirrel-riverside-caf-c",
+
+
 
     title: 'Cute Squirrel Riverside Cafe C',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming riverside scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Riverside Cafe C illustration! The design features an adorable squirrel in a cozy riverside setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/19_Cute_squirrel_riverside_caf__c.jpg",
 
+
+
     tags: ["squirrel", "riverside", "caf"],
+
+
 
     keywords: ["cute squirrel riverside cafe c coloring page", "free printable squirrel riverside caf", "cute squirrel riverside caf c coloring printable", "cozy coloring coloring pages free", "cute squirrel riverside caf JPG download", "printable squirrel riverside caf for kids"],
 
+
+
     altText: 'Cute Squirrel Riverside Cafe C — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-20",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-animal-fantasy-village-co",
 
+
+
     slug: "cute-animal-fantasy-village-co",
+
+
 
     title: 'Cute Animal Fantasy Village Co',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable animal in a charming village scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Animal Fantasy Village Co illustration! The design features an adorable animal in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/1_Cute_animal_fantasy_village_co.jpg",
 
+
+
     tags: ["animal", "fantasy", "village"],
+
+
 
     keywords: ["cute animal fantasy village co coloring page", "free printable animal fantasy village", "cute animal fantasy village co coloring printable", "cozy coloring coloring pages free", "cute animal fantasy village JPG download", "printable animal fantasy village for kids"],
 
+
+
     altText: 'Cute Animal Fantasy Village Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-02",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-animal-village",
 
+
+
     slug: "cute-animal-village",
+
+
 
     title: 'Cute Animal Village',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable animal in a charming village scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Animal Village illustration! The design features an adorable animal in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/1_Cute_animal_village_coloring_p.jpg",
 
+
+
     tags: ["animal", "village"],
+
+
 
     keywords: ["cute animal village coloring page", "free printable animal village", "cute animal village coloring printable", "cozy coloring coloring pages free", "cute animal village JPG download", "printable animal village for kids"],
 
+
+
     altText: 'Cute Animal Village — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-02",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-bookshop",
 
+
+
     slug: "cute-cat-bookshop",
+
+
 
     title: 'Cute Cat Bookshop',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'A super cute cat coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Cat Bookshop illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/20_Cute_cat_bookshop_coloring_pag.jpg",
 
+
+
     tags: ["cat", "bookshop"],
+
+
 
     keywords: ["cute cat bookshop coloring page", "free printable cat bookshop", "cute cat bookshop coloring printable", "cozy coloring coloring pages free", "cute cat bookshop JPG download", "printable cat bookshop for kids"],
 
+
+
     altText: 'Cute Cat Bookshop — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-21",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-candy-cart-colori",
 
+
+
     slug: "cute-hamster-candy-cart-colori",
+
+
 
     title: 'Cute Hamster Candy Cart Colori',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable hamster in a charming candy scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Hamster Candy Cart Colori illustration! The design features an adorable hamster in a cozy candy setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/20_Cute_hamster_candy_cart_colori.jpg",
 
+
+
     tags: ["hamster", "candy", "cart", "colori"],
+
+
 
     keywords: ["cute hamster candy cart colori coloring page", "free printable hamster candy cart", "cute hamster candy cart colori coloring printable", "cozy coloring coloring pages free", "cute hamster candy cart JPG download", "printable hamster candy cart for kids"],
 
+
+
     altText: 'Cute Hamster Candy Cart Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-21",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-strawberry-farm-col",
 
+
+
     slug: "cute-bunny-strawberry-farm-col",
+
+
 
     title: 'Cute Bunny Strawberry Farm Col',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable bunny in a charming strawberry scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Bunny Strawberry Farm Col illustration! The design features an adorable bunny in a cozy strawberry setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/21_Cute_bunny_strawberry_farm_col.jpg",
 
+
+
     tags: ["bunny", "strawberry", "farm", "col"],
+
+
 
     keywords: ["cute bunny strawberry farm col coloring page", "free printable bunny strawberry farm", "cute bunny strawberry farm col coloring printable", "cozy coloring coloring pages free", "cute bunny strawberry farm JPG download", "printable bunny strawberry farm for kids"],
 
+
+
     altText: 'Cute Bunny Strawberry Farm Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-22",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-candy-house-color",
 
+
+
     slug: "cute-hamster-candy-house-color",
+
+
 
     title: 'Cute Hamster Candy House Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hamster in a charming candy scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hamster Candy House Color illustration! The design features an adorable hamster in a cozy candy setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/21_Cute_hamster_candy_house_color.jpg",
 
+
+
     tags: ["hamster", "candy", "house"],
+
+
 
     keywords: ["cute hamster candy house color coloring page", "free printable hamster candy house", "cute hamster candy house color coloring printable", "cozy coloring coloring pages free", "cute hamster candy house JPG download", "printable hamster candy house for kids"],
 
+
+
     altText: 'Cute Hamster Candy House Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-22",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-knitting-room-colorin",
 
+
+
     slug: "cute-cat-knitting-room-colorin",
+
+
 
     title: 'Cute Cat Knitting Room Colorin',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable cat in a charming knitting scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Cat Knitting Room Colorin illustration! The design features an adorable cat in a cozy knitting setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/22_Cute_cat_knitting_room_colorin.jpg",
 
+
+
     tags: ["cat", "knitting", "room"],
+
+
 
     keywords: ["cute cat knitting room colorin coloring page", "free printable cat knitting room", "cute cat knitting room colorin coloring printable", "cozy coloring coloring pages free", "cute cat knitting room JPG download", "printable cat knitting room for kids"],
 
+
+
     altText: 'Cute Cat Knitting Room Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-23",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-tea-cottage",
 
+
+
     slug: "cute-fox-tea-cottage",
+
+
 
     title: 'Cute Fox Tea Cottage',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming tea scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Tea Cottage illustration! The design features an adorable fox in a cozy tea setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/22_Cute_fox_tea_cottage_coloring_.jpg",
 
+
+
     tags: ["fox", "tea", "cottage"],
+
+
 
     keywords: ["cute fox tea cottage coloring page", "free printable fox tea cottage", "cute fox tea cottage coloring printable", "cozy coloring coloring pages free", "cute fox tea cottage JPG download", "printable fox tea cottage for kids"],
 
+
+
     altText: 'Cute Fox Tea Cottage — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-23",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-frog-flower-market-colori",
 
+
+
     slug: "cute-frog-flower-market-colori",
+
+
 
     title: 'Cute Frog Flower Market Colori',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable frog in a charming flower scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Frog Flower Market Colori illustration! The design features an adorable frog in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/23_Cute_frog_flower_market_colori.jpg",
 
+
+
     tags: ["frog", "flower", "market", "colori"],
+
+
 
     keywords: ["cute frog flower market colori coloring page", "free printable frog flower market", "cute frog flower market colori coloring printable", "cozy coloring coloring pages free", "cute frog flower market JPG download", "printable frog flower market for kids"],
 
+
+
     altText: 'Cute Frog Flower Market Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-24",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-moonlight-garden-co",
 
+
+
     slug: "cute-mouse-moonlight-garden-co",
+
+
 
     title: 'Cute Mouse Moonlight Garden Co',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming garden scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Moonlight Garden Co illustration! The design features an adorable mouse in a cozy garden setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/23_Cute_mouse_moonlight_garden_co.jpg",
 
+
+
     tags: ["mouse", "moonlight", "garden"],
+
+
 
     keywords: ["cute mouse moonlight garden co coloring page", "free printable mouse moonlight garden", "cute mouse moonlight garden co coloring printable", "cozy coloring coloring pages free", "cute mouse moonlight garden JPG download", "printable mouse moonlight garden for kids"],
 
+
+
     altText: 'Cute Mouse Moonlight Garden Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-24",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-bookstore",
 
+
+
     slug: "cute-fox-bookstore",
+
+
 
     title: 'Cute Fox Bookstore',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable fox in a charming bookstore scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Fox Bookstore illustration! The design features an adorable fox in a cozy bookstore setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/24_Cute_fox_bookstore_coloring_pa.jpg",
 
+
+
     tags: ["fox", "bookstore"],
+
+
 
     keywords: ["cute fox bookstore coloring page", "free printable fox bookstore", "cute fox bookstore coloring printable", "cozy coloring coloring pages free", "cute fox bookstore JPG download", "printable fox bookstore for kids"],
 
+
+
     altText: 'Cute Fox Bookstore — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-25",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-rabbit-village-bakery-col",
 
+
+
     slug: "cute-rabbit-village-bakery-col",
+
+
 
     title: 'Cute Rabbit Village Bakery Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable rabbit in a charming village scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Rabbit Village Bakery Col illustration! The design features an adorable rabbit in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/24_Cute_rabbit_village_bakery_col.jpg",
 
+
+
     tags: ["rabbit", "village", "bakery", "col"],
+
+
 
     keywords: ["cute rabbit village bakery col coloring page", "free printable rabbit village bakery", "cute rabbit village bakery col coloring printable", "cozy coloring coloring pages free", "cute rabbit village bakery JPG download", "printable rabbit village bakery for kids"],
 
+
+
     altText: 'Cute Rabbit Village Bakery Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-25",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-deer-forest-library-color",
 
+
+
     slug: "cute-deer-forest-library-color",
+
+
 
     title: 'Cute Deer Forest Library Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable deer in a charming library scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Deer Forest Library Color illustration! The design features an adorable deer in a cozy library setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/25_Cute_deer_forest_library_color.jpg",
 
+
+
     tags: ["deer", "forest", "library"],
+
+
 
     keywords: ["cute deer forest library color coloring page", "free printable deer forest library", "cute deer forest library color coloring printable", "cozy coloring coloring pages free", "cute deer forest library JPG download", "printable deer forest library for kids"],
 
+
+
     altText: 'Cute Deer Forest Library Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-26",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-flower-greenhouse-co",
 
+
+
     slug: "cute-duck-flower-greenhouse-co",
+
+
 
     title: 'Cute Duck Flower Greenhouse Co',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable duck in a charming flower scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Duck Flower Greenhouse Co illustration! The design features an adorable duck in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/25_Cute_duck_flower_greenhouse_co.jpg",
 
+
+
     tags: ["duck", "flower", "greenhouse"],
+
+
 
     keywords: ["cute duck flower greenhouse co coloring page", "free printable duck flower greenhouse", "cute duck flower greenhouse co coloring printable", "cozy coloring coloring pages free", "cute duck flower greenhouse JPG download", "printable duck flower greenhouse for kids"],
 
+
+
     altText: 'Cute Duck Flower Greenhouse Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-26",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-penguin-snow-caf-colorin",
 
+
+
     slug: "cute-penguin-snow-caf-colorin",
+
+
 
     title: 'Cute Penguin Snow Cafe Colorin',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute penguin coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Penguin Snow Cafe Colorin illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/26_Cute_penguin_snow_caf__colorin.jpg",
 
+
+
     tags: ["penguin", "snow", "caf"],
+
+
 
     keywords: ["cute penguin snow cafe colorin coloring page", "free printable penguin snow caf", "cute penguin snow caf colorin coloring printable", "cute animals coloring pages free", "cute penguin snow caf JPG download", "printable penguin snow caf for kids"],
 
+
+
     altText: 'Cute Penguin Snow Cafe Colorin — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-27",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-raccoon-candy-shop-colori",
 
+
+
     slug: "cute-raccoon-candy-shop-colori",
+
+
 
     title: 'Cute Raccoon Candy Shop Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable raccoon in a charming candy scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Raccoon Candy Shop Colori illustration! The design features an adorable raccoon in a cozy candy setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/26_Cute_raccoon_candy_shop_colori.jpg",
 
+
+
     tags: ["raccoon", "candy", "shop", "colori"],
+
+
 
     keywords: ["cute raccoon candy shop colori coloring page", "free printable raccoon candy shop", "cute raccoon candy shop colori coloring printable", "cozy coloring coloring pages free", "cute raccoon candy shop JPG download", "printable raccoon candy shop for kids"],
 
+
+
     altText: 'Cute Raccoon Candy Shop Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-27",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-acorn-caf-color",
 
+
+
     slug: "cute-squirrel-acorn-caf-color",
+
+
 
     title: 'Cute Squirrel Acorn Cafe Color',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute squirrel coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Acorn Cafe Color illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/27_Cute_squirrel_acorn_caf__color.jpg",
 
+
+
     tags: ["squirrel", "acorn", "caf"],
+
+
 
     keywords: ["cute squirrel acorn cafe color coloring page", "free printable squirrel acorn caf", "cute squirrel acorn caf color coloring printable", "cute animals coloring pages free", "cute squirrel acorn caf JPG download", "printable squirrel acorn caf for kids"],
 
+
+
     altText: 'Cute Squirrel Acorn Cafe Color — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-28",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-village-square-c",
 
+
+
     slug: "cute-squirrel-village-square-c",
+
+
 
     title: 'Cute Squirrel Village Square C',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming village scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Village Square C illustration! The design features an adorable squirrel in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/27_Cute_squirrel_village_square_c.jpg",
 
+
+
     tags: ["squirrel", "village", "square"],
+
+
 
     keywords: ["cute squirrel village square c coloring page", "free printable squirrel village square", "cute squirrel village square c coloring printable", "cozy coloring coloring pages free", "cute squirrel village square JPG download", "printable squirrel village square for kids"],
 
+
+
     altText: 'Cute Squirrel Village Square C — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-28",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-reading-nook-colorin",
 
+
+
     slug: "cute-bear-reading-nook-colorin",
+
+
 
     title: 'Cute Bear Reading Nook Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bear in a charming reading scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Reading Nook Colorin illustration! The design features an adorable bear in a cozy reading setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/28_Cute_bear_reading_nook_colorin.jpg",
 
+
+
     tags: ["bear", "reading", "nook"],
+
+
 
     keywords: ["cute bear reading nook colorin coloring page", "free printable bear reading nook", "cute bear reading nook colorin coloring printable", "cozy coloring coloring pages free", "cute bear reading nook JPG download", "printable bear reading nook for kids"],
 
+
+
     altText: 'Cute Bear Reading Nook Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-01",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-cottage",
 
+
+
     slug: "cute-bunny-cottage",
+
+
 
     title: 'Cute Bunny Cottage',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bunny in a charming cottage scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bunny Cottage illustration! The design features an adorable bunny in a cozy cottage setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.jpg",
 
+
+
     tags: ["bunny", "cottage"],
+
+
 
     keywords: ["cute bunny cottage coloring page", "free printable bunny cottage", "cute bunny cottage coloring printable", "cozy coloring coloring pages free", "cute bunny cottage JPG download", "printable bunny cottage for kids"],
 
+
+
     altText: 'Cute Bunny Cottage — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-01",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hedgehog-pumpkin-farm-col",
 
+
+
     slug: "cute-hedgehog-pumpkin-farm-col",
+
+
 
     title: 'Cute Hedgehog Pumpkin Farm Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hedgehog in a charming farm scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hedgehog Pumpkin Farm Col illustration! The design features an adorable hedgehog in a cozy farm setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/29_Cute_hedgehog_pumpkin_farm_col.jpg",
 
+
+
     tags: ["hedgehog", "pumpkin", "farm", "col"],
+
+
 
     keywords: ["cute hedgehog pumpkin farm col coloring page", "free printable hedgehog pumpkin farm", "cute hedgehog pumpkin farm col coloring printable", "cozy coloring coloring pages free", "cute hedgehog pumpkin farm JPG download", "printable hedgehog pumpkin farm for kids"],
 
+
+
     altText: 'Cute Hedgehog Pumpkin Farm Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-02",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-otter-tea-house",
 
+
+
     slug: "cute-otter-tea-house",
+
+
 
     title: 'Cute Otter Tea House',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable otter in a charming tea scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Otter Tea House illustration! The design features an adorable otter in a cozy tea setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/29_Cute_otter_tea_house_coloring_.jpg",
 
+
+
     tags: ["otter", "tea", "house"],
+
+
 
     keywords: ["cute otter tea house coloring page", "free printable otter tea house", "cute otter tea house coloring printable", "cozy coloring coloring pages free", "cute otter tea house JPG download", "printable otter tea house for kids"],
 
+
+
     altText: 'Cute Otter Tea House — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-02",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-toy-shop",
 
+
+
     slug: "cute-hamster-toy-shop",
+
+
 
     title: 'Cute Hamster Toy Shop',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hamster in a charming shop scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hamster Toy Shop illustration! The design features an adorable hamster in a cozy shop setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/2_Cute_hamster_toy_shop_coloring.jpg",
 
+
+
     tags: ["hamster", "toy", "shop"],
+
+
 
     keywords: ["cute hamster toy shop coloring page", "free printable hamster toy shop", "cute hamster toy shop coloring printable", "cozy coloring coloring pages free", "cute hamster toy shop JPG download", "printable hamster toy shop for kids"],
 
+
+
     altText: 'Cute Hamster Toy Shop — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-03",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-woodland-library",
 
+
+
     slug: "cute-squirrel-woodland-library",
+
+
 
     title: 'Cute Squirrel Woodland Library',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming library scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Woodland Library illustration! The design features an adorable squirrel in a cozy library setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/2_Cute_squirrel_woodland_library.jpg",
 
+
+
     tags: ["squirrel", "woodland", "library"],
+
+
 
     keywords: ["cute squirrel woodland library coloring page", "free printable squirrel woodland library", "cute squirrel woodland library coloring printable", "cozy coloring coloring pages free", "cute squirrel woodland library JPG download", "printable squirrel woodland library for kids"],
 
+
+
     altText: 'Cute Squirrel Woodland Library — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-03",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-frog-flower-bakery-colori",
 
+
+
     slug: "cute-frog-flower-bakery-colori",
+
+
 
     title: 'Cute Frog Flower Bakery Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable frog in a charming flower scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Frog Flower Bakery Colori illustration! The design features an adorable frog in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/30_Cute_frog_flower_bakery_colori.jpg",
 
+
+
     tags: ["frog", "flower", "bakery", "colori"],
+
+
 
     keywords: ["cute frog flower bakery colori coloring page", "free printable frog flower bakery", "cute frog flower bakery colori coloring printable", "cozy coloring coloring pages free", "cute frog flower bakery JPG download", "printable frog flower bakery for kids"],
 
+
+
     altText: 'Cute Frog Flower Bakery Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-03",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hedgehog-garden",
 
+
+
     slug: "cute-hedgehog-garden",
+
+
 
     title: 'Cute Hedgehog Garden',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hedgehog in a charming garden scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hedgehog Garden illustration! The design features an adorable hedgehog in a cozy garden setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/30_Cute_hedgehog_garden_coloring_.jpg",
 
+
+
     tags: ["hedgehog", "garden"],
+
+
 
     keywords: ["cute hedgehog garden coloring page", "free printable hedgehog garden", "cute hedgehog garden coloring printable", "cozy coloring coloring pages free", "cute hedgehog garden JPG download", "printable hedgehog garden for kids"],
 
+
+
     altText: 'Cute Hedgehog Garden — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-03",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-flower-shop",
 
+
+
     slug: "cute-duck-flower-shop",
+
+
 
     title: 'Cute Duck Flower Shop',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable duck in a charming flower scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Flower Shop illustration! The design features an adorable duck in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/31_Cute_duck_flower_shop_coloring.jpg",
 
+
+
     tags: ["duck", "flower", "shop"],
+
+
 
     keywords: ["cute duck flower shop coloring page", "free printable duck flower shop", "cute duck flower shop coloring printable", "cozy coloring coloring pages free", "cute duck flower shop JPG download", "printable duck flower shop for kids"],
 
+
+
     altText: 'Cute Duck Flower Shop — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-04",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-forest-bookstore-colo",
 
+
+
     slug: "cute-fox-forest-bookstore-colo",
+
+
 
     title: 'Cute Fox Forest Bookstore Colo',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming bookstore scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Forest Bookstore Colo illustration! The design features an adorable fox in a cozy bookstore setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/31_Cute_fox_forest_bookstore_colo.jpg",
 
+
+
     tags: ["fox", "forest", "bookstore"],
+
+
 
     keywords: ["cute fox forest bookstore colo coloring page", "free printable fox forest bookstore", "cute fox forest bookstore colo coloring printable", "cozy coloring coloring pages free", "cute fox forest bookstore JPG download", "printable fox forest bookstore for kids"],
 
+
+
     altText: 'Cute Fox Forest Bookstore Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-04",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-strawberry-caf-col",
 
+
+
     slug: "cute-bunny-strawberry-caf-col",
+
+
 
     title: 'Cute Bunny Strawberry Cafe Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bunny in a charming strawberry scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bunny Strawberry Cafe Col illustration! The design features an adorable bunny in a cozy strawberry setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/32_Cute_bunny_strawberry_caf__col.jpg",
 
+
+
     tags: ["bunny", "strawberry", "caf", "col"],
+
+
 
     keywords: ["cute bunny strawberry cafe col coloring page", "free printable bunny strawberry caf", "cute bunny strawberry caf col coloring printable", "cozy coloring coloring pages free", "cute bunny strawberry caf JPG download", "printable bunny strawberry caf for kids"],
 
+
+
     altText: 'Cute Bunny Strawberry Cafe Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-05",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-bakery",
 
+
+
     slug: "cute-mouse-bakery",
+
+
 
     title: 'Cute Mouse Bakery',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable mouse in a charming bakery scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Mouse Bakery illustration! The design features an adorable mouse in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/32_Cute_mouse_bakery_coloring_pag.jpg",
 
+
+
     tags: ["mouse", "bakery"],
+
+
 
     keywords: ["cute mouse bakery coloring page", "free printable mouse bakery", "cute mouse bakery coloring printable", "cozy coloring coloring pages free", "cute mouse bakery JPG download", "printable mouse bakery for kids"],
 
+
+
     altText: 'Cute Mouse Bakery — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-05",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-fairy-cottage-color",
 
+
+
     slug: "cute-mouse-fairy-cottage-color",
+
+
 
     title: 'Cute Mouse Fairy Cottage Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming cottage scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Fairy Cottage Color illustration! The design features an adorable mouse in a cozy cottage setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/33_Cute_mouse_fairy_cottage_color.jpg",
 
+
+
     tags: ["mouse", "fairy", "cottage"],
+
+
 
     keywords: ["cute mouse fairy cottage color coloring page", "free printable mouse fairy cottage", "cute mouse fairy cottage color coloring printable", "cozy coloring coloring pages free", "cute mouse fairy cottage JPG download", "printable mouse fairy cottage for kids"],
 
+
+
     altText: 'Cute Mouse Fairy Cottage Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-06",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-unicorn-fairy-forest-colo",
 
+
+
     slug: "cute-unicorn-fairy-forest-colo",
+
+
 
     title: 'Cute Unicorn Fairy Forest Colo',
 
+
+
     category: "fantasy",
+
+
 
     description: 'A super cute animal coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Unicorn Fairy Forest Colo illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/33_Cute_unicorn_fairy_forest_colo.jpg",
 
+
+
     tags: ["unicorn", "fairy", "forest"],
+
+
 
     keywords: ["cute unicorn fairy forest colo coloring page", "free printable unicorn fairy forest", "cute unicorn fairy forest colo coloring printable", "fantasy coloring pages free", "cute unicorn fairy forest JPG download", "printable unicorn fairy forest for kids"],
 
+
+
     altText: 'Cute Unicorn Fairy Forest Colo — free printable fantasy coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-06",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-ice-cream-stand-colo",
 
+
+
     slug: "cute-duck-ice-cream-stand-colo",
+
+
 
     title: 'Cute Duck Ice Cream Stand Colo',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute duck coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Ice Cream Stand Colo illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/34_Cute_duck_ice_cream_stand_colo.jpg",
 
+
+
     tags: ["duck", "ice", "cream", "stand"],
+
+
 
     keywords: ["cute duck ice cream stand colo coloring page", "free printable duck ice cream", "cute duck ice cream stand colo coloring printable", "cute animals coloring pages free", "cute duck ice cream JPG download", "printable duck ice cream for kids"],
 
+
+
     altText: 'Cute Duck Ice Cream Stand Colo — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-07",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-penguin-winter-wonderland",
 
+
+
     slug: "cute-penguin-winter-wonderland",
+
+
 
     title: 'Cute Penguin Winter Wonderland',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable penguin in a charming winter scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Penguin Winter Wonderland illustration! The design features an adorable penguin in a cozy winter setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/34_Cute_penguin_winter_wonderland.jpg",
 
+
+
     tags: ["penguin", "winter", "wonderland"],
+
+
 
     keywords: ["cute penguin winter wonderland coloring page", "free printable penguin winter wonderland", "cute penguin winter wonderland coloring printable", "cozy coloring coloring pages free", "cute penguin winter wonderland JPG download", "printable penguin winter wonderland for kids"],
 
+
+
     altText: 'Cute Penguin Winter Wonderland — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-07",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-winter-cabin-colorin",
 
+
+
     slug: "cute-bear-winter-cabin-colorin",
+
+
 
     title: 'Cute Bear Winter Cabin Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bear in a charming winter scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Winter Cabin Colorin illustration! The design features an adorable bear in a cozy winter setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/35_Cute_bear_winter_cabin_colorin.jpg",
 
+
+
     tags: ["bear", "winter", "cabin"],
+
+
 
     keywords: ["cute bear winter cabin colorin coloring page", "free printable bear winter cabin", "cute bear winter cabin colorin coloring printable", "cozy coloring coloring pages free", "cute bear winter cabin JPG download", "printable bear winter cabin for kids"],
 
+
+
     altText: 'Cute Bear Winter Cabin Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-08",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-greenhouse",
 
+
+
     slug: "cute-cat-greenhouse",
+
+
 
     title: 'Cute Cat Greenhouse',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable cat in a charming greenhouse scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Cat Greenhouse illustration! The design features an adorable cat in a cozy greenhouse setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/35_Cute_cat_greenhouse_coloring_p.jpg",
 
+
+
     tags: ["cat", "greenhouse"],
+
+
 
     keywords: ["cute cat greenhouse coloring page", "free printable cat greenhouse", "cute cat greenhouse coloring printable", "cozy coloring coloring pages free", "cute cat greenhouse JPG download", "printable cat greenhouse for kids"],
 
+
+
     altText: 'Cute Cat Greenhouse — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-08",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-bookstore-colorin",
 
+
+
     slug: "cute-hamster-bookstore-colorin",
+
+
 
     title: 'Cute Hamster Bookstore Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hamster in a charming bookstore scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hamster Bookstore Colorin illustration! The design features an adorable hamster in a cozy bookstore setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/36_Cute_hamster_bookstore_colorin.jpg",
 
+
+
     tags: ["hamster", "bookstore"],
+
+
 
     keywords: ["cute hamster bookstore colorin coloring page", "free printable hamster bookstore", "cute hamster bookstore colorin coloring printable", "cozy coloring coloring pages free", "cute hamster bookstore JPG download", "printable hamster bookstore for kids"],
 
+
+
     altText: 'Cute Hamster Bookstore Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-09",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-lantern-shop-col",
 
+
+
     slug: "cute-squirrel-lantern-shop-col",
+
+
 
     title: 'Cute Squirrel Lantern Shop Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming lantern scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Lantern Shop Col illustration! The design features an adorable squirrel in a cozy lantern setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/36_Cute_squirrel_lantern_shop_col.jpg",
 
+
+
     tags: ["squirrel", "lantern", "shop", "col"],
+
+
 
     keywords: ["cute squirrel lantern shop col coloring page", "free printable squirrel lantern shop", "cute squirrel lantern shop col coloring printable", "cozy coloring coloring pages free", "cute squirrel lantern shop JPG download", "printable squirrel lantern shop for kids"],
 
+
+
     altText: 'Cute Squirrel Lantern Shop Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-09",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-honey-farm",
 
+
+
     slug: "cute-bear-honey-farm",
+
+
 
     title: 'Cute Bear Honey Farm',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bear in a charming honey scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Honey Farm illustration! The design features an adorable bear in a cozy honey setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/37_Cute_bear_honey_farm_coloring_.jpg",
 
+
+
     tags: ["bear", "honey", "farm"],
+
+
 
     keywords: ["cute bear honey farm coloring page", "free printable bear honey farm", "cute bear honey farm coloring printable", "cozy coloring coloring pages free", "cute bear honey farm JPG download", "printable bear honey farm for kids"],
 
+
+
     altText: 'Cute Bear Honey Farm — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-10",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-caf",
 
+
+
     slug: "cute-cat-caf",
+
+
 
     title: 'Cute Cat Caf',
 
+
+
     category: "cute-animals",
 
+
+
     description: 'A super cute cat coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Cat Caf illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/37_Cute_cat_caf__coloring_page__a.jpg",
 
+
+
     tags: ["cat", "caf"],
+
+
 
     keywords: ["cute cat caf coloring page", "free printable cat caf", "cute cat caf coloring printable", "cute animals coloring pages free", "cute cat caf JPG download", "printable cat caf for kids"],
 
+
+
     altText: 'Cute Cat Caf — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-10",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-mushroom-house-colori",
 
+
+
     slug: "cute-fox-mushroom-house-colori",
+
+
 
     title: 'Cute Fox Mushroom House Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming house scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Mushroom House Colori illustration! The design features an adorable fox in a cozy house setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/38_Cute_fox_mushroom_house_colori.jpg",
 
+
+
     tags: ["fox", "mushroom", "house", "colori"],
+
+
 
     keywords: ["cute fox mushroom house colori coloring page", "free printable fox mushroom house", "cute fox mushroom house colori coloring printable", "cozy coloring coloring pages free", "cute fox mushroom house JPG download", "printable fox mushroom house for kids"],
 
+
+
     altText: 'Cute Fox Mushroom House Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-11",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-bakery-truck-colo",
 
+
+
     slug: "cute-hamster-bakery-truck-colo",
+
+
 
     title: 'Cute Hamster Bakery Truck Colo',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hamster in a charming bakery scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hamster Bakery Truck Colo illustration! The design features an adorable hamster in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/38_Cute_hamster_bakery_truck_colo.jpg",
 
+
+
     tags: ["hamster", "bakery", "truck"],
+
+
 
     keywords: ["cute hamster bakery truck colo coloring page", "free printable hamster bakery truck", "cute hamster bakery truck colo coloring printable", "cozy coloring coloring pages free", "cute hamster bakery truck JPG download", "printable hamster bakery truck for kids"],
 
+
+
     altText: 'Cute Hamster Bakery Truck Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-11",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-rabbit-flower-cottage-col",
 
+
+
     slug: "cute-rabbit-flower-cottage-col",
+
+
 
     title: 'Cute Rabbit Flower Cottage Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable rabbit in a charming flower scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Rabbit Flower Cottage Col illustration! The design features an adorable rabbit in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/39_Cute_rabbit_flower_cottage_col.jpg",
 
+
+
     tags: ["rabbit", "flower", "cottage", "col"],
+
+
 
     keywords: ["cute rabbit flower cottage col coloring page", "free printable rabbit flower cottage", "cute rabbit flower cottage col coloring printable", "cozy coloring coloring pages free", "cute rabbit flower cottage JPG download", "printable rabbit flower cottage for kids"],
 
+
+
     altText: 'Cute Rabbit Flower Cottage Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-12",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-rabbit-tea-party",
 
+
+
     slug: "cute-rabbit-tea-party",
+
+
 
     title: 'Cute Rabbit Tea Party',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable rabbit in a charming tea scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Rabbit Tea Party illustration! The design features an adorable rabbit in a cozy tea setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/39_Cute_rabbit_tea_party_coloring.jpg",
 
+
+
     tags: ["rabbit", "tea", "party"],
+
+
 
     keywords: ["cute rabbit tea party coloring page", "free printable rabbit tea party", "cute rabbit tea party coloring printable", "cozy coloring coloring pages free", "cute rabbit tea party JPG download", "printable rabbit tea party for kids"],
 
+
+
     altText: 'Cute Rabbit Tea Party — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-12",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-rainy-day-caf-color",
 
+
+
     slug: "cute-duck-rainy-day-caf-color",
+
+
 
     title: 'Cute Duck Rainy Day Cafe Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable duck in a charming rainy scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Rainy Day Cafe Color illustration! The design features an adorable duck in a cozy rainy setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/3_Cute_duck_rainy_day_caf__color.jpg",
 
+
+
     tags: ["duck", "rainy", "day", "caf"],
+
+
 
     keywords: ["cute duck rainy day cafe color coloring page", "free printable duck rainy day", "cute duck rainy day caf color coloring printable", "cozy coloring coloring pages free", "cute duck rainy day JPG download", "printable duck rainy day for kids"],
 
+
+
     altText: 'Cute Duck Rainy Day Cafe Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-04",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-stargazing-camp-color",
 
+
+
     slug: "cute-fox-stargazing-camp-color",
+
+
 
     title: 'Cute Fox Stargazing Camp Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming camp scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Stargazing Camp Color illustration! The design features an adorable fox in a cozy camp setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/3_Cute_fox_stargazing_camp_color.jpg",
 
+
+
     tags: ["fox", "stargazing", "camp"],
+
+
 
     keywords: ["cute fox stargazing camp color coloring page", "free printable fox stargazing camp", "cute fox stargazing camp color coloring printable", "cozy coloring coloring pages free", "cute fox stargazing camp JPG download", "printable fox stargazing camp for kids"],
 
+
+
     altText: 'Cute Fox Stargazing Camp Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-04",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-book-caf",
 
+
+
     slug: "cute-fox-book-caf",
+
+
 
     title: 'Cute Fox Book Caf',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming book scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Book Caf illustration! The design features an adorable fox in a cozy book setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/40_Cute_fox_book_caf__coloring_pa.jpg",
 
+
+
     tags: ["fox", "book", "caf"],
+
+
 
     keywords: ["cute fox book caf coloring page", "free printable fox book caf", "cute fox book caf coloring printable", "cozy coloring coloring pages free", "cute fox book caf JPG download", "printable fox book caf for kids"],
 
+
+
     altText: 'Cute Fox Book Caf — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-13",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-frog-bakery",
 
+
+
     slug: "cute-frog-bakery",
+
+
 
     title: 'Cute Frog Bakery',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable frog in a charming bakery scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Frog Bakery illustration! The design features an adorable frog in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/40_Cute_frog_bakery_coloring_page.jpg",
 
+
+
     tags: ["frog", "bakery"],
+
+
 
     keywords: ["cute frog bakery coloring page", "free printable frog bakery", "cute frog bakery coloring printable", "cozy coloring coloring pages free", "cute frog bakery JPG download", "printable frog bakery for kids"],
 
+
+
     altText: 'Cute Frog Bakery — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-13",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-lakeside-picnic-colo",
 
+
+
     slug: "cute-duck-lakeside-picnic-colo",
+
+
 
     title: 'Cute Duck Lakeside Picnic Colo',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable duck in a charming picnic scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Lakeside Picnic Colo illustration! The design features an adorable duck in a cozy picnic setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/41_Cute_duck_lakeside_picnic_colo.jpg",
 
+
+
     tags: ["duck", "lakeside", "picnic"],
+
+
 
     keywords: ["cute duck lakeside picnic colo coloring page", "free printable duck lakeside picnic", "cute duck lakeside picnic colo coloring printable", "cozy coloring coloring pages free", "cute duck lakeside picnic JPG download", "printable duck lakeside picnic for kids"],
 
+
+
     altText: 'Cute Duck Lakeside Picnic Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-14",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-toy-workshop-colori",
 
+
+
     slug: "cute-mouse-toy-workshop-colori",
+
+
 
     title: 'Cute Mouse Toy Workshop Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'A super cute mouse coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Toy Workshop Colori illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/42_Cute_mouse_toy_workshop_colori.jpg",
 
+
+
     tags: ["mouse", "toy", "workshop", "colori"],
+
+
 
     keywords: ["cute mouse toy workshop colori coloring page", "free printable mouse toy workshop", "cute mouse toy workshop colori coloring printable", "cozy coloring coloring pages free", "cute mouse toy workshop JPG download", "printable mouse toy workshop for kids"],
 
+
+
     altText: 'Cute Mouse Toy Workshop Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-15",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-rain-window",
 
+
+
     slug: "cute-cat-rain-window",
+
+
 
     title: 'Cute Cat Rain Window',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute cat coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Cat Rain Window illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.jpg",
 
+
+
     tags: ["cat", "rain", "window"],
+
+
 
     keywords: ["cute cat rain window coloring page", "free printable cat rain window", "cute cat rain window coloring printable", "cute animals coloring pages free", "cute cat rain window JPG download", "printable cat rain window for kids"],
 
+
+
     altText: 'Cute Cat Rain Window — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-16",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-cookie-shop-colo",
 
+
+
     slug: "cute-squirrel-cookie-shop-colo",
+
+
 
     title: 'Cute Squirrel Cookie Shop Colo',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable squirrel in a charming shop scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Squirrel Cookie Shop Colo illustration! The design features an adorable squirrel in a cozy shop setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/44_Cute_squirrel_cookie_shop_colo.jpg",
 
+
+
     tags: ["squirrel", "cookie", "shop"],
+
+
 
     keywords: ["cute squirrel cookie shop colo coloring page", "free printable squirrel cookie shop", "cute squirrel cookie shop colo coloring printable", "cozy coloring coloring pages free", "cute squirrel cookie shop JPG download", "printable squirrel cookie shop for kids"],
 
+
+
     altText: 'Cute Squirrel Cookie Shop Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-17",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-berry-farm",
 
+
+
     slug: "cute-bear-berry-farm",
+
+
 
     title: 'Cute Bear Berry Farm',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bear in a charming farm scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Berry Farm illustration! The design features an adorable bear in a cozy farm setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/45_Cute_bear_berry_farm_coloring_.jpg",
 
+
+
     tags: ["bear", "berry", "farm"],
+
+
 
     keywords: ["cute bear berry farm coloring page", "free printable bear berry farm", "cute bear berry farm coloring printable", "cozy coloring coloring pages free", "cute bear berry farm JPG download", "printable bear berry farm for kids"],
 
+
+
     altText: 'Cute Bear Berry Farm — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-18",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-knitting-club-color",
 
+
+
     slug: "cute-bunny-knitting-club-color",
+
+
 
     title: 'Cute Bunny Knitting Club Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bunny in a charming knitting scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bunny Knitting Club Color illustration! The design features an adorable bunny in a cozy knitting setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/46_Cute_bunny_knitting_club_color.jpg",
 
+
+
     tags: ["bunny", "knitting", "club"],
+
+
 
     keywords: ["cute bunny knitting club color coloring page", "free printable bunny knitting club", "cute bunny knitting club color coloring printable", "cozy coloring coloring pages free", "cute bunny knitting club JPG download", "printable bunny knitting club for kids"],
 
+
+
     altText: 'Cute Bunny Knitting Club Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-19",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-penguin-bakery",
 
+
+
     slug: "cute-penguin-bakery",
+
+
 
     title: 'Cute Penguin Bakery',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable penguin in a charming bakery scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Penguin Bakery illustration! The design features an adorable penguin in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/47_Cute_penguin_bakery_coloring_p.jpg",
 
+
+
     tags: ["penguin", "bakery"],
+
+
 
     keywords: ["cute penguin bakery coloring page", "free printable penguin bakery", "cute penguin bakery coloring printable", "cozy coloring coloring pages free", "cute penguin bakery JPG download", "printable penguin bakery for kids"],
 
+
+
     altText: 'Cute Penguin Bakery — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-20",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-frog-mushroom-village-col",
 
+
+
     slug: "cute-frog-mushroom-village-col",
+
+
 
     title: 'Cute Frog Mushroom Village Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable frog in a charming village scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Frog Mushroom Village Col illustration! The design features an adorable frog in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/48_Cute_frog_mushroom_village_col.jpg",
 
+
+
     tags: ["frog", "mushroom", "village", "col"],
+
+
 
     keywords: ["cute frog mushroom village col coloring page", "free printable frog mushroom village", "cute frog mushroom village col coloring printable", "cozy coloring coloring pages free", "cute frog mushroom village JPG download", "printable frog mushroom village for kids"],
 
+
+
     altText: 'Cute Frog Mushroom Village Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-21",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-autumn-cottage-colori",
 
+
+
     slug: "cute-fox-autumn-cottage-colori",
+
+
 
     title: 'Cute Fox Autumn Cottage Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming autumn scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Autumn Cottage Colori illustration! The design features an adorable fox in a cozy autumn setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/49_Cute_fox_autumn_cottage_colori.jpg",
 
+
+
     tags: ["fox", "autumn", "cottage", "colori"],
+
+
 
     keywords: ["cute fox autumn cottage colori coloring page", "free printable fox autumn cottage", "cute fox autumn cottage colori coloring printable", "cozy coloring coloring pages free", "cute fox autumn cottage JPG download", "printable fox autumn cottage for kids"],
 
+
+
     altText: 'Cute Fox Autumn Cottage Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-22",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-picnic-party-colori",
 
+
+
     slug: "cute-bunny-picnic-party-colori",
+
+
 
     title: 'Cute Bunny Picnic Party Colori',
 
+
+
     category: "cozy-coloring",
 
+
+
     description: 'An adorable bunny in a charming picnic scene — download this cute coloring page for free!',
+
+
 
     longDescription: 'Enjoy coloring this charming Cute Bunny Picnic Party Colori illustration! The design features an adorable bunny in a cozy picnic setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/4_Cute_bunny_picnic_party_colori.jpg",
 
+
+
     tags: ["bunny", "picnic", "party", "colori"],
+
+
 
     keywords: ["cute bunny picnic party colori coloring page", "free printable bunny picnic party", "cute bunny picnic party colori coloring printable", "cozy coloring coloring pages free", "cute bunny picnic party JPG download", "printable bunny picnic party for kids"],
 
+
+
     altText: 'Cute Bunny Picnic Party Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-05",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-mushroom-bakery-col",
 
+
+
     slug: "cute-mouse-mushroom-bakery-col",
+
+
 
     title: 'Cute Mouse Mushroom Bakery Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming bakery scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Mushroom Bakery Col illustration! The design features an adorable mouse in a cozy bakery setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/4_Cute_mouse_mushroom_bakery_col.jpg",
 
+
+
     tags: ["mouse", "mushroom", "bakery", "col"],
+
+
 
     keywords: ["cute mouse mushroom bakery col coloring page", "free printable mouse mushroom bakery", "cute mouse mushroom bakery col coloring printable", "cozy coloring coloring pages free", "cute mouse mushroom bakery JPG download", "printable mouse mushroom bakery for kids"],
 
+
+
     altText: 'Cute Mouse Mushroom Bakery Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-05",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hedgehog-library",
 
+
+
     slug: "cute-hedgehog-library",
+
+
 
     title: 'Cute Hedgehog Library',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hedgehog in a charming library scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hedgehog Library illustration! The design features an adorable hedgehog in a cozy library setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/50_Cute_hedgehog_library_coloring.jpg",
 
+
+
     tags: ["hedgehog", "library"],
+
+
 
     keywords: ["cute hedgehog library coloring page", "free printable hedgehog library", "cute hedgehog library coloring printable", "cozy coloring coloring pages free", "cute hedgehog library JPG download", "printable hedgehog library for kids"],
 
+
+
     altText: 'Cute Hedgehog Library — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-23",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-tea-garden",
 
+
+
     slug: "cute-mouse-tea-garden",
+
+
 
     title: 'Cute Mouse Tea Garden',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming tea scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Tea Garden illustration! The design features an adorable mouse in a cozy tea setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/51_Cute_mouse_tea_garden_coloring.jpg",
 
+
+
     tags: ["mouse", "tea", "garden"],
+
+
 
     keywords: ["cute mouse tea garden coloring page", "free printable mouse tea garden", "cute mouse tea garden coloring printable", "cozy coloring coloring pages free", "cute mouse tea garden JPG download", "printable mouse tea garden for kids"],
 
+
+
     altText: 'Cute Mouse Tea Garden — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-24",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-rabbit-candle-shop-colori",
 
+
+
     slug: "cute-rabbit-candle-shop-colori",
+
+
 
     title: 'Cute Rabbit Candle Shop Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable rabbit in a charming shop scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Rabbit Candle Shop Colori illustration! The design features an adorable rabbit in a cozy shop setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/52_Cute_rabbit_candle_shop_colori.jpg",
 
+
+
     tags: ["rabbit", "candle", "shop", "colori"],
+
+
 
     keywords: ["cute rabbit candle shop colori coloring page", "free printable rabbit candle shop", "cute rabbit candle shop colori coloring printable", "cozy coloring coloring pages free", "cute rabbit candle shop JPG download", "printable rabbit candle shop for kids"],
 
+
+
     altText: 'Cute Rabbit Candle Shop Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-25",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-farmer-market-colori",
 
+
+
     slug: "cute-duck-farmer-market-colori",
+
+
 
     title: 'Cute Duck Farmer Market Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable duck in a charming market scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Farmer Market Colori illustration! The design features an adorable duck in a cozy market setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/53_Cute_duck_farmer_market_colori.jpg",
 
+
+
     tags: ["duck", "farmer", "market", "colori"],
+
+
 
     keywords: ["cute duck farmer market colori coloring page", "free printable duck farmer market", "cute duck farmer market colori coloring printable", "cozy coloring coloring pages free", "cute duck farmer market JPG download", "printable duck farmer market for kids"],
 
+
+
     altText: 'Cute Duck Farmer Market Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-26",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-music-room",
 
+
+
     slug: "cute-cat-music-room",
+
+
 
     title: 'Cute Cat Music Room',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable cat in a charming room scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Cat Music Room illustration! The design features an adorable cat in a cozy room setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/54_Cute_cat_music_room_coloring_p.jpg",
 
+
+
     tags: ["cat", "music", "room"],
+
+
 
     keywords: ["cute cat music room coloring page", "free printable cat music room", "cute cat music room coloring printable", "cozy coloring coloring pages free", "cute cat music room JPG download", "printable cat music room for kids"],
 
+
+
     altText: 'Cute Cat Music Room — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-27",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-squirrel-jam-shop-colorin",
 
+
+
     slug: "cute-squirrel-jam-shop-colorin",
+
+
 
     title: 'Cute Squirrel Jam Shop Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable squirrel in a charming shop scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Squirrel Jam Shop Colorin illustration! The design features an adorable squirrel in a cozy shop setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/55_Cute_squirrel_jam_shop_colorin.jpg",
 
+
+
     tags: ["squirrel", "jam", "shop"],
+
+
 
     keywords: ["cute squirrel jam shop colorin coloring page", "free printable squirrel jam shop", "cute squirrel jam shop colorin coloring printable", "cozy coloring coloring pages free", "cute squirrel jam shop JPG download", "printable squirrel jam shop for kids"],
 
+
+
     altText: 'Cute Squirrel Jam Shop Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-28",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-fishing-cabin-colori",
 
+
+
     slug: "cute-bear-fishing-cabin-colori",
+
+
 
     title: 'Cute Bear Fishing Cabin Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bear in a charming cabin scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Fishing Cabin Colori illustration! The design features an adorable bear in a cozy cabin setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/56_Cute_bear_fishing_cabin_colori.jpg",
 
+
+
     tags: ["bear", "fishing", "cabin", "colori"],
+
+
 
     keywords: ["cute bear fishing cabin colori coloring page", "free printable bear fishing cabin", "cute bear fishing cabin colori coloring printable", "cozy coloring coloring pages free", "cute bear fishing cabin JPG download", "printable bear fishing cabin for kids"],
 
+
+
     altText: 'Cute Bear Fishing Cabin Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-01",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hamster-train-station-col",
 
+
+
     slug: "cute-hamster-train-station-col",
+
+
 
     title: 'Cute Hamster Train Station Col',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute hamster coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hamster Train Station Col illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/57_Cute_hamster_train_station_col.jpg",
 
+
+
     tags: ["hamster", "train", "station", "col"],
+
+
 
     keywords: ["cute hamster train station col coloring page", "free printable hamster train station", "cute hamster train station col coloring printable", "cute animals coloring pages free", "cute hamster train station JPG download", "printable hamster train station for kids"],
 
+
+
     altText: 'Cute Hamster Train Station Col — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-02",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-pancake-caf",
 
+
+
     slug: "cute-fox-pancake-caf",
+
+
 
     title: 'Cute Fox Pancake Caf',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute fox coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Pancake Caf illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/58_Cute_fox_pancake_caf__coloring.jpg",
 
+
+
     tags: ["fox", "pancake", "caf"],
+
+
 
     keywords: ["cute fox pancake caf coloring page", "free printable fox pancake caf", "cute fox pancake caf coloring printable", "cute animals coloring pages free", "cute fox pancake caf JPG download", "printable fox pancake caf for kids"],
 
+
+
     altText: 'Cute Fox Pancake Caf — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-03",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-flower-cart-colorin",
 
+
+
     slug: "cute-bunny-flower-cart-colorin",
+
+
 
     title: 'Cute Bunny Flower Cart Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bunny in a charming flower scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bunny Flower Cart Colorin illustration! The design features an adorable bunny in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/59_Cute_bunny_flower_cart_colorin.jpg",
 
+
+
     tags: ["bunny", "flower", "cart"],
+
+
 
     keywords: ["cute bunny flower cart colorin coloring page", "free printable bunny flower cart", "cute bunny flower cart colorin coloring printable", "cozy coloring coloring pages free", "cute bunny flower cart JPG download", "printable bunny flower cart for kids"],
 
+
+
     altText: 'Cute Bunny Flower Cart Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-04",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bunny-picnic-meadow-color",
 
+
+
     slug: "cute-bunny-picnic-meadow-color",
+
+
 
     title: 'Cute Bunny Picnic Meadow Color',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bunny in a charming picnic scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bunny Picnic Meadow Color illustration! The design features an adorable bunny in a cozy picnic setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/5_Cute_bunny_picnic_meadow_color.jpg",
 
+
+
     tags: ["bunny", "picnic", "meadow"],
+
+
 
     keywords: ["cute bunny picnic meadow color coloring page", "free printable bunny picnic meadow", "cute bunny picnic meadow color coloring printable", "cozy coloring coloring pages free", "cute bunny picnic meadow JPG download", "printable bunny picnic meadow for kids"],
 
+
+
     altText: 'Cute Bunny Picnic Meadow Color — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-06",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-fox-cozy-reading-room-col",
 
+
+
     slug: "cute-fox-cozy-reading-room-col",
+
+
 
     title: 'Cute Fox Cozy Reading Room Col',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable fox in a charming cozy scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Fox Cozy Reading Room Col illustration! The design features an adorable fox in a cozy cozy setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/5_Cute_fox_cozy_reading_room_col.jpg",
 
+
+
     tags: ["fox", "cozy", "reading", "room", "col"],
+
+
 
     keywords: ["cute fox cozy reading room col coloring page", "free printable fox cozy reading", "cute fox cozy reading room col coloring printable", "cozy coloring coloring pages free", "cute fox cozy reading JPG download", "printable fox cozy reading for kids"],
 
+
+
     altText: 'Cute Fox Cozy Reading Room Col — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-06",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-frog-post-office",
 
+
+
     slug: "cute-frog-post-office",
+
+
 
     title: 'Cute Frog Post Office',
 
+
+
     category: "cute-animals",
+
+
 
     description: 'A super cute frog coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Frog Post Office illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/60_Cute_frog_post_office_coloring.jpg",
 
+
+
     tags: ["frog", "post", "office"],
+
+
 
     keywords: ["cute frog post office coloring page", "free printable frog post office", "cute frog post office coloring printable", "cute animals coloring pages free", "cute frog post office JPG download", "printable frog post office for kids"],
 
+
+
     altText: 'Cute Frog Post Office — free printable cute animals coloring page for kids and adults',
+
+
 
     createdAt: "2026-06-05",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-flower-wagon-colorin",
 
+
+
     slug: "cute-bear-flower-wagon-colorin",
+
+
 
     title: 'Cute Bear Flower Wagon Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable bear in a charming flower scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Flower Wagon Colorin illustration! The design features an adorable bear in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Hard",
+
+
 
     imageUrl: "/images/coloring/6_Cute_bear_flower_wagon_colorin.jpg",
 
+
+
     tags: ["bear", "flower", "wagon"],
+
+
 
     keywords: ["cute bear flower wagon colorin coloring page", "free printable bear flower wagon", "cute bear flower wagon colorin coloring printable", "cozy coloring coloring pages free", "cute bear flower wagon JPG download", "printable bear flower wagon for kids"],
 
+
+
     altText: 'Cute Bear Flower Wagon Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-07",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-mouse-cheese-shop-colorin",
 
+
+
     slug: "cute-mouse-cheese-shop-colorin",
+
+
 
     title: 'Cute Mouse Cheese Shop Colorin',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable mouse in a charming cheese scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Mouse Cheese Shop Colorin illustration! The design features an adorable mouse in a cozy cheese setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/6_Cute_mouse_cheese_shop_colorin.jpg",
 
+
+
     tags: ["mouse", "cheese", "shop"],
+
+
 
     keywords: ["cute mouse cheese shop colorin coloring page", "free printable mouse cheese shop", "cute mouse cheese shop colorin coloring printable", "cozy coloring coloring pages free", "cute mouse cheese shop JPG download", "printable mouse cheese shop for kids"],
 
+
+
     altText: 'Cute Mouse Cheese Shop Colorin — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-07",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-deer-flower-meadow-colori",
 
+
+
     slug: "cute-deer-flower-meadow-colori",
+
+
 
     title: 'Cute Deer Flower Meadow Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable deer in a charming flower scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Deer Flower Meadow Colori illustration! The design features an adorable deer in a cozy flower setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/7_Cute_deer_flower_meadow_colori.jpg",
 
+
+
     tags: ["deer", "flower", "meadow", "colori"],
+
+
 
     keywords: ["cute deer flower meadow colori coloring page", "free printable deer flower meadow", "cute deer flower meadow colori coloring printable", "cozy coloring coloring pages free", "cute deer flower meadow JPG download", "printable deer flower meadow for kids"],
 
+
+
     altText: 'Cute Deer Flower Meadow Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-08",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-duck-countryside-cottage",
 
+
+
     slug: "cute-duck-countryside-cottage",
+
+
 
     title: 'Cute Duck Countryside Cottage',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable duck in a charming countryside scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Duck Countryside Cottage illustration! The design features an adorable duck in a cozy countryside setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/7_Cute_duck_countryside_cottage_.jpg",
 
+
+
     tags: ["duck", "countryside", "cottage"],
+
+
 
     keywords: ["cute duck countryside cottage coloring page", "free printable duck countryside cottage", "cute duck countryside cottage coloring printable", "cozy coloring coloring pages free", "cute duck countryside cottage JPG download", "printable duck countryside cottage for kids"],
 
+
+
     altText: 'Cute Duck Countryside Cottage — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-08",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-cat-cupcake-bakery-colori",
 
+
+
     slug: "cute-cat-cupcake-bakery-colori",
+
+
 
     title: 'Cute Cat Cupcake Bakery Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable cat in a charming cupcake scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Cat Cupcake Bakery Colori illustration! The design features an adorable cat in a cozy cupcake setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/8_Cute_cat_cupcake_bakery_colori.jpg",
 
+
+
     tags: ["cat", "cupcake", "bakery", "colori"],
+
+
 
     keywords: ["cute cat cupcake bakery colori coloring page", "free printable cat cupcake bakery", "cute cat cupcake bakery colori coloring printable", "cozy coloring coloring pages free", "cute cat cupcake bakery JPG download", "printable cat cupcake bakery for kids"],
 
+
+
     altText: 'Cute Cat Cupcake Bakery Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-09",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-hedgehog-autumn-bakery-co",
 
+
+
     slug: "cute-hedgehog-autumn-bakery-co",
+
+
 
     title: 'Cute Hedgehog Autumn Bakery Co',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable hedgehog in a charming autumn scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Hedgehog Autumn Bakery Co illustration! The design features an adorable hedgehog in a cozy autumn setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Medium",
+
+
 
     imageUrl: "/images/coloring/8_Cute_hedgehog_autumn_bakery_co.jpg",
 
+
+
     tags: ["hedgehog", "autumn", "bakery"],
+
+
 
     keywords: ["cute hedgehog autumn bakery co coloring page", "free printable hedgehog autumn bakery", "cute hedgehog autumn bakery co coloring printable", "cozy coloring coloring pages free", "cute hedgehog autumn bakery JPG download", "printable hedgehog autumn bakery for kids"],
 
+
+
     altText: 'Cute Hedgehog Autumn Bakery Co — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-09",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-bear-camping-scene-colori",
 
+
+
     slug: "cute-bear-camping-scene-colori",
+
+
 
     title: 'Cute Bear Camping Scene Colori',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'A super cute bear coloring page with cozy details. Free printable JPG for kids and adults who love adorable coloring pages.',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Bear Camping Scene Colori illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/9_Cute_bear_camping_scene_colori.jpg",
 
+
+
     tags: ["bear", "camping", "scene", "colori"],
+
+
 
     keywords: ["cute bear camping scene colori coloring page", "free printable bear camping scene", "cute bear camping scene colori coloring printable", "cozy coloring coloring pages free", "cute bear camping scene JPG download", "printable bear camping scene for kids"],
 
+
+
     altText: 'Cute Bear Camping Scene Colori — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-10",
 
+
+
   },
 
+
+
   {
+
+
 
     id: "cute-penguin-reading-room-colo",
 
+
+
     slug: "cute-penguin-reading-room-colo",
+
+
 
     title: 'Cute Penguin Reading Room Colo',
 
+
+
     category: "cozy-coloring",
+
+
 
     description: 'An adorable penguin in a charming reading scene — download this cute coloring page for free!',
 
+
+
     longDescription: 'Enjoy coloring this charming Cute Penguin Reading Room Colo illustration! The design features an adorable penguin in a cozy reading setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
 
+
+
     difficulty: "Easy",
+
+
 
     imageUrl: "/images/coloring/9_Cute_penguin_reading_room_colo.jpg",
 
+
+
     tags: ["penguin", "reading", "room"],
+
+
 
     keywords: ["cute penguin reading room colo coloring page", "free printable penguin reading room", "cute penguin reading room colo coloring printable", "cozy coloring coloring pages free", "cute penguin reading room JPG download", "printable penguin reading room for kids"],
 
+
+
     altText: 'Cute Penguin Reading Room Colo — free printable cozy coloring coloring page for kids and adults',
+
+
 
     createdAt: "2026-05-10",
 
+
+
+  },
+
+
+
+  {
+
+    id: "cat-treehouse-village",
+
+    slug: "cat-treehouse-village",
+
+    title: 'Cat Treehouse Village',
+
+    category: "cozy-coloring",
+
+    description: 'An adorable cat in a charming treehouse scene — download this cute coloring page for free!',
+
+    longDescription: 'Enjoy coloring this charming Cat Treehouse Village illustration! The design features an adorable cat in a cozy treehouse setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
+    difficulty: "Hard",
+
+    imageUrl: "/images/coloring/10_cat_treehouse_village.jpg",
+
+    tags: ["cat", "treehouse", "village"],
+
+    keywords: ["cat treehouse village coloring page", "free printable cat treehouse village", "cat treehouse village coloring printable", "cozy coloring coloring pages free", "cute cat treehouse village JPG download"],
+
+    altText: 'Cat Treehouse Village — free printable cozy coloring coloring page for kids and adults',
+
+    createdAt: "2026-06-11",
+
   },
 
   {
-    id: "cat-treehouse-village",
-    slug: "cat-treehouse-village",
-    title: 'Cat Treehouse Village',
-    category: "cozy-coloring",
-    description: 'An adorable cat in a charming treehouse scene — download this cute coloring page for free!',
-    longDescription: 'Enjoy coloring this charming Cat Treehouse Village illustration! The design features an adorable cat in a cozy treehouse setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
-    difficulty: "Hard",
-    imageUrl: "/images/coloring/10_cat_treehouse_village.jpg",
-    tags: ["cat", "treehouse", "village"],
-    keywords: ["cat treehouse village coloring page", "free printable cat treehouse village", "cat treehouse village coloring printable", "cozy coloring coloring pages free", "cute cat treehouse village JPG download"],
-    altText: 'Cat Treehouse Village — free printable cozy coloring coloring page for kids and adults',
-    createdAt: "2026-06-11",
-  },
-  {
+
     id: "cat-walking-through-cozy-villa",
+
     slug: "cat-walking-through-cozy-villa",
+
     title: 'Cat Walking Through Cozy Villa',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming cozy scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Walking Through Cozy Villa illustration! The design features an adorable cat in a cozy cozy setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/11_cat_walking_through_cozy_villa.jpg",
+
     tags: ["cat", "walking", "through", "cozy", "villa"],
+
     keywords: ["cat walking through cozy villa coloring page", "free printable cat walking through", "cat walking through cozy villa coloring printable", "cozy coloring coloring pages free", "cute cat walking through JPG download"],
+
     altText: 'Cat Walking Through Cozy Villa — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-12",
+
   },
+
   {
+
     id: "cat-sewing-room",
+
     slug: "cat-sewing-room",
+
     title: 'Cat Sewing Room',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming sewing scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Sewing Room illustration! The design features an adorable cat in a cozy sewing setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/12_cat_sewing_room.jpg",
+
     tags: ["cat", "sewing", "room"],
+
     keywords: ["cat sewing room coloring page", "free printable cat sewing room", "cat sewing room coloring printable", "cozy coloring coloring pages free", "cute cat sewing room JPG download"],
+
     altText: 'Cat Sewing Room — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-13",
+
   },
+
   {
+
     id: "cat-coffee-shop-with-outdoor-s",
+
     slug: "cat-coffee-shop-with-outdoor-s",
+
     title: 'Cat Coffee Shop With Outdoor S',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming shop scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Coffee Shop With Outdoor S illustration! The design features an adorable cat in a cozy shop setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Medium",
+
     imageUrl: "/images/coloring/13_cat_coffee_shop_with_outdoor_s.jpg",
+
     tags: ["cat", "coffee", "shop", "with", "outdoor"],
+
     keywords: ["cat coffee shop with outdoor s coloring page", "free printable cat coffee shop", "cat coffee shop with outdoor s coloring printable", "cozy coloring coloring pages free", "cute cat coffee shop JPG download"],
+
     altText: 'Cat Coffee Shop With Outdoor S — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-14",
+
   },
+
   {
+
     id: "cat-gardening-in-backyard",
+
     slug: "cat-gardening-in-backyard",
+
     title: 'Cat Gardening In Backyard',
+
     category: "cozy-coloring",
+
     description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
+
     longDescription: 'Enjoy coloring this charming Cat Gardening In Backyard illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Medium",
+
     imageUrl: "/images/coloring/14_cat_gardening_in_backyard.jpg",
+
     tags: ["cat", "gardening", "backyard"],
+
     keywords: ["cat gardening in backyard coloring page", "free printable cat gardening in", "cat gardening in backyard coloring printable", "cozy coloring coloring pages free", "cute cat gardening in JPG download"],
+
     altText: 'Cat Gardening In Backyard — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-15",
+
   },
+
   {
+
     id: "cat-bedroom-with-blankets-and",
+
     slug: "cat-bedroom-with-blankets-and",
+
     title: 'Cat Bedroom With Blankets And',
+
     category: "cozy-coloring",
+
     description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
+
     longDescription: 'Enjoy coloring this charming Cat Bedroom With Blankets And illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/15_cat_bedroom_with_blankets_and_.jpg",
+
     tags: ["cat", "bedroom", "with", "blankets"],
+
     keywords: ["cat bedroom with blankets and coloring page", "free printable cat bedroom with", "cat bedroom with blankets and coloring printable", "cozy coloring coloring pages free", "cute cat bedroom with JPG download"],
+
     altText: 'Cat Bedroom With Blankets And — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-16",
+
   },
+
   {
+
     id: "cat-kitchen-baking-cookies",
+
     slug: "cat-kitchen-baking-cookies",
+
     title: 'Cat Kitchen Baking Cookies',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming kitchen scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Kitchen Baking Cookies illustration! The design features an adorable cat in a cozy kitchen setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/16_cat_kitchen_baking_cookies.jpg",
+
     tags: ["cat", "kitchen", "baking", "cookies"],
+
     keywords: ["cat kitchen baking cookies coloring page", "free printable cat kitchen baking", "cat kitchen baking cookies coloring printable", "cozy coloring coloring pages free", "cute cat kitchen baking JPG download"],
+
     altText: 'Cat Kitchen Baking Cookies — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-17",
+
   },
+
   {
+
     id: "cat-farmers-market",
+
     slug: "cat-farmers-market",
+
     title: 'Cat Farmers Market',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming market scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Farmers Market illustration! The design features an adorable cat in a cozy market setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/17_cat_farmers_market.jpg",
+
     tags: ["cat", "farmers", "market"],
+
     keywords: ["cat farmers market coloring page", "free printable cat farmers market", "cat farmers market coloring printable", "cozy coloring coloring pages free", "cute cat farmers market JPG download"],
+
     altText: 'Cat Farmers Market — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-18",
+
   },
+
   {
+
     id: "cat-picnic-in-flower-meadow",
+
     slug: "cat-picnic-in-flower-meadow",
+
     title: 'Cat Picnic In Flower Meadow',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming picnic scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Picnic In Flower Meadow illustration! The design features an adorable cat in a cozy picnic setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/18_cat_picnic_in_flower_meadow.jpg",
+
     tags: ["cat", "picnic", "flower", "meadow"],
+
     keywords: ["cat picnic in flower meadow coloring page", "free printable cat picnic in", "cat picnic in flower meadow coloring printable", "cozy coloring coloring pages free", "cute cat picnic in JPG download"],
+
     altText: 'Cat Picnic In Flower Meadow — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-19",
+
   },
+
   {
+
     id: "cat-candle-shop",
+
     slug: "cat-candle-shop",
+
     title: 'Cat Candle Shop',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming candle scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Candle Shop illustration! The design features an adorable cat in a cozy candle setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/19_cat_candle_shop.jpg",
+
     tags: ["cat", "candle", "shop"],
+
     keywords: ["cat candle shop coloring page", "free printable cat candle shop", "cat candle shop coloring printable", "cozy coloring coloring pages free", "cute cat candle shop JPG download"],
+
     altText: 'Cat Candle Shop — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-20",
+
   },
+
   {
+
     id: "all-village-cats-celebrating-t",
+
     slug: "all-village-cats-celebrating-t",
+
     title: 'All Village Cats Celebrating T',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming village scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming All Village Cats Celebrating T illustration! The design features an adorable cat in a cozy village setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Medium",
+
     imageUrl: "/images/coloring/1_all_village_cats_celebrating_t.jpg",
+
     tags: ["all", "village", "cats", "celebrating"],
+
     keywords: ["all village cats celebrating t coloring page", "free printable all village cats", "all village cats celebrating t coloring printable", "cozy coloring coloring pages free", "cute all village cats JPG download"],
+
     altText: 'All Village Cats Celebrating T — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-02",
+
   },
+
   {
+
     id: "cat-artist-studio",
+
     slug: "cat-artist-studio",
+
     title: 'Cat Artist Studio',
+
     category: "cute-animals",
+
     description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
+
     longDescription: 'Enjoy coloring this charming Cat Artist Studio illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/20_cat_artist_studio.jpg",
+
     tags: ["cat", "artist", "studio"],
+
     keywords: ["cat artist studio coloring page", "free printable cat artist studio", "cat artist studio coloring printable", "cute animals coloring pages free", "cute cat artist studio JPG download"],
+
     altText: 'Cat Artist Studio — free printable cute animals coloring page for kids and adults',
+
     createdAt: "2026-06-21",
+
   },
+
   {
+
     id: "cat-library-inside-treehouse",
+
     slug: "cat-library-inside-treehouse",
+
     title: 'Cat Library Inside Treehouse',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming library scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Library Inside Treehouse illustration! The design features an adorable cat in a cozy library setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/21_cat_library_inside_treehouse.jpg",
+
     tags: ["cat", "library", "inside", "treehouse"],
+
     keywords: ["cat library inside treehouse coloring page", "free printable cat library inside", "cat library inside treehouse coloring printable", "cozy coloring coloring pages free", "cute cat library inside JPG download"],
+
     altText: 'Cat Library Inside Treehouse — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-22",
+
   },
+
   {
+
     id: "cat-reading-under-rainy-window",
+
     slug: "cat-reading-under-rainy-window",
+
     title: 'Cat Reading Under Rainy Window',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming reading scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Reading Under Rainy Window illustration! The design features an adorable cat in a cozy reading setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/22_cat_reading_under_rainy_window.jpg",
+
     tags: ["cat", "reading", "under", "rainy", "window"],
+
     keywords: ["cat reading under rainy window coloring page", "free printable cat reading under", "cat reading under rainy window coloring printable", "cozy coloring coloring pages free", "cute cat reading under JPG download"],
+
     altText: 'Cat Reading Under Rainy Window — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-23",
+
   },
+
   {
+
     id: "cat-flower-shop-village-street",
+
     slug: "cat-flower-shop-village-street",
+
     title: 'Cat Flower Shop Village Street',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming flower scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Flower Shop Village Street illustration! The design features an adorable cat in a cozy flower setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/23_cat_flower_shop_village_street.jpg",
+
     tags: ["cat", "flower", "shop", "village", "street"],
+
     keywords: ["cat flower shop village street coloring page", "free printable cat flower shop", "cat flower shop village street coloring printable", "cozy coloring coloring pages free", "cute cat flower shop JPG download"],
+
     altText: 'Cat Flower Shop Village Street — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-24",
+
   },
+
   {
+
     id: "cat-knitting-by-fireplace",
+
     slug: "cat-knitting-by-fireplace",
+
     title: 'Cat Knitting By Fireplace',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming knitting scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Knitting By Fireplace illustration! The design features an adorable cat in a cozy knitting setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/24_cat_knitting_by_fireplace.jpg",
+
     tags: ["cat", "knitting", "fireplace"],
+
     keywords: ["cat knitting by fireplace coloring page", "free printable cat knitting by", "cat knitting by fireplace coloring printable", "cozy coloring coloring pages free", "cute cat knitting by JPG download"],
+
     altText: 'Cat Knitting By Fireplace — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-25",
+
   },
+
   {
+
     id: "cat-greenhouse-full-of-plants",
+
     slug: "cat-greenhouse-full-of-plants",
+
     title: 'Cat Greenhouse Full Of Plants',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming greenhouse scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Greenhouse Full Of Plants illustration! The design features an adorable cat in a cozy greenhouse setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/25_cat_greenhouse_full_of_plants.jpg",
+
     tags: ["cat", "greenhouse", "full", "plants"],
+
     keywords: ["cat greenhouse full of plants coloring page", "free printable cat greenhouse full", "cat greenhouse full of plants coloring printable", "cozy coloring coloring pages free", "cute cat greenhouse full JPG download"],
+
     altText: 'Cat Greenhouse Full Of Plants — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-26",
+
   },
+
   {
+
     id: "cat-tea-room-with-pastries",
+
     slug: "cat-tea-room-with-pastries",
+
     title: 'Cat Tea Room With Pastries',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming tea scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Tea Room With Pastries illustration! The design features an adorable cat in a cozy tea setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/26_cat_tea_room_with_pastries.jpg",
+
     tags: ["cat", "tea", "room", "with", "pastries"],
+
     keywords: ["cat tea room with pastries coloring page", "free printable cat tea room", "cat tea room with pastries coloring printable", "cozy coloring coloring pages free", "cute cat tea room JPG download"],
+
     altText: 'Cat Tea Room With Pastries — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-27",
+
   },
+
   {
+
     id: "cat-cottage-beside-flower-gard",
+
     slug: "cat-cottage-beside-flower-gard",
+
     title: 'Cat Cottage Beside Flower Gard',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming cottage scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Cottage Beside Flower Gard illustration! The design features an adorable cat in a cozy cottage setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Medium",
+
     imageUrl: "/images/coloring/27_cat_cottage_beside_flower_gard.jpg",
+
     tags: ["cat", "cottage", "beside", "flower", "gard"],
+
     keywords: ["cat cottage beside flower gard coloring page", "free printable cat cottage beside", "cat cottage beside flower gard coloring printable", "cozy coloring coloring pages free", "cute cat cottage beside JPG download"],
+
     altText: 'Cat Cottage Beside Flower Gard — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-28",
+
   },
+
   {
+
     id: "cat-bookstore-with-cozy-readin",
+
     slug: "cat-bookstore-with-cozy-readin",
+
     title: 'Cat Bookstore With Cozy Readin',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming bookstore scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Bookstore With Cozy Readin illustration! The design features an adorable cat in a cozy bookstore setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/28_cat_bookstore_with_cozy_readin.jpg",
+
     tags: ["cat", "bookstore", "with", "cozy", "readin"],
+
     keywords: ["cat bookstore with cozy readin coloring page", "free printable cat bookstore with", "cat bookstore with cozy readin coloring printable", "cozy coloring coloring pages free", "cute cat bookstore with JPG download"],
+
     altText: 'Cat Bookstore With Cozy Readin — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-01",
+
   },
+
   {
+
     id: "cat-bakery-making-bread-and-cu",
+
     slug: "cat-bakery-making-bread-and-cu",
+
     title: 'Cat Bakery Making Bread And Cu',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming bakery scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Bakery Making Bread And Cu illustration! The design features an adorable cat in a cozy bakery setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Medium",
+
     imageUrl: "/images/coloring/29_cat_bakery_making_bread_and_cu.jpg",
+
     tags: ["cat", "bakery", "making", "bread"],
+
     keywords: ["cat bakery making bread and cu coloring page", "free printable cat bakery making", "cat bakery making bread and cu coloring printable", "cozy coloring coloring pages free", "cute cat bakery making JPG download"],
+
     altText: 'Cat Bakery Making Bread And Cu — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-02",
+
   },
+
   {
+
     id: "panoramic-cat-village-scene",
+
     slug: "panoramic-cat-village-scene",
+
     title: 'Panoramic Cat Village Scene',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming village scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Panoramic Cat Village Scene illustration! The design features an adorable cat in a cozy village setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Medium",
+
     imageUrl: "/images/coloring/2_panoramic_cat_village_scene.jpg",
+
     tags: ["panoramic", "cat", "village", "scene"],
+
     keywords: ["panoramic cat village scene coloring page", "free printable panoramic cat village", "panoramic cat village scene coloring printable", "cozy coloring coloring pages free", "cute panoramic cat village JPG download"],
+
     altText: 'Panoramic Cat Village Scene — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-03",
+
   },
+
   {
+
     id: "cat-cafe-with-books-and-flower",
+
     slug: "cat-cafe-with-books-and-flower",
+
     title: 'Cat Cafe With Books And Flower',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming cafe scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Cafe With Books And Flower illustration! The design features an adorable cat in a cozy cafe setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/30_cat_cafe_with_books_and_flower.jpg",
+
     tags: ["cat", "cafe", "with", "books", "flower"],
+
     keywords: ["cat cafe with books and flower coloring page", "free printable cat cafe with", "cat cafe with books and flower coloring printable", "cozy coloring coloring pages free", "cute cat cafe with JPG download"],
+
     altText: 'Cat Cafe With Books And Flower — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-03",
+
   },
+
   {
+
     id: "cat-bookstore-cafe-combination",
+
     slug: "cat-bookstore-cafe-combination",
+
     title: 'Cat Bookstore Cafe Combination',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming bookstore scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Bookstore Cafe Combination illustration! The design features an adorable cat in a cozy bookstore setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/3_cat_bookstore_cafe_combination.jpg",
+
     tags: ["cat", "bookstore", "cafe", "combination"],
+
     keywords: ["cat bookstore cafe combination coloring page", "free printable cat bookstore cafe", "cat bookstore cafe combination coloring printable", "cozy coloring coloring pages free", "cute cat bookstore cafe JPG download"],
+
     altText: 'Cat Bookstore Cafe Combination — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-04",
+
   },
+
   {
+
     id: "cat-cottage-by-pond",
+
     slug: "cat-cottage-by-pond",
+
     title: 'Cat Cottage By Pond',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming cottage scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Cottage By Pond illustration! The design features an adorable cat in a cozy cottage setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Easy",
+
     imageUrl: "/images/coloring/4_cat_cottage_by_pond.jpg",
+
     tags: ["cat", "cottage", "pond"],
+
     keywords: ["cat cottage by pond coloring page", "free printable cat cottage by", "cat cottage by pond coloring printable", "cozy coloring coloring pages free", "cute cat cottage by JPG download"],
+
     altText: 'Cat Cottage By Pond — free printable cozy coloring coloring page for kids and adults',
+
     createdAt: "2026-06-05",
+
   },
+
   {
+
     id: "cat-village-festival",
+
     slug: "cat-village-festival",
+
     title: 'Cat Village Festival',
+
     category: "cozy-coloring",
+
     description: 'An adorable cat in a charming village scene — download this cute coloring page for free!',
+
     longDescription: 'Enjoy coloring this charming Cat Village Festival illustration! The design features an adorable cat in a cozy village setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
     difficulty: "Hard",
+
     imageUrl: "/images/coloring/5_cat_village_festival.jpg",
+
     tags: ["cat", "village", "festival"],
+
     keywords: ["cat village festival coloring page", "free printable cat village festival", "cat village festival coloring printable", "cozy coloring coloring pages free", "cute cat village festival JPG download"],
+
     altText: 'Cat Village Festival — free printable cozy coloring coloring page for kids and adults',
+
+    createdAt: "2026-06-06",
+
+  },
+
+  {
+
+    id: "cat-sweet-shop",
+
+    slug: "cat-sweet-shop",
+
+    title: 'Cat Sweet Shop',
+
+    category: "cozy-coloring",
+
+    description: 'An adorable cat in a charming shop scene — download this cute coloring page for free!',
+
+    longDescription: 'Enjoy coloring this charming Cat Sweet Shop illustration! The design features an adorable cat in a cozy shop setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
+    difficulty: "Medium",
+
+    imageUrl: "/images/coloring/6_cat_sweet_shop.jpg",
+
+    tags: ["cat", "sweet", "shop"],
+
+    keywords: ["cat sweet shop coloring page", "free printable cat sweet shop", "cat sweet shop coloring printable", "cozy coloring coloring pages free", "cute cat sweet shop JPG download"],
+
+    altText: 'Cat Sweet Shop — free printable cozy coloring coloring page for kids and adults',
+
+    createdAt: "2026-06-07",
+
+  },
+
+  {
+
+    id: "cat-painting-flowers",
+
+    slug: "cat-painting-flowers",
+
+    title: 'Cat Painting Flowers',
+
+    category: "cozy-coloring",
+
+    description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
+
+    longDescription: 'Enjoy coloring this charming Cat Painting Flowers illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
+    difficulty: "Easy",
+
+    imageUrl: "/images/coloring/7_cat_painting_flowers.jpg",
+
+    tags: ["cat", "painting", "flowers"],
+
+    keywords: ["cat painting flowers coloring page", "free printable cat painting flowers", "cat painting flowers coloring printable", "cozy coloring coloring pages free", "cute cat painting flowers JPG download"],
+
+    altText: 'Cat Painting Flowers — free printable cozy coloring coloring page for kids and adults',
+
+    createdAt: "2026-06-08",
+
+  },
+
+  {
+
+    id: "cat-music-room",
+
+    slug: "cat-music-room",
+
+    title: 'Cat Music Room',
+
+    category: "cozy-coloring",
+
+    description: 'An adorable cat in a charming music scene — download this cute coloring page for free!',
+
+    longDescription: 'Enjoy coloring this charming Cat Music Room illustration! The design features an adorable cat in a cozy music setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
+    difficulty: "Easy",
+
+    imageUrl: "/images/coloring/8_cat_music_room.jpg",
+
+    tags: ["cat", "music", "room"],
+
+    keywords: ["cat music room coloring page", "free printable cat music room", "cat music room coloring printable", "cozy coloring coloring pages free", "cute cat music room JPG download"],
+
+    altText: 'Cat Music Room — free printable cozy coloring coloring page for kids and adults',
+
+    createdAt: "2026-06-09",
+
+  },
+
+  {
+
+    id: "cat-camping-under-stars",
+
+    slug: "cat-camping-under-stars",
+
+    title: 'Cat Camping Under Stars',
+
+    category: "cozy-coloring",
+
+    description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
+
+    longDescription: 'Enjoy coloring this charming Cat Camping Under Stars illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+
+    difficulty: "Easy",
+
+    imageUrl: "/images/coloring/9_cat_camping_under_stars.jpg",
+
+    tags: ["cat", "camping", "under", "stars"],
+
+    keywords: ["cat camping under stars coloring page", "free printable cat camping under", "cat camping under stars coloring printable", "cozy coloring coloring pages free", "cute cat camping under JPG download"],
+
+    altText: 'Cat Camping Under Stars — free printable cozy coloring coloring page for kids and adults',
+
+    createdAt: "2026-06-10",
+
+  },
+
+  {
+    id: "mouse-family-treehouse",
+    slug: "mouse-family-treehouse",
+    title: 'Mouse Family Treehouse',
+    category: "tiny-animal-worlds",
+    description: 'A beautiful mouse family treehouse coloring page — miniature village coloring pages with adorable animals in cozy homes. Free printable JPG download for kids and adults who love tiny homes scenes.',
+    longDescription: 'Welcome to this charming Mouse Family Treehouse coloring page! This detailed illustration is part of our Tiny Animal Worlds collection, featuring miniature village coloring pages with adorable animals in cozy homes. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/8_Cute_hedgehog_autumn_bakery_co.jpg",
+    tags: ["mouse", "family", "treehouse"],
+    keywords: ["mouse family treehouse coloring page", "free printable tiny homes coloring", "tiny animal worlds coloring pages", "mouse family treehouse JPG download", "tiny homes coloring page free", "printable mouse family treehouse for kids"],
+    altText: 'Mouse Family Treehouse — free printable tiny animal worlds coloring page with tiny homes theme',
     createdAt: "2026-06-06",
   },
   {
-    id: "cat-sweet-shop",
-    slug: "cat-sweet-shop",
-    title: 'Cat Sweet Shop',
-    category: "cozy-coloring",
-    description: 'An adorable cat in a charming shop scene — download this cute coloring page for free!',
-    longDescription: 'Enjoy coloring this charming Cat Sweet Shop illustration! The design features an adorable cat in a cozy shop setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
-    difficulty: "Medium",
-    imageUrl: "/images/coloring/6_cat_sweet_shop.jpg",
-    tags: ["cat", "sweet", "shop"],
-    keywords: ["cat sweet shop coloring page", "free printable cat sweet shop", "cat sweet shop coloring printable", "cozy coloring coloring pages free", "cute cat sweet shop JPG download"],
-    altText: 'Cat Sweet Shop — free printable cozy coloring coloring page for kids and adults',
-    createdAt: "2026-06-07",
+    id: "squirrel-acorn-village",
+    slug: "squirrel-acorn-village",
+    title: 'Squirrel Acorn Village',
+    category: "tiny-animal-worlds",
+    description: 'A beautiful squirrel acorn village coloring page — miniature village coloring pages with adorable animals in cozy homes. Free printable JPG download for kids and adults who love miniature scenes.',
+    longDescription: 'Welcome to this charming Squirrel Acorn Village coloring page! This detailed illustration is part of our Tiny Animal Worlds collection, featuring miniature village coloring pages with adorable animals in cozy homes. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Hard",
+    imageUrl: "/images/coloring/53_Cute_duck_farmer_market_colori.jpg",
+    tags: ["squirrel", "acorn", "village"],
+    keywords: ["squirrel acorn village coloring page", "free printable miniature coloring", "tiny animal worlds coloring pages", "squirrel acorn village JPG download", "miniature coloring page free", "printable squirrel acorn village for kids"],
+    altText: 'Squirrel Acorn Village — free printable tiny animal worlds coloring page with miniature theme',
+    createdAt: "2026-06-04",
   },
   {
-    id: "cat-painting-flowers",
-    slug: "cat-painting-flowers",
-    title: 'Cat Painting Flowers',
-    category: "cozy-coloring",
-    description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
-    longDescription: 'Enjoy coloring this charming Cat Painting Flowers illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+    id: "rabbit-burrow-town",
+    slug: "rabbit-burrow-town",
+    title: 'Rabbit Burrow Town',
+    category: "tiny-animal-worlds",
+    description: 'A beautiful rabbit burrow town coloring page — miniature village coloring pages with adorable animals in cozy homes. Free printable JPG download for kids and adults who love village scenes.',
+    longDescription: 'Welcome to this charming Rabbit Burrow Town coloring page! This detailed illustration is part of our Tiny Animal Worlds collection, featuring miniature village coloring pages with adorable animals in cozy homes. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
     difficulty: "Easy",
-    imageUrl: "/images/coloring/7_cat_painting_flowers.jpg",
-    tags: ["cat", "painting", "flowers"],
-    keywords: ["cat painting flowers coloring page", "free printable cat painting flowers", "cat painting flowers coloring printable", "cozy coloring coloring pages free", "cute cat painting flowers JPG download"],
-    altText: 'Cat Painting Flowers — free printable cozy coloring coloring page for kids and adults',
+    imageUrl: "/images/coloring/40_Cute_fox_book_caf__coloring_pa.jpg",
+    tags: ["rabbit", "burrow", "town"],
+    keywords: ["rabbit burrow town coloring page", "free printable village coloring", "tiny animal worlds coloring pages", "rabbit burrow town JPG download", "village coloring page free", "printable rabbit burrow town for kids"],
+    altText: 'Rabbit Burrow Town — free printable tiny animal worlds coloring page with village theme',
+    createdAt: "2026-06-16",
+  },
+  {
+    id: "hedgehog-hollow-home",
+    slug: "hedgehog-hollow-home",
+    title: 'Hedgehog Hollow Home',
+    category: "tiny-animal-worlds",
+    description: 'A beautiful hedgehog hollow home coloring page — miniature village coloring pages with adorable animals in cozy homes. Free printable JPG download for kids and adults who love mouse house scenes.',
+    longDescription: 'Welcome to this charming Hedgehog Hollow Home coloring page! This detailed illustration is part of our Tiny Animal Worlds collection, featuring miniature village coloring pages with adorable animals in cozy homes. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/1_Cute_animal_village_coloring_p.jpg",
+    tags: ["hedgehog", "hollow", "home"],
+    keywords: ["hedgehog hollow home coloring page", "free printable mouse house coloring", "tiny animal worlds coloring pages", "hedgehog hollow home JPG download", "mouse house coloring page free", "printable hedgehog hollow home for kids"],
+    altText: 'Hedgehog Hollow Home — free printable tiny animal worlds coloring page with mouse house theme',
+    createdAt: "2026-06-12",
+  },
+  {
+    id: "frog-pond-community",
+    slug: "frog-pond-community",
+    title: 'Frog Pond Community',
+    category: "tiny-animal-worlds",
+    description: 'A beautiful frog pond community coloring page — miniature village coloring pages with adorable animals in cozy homes. Free printable JPG download for kids and adults who love fairy door scenes.',
+    longDescription: 'Welcome to this charming Frog Pond Community coloring page! This detailed illustration is part of our Tiny Animal Worlds collection, featuring miniature village coloring pages with adorable animals in cozy homes. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/6_cat_sweet_shop.jpg",
+    tags: ["frog", "pond", "community"],
+    keywords: ["frog pond community coloring page", "free printable fairy door coloring", "tiny animal worlds coloring pages", "frog pond community JPG download", "fairy door coloring page free", "printable frog pond community for kids"],
+    altText: 'Frog Pond Community — free printable tiny animal worlds coloring page with fairy door theme',
+    createdAt: "2026-06-06",
+  },
+  {
+    id: "thatched-roof-cottage",
+    slug: "thatched-roof-cottage",
+    title: 'Thatched Roof Cottage',
+    category: "cottagecore-coloring",
+    description: 'A beautiful thatched roof cottage coloring page — charming cottage and countryside coloring pages. Free printable JPG download for kids and adults who love cottage scenes.',
+    longDescription: 'Welcome to this charming Thatched Roof Cottage coloring page! This detailed illustration is part of our Cottagecore Coloring collection, featuring charming cottage and countryside coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/33_Cute_unicorn_fairy_forest_colo.jpg",
+    tags: ["thatched", "roof", "cottage"],
+    keywords: ["thatched roof cottage coloring page", "free printable cottage coloring", "cottagecore coloring coloring pages", "thatched roof cottage JPG download", "cottage coloring page free", "printable thatched roof cottage for kids"],
+    altText: 'Thatched Roof Cottage — free printable cottagecore coloring coloring page with cottage theme',
+    createdAt: "2026-06-28",
+  },
+  {
+    id: "countryside-farmhouse",
+    slug: "countryside-farmhouse",
+    title: 'Countryside Farmhouse',
+    category: "cottagecore-coloring",
+    description: 'A beautiful countryside farmhouse coloring page — charming cottage and countryside coloring pages. Free printable JPG download for kids and adults who love countryside scenes.',
+    longDescription: 'Welcome to this charming Countryside Farmhouse coloring page! This detailed illustration is part of our Cottagecore Coloring collection, featuring charming cottage and countryside coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/22_Cute_cat_knitting_room_colorin.jpg",
+    tags: ["countryside", "farmhouse"],
+    keywords: ["countryside farmhouse coloring page", "free printable countryside coloring", "cottagecore coloring coloring pages", "countryside farmhouse JPG download", "countryside coloring page free", "printable countryside farmhouse for kids"],
+    altText: 'Countryside Farmhouse — free printable cottagecore coloring coloring page with countryside theme',
     createdAt: "2026-06-08",
   },
   {
-    id: "cat-music-room",
-    slug: "cat-music-room",
-    title: 'Cat Music Room',
-    category: "cozy-coloring",
-    description: 'An adorable cat in a charming music scene — download this cute coloring page for free!',
-    longDescription: 'Enjoy coloring this charming Cat Music Room illustration! The design features an adorable cat in a cozy music setting. Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
-    difficulty: "Easy",
-    imageUrl: "/images/coloring/8_cat_music_room.jpg",
-    tags: ["cat", "music", "room"],
-    keywords: ["cat music room coloring page", "free printable cat music room", "cat music room coloring printable", "cozy coloring coloring pages free", "cute cat music room JPG download"],
-    altText: 'Cat Music Room — free printable cozy coloring coloring page for kids and adults',
-    createdAt: "2026-06-09",
+    id: "ivy-covered-stone-cottage",
+    slug: "ivy-covered-stone-cottage",
+    title: 'Ivy-Covered Stone Cottage',
+    category: "cottagecore-coloring",
+    description: 'A beautiful ivy-covered stone cottage coloring page — charming cottage and countryside coloring pages. Free printable JPG download for kids and adults who love thatched roof scenes.',
+    longDescription: 'Welcome to this charming Ivy-Covered Stone Cottage coloring page! This detailed illustration is part of our Cottagecore Coloring collection, featuring charming cottage and countryside coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/38_Cute_fox_mushroom_house_colori.jpg",
+    tags: ["ivy", "covered", "stone", "cottage"],
+    keywords: ["ivy-covered stone cottage coloring page", "free printable thatched roof coloring", "cottagecore coloring coloring pages", "ivy-covered stone cottage JPG download", "thatched roof coloring page free", "printable ivy covered stone cottage for kids"],
+    altText: 'Ivy-Covered Stone Cottage — free printable cottagecore coloring coloring page with thatched roof theme',
+    createdAt: "2026-06-27",
   },
   {
-    id: "cat-camping-under-stars",
-    slug: "cat-camping-under-stars",
-    title: 'Cat Camping Under Stars',
-    category: "cozy-coloring",
-    description: 'A super cute cat coloring page with cozy details. Free printable JPG for all ages.',
-    longDescription: 'Enjoy coloring this charming Cat Camping Under Stars illustration! Clear bold outlines work with crayons, pencils, markers, or gel pens. Download the free JPG, print as many copies as you want! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity.',
+    id: "rose-garden-bungalow",
+    slug: "rose-garden-bungalow",
+    title: 'Rose Garden Bungalow',
+    category: "cottagecore-coloring",
+    description: 'A beautiful rose garden bungalow coloring page — charming cottage and countryside coloring pages. Free printable JPG download for kids and adults who love flower garden scenes.',
+    longDescription: 'Welcome to this charming Rose Garden Bungalow coloring page! This detailed illustration is part of our Cottagecore Coloring collection, featuring charming cottage and countryside coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/49_Cute_fox_autumn_cottage_colori.jpg",
+    tags: ["rose", "garden", "bungalow"],
+    keywords: ["rose garden bungalow coloring page", "free printable flower garden coloring", "cottagecore coloring coloring pages", "rose garden bungalow JPG download", "flower garden coloring page free", "printable rose garden bungalow for kids"],
+    altText: 'Rose Garden Bungalow — free printable cottagecore coloring coloring page with flower garden theme',
+    createdAt: "2026-06-27",
+  },
+  {
+    id: "lavender-field-cottage",
+    slug: "lavender-field-cottage",
+    title: 'Lavender Field Cottage',
+    category: "cottagecore-coloring",
+    description: 'A beautiful lavender field cottage coloring page — charming cottage and countryside coloring pages. Free printable JPG download for kids and adults who love rural scenes.',
+    longDescription: 'Welcome to this charming Lavender Field Cottage coloring page! This detailed illustration is part of our Cottagecore Coloring collection, featuring charming cottage and countryside coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/8_Cute_cat_cupcake_bakery_colori.jpg",
+    tags: ["lavender", "field", "cottage"],
+    keywords: ["lavender field cottage coloring page", "free printable rural coloring", "cottagecore coloring coloring pages", "lavender field cottage JPG download", "rural coloring page free", "printable lavender field cottage for kids"],
+    altText: 'Lavender Field Cottage — free printable cottagecore coloring coloring page with rural theme',
+    createdAt: "2026-06-24",
+  },
+  {
+    id: "rainy-window-with-books",
+    slug: "rainy-window-with-books",
+    title: 'Rainy Window with Books',
+    category: "rainy-day-coloring",
+    description: 'A beautiful rainy window with books coloring page — cozy rainy day scenes for relaxing coloring time. Free printable JPG download for kids and adults who love rain scenes.',
+    longDescription: 'Welcome to this charming Rainy Window with Books coloring page! This detailed illustration is part of our Rainy Day Coloring collection, featuring cozy rainy day scenes for relaxing coloring time. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
     difficulty: "Easy",
+    imageUrl: "/images/coloring/9_Cute_bear_camping_scene_colori.jpg",
+    tags: ["rainy", "window", "with", "books"],
+    keywords: ["rainy window with books coloring page", "free printable rain coloring", "rainy day coloring coloring pages", "rainy window with books JPG download", "rain coloring page free", "printable rainy window with books for kids"],
+    altText: 'Rainy Window with Books — free printable rainy day coloring coloring page with rain theme',
+    createdAt: "2026-06-15",
+  },
+  {
+    id: "umbrella-street-scene",
+    slug: "umbrella-street-scene",
+    title: 'Umbrella Street Scene',
+    category: "rainy-day-coloring",
+    description: 'A beautiful umbrella street scene coloring page — cozy rainy day scenes for relaxing coloring time. Free printable JPG download for kids and adults who love window scenes.',
+    longDescription: 'Welcome to this charming Umbrella Street Scene coloring page! This detailed illustration is part of our Rainy Day Coloring collection, featuring cozy rainy day scenes for relaxing coloring time. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/18_Cute_bunny_fairy_garden_colori.jpg",
+    tags: ["umbrella", "street", "scene"],
+    keywords: ["umbrella street scene coloring page", "free printable window coloring", "rainy day coloring coloring pages", "umbrella street scene JPG download", "window coloring page free", "printable umbrella street scene for kids"],
+    altText: 'Umbrella Street Scene — free printable rainy day coloring coloring page with window theme',
+    createdAt: "2026-06-12",
+  },
+  {
+    id: "cozy-indoor-rainy-afternoon",
+    slug: "cozy-indoor-rainy-afternoon",
+    title: 'Cozy Indoor Rainy Afternoon',
+    category: "rainy-day-coloring",
+    description: 'A beautiful cozy indoor rainy afternoon coloring page — cozy rainy day scenes for relaxing coloring time. Free printable JPG download for kids and adults who love cozy indoor scenes.',
+    longDescription: 'Welcome to this charming Cozy Indoor Rainy Afternoon coloring page! This detailed illustration is part of our Rainy Day Coloring collection, featuring cozy rainy day scenes for relaxing coloring time. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/45_Cute_bear_berry_farm_coloring_.jpg",
+    tags: ["cozy", "indoor", "rainy", "afternoon"],
+    keywords: ["cozy indoor rainy afternoon coloring page", "free printable cozy indoor coloring", "rainy day coloring coloring pages", "cozy indoor rainy afternoon JPG download", "cozy indoor coloring page free", "printable cozy indoor rainy afternoon for kids"],
+    altText: 'Cozy Indoor Rainy Afternoon — free printable rainy day coloring coloring page with cozy indoor theme',
+    createdAt: "2026-06-01",
+  },
+  {
+    id: "puddle-jumping-fun",
+    slug: "puddle-jumping-fun",
+    title: 'Puddle Jumping Fun',
+    category: "rainy-day-coloring",
+    description: 'A beautiful puddle jumping fun coloring page — cozy rainy day scenes for relaxing coloring time. Free printable JPG download for kids and adults who love umbrella scenes.',
+    longDescription: 'Welcome to this charming Puddle Jumping Fun coloring page! This detailed illustration is part of our Rainy Day Coloring collection, featuring cozy rainy day scenes for relaxing coloring time. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/16_cat_kitchen_baking_cookies.jpg",
+    tags: ["puddle", "jumping", "fun"],
+    keywords: ["puddle jumping fun coloring page", "free printable umbrella coloring", "rainy day coloring coloring pages", "puddle jumping fun JPG download", "umbrella coloring page free", "printable puddle jumping fun for kids"],
+    altText: 'Puddle Jumping Fun — free printable rainy day coloring coloring page with umbrella theme',
+    createdAt: "2026-06-25",
+  },
+  {
+    id: "raindrops-on-flowers",
+    slug: "raindrops-on-flowers",
+    title: 'Raindrops on Flowers',
+    category: "rainy-day-coloring",
+    description: 'A beautiful raindrops on flowers coloring page — cozy rainy day scenes for relaxing coloring time. Free printable JPG download for kids and adults who love puddle scenes.',
+    longDescription: 'Welcome to this charming Raindrops on Flowers coloring page! This detailed illustration is part of our Rainy Day Coloring collection, featuring cozy rainy day scenes for relaxing coloring time. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/12_Cute_rabbit_book_club_coloring.jpg",
+    tags: ["raindrops", "flowers"],
+    keywords: ["raindrops on flowers coloring page", "free printable puddle coloring", "rainy day coloring coloring pages", "raindrops on flowers JPG download", "puddle coloring page free", "printable raindrops on flowers for kids"],
+    altText: 'Raindrops on Flowers — free printable rainy day coloring coloring page with puddle theme',
+    createdAt: "2026-06-15",
+  },
+  {
+    id: "morning-coffee-ritual",
+    slug: "morning-coffee-ritual",
+    title: 'Morning Coffee Ritual',
+    category: "coffee-shop-scenes",
+    description: 'A beautiful morning coffee ritual coloring page — warm cafe and coffee shop coloring pages. Free printable JPG download for kids and adults who love coffee scenes.',
+    longDescription: 'Welcome to this charming Morning Coffee Ritual coloring page! This detailed illustration is part of our Coffee Shop Scenes collection, featuring warm cafe and coffee shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/6_Cute_mouse_cheese_shop_colorin.jpg",
+    tags: ["morning", "coffee", "ritual"],
+    keywords: ["morning coffee ritual coloring page", "free printable coffee coloring", "coffee shop scenes coloring pages", "morning coffee ritual JPG download", "coffee coloring page free", "printable morning coffee ritual for kids"],
+    altText: 'Morning Coffee Ritual — free printable coffee shop scenes coloring page with coffee theme',
+    createdAt: "2026-06-02",
+  },
+  {
+    id: "corner-cafe-interior",
+    slug: "corner-cafe-interior",
+    title: 'Corner Cafe Interior',
+    category: "coffee-shop-scenes",
+    description: 'A beautiful corner cafe interior coloring page — warm cafe and coffee shop coloring pages. Free printable JPG download for kids and adults who love cafe scenes.',
+    longDescription: 'Welcome to this charming Corner Cafe Interior coloring page! This detailed illustration is part of our Coffee Shop Scenes collection, featuring warm cafe and coffee shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/21_cat_library_inside_treehouse.jpg",
+    tags: ["corner", "cafe", "interior"],
+    keywords: ["corner cafe interior coloring page", "free printable cafe coloring", "coffee shop scenes coloring pages", "corner cafe interior JPG download", "cafe coloring page free", "printable corner cafe interior for kids"],
+    altText: 'Corner Cafe Interior — free printable coffee shop scenes coloring page with cafe theme',
+    createdAt: "2026-06-23",
+  },
+  {
+    id: "latte-art-design",
+    slug: "latte-art-design",
+    title: 'Latte Art Design',
+    category: "coffee-shop-scenes",
+    description: 'A beautiful latte art design coloring page — warm cafe and coffee shop coloring pages. Free printable JPG download for kids and adults who love latte scenes.',
+    longDescription: 'Welcome to this charming Latte Art Design coloring page! This detailed illustration is part of our Coffee Shop Scenes collection, featuring warm cafe and coffee shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Hard",
+    imageUrl: "/images/coloring/23_Cute_mouse_moonlight_garden_co.jpg",
+    tags: ["latte", "art", "design"],
+    keywords: ["latte art design coloring page", "free printable latte coloring", "coffee shop scenes coloring pages", "latte art design JPG download", "latte coloring page free", "printable latte art design for kids"],
+    altText: 'Latte Art Design — free printable coffee shop scenes coloring page with latte theme',
+    createdAt: "2026-06-06",
+  },
+  {
+    id: "coffee-and-pastry-pair",
+    slug: "coffee-and-pastry-pair",
+    title: 'Coffee and Pastry Pair',
+    category: "coffee-shop-scenes",
+    description: 'A beautiful coffee and pastry pair coloring page — warm cafe and coffee shop coloring pages. Free printable JPG download for kids and adults who love barista scenes.',
+    longDescription: 'Welcome to this charming Coffee and Pastry Pair coloring page! This detailed illustration is part of our Coffee Shop Scenes collection, featuring warm cafe and coffee shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/12_Cute_rabbit_book_club_coloring.jpg",
+    tags: ["coffee", "and", "pastry", "pair"],
+    keywords: ["coffee and pastry pair coloring page", "free printable barista coloring", "coffee shop scenes coloring pages", "coffee and pastry pair JPG download", "barista coloring page free", "printable coffee and pastry pair for kids"],
+    altText: 'Coffee and Pastry Pair — free printable coffee shop scenes coloring page with barista theme',
+    createdAt: "2026-06-04",
+  },
+  {
+    id: "espresso-bar-scene",
+    slug: "espresso-bar-scene",
+    title: 'Espresso Bar Scene',
+    category: "coffee-shop-scenes",
+    description: 'A beautiful espresso bar scene coloring page — warm cafe and coffee shop coloring pages. Free printable JPG download for kids and adults who love espresso scenes.',
+    longDescription: 'Welcome to this charming Espresso Bar Scene coloring page! This detailed illustration is part of our Coffee Shop Scenes collection, featuring warm cafe and coffee shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/6_cat_sweet_shop.jpg",
+    tags: ["espresso", "bar", "scene"],
+    keywords: ["espresso bar scene coloring page", "free printable espresso coloring", "coffee shop scenes coloring pages", "espresso bar scene JPG download", "espresso coloring page free", "printable espresso bar scene for kids"],
+    altText: 'Espresso Bar Scene — free printable coffee shop scenes coloring page with espresso theme',
+    createdAt: "2026-06-02",
+  },
+  {
+    id: "fresh-bread-morning",
+    slug: "fresh-bread-morning",
+    title: 'Fresh Bread Morning',
+    category: "food-bakery",
+    description: 'A beautiful fresh bread morning coloring page — sweet bakery and pastry shop coloring pages. Free printable JPG download for kids and adults who love bakery scenes.',
+    longDescription: 'Welcome to this charming Fresh Bread Morning coloring page! This detailed illustration is part of our Bakery Coloring collection, featuring sweet bakery and pastry shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/33_Cute_mouse_fairy_cottage_color.jpg",
+    tags: ["fresh", "bread", "morning"],
+    keywords: ["fresh bread morning coloring page", "free printable bakery coloring", "bakery coloring coloring pages", "fresh bread morning JPG download", "bakery coloring page free", "printable fresh bread morning for kids"],
+    altText: 'Fresh Bread Morning — free printable bakery coloring coloring page with bakery theme',
+    createdAt: "2026-06-03",
+  },
+  {
+    id: "croissant-baking-day",
+    slug: "croissant-baking-day",
+    title: 'Croissant Baking Day',
+    category: "food-bakery",
+    description: 'A beautiful croissant baking day coloring page — sweet bakery and pastry shop coloring pages. Free printable JPG download for kids and adults who love bread scenes.',
+    longDescription: 'Welcome to this charming Croissant Baking Day coloring page! This detailed illustration is part of our Bakery Coloring collection, featuring sweet bakery and pastry shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/1_Cute_animal_fantasy_village_co.jpg",
+    tags: ["croissant", "baking", "day"],
+    keywords: ["croissant baking day coloring page", "free printable bread coloring", "bakery coloring coloring pages", "croissant baking day JPG download", "bread coloring page free", "printable croissant baking day for kids"],
+    altText: 'Croissant Baking Day — free printable bakery coloring coloring page with bread theme',
+    createdAt: "2026-06-01",
+  },
+  {
+    id: "cupcake-decorating-fun",
+    slug: "cupcake-decorating-fun",
+    title: 'Cupcake Decorating Fun',
+    category: "food-bakery",
+    description: 'A beautiful cupcake decorating fun coloring page — sweet bakery and pastry shop coloring pages. Free printable JPG download for kids and adults who love pastry scenes.',
+    longDescription: 'Welcome to this charming Cupcake Decorating Fun coloring page! This detailed illustration is part of our Bakery Coloring collection, featuring sweet bakery and pastry shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/7_cat_painting_flowers.jpg",
+    tags: ["cupcake", "decorating", "fun"],
+    keywords: ["cupcake decorating fun coloring page", "free printable pastry coloring", "bakery coloring coloring pages", "cupcake decorating fun JPG download", "pastry coloring page free", "printable cupcake decorating fun for kids"],
+    altText: 'Cupcake Decorating Fun — free printable bakery coloring coloring page with pastry theme',
+    createdAt: "2026-06-16",
+  },
+  {
+    id: "pie-cooling-on-windowsill",
+    slug: "pie-cooling-on-windowsill",
+    title: 'Pie Cooling on Windowsill',
+    category: "food-bakery",
+    description: 'A beautiful pie cooling on windowsill coloring page — sweet bakery and pastry shop coloring pages. Free printable JPG download for kids and adults who love cake scenes.',
+    longDescription: 'Welcome to this charming Pie Cooling on Windowsill coloring page! This detailed illustration is part of our Bakery Coloring collection, featuring sweet bakery and pastry shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/9_Cute_bear_camping_scene_colori.jpg",
+    tags: ["pie", "cooling", "windowsill"],
+    keywords: ["pie cooling on windowsill coloring page", "free printable cake coloring", "bakery coloring coloring pages", "pie cooling on windowsill JPG download", "cake coloring page free", "printable pie cooling on windowsill for kids"],
+    altText: 'Pie Cooling on Windowsill — free printable bakery coloring coloring page with cake theme',
+    createdAt: "2026-06-23",
+  },
+  {
+    id: "cookie-jar-collection",
+    slug: "cookie-jar-collection",
+    title: 'Cookie Jar Collection',
+    category: "food-bakery",
+    description: 'A beautiful cookie jar collection coloring page — sweet bakery and pastry shop coloring pages. Free printable JPG download for kids and adults who love baking scenes.',
+    longDescription: 'Welcome to this charming Cookie Jar Collection coloring page! This detailed illustration is part of our Bakery Coloring collection, featuring sweet bakery and pastry shop coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/31_Cute_duck_flower_shop_coloring.jpg",
+    tags: ["cookie", "jar", "collection"],
+    keywords: ["cookie jar collection coloring page", "free printable baking coloring", "bakery coloring coloring pages", "cookie jar collection JPG download", "baking coloring page free", "printable cookie jar collection for kids"],
+    altText: 'Cookie Jar Collection — free printable bakery coloring coloring page with baking theme',
+    createdAt: "2026-06-13",
+  },
+  {
+    id: "secondhand-bookshop",
+    slug: "secondhand-bookshop",
+    title: 'Secondhand Bookshop',
+    category: "bookstore-coloring",
+    description: 'A beautiful secondhand bookshop coloring page — magical bookshops and library coloring pages. Free printable JPG download for kids and adults who love bookshop scenes.',
+    longDescription: 'Welcome to this charming Secondhand Bookshop coloring page! This detailed illustration is part of our Bookstore Coloring collection, featuring magical bookshops and library coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/47_Cute_penguin_bakery_coloring_p.jpg",
+    tags: ["secondhand", "bookshop"],
+    keywords: ["secondhand bookshop coloring page", "free printable bookshop coloring", "bookstore coloring coloring pages", "secondhand bookshop JPG download", "bookshop coloring page free", "printable secondhand bookshop for kids"],
+    altText: 'Secondhand Bookshop — free printable bookstore coloring coloring page with bookshop theme',
+    createdAt: "2026-06-12",
+  },
+  {
+    id: "library-ladder-scene",
+    slug: "library-ladder-scene",
+    title: 'Library Ladder Scene',
+    category: "bookstore-coloring",
+    description: 'A beautiful library ladder scene coloring page — magical bookshops and library coloring pages. Free printable JPG download for kids and adults who love library scenes.',
+    longDescription: 'Welcome to this charming Library Ladder Scene coloring page! This detailed illustration is part of our Bookstore Coloring collection, featuring magical bookshops and library coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/2_Cute_squirrel_woodland_library.jpg",
+    tags: ["library", "ladder", "scene"],
+    keywords: ["library ladder scene coloring page", "free printable library coloring", "bookstore coloring coloring pages", "library ladder scene JPG download", "library coloring page free", "printable library ladder scene for kids"],
+    altText: 'Library Ladder Scene — free printable bookstore coloring coloring page with library theme',
+    createdAt: "2026-06-18",
+  },
+  {
+    id: "reading-by-candlelight",
+    slug: "reading-by-candlelight",
+    title: 'Reading by Candlelight',
+    category: "bookstore-coloring",
+    description: 'A beautiful reading by candlelight coloring page — magical bookshops and library coloring pages. Free printable JPG download for kids and adults who love bookshelf scenes.',
+    longDescription: 'Welcome to this charming Reading by Candlelight coloring page! This detailed illustration is part of our Bookstore Coloring collection, featuring magical bookshops and library coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.jpg",
+    tags: ["reading", "candlelight"],
+    keywords: ["reading by candlelight coloring page", "free printable bookshelf coloring", "bookstore coloring coloring pages", "reading by candlelight JPG download", "bookshelf coloring page free", "printable reading by candlelight for kids"],
+    altText: 'Reading by Candlelight — free printable bookstore coloring coloring page with bookshelf theme',
+    createdAt: "2026-06-12",
+  },
+  {
+    id: "bookshelf-organization",
+    slug: "bookshelf-organization",
+    title: 'Bookshelf Organization',
+    category: "bookstore-coloring",
+    description: 'A beautiful bookshelf organization coloring page — magical bookshops and library coloring pages. Free printable JPG download for kids and adults who love reading scenes.',
+    longDescription: 'Welcome to this charming Bookshelf Organization coloring page! This detailed illustration is part of our Bookstore Coloring collection, featuring magical bookshops and library coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/16_Cute_bear_apple_orchard_colori.jpg",
+    tags: ["bookshelf", "organization"],
+    keywords: ["bookshelf organization coloring page", "free printable reading coloring", "bookstore coloring coloring pages", "bookshelf organization JPG download", "reading coloring page free", "printable bookshelf organization for kids"],
+    altText: 'Bookshelf Organization — free printable bookstore coloring coloring page with reading theme',
+    createdAt: "2026-06-14",
+  },
+  {
+    id: "story-time-corner",
+    slug: "story-time-corner",
+    title: 'Story Time Corner',
+    category: "bookstore-coloring",
+    description: 'A beautiful story time corner coloring page — magical bookshops and library coloring pages. Free printable JPG download for kids and adults who love novel scenes.',
+    longDescription: 'Welcome to this charming Story Time Corner coloring page! This detailed illustration is part of our Bookstore Coloring collection, featuring magical bookshops and library coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/21_cat_library_inside_treehouse.jpg",
+    tags: ["story", "time", "corner"],
+    keywords: ["story time corner coloring page", "free printable novel coloring", "bookstore coloring coloring pages", "story time corner JPG download", "novel coloring page free", "printable story time corner for kids"],
+    altText: 'Story Time Corner — free printable bookstore coloring coloring page with novel theme',
+    createdAt: "2026-06-20",
+  },
+  {
+    id: "garden-tea-party",
+    slug: "garden-tea-party",
+    title: 'Garden Tea Party',
+    category: "tea-party-scenes",
+    description: 'A beautiful garden tea party coloring page — elegant tea party coloring pages with cute characters. Free printable JPG download for kids and adults who love tea party scenes.',
+    longDescription: 'Welcome to this charming Garden Tea Party coloring page! This detailed illustration is part of our Tea Party Scenes collection, featuring elegant tea party coloring pages with cute characters. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/30_Cute_hedgehog_garden_coloring_.jpg",
+    tags: ["garden", "tea", "party"],
+    keywords: ["garden tea party coloring page", "free printable tea party coloring", "tea party scenes coloring pages", "garden tea party JPG download", "tea party coloring page free", "printable garden tea party for kids"],
+    altText: 'Garden Tea Party — free printable tea party scenes coloring page with tea party theme',
+    createdAt: "2026-06-27",
+  },
+  {
+    id: "vintage-tea-set-display",
+    slug: "vintage-tea-set-display",
+    title: 'Vintage Tea Set Display',
+    category: "tea-party-scenes",
+    description: 'A beautiful vintage tea set display coloring page — elegant tea party coloring pages with cute characters. Free printable JPG download for kids and adults who love teapot scenes.',
+    longDescription: 'Welcome to this charming Vintage Tea Set Display coloring page! This detailed illustration is part of our Tea Party Scenes collection, featuring elegant tea party coloring pages with cute characters. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/58_Cute_fox_pancake_caf__coloring.jpg",
+    tags: ["vintage", "tea", "set", "display"],
+    keywords: ["vintage tea set display coloring page", "free printable teapot coloring", "tea party scenes coloring pages", "vintage tea set display JPG download", "teapot coloring page free", "printable vintage tea set display for kids"],
+    altText: 'Vintage Tea Set Display — free printable tea party scenes coloring page with teapot theme',
+    createdAt: "2026-06-08",
+  },
+  {
+    id: "afternoon-tea-tray",
+    slug: "afternoon-tea-tray",
+    title: 'Afternoon Tea Tray',
+    category: "tea-party-scenes",
+    description: 'A beautiful afternoon tea tray coloring page — elegant tea party coloring pages with cute characters. Free printable JPG download for kids and adults who love teacup scenes.',
+    longDescription: 'Welcome to this charming Afternoon Tea Tray coloring page! This detailed illustration is part of our Tea Party Scenes collection, featuring elegant tea party coloring pages with cute characters. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/9_Cute_bear_camping_scene_colori.jpg",
+    tags: ["afternoon", "tea", "tray"],
+    keywords: ["afternoon tea tray coloring page", "free printable teacup coloring", "tea party scenes coloring pages", "afternoon tea tray JPG download", "teacup coloring page free", "printable afternoon tea tray for kids"],
+    altText: 'Afternoon Tea Tray — free printable tea party scenes coloring page with teacup theme',
+    createdAt: "2026-06-13",
+  },
+  {
+    id: "tea-and-scones-spread",
+    slug: "tea-and-scones-spread",
+    title: 'Tea and Scones Spread',
+    category: "tea-party-scenes",
+    description: 'A beautiful tea and scones spread coloring page — elegant tea party coloring pages with cute characters. Free printable JPG download for kids and adults who love afternoon tea scenes.',
+    longDescription: 'Welcome to this charming Tea and Scones Spread coloring page! This detailed illustration is part of our Tea Party Scenes collection, featuring elegant tea party coloring pages with cute characters. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.jpg",
+    tags: ["tea", "and", "scones", "spread"],
+    keywords: ["tea and scones spread coloring page", "free printable afternoon tea coloring", "tea party scenes coloring pages", "tea and scones spread JPG download", "afternoon tea coloring page free", "printable tea and scones spread for kids"],
+    altText: 'Tea and Scones Spread — free printable tea party scenes coloring page with afternoon tea theme',
+    createdAt: "2026-06-26",
+  },
+  {
+    id: "tea-cup-collection",
+    slug: "tea-cup-collection",
+    title: 'Tea Cup Collection',
+    category: "tea-party-scenes",
+    description: 'A beautiful tea cup collection coloring page — elegant tea party coloring pages with cute characters. Free printable JPG download for kids and adults who love scones scenes.',
+    longDescription: 'Welcome to this charming Tea Cup Collection coloring page! This detailed illustration is part of our Tea Party Scenes collection, featuring elegant tea party coloring pages with cute characters. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/1_Cute_animal_village_coloring_p.jpg",
+    tags: ["tea", "cup", "collection"],
+    keywords: ["tea cup collection coloring page", "free printable scones coloring", "tea party scenes coloring pages", "tea cup collection JPG download", "scones coloring page free", "printable tea cup collection for kids"],
+    altText: 'Tea Cup Collection — free printable tea party scenes coloring page with scones theme',
+    createdAt: "2026-06-22",
+  },
+  {
+    id: "enchanted-forest-path",
+    slug: "enchanted-forest-path",
+    title: 'Enchanted Forest Path',
+    category: "fantasy-coloring",
+    description: 'A beautiful enchanted forest path coloring page — enchanted fantasy village coloring pages. Free printable JPG download for kids and adults who love fantasy scenes.',
+    longDescription: 'Welcome to this charming Enchanted Forest Path coloring page! This detailed illustration is part of our Fantasy Village collection, featuring enchanted fantasy village coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/53_Cute_duck_farmer_market_colori.jpg",
+    tags: ["enchanted", "forest", "path"],
+    keywords: ["enchanted forest path coloring page", "free printable fantasy coloring", "fantasy village coloring pages", "enchanted forest path JPG download", "fantasy coloring page free", "printable enchanted forest path for kids"],
+    altText: 'Enchanted Forest Path — free printable fantasy village coloring page with fantasy theme',
+    createdAt: "2026-06-21",
+  },
+  {
+    id: "fairy-door-discovery",
+    slug: "fairy-door-discovery",
+    title: 'Fairy Door Discovery',
+    category: "fantasy-coloring",
+    description: 'A beautiful fairy door discovery coloring page — enchanted fantasy village coloring pages. Free printable JPG download for kids and adults who love magical scenes.',
+    longDescription: 'Welcome to this charming Fairy Door Discovery coloring page! This detailed illustration is part of our Fantasy Village collection, featuring enchanted fantasy village coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/24_cat_knitting_by_fireplace.jpg",
+    tags: ["fairy", "door", "discovery"],
+    keywords: ["fairy door discovery coloring page", "free printable magical coloring", "fantasy village coloring pages", "fairy door discovery JPG download", "magical coloring page free", "printable fairy door discovery for kids"],
+    altText: 'Fairy Door Discovery — free printable fantasy village coloring page with magical theme',
+    createdAt: "2026-06-14",
+  },
+  {
+    id: "magic-potion-shelf",
+    slug: "magic-potion-shelf",
+    title: 'Magic Potion Shelf',
+    category: "fantasy-coloring",
+    description: 'A beautiful magic potion shelf coloring page — enchanted fantasy village coloring pages. Free printable JPG download for kids and adults who love enchanted scenes.',
+    longDescription: 'Welcome to this charming Magic Potion Shelf coloring page! This detailed illustration is part of our Fantasy Village collection, featuring enchanted fantasy village coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
     imageUrl: "/images/coloring/9_cat_camping_under_stars.jpg",
-    tags: ["cat", "camping", "under", "stars"],
-    keywords: ["cat camping under stars coloring page", "free printable cat camping under", "cat camping under stars coloring printable", "cozy coloring coloring pages free", "cute cat camping under JPG download"],
-    altText: 'Cat Camping Under Stars — free printable cozy coloring coloring page for kids and adults',
-    createdAt: "2026-06-10",
+    tags: ["magic", "potion", "shelf"],
+    keywords: ["magic potion shelf coloring page", "free printable enchanted coloring", "fantasy village coloring pages", "magic potion shelf JPG download", "enchanted coloring page free", "printable magic potion shelf for kids"],
+    altText: 'Magic Potion Shelf — free printable fantasy village coloring page with enchanted theme',
+    createdAt: "2026-06-21",
+  },
+  {
+    id: "dragon-perch-view",
+    slug: "dragon-perch-view",
+    title: 'Dragon Perch View',
+    category: "fantasy-coloring",
+    description: 'A beautiful dragon perch view coloring page — enchanted fantasy village coloring pages. Free printable JPG download for kids and adults who love fairy tale scenes.',
+    longDescription: 'Welcome to this charming Dragon Perch View coloring page! This detailed illustration is part of our Fantasy Village collection, featuring enchanted fantasy village coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/55_Cute_squirrel_jam_shop_colorin.jpg",
+    tags: ["dragon", "perch", "view"],
+    keywords: ["dragon perch view coloring page", "free printable fairy tale coloring", "fantasy village coloring pages", "dragon perch view JPG download", "fairy tale coloring page free", "printable dragon perch view for kids"],
+    altText: 'Dragon Perch View — free printable fantasy village coloring page with fairy tale theme',
+    createdAt: "2026-06-03",
+  },
+  {
+    id: "wizard-tower-study",
+    slug: "wizard-tower-study",
+    title: 'Wizard Tower Study',
+    category: "fantasy-coloring",
+    description: 'A beautiful wizard tower study coloring page — enchanted fantasy village coloring pages. Free printable JPG download for kids and adults who love castle scenes.',
+    longDescription: 'Welcome to this charming Wizard Tower Study coloring page! This detailed illustration is part of our Fantasy Village collection, featuring enchanted fantasy village coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/47_Cute_penguin_bakery_coloring_p.jpg",
+    tags: ["wizard", "tower", "study"],
+    keywords: ["wizard tower study coloring page", "free printable castle coloring", "fantasy village coloring pages", "wizard tower study JPG download", "castle coloring page free", "printable wizard tower study for kids"],
+    altText: 'Wizard Tower Study — free printable fantasy village coloring page with castle theme',
+    createdAt: "2026-06-16",
+  },
+  {
+    id: "window-seat-reading",
+    slug: "window-seat-reading",
+    title: 'Window Seat Reading',
+    category: "reading-coloring",
+    description: 'A beautiful window seat reading coloring page — cozy reading corner and book nook coloring pages. Free printable JPG download for kids and adults who love reading nook scenes.',
+    longDescription: 'Welcome to this charming Window Seat Reading coloring page! This detailed illustration is part of our Reading Nook collection, featuring cozy reading corner and book nook coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/40_Cute_fox_book_caf__coloring_pa.jpg",
+    tags: ["window", "seat", "reading"],
+    keywords: ["window seat reading coloring page", "free printable reading nook coloring", "reading nook coloring pages", "window seat reading JPG download", "reading nook coloring page free", "printable window seat reading for kids"],
+    altText: 'Window Seat Reading — free printable reading nook coloring page with reading nook theme',
+    createdAt: "2026-06-28",
+  },
+  {
+    id: "fireplace-reading-spot",
+    slug: "fireplace-reading-spot",
+    title: 'Fireplace Reading Spot',
+    category: "reading-coloring",
+    description: 'A beautiful fireplace reading spot coloring page — cozy reading corner and book nook coloring pages. Free printable JPG download for kids and adults who love armchair scenes.',
+    longDescription: 'Welcome to this charming Fireplace Reading Spot coloring page! This detailed illustration is part of our Reading Nook collection, featuring cozy reading corner and book nook coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Hard",
+    imageUrl: "/images/coloring/6_Cute_mouse_cheese_shop_colorin.jpg",
+    tags: ["fireplace", "reading", "spot"],
+    keywords: ["fireplace reading spot coloring page", "free printable armchair coloring", "reading nook coloring pages", "fireplace reading spot JPG download", "armchair coloring page free", "printable fireplace reading spot for kids"],
+    altText: 'Fireplace Reading Spot — free printable reading nook coloring page with armchair theme',
+    createdAt: "2026-06-07",
+  },
+  {
+    id: "blanket-fort-reading",
+    slug: "blanket-fort-reading",
+    title: 'Blanket Fort Reading',
+    category: "reading-coloring",
+    description: 'A beautiful blanket fort reading coloring page — cozy reading corner and book nook coloring pages. Free printable JPG download for kids and adults who love blanket scenes.',
+    longDescription: 'Welcome to this charming Blanket Fort Reading coloring page! This detailed illustration is part of our Reading Nook collection, featuring cozy reading corner and book nook coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Hard",
+    imageUrl: "/images/coloring/27_Cute_squirrel_acorn_caf__color.jpg",
+    tags: ["blanket", "fort", "reading"],
+    keywords: ["blanket fort reading coloring page", "free printable blanket coloring", "reading nook coloring pages", "blanket fort reading JPG download", "blanket coloring page free", "printable blanket fort reading for kids"],
+    altText: 'Blanket Fort Reading — free printable reading nook coloring page with blanket theme',
+    createdAt: "2026-06-04",
+  },
+  {
+    id: "hammock-reading-nook",
+    slug: "hammock-reading-nook",
+    title: 'Hammock Reading Nook',
+    category: "reading-coloring",
+    description: 'A beautiful hammock reading nook coloring page — cozy reading corner and book nook coloring pages. Free printable JPG download for kids and adults who love fireplace scenes.',
+    longDescription: 'Welcome to this charming Hammock Reading Nook coloring page! This detailed illustration is part of our Reading Nook collection, featuring cozy reading corner and book nook coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/28_Cute_bear_reading_nook_colorin.jpg",
+    tags: ["hammock", "reading", "nook"],
+    keywords: ["hammock reading nook coloring page", "free printable fireplace coloring", "reading nook coloring pages", "hammock reading nook JPG download", "fireplace coloring page free", "printable hammock reading nook for kids"],
+    altText: 'Hammock Reading Nook — free printable reading nook coloring page with fireplace theme',
+    createdAt: "2026-06-23",
+  },
+  {
+    id: "bedtime-story-scene",
+    slug: "bedtime-story-scene",
+    title: 'Bedtime Story Scene',
+    category: "reading-coloring",
+    description: 'A beautiful bedtime story scene coloring page — cozy reading corner and book nook coloring pages. Free printable JPG download for kids and adults who love lamplight scenes.',
+    longDescription: 'Welcome to this charming Bedtime Story Scene coloring page! This detailed illustration is part of our Reading Nook collection, featuring cozy reading corner and book nook coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Hard",
+    imageUrl: "/images/coloring/34_Cute_penguin_winter_wonderland.jpg",
+    tags: ["bedtime", "story", "scene"],
+    keywords: ["bedtime story scene coloring page", "free printable lamplight coloring", "reading nook coloring pages", "bedtime story scene JPG download", "lamplight coloring page free", "printable bedtime story scene for kids"],
+    altText: 'Bedtime Story Scene — free printable reading nook coloring page with lamplight theme',
+    createdAt: "2026-06-12",
+  },
+  {
+    id: "butterfly-garden-path",
+    slug: "butterfly-garden-path",
+    title: 'Butterfly Garden Path',
+    category: "garden-coloring",
+    description: 'A beautiful butterfly garden path coloring page — garden animals and flower garden coloring pages. Free printable JPG download for kids and adults who love garden scenes.',
+    longDescription: 'Welcome to this charming Butterfly Garden Path coloring page! This detailed illustration is part of our Garden Animals collection, featuring garden animals and flower garden coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/21_Cute_hamster_candy_house_color.jpg",
+    tags: ["butterfly", "garden", "path"],
+    keywords: ["butterfly garden path coloring page", "free printable garden coloring", "garden animals coloring pages", "butterfly garden path JPG download", "garden coloring page free", "printable butterfly garden path for kids"],
+    altText: 'Butterfly Garden Path — free printable garden animals coloring page with garden theme',
+    createdAt: "2026-06-15",
+  },
+  {
+    id: "sunflower-field-walk",
+    slug: "sunflower-field-walk",
+    title: 'Sunflower Field Walk',
+    category: "garden-coloring",
+    description: 'A beautiful sunflower field walk coloring page — garden animals and flower garden coloring pages. Free printable JPG download for kids and adults who love flowers scenes.',
+    longDescription: 'Welcome to this charming Sunflower Field Walk coloring page! This detailed illustration is part of our Garden Animals collection, featuring garden animals and flower garden coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Hard",
+    imageUrl: "/images/coloring/36_Cute_hamster_bookstore_colorin.jpg",
+    tags: ["sunflower", "field", "walk"],
+    keywords: ["sunflower field walk coloring page", "free printable flowers coloring", "garden animals coloring pages", "sunflower field walk JPG download", "flowers coloring page free", "printable sunflower field walk for kids"],
+    altText: 'Sunflower Field Walk — free printable garden animals coloring page with flowers theme',
+    createdAt: "2026-06-18",
+  },
+  {
+    id: "herb-garden-kitchen",
+    slug: "herb-garden-kitchen",
+    title: 'Herb Garden Kitchen',
+    category: "garden-coloring",
+    description: 'A beautiful herb garden kitchen coloring page — garden animals and flower garden coloring pages. Free printable JPG download for kids and adults who love butterfly scenes.',
+    longDescription: 'Welcome to this charming Herb Garden Kitchen coloring page! This detailed illustration is part of our Garden Animals collection, featuring garden animals and flower garden coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Medium",
+    imageUrl: "/images/coloring/1_Cute_animal_village_coloring_p.jpg",
+    tags: ["herb", "garden", "kitchen"],
+    keywords: ["herb garden kitchen coloring page", "free printable butterfly coloring", "garden animals coloring pages", "herb garden kitchen JPG download", "butterfly coloring page free", "printable herb garden kitchen for kids"],
+    altText: 'Herb Garden Kitchen — free printable garden animals coloring page with butterfly theme',
+    createdAt: "2026-06-14",
+  },
+  {
+    id: "rose-trellis-arch",
+    slug: "rose-trellis-arch",
+    title: 'Rose Trellis Arch',
+    category: "garden-coloring",
+    description: 'A beautiful rose trellis arch coloring page — garden animals and flower garden coloring pages. Free printable JPG download for kids and adults who love bloom scenes.',
+    longDescription: 'Welcome to this charming Rose Trellis Arch coloring page! This detailed illustration is part of our Garden Animals collection, featuring garden animals and flower garden coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/14_Cute_mouse_sewing_room_colorin.jpg",
+    tags: ["rose", "trellis", "arch"],
+    keywords: ["rose trellis arch coloring page", "free printable bloom coloring", "garden animals coloring pages", "rose trellis arch JPG download", "bloom coloring page free", "printable rose trellis arch for kids"],
+    altText: 'Rose Trellis Arch — free printable garden animals coloring page with bloom theme',
+    createdAt: "2026-06-04",
+  },
+  {
+    id: "wildflower-meadow",
+    slug: "wildflower-meadow",
+    title: 'Wildflower Meadow',
+    category: "garden-coloring",
+    description: 'A beautiful wildflower meadow coloring page — garden animals and flower garden coloring pages. Free printable JPG download for kids and adults who love greenhouse scenes.',
+    longDescription: 'Welcome to this charming Wildflower Meadow coloring page! This detailed illustration is part of our Garden Animals collection, featuring garden animals and flower garden coloring pages. The design has clear, bold outlines that work wonderfully with crayons, colored pencils, markers, or gel pens. Each element is carefully drawn to create a satisfying coloring experience — from the smallest details to the largest shapes. Download the free JPG, print as many copies as you want, and bring this beautiful scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for children and adults alike.',
+    difficulty: "Easy",
+    imageUrl: "/images/coloring/3_Cute_fox_stargazing_camp_color.jpg",
+    tags: ["wildflower", "meadow"],
+    keywords: ["wildflower meadow coloring page", "free printable greenhouse coloring", "garden animals coloring pages", "wildflower meadow JPG download", "greenhouse coloring page free", "printable wildflower meadow for kids"],
+    altText: 'Wildflower Meadow — free printable garden animals coloring page with greenhouse theme',
+    createdAt: "2026-06-15",
   },
 ];
