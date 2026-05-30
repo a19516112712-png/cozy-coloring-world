@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
+import { blogPosts } from "@/data/blogPosts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://tinyanimalworlds.com";
@@ -8,71 +9,54 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Static routes
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: now, changeFrequency: "daily", priority: 1 },
+    { url: baseUrl, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     { url: `${baseUrl}/categories`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${baseUrl}/coloring-pages`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
+    { url: `${baseUrl}/coloring-pages`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
-    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
   ];
 
-  // Category routes — /category/[slug]
+  // Category routes – /category/[slug]  priority 0.9, weekly
   const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${baseUrl}/category/${cat.slug}`,
     lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
+    changeFrequency: "weekly",
+    priority: 0.9,
   }));
 
-  // Legacy category routes — /categories/[slug]
+  // Legacy category routes – /categories/[slug]  priority 0.5, monthly
   const legacyCategoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${baseUrl}/categories/${cat.slug}`,
     lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority: 0.6,
-  }));
-
-  // Coloring page detail routes — /coloring/[slug]
-  const coloringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
-    url: `${baseUrl}/coloring/${page.slug}`,
-    lastModified: new Date(page.createdAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-
-  // Legacy coloring page routes — /coloring-pages/[slug]
-  const legacyColoringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
-    url: `${baseUrl}/coloring-pages/${page.slug}`,
-    lastModified: new Date(page.createdAt),
-    changeFrequency: "monthly" as const,
+    changeFrequency: "monthly",
     priority: 0.5,
   }));
 
-  // Blog post routes
-  const blogRoutes: MetadataRoute.Sitemap = [
-    { url: `${baseUrl}/blog/tiny-animal-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cottagecore-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cozy-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cute-frog-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cute-bunny-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/coffee-shop-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/bakery-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/rainy-day-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/fantasy-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/free-printable-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cute-bear-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cute-cat-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/tea-party-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/garden-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/bookstore-coloring-pages-blog`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/kawaii-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/printable-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/coloring-pages-for-adults`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/relaxing-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/cute-animal-worlds`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/best-free-coloring-pages`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
-  ];
+  // Coloring page detail routes – /coloring/[slug]  priority 0.7, monthly
+  const coloringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
+    url: `${baseUrl}/coloring/${page.slug}`,
+    lastModified: new Date(page.createdAt || now),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  // Legacy coloring page routes – /coloring-pages/[slug]  priority 0.5, monthly
+  const legacyColoringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
+    url: `${baseUrl}/coloring-pages/${page.slug}`,
+    lastModified: new Date(page.createdAt || now),
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+
+  // Blog post routes – priority 0.8, weekly
+  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.date || now),
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
 
   return [
     ...staticRoutes,
