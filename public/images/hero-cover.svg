@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FFF8F0" rx="24"/>
+  <rect x="20" y="20" width="760" height="960" rx="16" fill="none" stroke="#FADADD" stroke-width="3" stroke-dasharray="12 6"/>
+  <!-- House -->
+  <rect x="250" y="420" width="300" height="240" rx="4" fill="none" stroke="#8B6B5E" stroke-width="3"/>
+  <polygon points="400,280 220,420 580,420" fill="none" stroke="#8B6B5E" stroke-width="3"/>
+  <rect x="350" y="520" width="100" height="140" rx="4" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <circle cx="415" cy="590" r="6" fill="none" stroke="#8B6B5E" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="290" y="460" width="70" height="70" rx="4" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <line x1="325" y1="460" x2="325" y2="530" stroke="#8B6B5E" stroke-width="2"/>
+  <line x1="290" y1="495" x2="360" y2="495" stroke="#8B6B5E" stroke-width="2"/>
+  <rect x="440" y="460" width="70" height="70" rx="4" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <line x1="475" y1="460" x2="475" y2="530" stroke="#8B6B5E" stroke-width="2"/>
+  <line x1="440" y1="495" x2="510" y2="495" stroke="#8B6B5E" stroke-width="2"/>
+  <!-- Chimney -->
+  <rect x="460" y="300" width="40" height="80" rx="2" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <!-- Smoke -->
+  <circle cx="480" cy="270" r="15" fill="none" stroke="#E8D5F5" stroke-width="2"/>
+  <circle cx="495" cy="240" r="12" fill="none" stroke="#E8D5F5" stroke-width="2"/>
+  <circle cx="485" cy="215" r="9" fill="none" stroke="#E8D5F5" stroke-width="1.5"/>
+  <!-- Trees -->
+  <polygon points="140,660 90,760 190,760" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <polygon points="140,580 100,680 180,680" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <polygon points="660,660 610,760 710,760" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <polygon points="660,580 620,680 700,680" fill="none" stroke="#8B6B5E" stroke-width="2.5"/>
+  <!-- Flowers -->
+  <circle cx="200" cy="740" r="12" fill="none" stroke="#FFB5C2" stroke-width="2"/>
+  <circle cx="200" cy="740" r="4" fill="none" stroke="#F0C878" stroke-width="1.5"/>
+  <circle cx="600" cy="720" r="10" fill="none" stroke="#E8D5F5" stroke-width="2"/>
+  <circle cx="600" cy="720" r="3.5" fill="none" stroke="#F0C878" stroke-width="1.5"/>
+  <circle cx="350" cy="780" r="11" fill="none" stroke="#FFB5C2" stroke-width="2"/>
+  <circle cx="350" cy="780" r="3.5" fill="none" stroke="#F0C878" stroke-width="1.5"/>
+  <!-- Path -->
+  <path d="M400 660 Q370 720 380 800 Q390 880 400 960" fill="none" stroke="#8B6B5E" stroke-width="2" stroke-dasharray="6 4" opacity="0.5"/>
+  <!-- Grass -->
+  <path d="M40 780 Q80 760 120 780" fill="none" stroke="#D4F0E8" stroke-width="2"/>
+  <path d="M680 760 Q720 740 760 760" fill="none" stroke="#D4F0E8" stroke-width="2"/>
+  <!-- Banner -->
+  <text x="400" y="180" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#8B6B5E" font-weight="bold">Cozy Coloring</text>
+  <text x="400" y="220" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#FFB5C2">World</text>
+</svg>
