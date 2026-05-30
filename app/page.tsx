@@ -3,7 +3,6 @@ import CategoryCard from "@/components/CategoryCard";
 import ColoringCard from "@/components/ColoringCard";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
-import AmazonBookPromo from "@/components/AmazonBookPromo";
 import Link from "next/link";
 import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
@@ -141,7 +140,6 @@ export default function HomePage() {
 
       {/* Amazon Book Promo */}
       <div className="page-container py-6">
-        <AmazonBookPromo />
       </div>
 
       {/* SEO Content + FAQ */}
