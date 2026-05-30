@@ -58,7 +58,7 @@ export default function HomePage() {
             Browse our cozy collections — cute animals, kawaii, fantasy, and more
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
           {categories.map((category) => (
             <CategoryCard key={category.id} category={category} />
           ))}
