@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -67,12 +68,14 @@ export default async function ColoringPageDetail({ params }: Props) {
         <div className="lg:col-span-3">
           {/* Image Preview */}
           <div className="relative aspect-[4/3] bg-cream rounded-cozy border border-blush/20 overflow-hidden mb-6">
-  <img
-    src={page.imageUrl}
-    alt={page.altText}
-    className="w-full h-full object-contain"
-  />
-</div>
+            <Image
+              src={page.imageUrl}
+              alt={page.altText}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 60vw"
+            />
+          </div>
 
           <div className="flex flex-wrap items-center gap-3 mb-6">
             <span className={`text-sm font-medium px-3 py-1 rounded-pill ${difficultyColors[page.difficulty]}`}>

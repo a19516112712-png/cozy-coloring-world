@@ -18,7 +18,7 @@ export const categories: Category[] = [
     color: "#FADADD",
     emoji: "🐱",
     imageUrl: "/images/categories/cute-animals.svg",
-    count: 8,
+    count: 12,
   },
   {
     id: "cozy-coloring",
@@ -28,7 +28,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🏡",
     imageUrl: "/images/categories/cozy-coloring.svg",
-    count: 6,
+    count: 27,
   },
   {
     id: "kawaii-coloring",
@@ -38,7 +38,7 @@ export const categories: Category[] = [
     color: "#FFB5C2",
     emoji: "🌸",
     imageUrl: "/images/categories/kawaii-coloring.svg",
-    count: 5,
+    count: 0,
   },
   {
     id: "fantasy",
@@ -48,7 +48,7 @@ export const categories: Category[] = [
     color: "#E8D5F5",
     emoji: "🦄",
     imageUrl: "/images/categories/fantasy.svg",
-    count: 4,
+    count: 1,
   },
   {
     id: "kids-coloring",
@@ -58,6 +58,6 @@ export const categories: Category[] = [
     color: "#D4F0E8",
     emoji: "🎨",
     imageUrl: "/images/categories/kids-coloring.svg",
-    count: 6,
+    count: 0,
   },
 ];
