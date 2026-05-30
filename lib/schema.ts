@@ -33,7 +33,7 @@ export function generateImageSchema(
     description: description,
     width: width,
     height: height,
-    license: "https://cozy-coloring-world.vercel.app/terms",
+    license: "https://tinyanimalworlds.com/terms",
   };
 }
 

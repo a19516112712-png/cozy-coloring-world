@@ -6,7 +6,7 @@ interface PinterestSaveButtonProps {
 }
 
 export default function PinterestSaveButton({ imageUrl, description }: PinterestSaveButtonProps) {
-  const baseUrl = "https://cozy-coloring-world.vercel.app";
+  const baseUrl = "https://tinyanimalworlds.com";
 
   const handleSave = () => {
     const url = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(baseUrl)}&media=${encodeURIComponent(baseUrl + imageUrl)}&description=${encodeURIComponent(description)}`;

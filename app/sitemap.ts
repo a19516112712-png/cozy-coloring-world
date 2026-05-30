@@ -3,7 +3,7 @@ import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://cozy-coloring-world.vercel.app";
+  const baseUrl = "https://tinyanimalworlds.com";
   const now = new Date();
 
   // Static routes

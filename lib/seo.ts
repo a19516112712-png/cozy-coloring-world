@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const siteUrl = "https://cozy-coloring-world.vercel.app";
+const siteUrl = "https://tinyanimalworlds.com";
 const siteName = "Cozy Coloring World";
 const siteDescription =
   "Download free cute printable coloring pages for kids and adults. Cozy, kawaii, and cottagecore designs. New coloring pages added weekly! Free PDF downloads.";
