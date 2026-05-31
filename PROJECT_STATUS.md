@@ -1,6 +1,6 @@
 # PROJECT STATUS
 
-> **Last Updated**: 2026-05-31 19:00 CST
+> **Last Updated**: 2026-05-31 22:58 CST
 
 ## Overview
 
@@ -8,13 +8,13 @@
 |-------|-------|
 | **Domain** | [tinyanimalworlds.com](https://tinyanimalworlds.com) |
 | **Coloring Pages** | 518 |
-| **Blog Posts** | 41 |
+| **Blog Posts** | 46 |
 | **Categories** | 15 |
 | **Pinterest Pins** | 100 |
-| **Sitemap URLs** | Dynamic (518 pages + 41 blogs + 15 categories + static pages) |
+| **Sitemap URLs** | Dynamic (518 pages + 46 blogs + 15 categories + static pages) |
 | **Build Status** | ✅ Built |
 | **Git Branch** | `main` |
-| **Latest Commit** | content update: enforce newest-first sort across all coloring page lists |
+| **Latest Commit** | content update: add 5 new SEO blog posts |
 
 ## Pinterest Schedule Progress
 
@@ -36,7 +36,6 @@
 
 | Field | Value |
 |-------|-------|
-| **最近新增页面** | 50 (tiny animal vehicles) |
-| **最近新增博客** | 0 |
+| **最近新增页面** | 0 |
+| **最近新增博客** | 5 (vehicles, hamster/mouse, shops, duck/otter, bedroom/reading) |
 | **最近新增Pinterest Pins** | Day10 (10 pins) |
-| **最近代码变更** | 排序规则修复 — 所有页面列表按 createdAt 降序排列 |
