@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -35,6 +36,7 @@ export default function TermsPage() {
           Cozy Coloring World is not liable for any damages arising from the use of this website.
         </p>
       </div>
+      <LegalNav current="/terms" />
     </div>
   );
 }

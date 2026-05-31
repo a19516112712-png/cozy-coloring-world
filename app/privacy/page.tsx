@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -42,6 +43,7 @@ export default function PrivacyPage() {
           hello@tinyanimalworlds.com.
         </p>
       </div>
+      <LegalNav current="/privacy" />
     </div>
   );
 }

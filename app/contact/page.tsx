@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -30,6 +31,7 @@ export default function ContactPage() {
           </p>
         </div>
       </div>
+      <LegalNav current="/contact" />
     </div>
   );
 }
