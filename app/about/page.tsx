@@ -174,6 +174,7 @@ export default function AboutPage() {
               Back to Home
             </Link>
           </div>
+          <LegalNav current="/about" />
         </div>
       </div>
     </>
