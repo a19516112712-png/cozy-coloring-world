@@ -1,4 +1,5 @@
 import { getAffiliateLink } from "@/lib/affiliate";
+import Image from "next/image";
 
 interface AmazonBookPromoProps {
   className?: string;
@@ -23,9 +24,11 @@ export default function AmazonBookPromo({ className = "", categoryId }: AmazonBo
           {/* Cover Image */}
           <div className="flex-shrink-0 w-[220px]">
             <div className="aspect-[3/4] rounded-xl overflow-hidden shadow-lg border border-pink/10">
-              <img
+              <Image
                 src="/images/kdp-cover.jpg"
                 alt="Cozy Coloring World — Premium Coloring Book on Amazon"
+                width={220}
+                height={294}
                 className="w-full h-full object-cover"
               />
             </div>
