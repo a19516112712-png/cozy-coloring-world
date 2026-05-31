@@ -380,4 +380,51 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
   },
 
-]
+
+  {
+    slug: "tiny-animal-vehicles-coloring-pages",
+    title: "Tiny Animal Vehicles & Transportation Coloring Pages: Free Printable JPG Downloads",
+    description: "Discover adorable tiny animal vehicles coloring pages! Cats driving bookmobiles, bears in RVs, foxes on motorcycles, squirrels in hot air balloons — 50+ free printable JPG downloads for kids and adults.",
+    date: "2026-05-31",
+    category: "Tiny Animal",
+    coverImage: "/images/coloring/24_Tiny_Bear_Driving_a_Cozy_RV.jpg",
+    readTime: "9 min read",
+  },
+  {
+    slug: "cute-hamster-mouse-coloring-pages",
+    title: "Cute Hamster & Mouse Coloring Pages: Free Printable JPG Downloads",
+    description: "Download free cute hamster and mouse coloring pages! Adorable hamsters baking cupcakes, mice running cheese shops, and cozy rodent scenes. High-quality printable JPG downloads for all ages.",
+    date: "2026-05-31",
+    category: "Tiny Animal",
+    coverImage: "/images/coloring/29_Tiny_Hamster_Baking_Cupcakes_i.jpg",
+    readTime: "8 min read",
+  },
+  {
+    slug: "tiny-animal-shops-coloring-pages",
+    title: "Tiny Animal Shops & Marketplaces Coloring Pages: Free JPG Downloads",
+    description: "Explore adorable tiny animal shops coloring pages! Fox bakeries, rabbit flower shops, squirrel bookstores, otter tea houses — 50+ free printable JPG downloads of animals running charming businesses.",
+    date: "2026-05-31",
+    category: "Tiny Animal",
+    coverImage: "/images/coloring/5_Tiny_Fox_Running_a_Forest_Bake.jpg",
+    readTime: "9 min read",
+  },
+
+  {
+    slug: "duck-otter-raccoon-coloring-pages",
+    title: "Cute Duck, Otter & Raccoon Coloring Pages: Free Printable JPG Downloads",
+    description: "Download free cute duck, otter, and raccoon coloring pages! Otters at tea houses, ducks selling bread, raccoons in vintage shops — 30+ free printable JPG downloads featuring charming water and woodland animals.",
+    date: "2026-05-31",
+    category: "Tiny Animal",
+    coverImage: "/images/coloring/1_Tiny_Otter_Hosting_a_Riverside.jpg",
+    readTime: "8 min read",
+  },
+  {
+    slug: "cozy-bedroom-reading-nook-coloring-pages",
+    title: "Cozy Bedroom & Reading Nook Coloring Pages: Free JPG Downloads",
+    description: "Relax with cozy bedroom and reading nook coloring pages! Warm blankets, soft pillows, bookshelves, fireplaces, and rainy windows. Free printable JPG downloads for stress relief and creative comfort.",
+    date: "2026-05-31",
+    category: "Cozy",
+    coverImage: "/images/coloring/40_cozy_rainy_day_reading_nook__l.jpg",
+    readTime: "9 min read",
+  },
+];
