@@ -6,7 +6,7 @@ import BlogCardImage from "@/components/BlogCardImage";
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = generatePageMetadata({
   title: "Coloring Blog | Tips, Ideas & Inspiration | Tiny Animal Worlds",
-  description: "Explore our coloring blog with 21 articles on cute coloring pages, cozy coloring ideas, printable downloads, and creative inspiration for kids and adults!",
+  description: "Explore our coloring blog with 41 articles on cute coloring pages, cozy coloring ideas, printable downloads, and creative inspiration for kids and adults!",
   path: "/blog",
 });
 
