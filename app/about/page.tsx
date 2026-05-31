@@ -142,6 +142,16 @@ export default function AboutPage() {
             </a>
           </section>
 
+          {/* Affiliate Disclosure */}
+          <section className="mb-10 p-6 bg-cream/50 rounded-xl">
+            <h2 className="text-lg font-bold text-cocoa mb-3">Amazon Affiliate Disclosure</h2>
+            <p className="text-sm text-cocoa/60 leading-relaxed">
+              Cozy Coloring World is a participant in the Amazon Services LLC Associates Program,
+              an affiliate advertising program designed to provide a means for sites to earn advertising
+              fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from
+              qualifying purchases at no additional cost to you.
+            </p>
+          </section>
           {/* Back to Home */}
           <div className="text-center pt-6 border-t border-blush/20">
             <Link
@@ -151,6 +161,16 @@ export default function AboutPage() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
               </svg>
+          {/* Affiliate Disclosure */}
+          <section className="mb-10 p-6 bg-cream/50 rounded-xl">
+            <h2 className="text-lg font-bold text-cocoa mb-3">Amazon Affiliate Disclosure</h2>
+            <p className="text-sm text-cocoa/60 leading-relaxed">
+              Cozy Coloring World is a participant in the Amazon Services LLC Associates Program,
+              an affiliate advertising program designed to provide a means for sites to earn advertising
+              fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from
+              qualifying purchases at no additional cost to you.
+            </p>
+          </section>
               Back to Home
             </Link>
           </div>

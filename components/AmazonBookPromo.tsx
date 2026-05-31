@@ -1,5 +1,8 @@
+import { getAffiliateLink } from "@/lib/affiliate";
+
 interface AmazonBookPromoProps {
   className?: string;
+  categoryId?: string;
 }
 
 const FEATURES = [
@@ -10,7 +13,9 @@ const FEATURES = [
   "Beginner friendly",
 ];
 
-export default function AmazonBookPromo({ className = "" }: AmazonBookPromoProps) {
+export default function AmazonBookPromo({ className = "", categoryId }: AmazonBookPromoProps) {
+  const link = getAffiliateLink(categoryId || "");
+
   return (
     <div className={`mx-auto max-w-[1100px] ${className}`}>
       <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-peach/20 via-cream to-lavender/20 border border-pink/20 p-6 sm:p-10">
@@ -53,9 +58,9 @@ export default function AmazonBookPromo({ className = "" }: AmazonBookPromoProps
 
             {/* CTA */}
             <a
-              href="https://www.amazon.com/dp/B0F1234567?tag=feng8789-20"
+              href={link}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="nofollow sponsored"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-white text-base font-semibold transition-all hover:opacity-90 hover:-translate-y-0.5 shadow-md"
               style={{ backgroundColor: "#C97B63" }}
             >

@@ -209,7 +209,7 @@ export default async function ColoringDetailPage({ params }: Props) {
             </div>
 
             {/* Amazon Book Promo */}
-            <AmazonBookPromo className="mb-10" />
+            <AmazonBookPromo className="mb-10" categoryId={page.category} />
 
             {/* Ad Banner in content */}
             <AdBanner slot="2222222222" className="mb-10" />

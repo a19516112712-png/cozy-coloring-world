@@ -63,6 +63,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-cream/10">
           <p className="text-center text-sm text-cream/40">
             &copy; {new Date().getFullYear()} Cozy Coloring World. All coloring pages are free for personal use. 🎨
+            <br /><span className="text-cocoa/30 text-xs">As an Amazon Associate, we earn from qualifying purchases.</span>
           </p>
         </div>
       </div>
