@@ -12,6 +12,7 @@ const footerLinks = {
     { href: "/categories/kawaii-coloring", label: "Kawaii Coloring" },
   ],
   Legal: [
+    { href: "/about", label: "About" },
     { href: "/privacy", label: "Privacy Policy" },
     { href: "/terms", label: "Terms of Use" },
     { href: "/contact", label: "Contact" },
