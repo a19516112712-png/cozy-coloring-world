@@ -32,7 +32,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = categories.find((c) => c.slug === slug);
   if (!category) notFound();
 
-  const pages = coloringPages.filter((p) => p.category === category.id);
+  const pages = coloringPages.filter((p) => p.category === category.id).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const totalPages = Math.ceil(pages.length / 12);
 
   return (

@@ -359,3 +359,60 @@ Unless explicitly requested:
 Assume all existing pages, blogs, Pinterest records, metadata, sitemap entries, and categories are already correct.
 
 Only process newly added content.
+
+---
+
+# NEW CONTENT PRIORITY RULES
+
+## Overview
+
+All new coloring pages (from the latest image upload batch) must always appear first across the entire website.
+
+## Applicable Pages
+
+- Homepage — "Latest Coloring Pages" section
+- `/coloring-pages` — All Coloring Pages listing
+- `/categories/[slug]` — Category pages
+- `/category/[slug]` — Category pages (alternate route)
+- `/coloring-pages/[slug]` — Individual page "Related Pages" sidebar
+- `/coloring/[slug]` — Individual page "More Pages" sidebar
+- Search Results (when implemented)
+
+## Sort Rules
+
+1. **Newest first** — most recently uploaded content appears at the top
+2. **`createdAt` descending** — sort by `createdAt` field, newest dates first
+3. **`publishDate` descending** — fallback sort when `createdAt` is unavailable
+
+All sorting uses:
+
+```ts
+.sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+```
+
+## Prohibited
+
+- ❌ New pages appearing at the end of lists
+- ❌ Alphabetical sorting overriding chronological order
+- ❌ Default array order (insertion order) when it places older content first
+
+## Homepage Specific
+
+- "Latest Coloring Pages" section (first 24 positions) must display newest uploads
+- At least 12 of the first 24 positions must come from the most recent upload batch
+- Homepage already uses `createdAt` descending sort ✅
+
+## Category Pages
+
+- Category pages (`/categories/[slug]` and `/category/[slug]`) must display newest content first
+- Filter by category, then sort by `createdAt` descending
+
+## Related Pages
+
+- Individual coloring page sidebars show related pages sorted newest first
+- Filter by same category (excluding current page), then sort by `createdAt` descending
+
+## Enforcement
+
+- Any new code that displays coloring page lists MUST apply `.sort((a, b) => b.createdAt.localeCompare(a.createdAt))` before rendering
+- Review all list-rendering components when adding new pages or features

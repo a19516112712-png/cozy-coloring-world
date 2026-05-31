@@ -42,6 +42,7 @@ export default async function ColoringPageDetail({ params }: Props) {
   const category = categories.find((c) => c.id === page.category);
   const relatedPages = coloringPages
     .filter((p) => p.category === page.category && p.id !== page.id)
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, 3);
 
   return (

@@ -72,6 +72,7 @@ export default async function ColoringDetailPage({ params }: Props) {
   // Related pages: same category, exclude current
   const relatedPages = coloringPages
     .filter((p) => p.category === page.category && p.id !== page.id)
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, 6);
 
   // Popular from other categories

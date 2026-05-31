@@ -30,7 +30,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = categories.find((c) => c.slug === slug);
   if (!category) notFound();
 
-  const pages = coloringPages.filter((p) => p.category === category.id);
+  const pages = coloringPages.filter((p) => p.category === category.id).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 
   return (
     <div className="page-container py-12 sm:py-16">
