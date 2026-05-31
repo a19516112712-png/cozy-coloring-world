@@ -8,13 +8,14 @@ Current Progress:
 
 * Day01 Uploaded
 * Day02 Uploaded
-* Day03 Pending
-* Day04 Pending
-* Day05 Pending
-* Day06 Pending
-* Day07 Pending
-* Day08 Pending
-* Day09 Pending
+* Day03 Uploaded
+* Day04 Uploaded
+* Day05 Uploaded
+* Day06 Uploaded
+* Day07 Uploaded
+* Day08 Uploaded
+* Day09 Uploaded
+* Day10 Uploaded
 
 ## Boards
 
@@ -60,7 +61,7 @@ Required Columns:
 
 ## Current Status
 
-Pins Generated: 90
+Pins Generated: 100
 
 Days Generated:
 
@@ -73,3 +74,4 @@ Days Generated:
 * Day07
 * Day08
 * Day09
+* Day10
