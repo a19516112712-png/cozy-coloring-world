@@ -53,7 +53,7 @@ export default function AmazonBookPromo({ className = "" }: AmazonBookPromoProps
 
             {/* CTA */}
             <a
-              href="https://www.amazon.com/dp/YOUR_BOOK_ASIN?tag=YOUR_ASSOCIATE_TAG"
+              href="https://www.amazon.com/dp/B0F1234567?tag=feng8789-20"
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-white text-base font-semibold transition-all hover:opacity-90 hover:-translate-y-0.5 shadow-md"
