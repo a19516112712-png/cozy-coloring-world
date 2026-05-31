@@ -1,6 +1,6 @@
 # PROJECT STATUS
 
-> **Last Updated**: 2026-05-31 18:56 CST
+> **Last Updated**: 2026-05-31 19:00 CST
 
 ## Overview
 
@@ -14,7 +14,7 @@
 | **Sitemap URLs** | Dynamic (518 pages + 41 blogs + 15 categories + static pages) |
 | **Build Status** | ✅ Built |
 | **Git Branch** | `main` |
-| **Latest Commit** | content update: add 50 new coloring pages (tiny animal vehicles) |
+| **Latest Commit** | content update: enforce newest-first sort across all coloring page lists |
 
 ## Pinterest Schedule Progress
 
@@ -39,3 +39,4 @@
 | **最近新增页面** | 50 (tiny animal vehicles) |
 | **最近新增博客** | 0 |
 | **最近新增Pinterest Pins** | Day10 (10 pins) |
+| **最近代码变更** | 排序规则修复 — 所有页面列表按 createdAt 降序排列 |
