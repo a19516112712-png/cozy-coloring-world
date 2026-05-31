@@ -36,7 +36,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/categories"
+              href="/coloring-pages"
               className="inline-flex items-center px-4 py-2 rounded-pill bg-rose text-white text-sm font-semibold hover:bg-rose/90 transition-all shadow-cozy hover:shadow-hover"
             >
               Start Coloring ✨
@@ -76,7 +76,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/categories"
+                href="/coloring-pages"
                 onClick={() => setMenuOpen(false)}
                 className="inline-flex items-center justify-center px-4 py-2 rounded-pill bg-rose text-white text-sm font-semibold hover:bg-rose/90 transition-all"
               >
