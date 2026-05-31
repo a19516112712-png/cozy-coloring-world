@@ -9,6 +9,7 @@ const links = [
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms of Use" },
+  { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
 ];
 
 export default function LegalNav({ current }: Props) {
