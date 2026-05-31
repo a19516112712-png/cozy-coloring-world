@@ -1,20 +1,20 @@
 # PROJECT STATUS
 
-> **Last Updated**: 2026-05-31 17:43 CST
+> **Last Updated**: 2026-05-31 18:56 CST
 
 ## Overview
 
 | Field | Value |
 |-------|-------|
 | **Domain** | [tinyanimalworlds.com](https://tinyanimalworlds.com) |
-| **Coloring Pages** | 468 |
+| **Coloring Pages** | 518 |
 | **Blog Posts** | 41 |
 | **Categories** | 15 |
 | **Pinterest Pins** | 100 |
-| **Sitemap URLs** | Dynamic (468 pages + 41 blogs + 15 categories + static pages) |
+| **Sitemap URLs** | Dynamic (518 pages + 41 blogs + 15 categories + static pages) |
 | **Build Status** | ✅ Built |
 | **Git Branch** | `main` |
-| **Latest Commit** | content update: add 50 new coloring pages (tiny animal series) |
+| **Latest Commit** | content update: add 50 new coloring pages (tiny animal vehicles) |
 
 ## Pinterest Schedule Progress
 
@@ -36,6 +36,6 @@
 
 | Field | Value |
 |-------|-------|
-| **最近新增页面** | 50 (tiny animal series) |
+| **最近新增页面** | 50 (tiny animal vehicles) |
 | **最近新增博客** | 0 |
 | **最近新增Pinterest Pins** | Day10 (10 pins) |
