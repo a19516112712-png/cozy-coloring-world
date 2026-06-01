@@ -19,6 +19,7 @@ Current Progress:
 * Day11 Uploaded
 * Day12 Uploaded
 * Day13 Uploaded
+* Day14 Uploaded
 
 ## Boards
 
@@ -94,6 +95,6 @@ Required Columns: Title, Media URL, Pinterest board, Description, Link
 
 ## Current Status
 
-Pins Generated: 110
+Pins Generated: 140
 
 Days Generated: Day01–Day11
