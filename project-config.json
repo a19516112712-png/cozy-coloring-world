@@ -1,0 +1,59 @@
+{
+  "project": {
+    "name": "cozy-coloring-world",
+    "domain": "https://tinyanimalworlds.com",
+    "repo": "a19516112712-png/cozy-coloring-world",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Static Generation"
+    ],
+    "monetization": [
+      "Google AdSense",
+      "Amazon Associates"
+    ]
+  },
+  "state": {
+    "pages": 1058,
+    "blogs": 66,
+    "pins": 130,
+    "pinterestDays": 13,
+    "build": "passing",
+    "lastUpdated": "2026-06-01T23:26:00+08:00"
+  },
+  "paths": {
+    "coloringPages": "data/coloring-pages.ts",
+    "categories": "data/categories.ts",
+    "blogPosts": "data/blogPosts.ts",
+    "usedPins": "data/pinterest-schedule/used_pins.json",
+    "pinterestCsv": "pinterest-final.csv",
+    "pinterestImages": "public/pinterest/",
+    "coloringImages": "public/images/coloring/",
+    "sitemap": "app/sitemap.ts",
+    "statusFile": "PROJECT_STATUS.md",
+    "rulesFile": "PROJECT_RULES.md",
+    "pinterestStrategy": "PINTEREST_STRATEGY.md"
+  },
+  "pinterest": {
+    "pinsPerDay": 10,
+    "boards": [
+      "Tiny Animal Worlds",
+      "Cute Animal Coloring Pages",
+      "Kawaii Coloring Pages",
+      "Cottagecore Coloring",
+      "Bakery Coloring Pages",
+      "Bookstore Coloring Pages",
+      "Garden Coloring Pages",
+      "Tea Party Coloring Pages",
+      "Cozy Coloring Pages",
+      "Rainy Day Coloring Pages"
+    ],
+    "daysCompleted": 13
+  },
+  "commands": {
+    "build": "npm run build",
+    "dev": "npm run dev",
+    "lint": "npm run lint"
+  }
+}
