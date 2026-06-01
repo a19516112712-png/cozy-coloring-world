@@ -42,13 +42,53 @@ Current Progress:
 * Use keyword-rich descriptions
 * Link directly to coloring page URL
 
+## Image URL Generation (Day12+)
+
+### Step 1: Write Images to Public Directory
+
+Before generating any CSV, copy selected images to:
+
+```
+public/pinterest/dayXX/slug.jpg
+```
+
+Example:
+```
+public/pinterest/day12/example-page.jpg
+```
+
+### Step 2: Generate CSV with Accessible URLs
+
+CSV Media URL field MUST use:
+
+```
+https://tinyanimalworlds.com/pinterest/dayXX/slug.jpg
+```
+
+Example:
+```
+https://tinyanimalworlds.com/pinterest/day12/example-page.jpg
+```
+
+### Step 3: Build and Deploy
+
+Run npm run build — Next.js includes all files in public/ as static assets.
+
+After deployment, the URL is directly accessible.
+
+### Verification
+
+Every Media URL in the CSV must correspond to a real file:
+
+public/pinterest/dayXX/slug.jpg must exist on disk before CSV generation.
+
 ## Tracking Files
 
 used_pins.json — Track all published Pinterest images.
 
 ## CSV Format
 
-Required Columns: title, media_url, pinterest_board, description, link
+Required Columns: Title, Media URL, Pinterest board, Description, Link
 
 ## Current Status
 
