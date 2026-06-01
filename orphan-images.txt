@@ -1,0 +1,8 @@
+Orphan Images Report
+Generated: 2026-05-31T15:22:03.112Z
+
+Total images:     519
+Referenced:       519
+Orphan (unused):  0
+
+No orphan images found.
