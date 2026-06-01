@@ -16,6 +16,7 @@ Current Progress:
 * Day08 Uploaded
 * Day09 Uploaded
 * Day10 Uploaded
+* Day11 Uploaded
 
 ## Boards
 
@@ -43,35 +44,14 @@ Current Progress:
 
 ## Tracking Files
 
-used_pins.json
-
-Purpose:
-
-Track all published Pinterest images.
+used_pins.json — Track all published Pinterest images.
 
 ## CSV Format
 
-Required Columns:
-
-* title
-* media_url
-* pinterest_board
-* description
-* link
+Required Columns: title, media_url, pinterest_board, description, link
 
 ## Current Status
 
-Pins Generated: 100
+Pins Generated: 110
 
-Days Generated:
-
-* Day01
-* Day02
-* Day03
-* Day04
-* Day05
-* Day06
-* Day07
-* Day08
-* Day09
-* Day10
+Days Generated: Day01–Day11
