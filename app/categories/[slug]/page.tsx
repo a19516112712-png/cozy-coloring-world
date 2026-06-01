@@ -30,7 +30,14 @@ export default async function CategoryPage({ params }: Props) {
   const category = categories.find((c) => c.slug === slug);
   if (!category) notFound();
 
-  const pages = coloringPages.filter((p) => p.category === category.id).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  const pages = (() => {
+  const indexMap = new Map(coloringPages.map((p, i) => [p.slug, i]));
+  return coloringPages.filter((p) => p.category === category.id).sort((a, b) => {
+    const dateCmp = b.createdAt.localeCompare(a.createdAt);
+    if (dateCmp !== 0) return dateCmp;
+    return (indexMap.get(b.slug) ?? 0) - (indexMap.get(a.slug) ?? 0);
+  });
+})();
 
   return (
     <div className="page-container py-12 sm:py-16">

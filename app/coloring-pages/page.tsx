@@ -25,7 +25,14 @@ export default function AllPagesPage() {
       </div>
 
       <div className="card-grid mb-8">
-        {[...coloringPages].sort((a, b) => b.createdAt.localeCompare(a.createdAt)).map((page) => (
+        {(() => {
+          const indexMap = new Map(coloringPages.map((p, i) => [p.slug, i]));
+          return [...coloringPages].sort((a, b) => {
+            const dateCmp = b.createdAt.localeCompare(a.createdAt);
+            if (dateCmp !== 0) return dateCmp;
+            return (indexMap.get(b.slug) ?? 0) - (indexMap.get(a.slug) ?? 0);
+          });
+        })().map((page) => (
           <ColoringCard key={page.id} page={page} />
         ))}
       </div>

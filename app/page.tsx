@@ -17,8 +17,14 @@ import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
 
 export default function HomePage() {
-  const latestPages = [...coloringPages]
-    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+  const latestPages = (() => {
+  const indexMap = new Map(coloringPages.map((p, i) => [p.slug, i]));
+  return [...coloringPages].sort((a, b) => {
+    const dateCmp = b.createdAt.localeCompare(a.createdAt);
+    if (dateCmp !== 0) return dateCmp;
+    return (indexMap.get(b.slug) ?? 0) - (indexMap.get(a.slug) ?? 0);
+  });
+})()
     .slice(0, 8);
   const popularPages = [...coloringPages]
     .sort(() => Math.random() - 0.5)
