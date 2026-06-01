@@ -17,6 +17,8 @@ Current Progress:
 * Day09 Uploaded
 * Day10 Uploaded
 * Day11 Uploaded
+* Day12 Uploaded
+* Day13 Uploaded
 
 ## Boards
 
