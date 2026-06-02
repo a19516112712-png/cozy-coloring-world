@@ -68,7 +68,7 @@ export const categories: Category[] = [
     color: "#FFE5D0",
     emoji: "🍂",
     imageUrl: "/images/coloring/35_Cute_bear_winter_cabin_colorin.jpg",
-    count: 140,
+    count: 170,
   },
   {
     id: "cozy-coloring",
@@ -98,7 +98,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "📚",
     imageUrl: "/images/coloring/36_Cute_hamster_bookstore_colorin.jpg",
-    count: 149,
+    count: 179,
   },
   {
     id: "cozy-coloring",
@@ -108,7 +108,7 @@ export const categories: Category[] = [
     color: "#D4F0E8",
     emoji: "🌷",
     imageUrl: "/images/coloring/35_Cute_cat_greenhouse_coloring_p.jpg",
-    count: 156,
+    count: 180,
   },
   {
     id: "cozy-coloring",
@@ -138,7 +138,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🏘️",
     imageUrl: "/images/coloring/27_Cute_squirrel_village_square_c.jpg",
-    count: 146,
+    count: 161,
   },
   {
     id: "cozy-coloring",
@@ -148,7 +148,7 @@ export const categories: Category[] = [
     color: "#E8D5F5",
     emoji: "📖",
     imageUrl: "/images/coloring/28_Cute_bear_reading_nook_colorin.jpg",
-    count: 141,
+    count: 156,
   },
   {
     id: "cozy-coloring",
