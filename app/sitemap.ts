@@ -3,6 +3,7 @@ import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
 import { blogPosts } from "@/data/blogPosts";
 
+// Build: 2026-06-03 v2 — 2591 URLs (1233+ coloring pages, 76 blogs, 15 categories)
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://tinyanimalworlds.com";
   const now = new Date();
