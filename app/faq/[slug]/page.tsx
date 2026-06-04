@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
+import { generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schema";
 import AdBanner from "@/components/AdBanner";
 import RelatedArticles from "@/components/RelatedArticles";
 import { faqPages } from "@/data/faqs";
@@ -23,15 +24,52 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
+const pageFAQs = [
+  {
+    question: "How do I download and print coloring pages?",
+    answer: "Simply click the download button on any coloring page to get your free high-quality JPG. Open the file and print on standard 8.5x11 letter paper or A4 size. For best results, use cardstock or thicker paper, especially if using markers or watercolors.",
+  },
+  {
+    question: "Are these coloring pages really free?",
+    answer: "Yes! All coloring pages on Tiny Animal Worlds are 100% free to download and print for personal use. No sign-up, no subscription, no hidden costs. You can print as many copies as you like.",
+  },
+  {
+    question: "What materials work best for coloring?",
+    answer: "Our coloring pages work great with colored pencils, crayons, gel pens, fine-tip markers, and watercolor paints. For wet media like markers and paints, use cardstock (80lb+) to prevent bleed-through.",
+  },
+  {
+    question: "Can I use these in my classroom?",
+    answer: "Absolutely! Teachers can print our coloring pages for classroom use. We design pages with clear, bold outlines that work great for young children learning to color.",
+  },
+];
+
 export default async function FaqPage({ params }: Props) {
   const { slug } = await params;
   const faq = faqPages.find((f) => f.slug === slug);
   if (!faq) notFound();
 
-  return (
+  const baseUrl = "https://tinyanimalworlds.com";
+
+  const faqSchema = generateFAQSchema(pageFAQs);
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: baseUrl },
+    { name: "Resources", url: `${baseUrl}/blog` },
+    { name: faq.title, url: `${baseUrl}/faq/${slug}` },
+  ]);
+
+  return (<>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+    />
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+    />
     <article className="page-container py-12 sm:py-16">
       <div className="max-w-3xl mx-auto">
-        <nav className="mb-6 text-sm">
+        <nav className="mb-6 text-sm" aria-label="Breadcrumb">
           <Link href="/" className="text-rose hover:underline">Home</Link>
           <span className="mx-2 text-cocoa/30">/</span>
           <Link href="/blog" className="text-rose hover:underline">Resources</Link>
@@ -82,5 +120,5 @@ export default async function FaqPage({ params }: Props) {
             </div>
           </section>
     </article>
-  );
+  </>);
 }

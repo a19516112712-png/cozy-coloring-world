@@ -20,6 +20,40 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="min-h-screen flex flex-col">
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Tiny Animal Worlds",
+              "url": "https://tinyanimalworlds.com",
+              "logo": "https://tinyanimalworlds.com/apple-touch-icon.png",
+              "sameAs": [
+                "https://www.pinterest.com/tinyanimalworlds"
+              ]
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Tiny Animal Worlds",
+              "url": "https://tinyanimalworlds.com",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://tinyanimalworlds.com/coloring-pages?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
+
+      
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -15,7 +16,45 @@ export default function BlogPost() {
   const title = "Free Printable Coloring Pages: 180+ Cute and Cozy Designs";
   const date = "2026-06-19";
 
-  return (
+  
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Free Printable Coloring Pages: 180+ Cute and Cozy Designs",
+  "description": "The complete guide to free printable coloring pages! Over 180 cute, cozy, and kawaii designs. All free JPG downloads.",
+  "url": "https://tinyanimalworlds.com/blog/free-printable-coloring-pages",
+  "datePublished": "2026-06-19",
+  "dateModified": "2026-06-19",
+  "author": {
+    "@type": "Organization",
+    "name": "Tiny Animal Worlds",
+    "url": "https://tinyanimalworlds.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tiny Animal Worlds",
+    "url": "https://tinyanimalworlds.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tinyanimalworlds.com/apple-touch-icon.png"
+    }
+  }
+};
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: "Home", url: "https://tinyanimalworlds.com" },
+  { name: "Blog", url: "https://tinyanimalworlds.com/blog" },
+  { name: "Free Printable Coloring Pages: 180+ Cute and Cozy Designs", url: "https://tinyanimalworlds.com/blog/free-printable-coloring-pages" }
+]);
+  return (<>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+    />
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+    />
     <article className="page-container py-12 sm:py-16">
       <div className="max-w-3xl mx-auto">
           
@@ -103,5 +142,5 @@ export default function BlogPost() {
           <Newsletter className="mb-12" />
       </div>
     </article>
-  );
+  </>);
 }

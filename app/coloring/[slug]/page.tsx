@@ -9,7 +9,7 @@ import AdBanner from "@/components/AdBanner";
 import AmazonBookPromo from "@/components/AmazonBookPromo";
 import RelatedArticles from "@/components/RelatedArticles";
 import { coloringPages } from "@/data/coloring-pages";
-import { generateFAQSchema, generateImageSchema } from "@/lib/schema";
+import { generateFAQSchema, generateImageSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import { categories } from "@/data/categories";
 
 interface Props {
@@ -104,6 +104,15 @@ export default async function ColoringDetailPage({ params }: Props) {
     .sort(() => Math.random() - 0.5)
     .slice(0, 4);
   const faqSchema = generateFAQSchema(pageFAQs);
+  const breadcrumbItems = [
+    { name: "Home", url: baseUrl },
+    { name: "Coloring Pages", url: `${baseUrl}/coloring-pages` },
+  ];
+  if (category) {
+    breadcrumbItems.push({ name: category.name, url: `${baseUrl}/categories/${category.slug}` });
+  }
+  breadcrumbItems.push({ name: page.title, url: `${baseUrl}/coloring/${page.slug}` });
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems);
   const imageSchema = generateImageSchema(
     `${baseUrl}${page.imageUrl}`,
     page.title,
@@ -113,6 +122,10 @@ export default async function ColoringDetailPage({ params }: Props) {
   return (
     <>
       {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

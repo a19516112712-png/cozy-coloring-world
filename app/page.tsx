@@ -33,7 +33,15 @@ export default function HomePage() {
     .sort(() => Math.random() - 0.5)
     .slice(0, 6);
 
-  return (
+  return (<>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Tiny Animal Worlds - Free Printable Coloring Pages",
+        "description": "Download 1340+ free printable coloring pages. Cute animals, cozy cottages, tea parties, gardens, and more!",
+        "url": "https://tinyanimalworlds.com"
+      }) }} />
     <>
       <Hero />
 
@@ -216,5 +224,5 @@ export default function HomePage() {
       {/* Newsletter */}
       <Newsletter />
     </>
-  );
+  </>);
 }

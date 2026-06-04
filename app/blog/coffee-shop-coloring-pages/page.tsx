@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -15,7 +16,45 @@ export default function BlogPost() {
   const title = "Coffee Shop Coloring Pages: Free Printable Cozy Cafe Scenes";
   const date = "2026-06-15";
 
-  return (
+  
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Coffee Shop Coloring Pages: Free Printable Cozy Cafe Scenes",
+  "description": "Warm up with our coffee shop coloring pages! Charming cafes, steaming lattes, and cozy corners.",
+  "url": "https://tinyanimalworlds.com/blog/coffee-shop-coloring-pages",
+  "datePublished": "2026-06-15",
+  "dateModified": "2026-06-15",
+  "author": {
+    "@type": "Organization",
+    "name": "Tiny Animal Worlds",
+    "url": "https://tinyanimalworlds.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tiny Animal Worlds",
+    "url": "https://tinyanimalworlds.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tinyanimalworlds.com/apple-touch-icon.png"
+    }
+  }
+};
+
+const breadcrumbSchema = generateBreadcrumbSchema([
+  { name: "Home", url: "https://tinyanimalworlds.com" },
+  { name: "Blog", url: "https://tinyanimalworlds.com/blog" },
+  { name: "Coffee Shop Coloring Pages: Free Printable Cozy Cafe Scenes", url: "https://tinyanimalworlds.com/blog/coffee-shop-coloring-pages" }
+]);
+  return (<>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+    />
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+    />
     <article className="page-container py-12 sm:py-16">
       <div className="max-w-3xl mx-auto">
           
@@ -103,5 +142,5 @@ export default function BlogPost() {
           <Newsletter className="mb-12" />
       </div>
     </article>
-  );
+  </>);
 }

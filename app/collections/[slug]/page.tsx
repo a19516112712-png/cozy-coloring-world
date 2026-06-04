@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import AdBanner from "@/components/AdBanner";
 import RelatedArticles from "@/components/RelatedArticles";
 import { collections } from "@/data/collections";
@@ -29,14 +30,47 @@ export default async function CollectionPage({ params }: Props) {
   const collection = collections.find((c) => c.slug === slug);
   if (!collection) notFound();
 
+  const baseUrl = "https://tinyanimalworlds.com";
+
   const matchingPages = coloringPages
     .filter((p) => p.slug.includes(collection.theme))
     .slice(0, 24);
 
-  return (
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": collection.title,
+    "description": collection.description,
+    "url": `${baseUrl}/collections/${slug}`,
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": matchingPages.map((p, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "url": `${baseUrl}/coloring/${p.slug}`,
+        "name": p.title,
+      })),
+    },
+  };
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: baseUrl },
+    { name: "Coloring Pages", url: `${baseUrl}/coloring-pages` },
+    { name: collection.title, url: `${baseUrl}/collections/${slug}` },
+  ]);
+
+  return (<>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+    />
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+    />
     <article className="page-container py-12 sm:py-16">
       <div className="max-w-3xl mx-auto">
-        <nav className="mb-6 text-sm">
+        <nav className="mb-6 text-sm" aria-label="Breadcrumb">
           <Link href="/" className="text-rose hover:underline">Home</Link>
           <span className="mx-2 text-cocoa/30">/</span>
           <Link href="/coloring-pages" className="text-rose hover:underline">Coloring Pages</Link>
@@ -86,5 +120,5 @@ export default async function CollectionPage({ params }: Props) {
             </div>
           </section>
     </article>
-  );
+  </>);
 }
