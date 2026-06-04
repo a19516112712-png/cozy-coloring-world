@@ -73,19 +73,30 @@ export default async function ColoringDetailPage({ params }: Props) {
   const animals = ["fox", "bunny", "rabbit", "deer", "hedgehog", "mouse", "cat", "bear", "frog", "hamster", "squirrel", "raccoon", "otter", "ferret", "mole", "chinchilla", "duck", "penguin", "owl", "panda", "dragon", "unicorn"];
   const pageAnimal = animals.find((a) => page.slug.includes(a));
 
-  // Same animal pages (at least 4)
+  // Same animal pages
   const sameAnimalPages = pageAnimal
     ? coloringPages
         .filter((p) => p.slug.includes(pageAnimal) && p.id !== page.id)
         .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-        .slice(0, 6)
+        .slice(0, 5)
     : [];
 
-  // Related pages: same category, exclude current
+  // Same category pages
   const relatedPages = coloringPages
     .filter((p) => p.category === page.category && p.id !== page.id)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-    .slice(0, 8);
+    .slice(0, 5);
+
+  // Related theme pages (based on keyword overlap in title)
+  const titleWords = page.title.toLowerCase().replace(/coloring page/gi, "").split(/\s+/).filter(w => w.length > 3);
+  const themePages = coloringPages
+    .filter((p) => {
+      if (p.id === page.id || p.category === page.category) return false;
+      if (sameAnimalPages.find(s => s.id === p.id)) return false;
+      return titleWords.some(w => p.title.toLowerCase().includes(w));
+    })
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .slice(0, 5);
 
   // Popular from other categories
   const popularPages = coloringPages
@@ -327,6 +338,31 @@ export default async function ColoringDetailPage({ params }: Props) {
                         </div>
                       </Link>
                     ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Related Theme Pages */}
+              {themePages.length > 0 && (
+                <div className="bg-white rounded-cozy border border-blush/20 p-6 shadow-card mb-6">
+                  <h3 className="font-semibold text-cocoa mb-4 flex items-center gap-2">
+                    <span>🎯</span> Related Theme Pages
+                  </h3>
+                  <div className="space-y-3">
+                    {themePages.map((tp) => {
+                      const tpCat = categories.find((c) => c.id === tp.category);
+                      return (
+                        <Link key={tp.id} href={`/coloring/${tp.slug}`} className="flex items-center gap-3 p-3 rounded-xl hover:bg-cream transition-colors group">
+                          <div className="w-12 h-12 rounded-xl bg-cream flex items-center justify-center text-xl flex-shrink-0 border border-blush/10">
+                            {tpCat?.emoji || "🎨"}
+                          </div>
+                          <div className="min-w-0">
+                            <p className="text-sm font-medium text-cocoa group-hover:text-rose transition-colors truncate">{tp.title}</p>
+                            <span className="text-xs text-cocoa/40">{tpCat?.name}</span>
+                          </div>
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               )}

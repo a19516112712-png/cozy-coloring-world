@@ -57,11 +57,34 @@ export default async function CollectionPage({ params }: Props) {
               </Link>
             ))}
           </div>
-          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Explore More</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-6">Browse our <Link href="/coloring-pages" className="text-rose hover:underline">complete collection of 1340+ coloring pages</Link> or <Link href="/categories" className="text-rose hover:underline">all categories</Link>.</p>
+          
         </div>
         <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2><RelatedArticles currentSlug={slug} type="article" count={3} title="Explore More" /></section>
       </div>
+    
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">Explore More</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <Link href="/collections" className="bg-white rounded-xl border border-blush/20 p-4 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl block mb-1">📚</span><span className="text-sm font-medium text-cocoa group-hover:text-rose">Collections</span>
+              </Link>
+              <Link href="/categories" className="bg-white rounded-xl border border-blush/20 p-4 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl block mb-1">🏷️</span><span className="text-sm font-medium text-cocoa group-hover:text-rose">Categories</span>
+              </Link>
+              <Link href="/blog" className="bg-white rounded-xl border border-blush/20 p-4 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl block mb-1">📝</span><span className="text-sm font-medium text-cocoa group-hover:text-rose">Blog</span>
+              </Link>
+              <Link href="/coloring-pages" className="bg-white rounded-xl border border-blush/20 p-4 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl block mb-1">🎨</span><span className="text-sm font-medium text-cocoa group-hover:text-rose">All Pages</span>
+              </Link>
+              <Link href="/faq/faq-what-paper-is-best-for-coloring-pages" className="bg-white rounded-xl border border-blush/20 p-4 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl block mb-1">❓</span><span className="text-sm font-medium text-cocoa group-hover:text-rose">FAQ</span>
+              </Link>
+              <Link href="/" className="bg-white rounded-xl border border-blush/20 p-4 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl block mb-1">🏠</span><span className="text-sm font-medium text-cocoa group-hover:text-rose">Home</span>
+              </Link>
+            </div>
+          </section>
     </article>
   );
 }
