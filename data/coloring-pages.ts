@@ -3818,11 +3818,11 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    id: "cute-frog-bakery",
+    id: "cute-frog-bakery-2",
 
 
 
-    slug: "cute-frog-bakery",
+    slug: "cute-frog-bakery-2",
 
 
 
@@ -10594,8 +10594,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-squirrel-running-a-woodla",
-    slug: "tiny-squirrel-running-a-woodla",
+    id: "tiny-squirrel-running-a-woodla-2",
+    slug: "tiny-squirrel-running-a-woodla-2",
     title: "Tiny Squirrel Running a Woodla Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-running-a-woodla coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -10692,8 +10692,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-otter-hosting-a-riverside",
-    slug: "tiny-otter-hosting-a-riverside",
+    id: "tiny-otter-hosting-a-riverside-2",
+    slug: "tiny-otter-hosting-a-riverside-2",
     title: "Tiny Otter Hosting a Riverside Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-otter-hosting-a-riverside coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -10748,8 +10748,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-squirrel-operating-a-fore",
-    slug: "tiny-squirrel-operating-a-fore",
+    id: "tiny-squirrel-operating-a-fore-2",
+    slug: "tiny-squirrel-operating-a-fore-2",
     title: "Tiny Squirrel Operating a Fore Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-operating-a-fore coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -11476,8 +11476,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-squirrel-delivering-acorn",
-    slug: "tiny-squirrel-delivering-acorn",
+    id: "tiny-squirrel-delivering-acorn-2",
+    slug: "tiny-squirrel-delivering-acorn-2",
     title: "Tiny Squirrel Delivering Acorn Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-delivering-acorn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -11546,8 +11546,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-cat-driving-a-bookmobile",
-    slug: "tiny-cat-driving-a-bookmobile",
+    id: "tiny-cat-driving-a-bookmobile-2",
+    slug: "tiny-cat-driving-a-bookmobile-2",
     title: "Tiny Cat Driving a Bookmobile Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-cat-driving-a-bookmobile coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -11588,8 +11588,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-cat-operating-a-flower-tr",
-    slug: "tiny-cat-operating-a-flower-tr",
+    id: "tiny-cat-operating-a-flower-tr-2",
+    slug: "tiny-cat-operating-a-flower-tr-2",
     title: "Tiny Cat Operating a Flower Tr Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-cat-operating-a-flower-tr coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -11784,8 +11784,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-squirrel-riding-an-acorn",
-    slug: "tiny-squirrel-riding-an-acorn",
+    id: "tiny-squirrel-riding-an-acorn-2",
+    slug: "tiny-squirrel-riding-an-acorn-2",
     title: "Tiny Squirrel Riding an Acorn Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-riding-an-acorn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -11882,8 +11882,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-squirrel-riding-a-leaf-sk",
-    slug: "tiny-squirrel-riding-a-leaf-sk",
+    id: "tiny-squirrel-riding-a-leaf-sk-2",
+    slug: "tiny-squirrel-riding-a-leaf-sk-2",
     title: "Tiny Squirrel Riding a Leaf Sk Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-riding-a-leaf-sk coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12414,8 +12414,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-frog-operating-a-lily-pad",
-    slug: "tiny-frog-operating-a-lily-pad",
+    id: "tiny-frog-operating-a-lily-pad-2",
+    slug: "tiny-frog-operating-a-lily-pad-2",
     title: "Tiny Frog Operating a Lily Pad Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-frog-operating-a-lily-pad coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12484,8 +12484,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-squirrel-flying-an-acorn",
-    slug: "tiny-squirrel-flying-an-acorn",
+    id: "tiny-squirrel-flying-an-acorn-2",
+    slug: "tiny-squirrel-flying-an-acorn-2",
     title: "Tiny Squirrel Flying an Acorn Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-flying-an-acorn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12652,8 +12652,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-05-31",
   },
   {
-    id: "tiny-mouse-exploring-a-fairy-g",
-    slug: "tiny-mouse-exploring-a-fairy-g",
+    id: "tiny-mouse-exploring-a-fairy-g-2",
+    slug: "tiny-mouse-exploring-a-fairy-g-2",
     title: "Tiny Mouse Exploring a Fairy G Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-mouse-exploring-a-fairy-g coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12820,8 +12820,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-bunny-hosting-a-garden-pi",
-    slug: "tiny-bunny-hosting-a-garden-pi",
+    id: "tiny-bunny-hosting-a-garden-pi-2",
+    slug: "tiny-bunny-hosting-a-garden-pi-2",
     title: "Tiny Bunny Hosting a Garden Pi Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-bunny-hosting-a-garden-pi coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12876,8 +12876,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-cat-running-a-yarn-and-kn",
-    slug: "tiny-cat-running-a-yarn-and-kn",
+    id: "tiny-cat-running-a-yarn-and-kn-2",
+    slug: "tiny-cat-running-a-yarn-and-kn-2",
     title: "Tiny Cat Running a Yarn and Kn Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-cat-running-a-yarn-and-kn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12904,8 +12904,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-mouse-painting-in-an-art",
-    slug: "tiny-mouse-painting-in-an-art",
+    id: "tiny-mouse-painting-in-an-art-2",
+    slug: "tiny-mouse-painting-in-an-art-2",
     title: "Tiny Mouse Painting in an Art Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-mouse-painting-in-an-art coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12932,8 +12932,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-mouse-running-a-tiny-fore",
-    slug: "tiny-mouse-running-a-tiny-fore",
+    id: "tiny-mouse-running-a-tiny-fore-2",
+    slug: "tiny-mouse-running-a-tiny-fore-2",
     title: "Tiny Mouse Running a Tiny Fore Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-mouse-running-a-tiny-fore coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -12960,8 +12960,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-bear-camping-beside-a-mou",
-    slug: "tiny-bear-camping-beside-a-mou",
+    id: "tiny-bear-camping-beside-a-mou-2",
+    slug: "tiny-bear-camping-beside-a-mou-2",
     title: "Tiny Bear Camping Beside a Mou Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-bear-camping-beside-a-mou coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13044,8 +13044,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-hedgehog-reading-beside-a",
-    slug: "tiny-hedgehog-reading-beside-a",
+    id: "tiny-hedgehog-reading-beside-a-2",
+    slug: "tiny-hedgehog-reading-beside-a-2",
     title: "Tiny Hedgehog Reading Beside a Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-hedgehog-reading-beside-a coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13310,8 +13310,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-hedgehog-selling-handmade",
-    slug: "tiny-hedgehog-selling-handmade",
+    id: "tiny-hedgehog-selling-handmade-2",
+    slug: "tiny-hedgehog-selling-handmade-2",
     title: "Tiny Hedgehog Selling Handmade Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-hedgehog-selling-handmade coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13324,8 +13324,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-squirrel-living-inside-an",
-    slug: "tiny-squirrel-living-inside-an",
+    id: "tiny-squirrel-living-inside-an-2",
+    slug: "tiny-squirrel-living-inside-an-2",
     title: "Tiny Squirrel Living Inside an Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-living-inside-an coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13352,8 +13352,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-otter-sailing-a-cozy-hous",
-    slug: "tiny-otter-sailing-a-cozy-hous",
+    id: "tiny-otter-sailing-a-cozy-hous-2",
+    slug: "tiny-otter-sailing-a-cozy-hous-2",
     title: "Tiny Otter Sailing a Cozy Hous Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-otter-sailing-a-cozy-hous coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13422,8 +13422,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-fox-driving-a-woodland-fo",
-    slug: "tiny-fox-driving-a-woodland-fo",
+    id: "tiny-fox-driving-a-woodland-fo-2",
+    slug: "tiny-fox-driving-a-woodland-fo-2",
     title: "Tiny Fox Driving a Woodland Fo Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-fox-driving-a-woodland-fo coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13464,8 +13464,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-bunny-traveling-in-a-flow",
-    slug: "tiny-bunny-traveling-in-a-flow",
+    id: "tiny-bunny-traveling-in-a-flow-2",
+    slug: "tiny-bunny-traveling-in-a-flow-2",
     title: "Tiny Bunny Traveling in a Flow Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-bunny-traveling-in-a-flow coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13520,8 +13520,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-otter-hosting-a-riverside",
-    slug: "tiny-otter-hosting-a-riverside",
+    id: "tiny-otter-hosting-a-riverside-2-2",
+    slug: "tiny-otter-hosting-a-riverside-2-2",
     title: "Tiny Otter Hosting a Riverside Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-otter-hosting-a-riverside coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13576,8 +13576,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-frog-living-inside-a-gian",
-    slug: "tiny-frog-living-inside-a-gian",
+    id: "tiny-frog-living-inside-a-gian-2",
+    slug: "tiny-frog-living-inside-a-gian-2",
     title: "Tiny Frog Living Inside a Gian Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-frog-living-inside-a-gian coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13590,8 +13590,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-frog-living-in-a-floating",
-    slug: "tiny-frog-living-in-a-floating",
+    id: "tiny-frog-living-in-a-floating-2",
+    slug: "tiny-frog-living-in-a-floating-2",
     title: "Tiny Frog Living in a Floating Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-frog-living-in-a-floating coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13632,8 +13632,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-hedgehog-baking-apple-pie",
-    slug: "tiny-hedgehog-baking-apple-pie",
+    id: "tiny-hedgehog-baking-apple-pie-2",
+    slug: "tiny-hedgehog-baking-apple-pie-2",
     title: "Tiny Hedgehog Baking Apple Pie Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-hedgehog-baking-apple-pie coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13660,8 +13660,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-squirrel-flying-an-acorn",
-    slug: "tiny-squirrel-flying-an-acorn",
+    id: "tiny-squirrel-flying-an-acorn-2-2",
+    slug: "tiny-squirrel-flying-an-acorn-2-2",
     title: "Tiny Squirrel Flying an Acorn Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-flying-an-acorn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13744,8 +13744,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-cat-operating-a-flower-tr",
-    slug: "tiny-cat-operating-a-flower-tr",
+    id: "tiny-cat-operating-a-flower-tr-3",
+    slug: "tiny-cat-operating-a-flower-tr-3",
     title: "Tiny Cat Operating a Flower Tr Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-cat-operating-a-flower-tr coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13814,8 +13814,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-squirrel-making-berry-jam",
-    slug: "tiny-squirrel-making-berry-jam",
+    id: "tiny-squirrel-making-berry-jam-2",
+    slug: "tiny-squirrel-making-berry-jam-2",
     title: "Tiny Squirrel Making Berry Jam Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-making-berry-jam coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13828,8 +13828,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-otter-hosting-a-riverside",
-    slug: "tiny-otter-hosting-a-riverside",
+    id: "tiny-otter-hosting-a-riverside-3",
+    slug: "tiny-otter-hosting-a-riverside-3",
     title: "Tiny Otter Hosting a Riverside Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-otter-hosting-a-riverside coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13842,8 +13842,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-cat-relaxing-in-a-cottage",
-    slug: "tiny-cat-relaxing-in-a-cottage",
+    id: "tiny-cat-relaxing-in-a-cottage-2",
+    slug: "tiny-cat-relaxing-in-a-cottage-2",
     title: "Tiny Cat Relaxing in a Cottage Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-cat-relaxing-in-a-cottage coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -13968,8 +13968,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-squirrel-flying-an-acorn",
-    slug: "tiny-squirrel-flying-an-acorn",
+    id: "tiny-squirrel-flying-an-acorn-3",
+    slug: "tiny-squirrel-flying-an-acorn-3",
     title: "Tiny Squirrel Flying an Acorn Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-flying-an-acorn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -14738,8 +14738,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-squirrel-flying-an-acorn",
-    slug: "tiny-squirrel-flying-an-acorn",
+    id: "tiny-squirrel-flying-an-acorn-3",
+    slug: "tiny-squirrel-flying-an-acorn-4",
     title: "Tiny Squirrel Flying an Acorn Coloring Page",
     category: "cozy-coloring",
     description: "Download this free printable tiny-squirrel-flying-an-acorn coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -14906,8 +14906,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-otter-hosting-a-riverside",
-    slug: "tiny-otter-hosting-a-riverside",
+    id: "tiny-otter-hosting-a-riverside-3",
+    slug: "tiny-otter-hosting-a-riverside-4",
     title: "Tiny Otter Hosting a Riverside Coloring Page",
     category: "cozy-coloring",
     description: "Download this free printable tiny-otter-hosting-a-riverside coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
@@ -15088,8 +15088,8 @@ export const coloringPages: ColoringPage[] = [
     createdAt: "2026-06-01",
   },
   {
-    id: "tiny-squirrel-running-a-woodla",
-    slug: "tiny-squirrel-running-a-woodla",
+    id: "tiny-squirrel-running-a-woodla-3",
+    slug: "tiny-squirrel-running-a-woodla-3",
     title: "Tiny Squirrel Running a Woodla Coloring Page",
     category: "tiny-animal-worlds",
     description: "Download this free printable tiny-squirrel-running-a-woodla coloring page! Perfect for kids and adults who love cute, cozy coloring scenes. High-quality JPG download.",
