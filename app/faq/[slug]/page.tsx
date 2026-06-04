@@ -1,0 +1,62 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import { generatePageMetadata } from "@/lib/seo";
+import AdBanner from "@/components/AdBanner";
+import RelatedArticles from "@/components/RelatedArticles";
+import { faqPages } from "@/data/faqs";
+
+interface Props { params: Promise<{ slug: string }>; }
+
+export function generateStaticParams() {
+  return faqPages.map((f) => ({ slug: f.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const faq = faqPages.find((f) => f.slug === slug);
+  if (!faq) return {};
+  return generatePageMetadata({
+    title: `${faq.title} | Tiny Animal Worlds`,
+    description: faq.description,
+    path: `/faq/${slug}`,
+  });
+}
+
+export default async function FaqPage({ params }: Props) {
+  const { slug } = await params;
+  const faq = faqPages.find((f) => f.slug === slug);
+  if (!faq) notFound();
+
+  return (
+    <article className="page-container py-12 sm:py-16">
+      <div className="max-w-3xl mx-auto">
+        <nav className="mb-6 text-sm">
+          <Link href="/" className="text-rose hover:underline">Home</Link>
+          <span className="mx-2 text-cocoa/30">/</span>
+          <Link href="/blog" className="text-rose hover:underline">Resources</Link>
+        </nav>
+        <h1 className="text-3xl sm:text-4xl font-bold text-cocoa leading-tight mb-3">{faq.title}</h1>
+        <AdBanner slot="blog-top" className="mb-8" />
+        <div className="prose prose-cocoa max-w-none">
+          <p className="text-lg text-cocoa/70 leading-relaxed mb-6">{faq.description}</p>
+          
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Quick Answer</h2>
+          <p className="text-cocoa/75 leading-relaxed mb-6">Our free printable coloring pages are designed to be easy to use for everyone. Simply browse our <Link href="/coloring-pages" className="text-rose hover:underline">collection of 1340+ pages</Link>, click to download the JPG, and print at home. No sign-up required!</p>
+
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Detailed Guide</h2>
+          <p className="text-cocoa/75 leading-relaxed mb-6">For the best coloring experience, we recommend using cardstock paper (80lb or 120gsm) if using markers or watercolors. Regular printer paper works great with crayons and colored pencils. Always set your printer to High Quality mode for the crispest lines.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-6">All our coloring pages are completely free for personal use. You can print as many copies as you like for yourself, your family, or your classroom. We add new pages regularly, so check back often for fresh content!</p>
+
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Related Resources</h2>
+          <ul className="space-y-2 mb-6">
+            <li><Link href="/coloring-pages" className="text-rose hover:underline">Browse All 1340+ Coloring Pages</Link></li>
+            <li><Link href="/categories" className="text-rose hover:underline">Explore All Categories</Link></li>
+            <li><Link href="/blog" className="text-rose hover:underline">Read Our Coloring Blog</Link></li>
+          </ul>
+        </div>
+        <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">You May Also Like</h2><RelatedArticles currentSlug={slug} type="article" count={3} title="Explore More" /></section>
+      </div>
+    </article>
+  );
+}
