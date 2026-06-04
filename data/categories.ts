@@ -18,7 +18,7 @@ export const categories: Category[] = [
     color: "#FADADD",
     emoji: "🐱",
     imageUrl: "/images/coloring/5_Cute_bunny_picnic_meadow_color.jpg",
-    count: 162,
+    count: 192,
   },
   {
     id: "cozy-coloring",
@@ -158,6 +158,6 @@ export const categories: Category[] = [
     color: "#FFB5C2",
     emoji: "🫖",
     imageUrl: "/images/coloring/51_Cute_mouse_tea_garden_coloring.jpg",
-    count: 146,
+    count: 176,
   },
 ];
