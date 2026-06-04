@@ -69,17 +69,29 @@ export default async function ColoringDetailPage({ params }: Props) {
   const category = categories.find((c) => c.id === page.category);
   const baseUrl = "https://tinyanimalworlds.com";
 
+  // Detect animal from slug
+  const animals = ["fox", "bunny", "rabbit", "deer", "hedgehog", "mouse", "cat", "bear", "frog", "hamster", "squirrel", "raccoon", "otter", "ferret", "mole", "chinchilla", "duck", "penguin", "owl", "panda", "dragon", "unicorn"];
+  const pageAnimal = animals.find((a) => page.slug.includes(a));
+
+  // Same animal pages (at least 4)
+  const sameAnimalPages = pageAnimal
+    ? coloringPages
+        .filter((p) => p.slug.includes(pageAnimal) && p.id !== page.id)
+        .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+        .slice(0, 6)
+    : [];
+
   // Related pages: same category, exclude current
   const relatedPages = coloringPages
     .filter((p) => p.category === page.category && p.id !== page.id)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-    .slice(0, 6);
+    .slice(0, 8);
 
   // Popular from other categories
   const popularPages = coloringPages
     .filter((p) => p.category !== page.category)
     .sort(() => Math.random() - 0.5)
-    .slice(0, 3);
+    .slice(0, 4);
   const faqSchema = generateFAQSchema(pageFAQs);
   const imageSchema = generateImageSchema(
     `${baseUrl}${page.imageUrl}`,
@@ -259,6 +271,36 @@ export default async function ColoringDetailPage({ params }: Props) {
             <div className="lg:sticky lg:top-24">
               <AdBanner slot="3333333333" className="mb-6" />
 
+              {/* Same Animal Pages */}
+              {sameAnimalPages.length > 0 && (
+                <div className="bg-white rounded-cozy border border-blush/20 p-6 shadow-card mb-6">
+                  <h3 className="font-semibold text-cocoa mb-4 flex items-center gap-2">
+                    <span>🐾</span> More {pageAnimal ? pageAnimal.charAt(0).toUpperCase() + pageAnimal.slice(1) : "Animal"} Pages
+                  </h3>
+                  <div className="space-y-3">
+                    {sameAnimalPages.map((ap) => (
+                      <Link
+                        key={ap.id}
+                        href={`/coloring/${ap.slug}`}
+                        className="flex items-center gap-3 p-3 rounded-xl hover:bg-cream transition-colors group"
+                      >
+                        <div className="w-12 h-12 rounded-xl bg-cream flex items-center justify-center text-xl flex-shrink-0 border border-blush/10">
+                          {category?.emoji || "🎨"}
+                        </div>
+                        <div className="min-w-0">
+                          <p className="text-sm font-medium text-cocoa group-hover:text-rose transition-colors truncate">
+                            {ap.title}
+                          </p>
+                          <span className={`text-xs px-2 py-0.5 rounded-full ${difficultyColors[ap.difficulty]}`}>
+                            {ap.difficulty}
+                          </span>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Related Pages */}
               {relatedPages.length > 0 && (
                 <div className="bg-white rounded-cozy border border-blush/20 p-6 shadow-card mb-6">
@@ -347,7 +389,7 @@ export default async function ColoringDetailPage({ params }: Props) {
                 categoryName={category?.name}
                 currentSlug={page.slug}
                 type="article"
-                count={4}
+                count={5}
               />
             </div>
           </aside>
