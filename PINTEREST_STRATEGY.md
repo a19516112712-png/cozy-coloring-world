@@ -20,6 +20,16 @@ Current Progress:
 * Day12 Uploaded
 * Day13 Uploaded
 * Day14 Uploaded
+* Day15 Uploaded
+* Day16 Uploaded
+* Day17 Uploaded
+* Day18 Uploaded
+* Day19 Uploaded
+* Day20 Uploaded
+* Day21 Uploaded
+* Day22 Uploaded
+* Day23 Uploaded
+* Day24 Uploaded
 
 ## Boards
 
