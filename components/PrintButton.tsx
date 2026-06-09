@@ -1,6 +1,6 @@
 "use client";
 
-import { generateWordSearchGrid, getGridSize } from "@/lib/wordSearchUtils";
+import { generateWordSearchGrid } from "@/lib/wordSearchUtils";
 
 interface Props {
   wordList: string[];
