@@ -40,7 +40,7 @@ export default function HomePage() {
 
   const latestWordSearches = [...wordSearches]
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-    .slice(0, 8);
+    .slice(0, 6);
 
   const recentBlogs = [...blogPosts]
     .sort((a, b) => b.date.localeCompare(a.date))
@@ -84,7 +84,7 @@ export default function HomePage() {
     </section>
 
     
-    {/* ===== Latest Word Searches — 8 cards ===== */}
+    {/* ===== Latest Word Searches — 6 cards ===== */}
     <section className="page-container py-10 sm:py-14 bg-cream/30">
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-8 gap-3">
         <div>

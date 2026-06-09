@@ -127,6 +127,12 @@ export default async function WordSearchPage({ params }: Props) {
           </div>
         </div>
 
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+          <Link href="/word-search" className="inline-flex items-center gap-1 text-sm text-cocoa/50 hover:text-rose transition-colors">
+            <span>←</span> Back to All Word Searches
+          </Link>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main Content */}
