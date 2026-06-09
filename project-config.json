@@ -15,12 +15,12 @@
     ]
   },
   "state": {
-    "pages": 1058,
+    "pages": 1567,
     "blogs": 66,
     "pins": 130,
     "pinterestDays": 13,
     "build": "passing",
-    "lastUpdated": "2026-06-01T23:26:00+08:00"
+    "lastUpdated": "2026-06-09T08:00:00+08:00"
   },
   "paths": {
     "coloringPages": "data/coloring-pages.ts",

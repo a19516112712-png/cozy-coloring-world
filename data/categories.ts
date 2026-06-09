@@ -18,7 +18,7 @@ export const categories: Category[] = [
     color: "#FADADD",
     emoji: "🐱",
     imageUrl: "/images/coloring/5_Cute_bunny_picnic_meadow_color.jpg",
-    count: 313,
+    count: 320,
   },
   {
     id: "cozy-coloring",
@@ -28,7 +28,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🐭",
     imageUrl: "/images/coloring/48_Cute_frog_mushroom_village_col.jpg",
-    count: 221,
+    count: 222,
   },
   {
     id: "cozy-coloring",
@@ -38,7 +38,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🏡",
     imageUrl: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.jpg",
-    count: 216,
+    count: 221,
   },
   {
     id: "cozy-coloring",
@@ -48,7 +48,7 @@ export const categories: Category[] = [
     color: "#C5E0F0",
     emoji: "🌧️",
     imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.jpg",
-    count: 169,
+    count: 170,
   },
   {
     id: "fantasy",
@@ -78,7 +78,7 @@ export const categories: Category[] = [
     color: "#FFB5C2",
     emoji: "🥐",
     imageUrl: "/images/coloring/8_Cute_cat_cupcake_bakery_colori.jpg",
-    count: 183,
+    count: 185,
   },
   {
     id: "cozy-coloring",
@@ -88,7 +88,7 @@ export const categories: Category[] = [
     color: "#D4C5B0",
     emoji: "☕",
     imageUrl: "/images/coloring/30_cat_cafe_with_books_and_flower.jpg",
-    count: 172,
+    count: 173,
   },
   {
     id: "cozy-coloring",
@@ -108,7 +108,7 @@ export const categories: Category[] = [
     color: "#D4F0E8",
     emoji: "🌷",
     imageUrl: "/images/coloring/35_Cute_cat_greenhouse_coloring_p.jpg",
-    count: 242,
+    count: 248,
   },
   {
     id: "cozy-coloring",
@@ -138,7 +138,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🏘️",
     imageUrl: "/images/coloring/27_Cute_squirrel_village_square_c.jpg",
-    count: 189,
+    count: 193,
   },
   {
     id: "cozy-coloring",
@@ -148,7 +148,7 @@ export const categories: Category[] = [
     color: "#E8D5F5",
     emoji: "📖",
     imageUrl: "/images/coloring/28_Cute_bear_reading_nook_colorin.jpg",
-    count: 188,
+    count: 190,
   },
   {
     id: "cozy-coloring",
@@ -158,6 +158,6 @@ export const categories: Category[] = [
     color: "#FFB5C2",
     emoji: "🫖",
     imageUrl: "/images/coloring/51_Cute_mouse_tea_garden_coloring.jpg",
-    count: 204,
+    count: 205,
   },
 ];
