@@ -160,7 +160,7 @@ export default async function WordSearchPage({ params }: Props) {
                 <h2 className="text-xl font-bold text-cocoa mb-4 flex items-center gap-2">
                   <span>🔍</span> {animalName} {ws.theme} Word Search
                 </h2>
-                <WordSearchGrid wordList={ws.wordList} difficulty={ws.difficulty} />
+                <WordSearchGrid wordList={ws.wordList} difficulty={ws.difficulty} title={ws.title} />
               </div>
 
               {/* Print Button */}
