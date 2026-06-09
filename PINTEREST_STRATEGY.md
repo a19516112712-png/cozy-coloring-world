@@ -30,6 +30,7 @@ Current Progress:
 * Day22 Uploaded
 * Day23 Uploaded
 * Day25 Uploaded
+* Day10 Word Search Uploaded
 
 ## Boards
 
@@ -108,3 +109,11 @@ Required Columns: Title, Media URL, Pinterest board, Description, Link
 Pins Generated: 140
 
 Days Generated: Day01–Day11
+
+## Day10 — Seasonal Word Search Campaign
+
+* **30 Pins**
+* **Board**: Animal Word Search
+* **Theme**: Seasonal + Educational
+* **CSV**: `pinterest/day10-word-search.csv`
+* **Links**: 30 Word Search pages from tinyanimalworlds.com/word-search
