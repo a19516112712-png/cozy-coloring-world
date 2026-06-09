@@ -18,6 +18,7 @@ import { coloringPages } from "@/data/coloring-pages";
 import { blogPosts } from "@/data/blogPosts";
 import { collections } from "@/data/collections";
 import { faqPages } from "@/data/faqs";
+import { wordSearches } from "@/data/wordSearches";
 
 export default function HomePage() {
   const latestPages = (() => {
@@ -35,6 +36,10 @@ export default function HomePage() {
 
   const trendingPages = [...coloringPages]
     .sort(() => Math.random() - 0.5)
+    .slice(0, 8);
+
+  const latestWordSearches = [...wordSearches]
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, 8);
 
   const recentBlogs = [...blogPosts]
@@ -78,7 +83,49 @@ export default function HomePage() {
       </div>
     </section>
 
-    {/* ===== Explore Hub — Quick Links ===== */}
+    
+    {/* ===== Latest Word Searches — 8 cards ===== */}
+    <section className="page-container py-10 sm:py-14 bg-cream/30">
+      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-8 gap-3">
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-cocoa flex items-center gap-2">
+            <span>🔍</span> Latest Word Search Puzzles
+          </h2>
+          <p className="mt-1 text-sm text-cocoa/55">
+            Free printable word search puzzles — fun educational activities for kids
+          </p>
+        </div>
+        <Link href="/word-search" className="text-sm font-medium text-rose hover:underline whitespace-nowrap">
+          View All {wordSearches.length} Puzzles →
+        </Link>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+        {latestWordSearches.map((ws) => (
+          <Link
+            key={ws.id}
+            href={`/word-search/${ws.slug}`}
+            className="bg-white rounded-cozy border border-blush/20 p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <span className="text-2xl">
+                {ws.animal === "fox" ? "🦊" : ws.animal === "bunny" ? "🐰" : ws.animal === "bear" ? "🐻" : ws.animal === "duck" ? "🦆" : ws.animal === "cat" ? "🐱" : ws.animal === "dog" ? "🐶" : ws.animal === "hedgehog" ? "🦔" : ws.animal === "squirrel" ? "🐿️" : ws.animal === "raccoon" ? "🦝" : ws.animal === "deer" ? "🦌" : ws.animal === "owl" ? "🦉" : ws.animal === "penguin" ? "🐧" : ws.animal === "koala" ? "🐨" : ws.animal === "panda" ? "🐼" : ws.animal === "tiger" ? "🐯" : ws.animal === "lion" ? "🦁" : ws.animal === "elephant" ? "🐘" : ws.animal === "monkey" ? "🐵" : ws.animal === "giraffe" ? "🦒" : ws.animal === "zebra" ? "🦓" : "🔍"}
+              </span>
+              <div className="flex-1 min-w-0">
+                <h3 className="text-sm font-semibold text-cocoa group-hover:text-rose transition-colors line-clamp-2">
+                  {ws.title}
+                </h3>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 text-xs text-cocoa/50">
+              <span className="px-2 py-0.5 bg-cream/50 rounded-full">{ws.difficulty}</span>
+              <span>{ws.wordCount} words</span>
+              <span>Ages {ws.ageRange}</span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+{/* ===== Explore Hub — Quick Links ===== */}
     <section className="page-container py-8 sm:py-10 bg-cream/50">
       <h2 className="text-xl sm:text-2xl font-bold text-cocoa text-center mb-6">
         <span>🧭</span> Explore Tiny Animal Worlds
@@ -90,7 +137,8 @@ export default function HomePage() {
           { emoji: "📚", label: "Collections", href: "/collections" },
           { emoji: "📝", label: "Blog", href: "/blog" },
           { emoji: "❓", label: "FAQ", href: faqPages.length > 0 ? `/faq/${faqPages[0].slug}` : "/faq" },
-          { emoji: "📌", label: "Pinterest", href: "/pins" },
+          { emoji: "🔍", label: "Word Search", href: "/word-search" },
+        { emoji: "📌", label: "Pinterest", href: "/pins" },
         ].map((item) => (
           <Link
             key={item.href}
@@ -432,6 +480,7 @@ export default function HomePage() {
               <li><Link href="/categories" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Categories</Link></li>
               <li><Link href="/collections" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Collections</Link></li>
               <li><Link href="/coloring-pages" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Latest</Link></li>
+              <li><Link href="/word-search" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Word Search</Link></li>
             </ul>
           </div>
           <div>

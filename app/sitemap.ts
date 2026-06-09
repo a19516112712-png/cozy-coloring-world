@@ -4,6 +4,7 @@ import { coloringPages } from "@/data/coloring-pages";
 import { blogPosts } from "@/data/blogPosts";
 import { collections } from "@/data/collections";
 import { faqPages } from "@/data/faqs";
+import { wordSearches } from "@/data/wordSearches";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://tinyanimalworlds.com";
@@ -82,6 +83,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+
+  // Word Search routes — priority 0.8, weekly
+  const wordSearchRoutes: MetadataRoute.Sitemap = wordSearches.map((ws) => ({
+    url: `${baseUrl}/word-search/${ws.slug}`,
+    lastModified: new Date(ws.createdAt || now),
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
   return [
     ...staticRoutes,
     ...categoryRoutes,
@@ -91,5 +101,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogRoutes,
     ...collectionRoutes,
     ...faqRoutes,
+    ...wordSearchRoutes,
   ];
 }

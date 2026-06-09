@@ -20,7 +20,8 @@
     "pins": 130,
     "pinterestDays": 13,
     "build": "passing",
-    "lastUpdated": "2026-06-09T08:30:00+08:00"
+    "lastUpdated": "2026-06-09T10:00:00+08:00",
+    "wordSearch": 100
   },
   "paths": {
     "coloringPages": "data/coloring-pages.ts",

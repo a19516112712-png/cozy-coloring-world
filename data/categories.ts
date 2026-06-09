@@ -11,6 +11,16 @@ export interface Category {
 
 export const categories: Category[] = [
   {
+    id: "word-search",
+    name: "Word Search",
+    slug: "word-search",
+    description: "Free printable word search puzzles featuring adorable animals — fun educational activities for kids",
+    color: "#D4F0E8",
+    emoji: "🔍",
+    imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.jpg",
+    count: 100,
+  },
+  {
     id: "cute-animals",
     name: "Cute Animals",
     slug: "cute-animals",
