@@ -169,7 +169,7 @@ export default async function WordSearchPage({ params }: Props) {
                   <h3 className="font-semibold text-cocoa mb-1">Ready to Print!</h3>
                   <p className="text-sm text-cocoa/60">Use your browser print function (Ctrl+P / Cmd+P) to print this word search puzzle.</p>
                 </div>
-                <PrintButton />
+                <PrintButton wordList={ws.wordList} difficulty={ws.difficulty} title={ws.title} />
               </div>
 
               {/* Puzzle Information */}
