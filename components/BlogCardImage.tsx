@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 
 interface Props {
   src: string;
@@ -9,16 +8,25 @@ interface Props {
 }
 
 export default function BlogCardImage({ src, alt }: Props) {
-  const [imgSrc, setImgSrc] = useState(src);
+  const [hasError, setHasError] = useState(false);
+
+  if (hasError || !src) {
+    return (
+      <div className="absolute inset-0 bg-cream flex flex-col items-center justify-center">
+        <span className="text-4xl">📝</span>
+        <span className="text-xs text-cocoa/40 mt-1">Blog Post</span>
+      </div>
+    );
+  }
 
   return (
-    <Image
-      src={imgSrc}
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
       alt={alt}
-      fill
-      className="object-cover group-hover:scale-105 transition-transform duration-500"
-      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-      onError={() => setImgSrc("/images/placeholder-blog.svg")}
+      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      loading="lazy"
+      onError={() => setHasError(true)}
     />
   );
 }
