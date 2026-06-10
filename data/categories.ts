@@ -58,7 +58,7 @@ export const categories: Category[] = [
     color: "#C5E0F0",
     emoji: "🌧️",
     imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.jpg",
-    count: 170,
+    count: 171,
   },
   {
     id: "fantasy",
@@ -108,7 +108,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "📚",
     imageUrl: "/images/coloring/36_Cute_hamster_bookstore_colorin.jpg",
-    count: 207,
+    count: 233,
   },
   {
     id: "cozy-coloring",
@@ -168,6 +168,6 @@ export const categories: Category[] = [
     color: "#FFB5C2",
     emoji: "🫖",
     imageUrl: "/images/coloring/51_Cute_mouse_tea_garden_coloring.jpg",
-    count: 208,
+    count: 211,
   },
 ];
