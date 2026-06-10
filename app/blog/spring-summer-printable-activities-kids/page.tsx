@@ -1,0 +1,56 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { generatePageMetadata } from "@/lib/seo";
+import { generateBreadcrumbSchema } from "@/lib/schema";
+import AdBanner from "@/components/AdBanner";
+import Newsletter from "@/components/Newsletter";
+import RelatedArticles from "@/components/RelatedArticles";
+
+export const metadata: Metadata = generatePageMetadata({ title: "Spring & Summer Printable Activities for Kids: Free Word Search & Coloring", description: "Keep kids learning all spring and summer with free printable activities! 2000+ word search puzzles and coloring pages featuring seasonal animals. Perfect for break and vacation!", path: "/blog/spring-summer-printable-activities-kids" });
+
+export default function BlogPost() {
+  const title = "Spring & Summer Printable Activities: Free Kids' Word Search & Coloring"; const date = "2026-06-10";
+  const bs = { "@context": "https://schema.org", "@type": "Article", "headline": "Spring & Summer Printable Activities: Free Kids' Word Search & Coloring", "description": "Keep kids learning all spring and summer with free printable activities! 2000+ word search puzzles and coloring pages featuring seasonal animals. Perfect for break and vacation!", "url": "https://tinyanimalworlds.com/blog/spring-summer-printable-activities-kids", "datePublished": "2026-06-10", "dateModified": "2026-06-10", "author": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com" }, "publisher": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com", "logo": { "@type": "ImageObject", "url": "https://tinyanimalworlds.com/apple-touch-icon.png" } } };
+  const br = generateBreadcrumbSchema([{ name: "Home", url: "https://tinyanimalworlds.com" }, { name: "Blog", url: "https://tinyanimalworlds.com/blog" }, { name: "Spring & Summer Printable Activities: Free Kids' Word Search & Coloring", url: "https://tinyanimalworlds.com/blog/spring-summer-printable-activities-kids" }]);
+  return (<>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(bs) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(br) }} />
+    <article className="page-container py-12 sm:py-16"><div className="max-w-3xl mx-auto">
+      <nav className="mb-6 text-sm"><Link href="/" className="text-rose hover:underline">Home</Link><span className="mx-2 text-cocoa/30">/</span><Link href="/blog" className="text-rose hover:underline">Blog</Link></nav>
+      <h1 className="text-3xl sm:text-4xl font-bold text-cocoa leading-tight mb-3">{title}</h1>
+      <p className="text-sm text-cocoa/40 mb-8">Published {date} &middot; 7 min read</p>
+      <AdBanner slot="blog-top" className="mb-8" />
+      <div className="prose prose-cocoa max-w-none">
+          <p className="text-lg text-cocoa/70 leading-relaxed mb-6">School breaks are wonderful — until the 'I am bored' chorus begins. Our spring and summer printable activities collection is your boredom-busting secret weapon. With 2000+ free word search puzzles and coloring pages featuring seasonal animals, outdoor themes, and warm-weather fun, you will have engaging activities ready for every single day of break.</p>
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Beat Summer Learning Loss</h2>
+          <p className="text-cocoa/75 leading-relaxed mb-4">The summer slide is real — students can lose up to two months of reading progress during break. Our word search puzzles provide consistent, low-pressure literacy practice that keeps reading skills sharp without feeling like summer school. Fifteen minutes of word search fun a few times per week makes a measurable difference in fall readiness.</p>
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Seasonal Themes Kids Love</h2>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Spring brings baby animals, blooming gardens, and rainy day adventures. Summer delivers ocean creatures, safari explorations, and outdoor fun. Our seasonal word search and coloring collections tap into what kids are already excited about. When activities connect to real-world experiences — like finding ocean words after a beach trip — learning becomes deeply meaningful.</p>
+          <AdBanner slot="blog-mid" className="my-8" />
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Road Trip and Vacation Ready</h2>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Long car rides, airport delays, and rainy vacation days are no match for a well-stocked activity folder! Print a variety of puzzles before you travel and keep them in an accessible spot. Word searches keep minds busy during drives, while coloring pages provide calm airport entertainment. No screens, no Wi-Fi, no complaints.</p>
+          <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Printables</h2>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/word-search" className="text-rose hover:underline">1000+ Word Search Puzzles</Link> and <Link href="/coloring-pages" className="text-rose hover:underline">1600+ Coloring Pages</Link>.</p>
+          <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Word Search Puzzles</h3>
+          <ul className="space-y-2 mb-6"><li><Link href="/word-search/fox-spring-animals-word-search" className="text-rose hover:underline">Fox Spring Animals Word Search</Link></li>
+            <li><Link href="/word-search/bunny-baby-animals-word-search" className="text-rose hover:underline">Bunny Baby Animals Word Search</Link></li>
+            <li><Link href="/word-search/dolphin-ocean-animals-word-search" className="text-rose hover:underline">Dolphin Ocean Animals Word Search</Link></li>
+            <li><Link href="/word-search/duck-farm-animals-word-search" className="text-rose hover:underline">Duck Farm Animals Word Search</Link></li>
+            <li><Link href="/word-search/deer-forest-animals-word-search" className="text-rose hover:underline">Deer Forest Animals Word Search</Link></li></ul>
+          <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
+          <ul className="space-y-2 mb-6"><li><Link href="/coloring/cute-raccoon-camping-in-forest" className="text-rose hover:underline">cute-fox-spring-meadow-coloring</Link></li>
+            <li><Link href="/coloring/mystery-forest-archway" className="text-rose hover:underline">cute-bunny-summer-garden-coloring</Link></li>
+            <li><Link href="/coloring/bold-easy-watermill" className="text-rose hover:underline">cute-dolphin-beach-coloring</Link></li></ul>
+          <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1600+ free coloring pages and 1100+ word search puzzles at Tiny Animal Worlds!</p>
+      </div>
+      <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">FAQ</h2><div className="space-y-3"><details key={0} className="group bg-cream/30 rounded-xl border border-blush/10 overflow-hidden"><summary className="flex items-center justify-between p-3.5 cursor-pointer hover:bg-cream transition-colors font-medium text-cocoa text-sm">How can I prevent summer learning loss?<span className="text-rose text-xs group-open:rotate-180 transition-transform ml-2">▼</span></summary><p className="px-3.5 pb-3.5 text-xs text-cocoa/65 leading-relaxed">15-20 minutes of daily reading and word activities makes a big difference. Our word searches provide fun, low-pressure literacy practice that kids actually enjoy doing during summer break.</p></details>
+          <details key={1} className="group bg-cream/30 rounded-xl border border-blush/10 overflow-hidden"><summary className="flex items-center justify-between p-3.5 cursor-pointer hover:bg-cream transition-colors font-medium text-cocoa text-sm">Are these good for road trips?<span className="text-rose text-xs group-open:rotate-180 transition-transform ml-2">▼</span></summary><p className="px-3.5 pb-3.5 text-xs text-cocoa/65 leading-relaxed">Excellent for road trips! Print a variety before you leave. Word searches work great in the car — no motion sickness like reading books. Pack clipboards for easy writing surfaces.</p></details>
+          <details key={2} className="group bg-cream/30 rounded-xl border border-blush/10 overflow-hidden"><summary className="flex items-center justify-between p-3.5 cursor-pointer hover:bg-cream transition-colors font-medium text-cocoa text-sm">What spring and summer themes are available?<span className="text-rose text-xs group-open:rotate-180 transition-transform ml-2">▼</span></summary><p className="px-3.5 pb-3.5 text-xs text-cocoa/65 leading-relaxed">Baby animals, garden creatures, ocean animals, forest life, birds, butterflies, outdoor adventures, camping, and more. Seasonal variety keeps activities fresh all break long.</p></details>
+          <details key={3} className="group bg-cream/30 rounded-xl border border-blush/10 overflow-hidden"><summary className="flex items-center justify-between p-3.5 cursor-pointer hover:bg-cream transition-colors font-medium text-cocoa text-sm">How many activities should I plan per week?<span className="text-rose text-xs group-open:rotate-180 transition-transform ml-2">▼</span></summary><p className="px-3.5 pb-3.5 text-xs text-cocoa/65 leading-relaxed">2-3 word searches and 2-3 coloring pages per week is a great rhythm. Keep it flexible — some weeks more, some less. The goal is consistent engagement, not rigid schedules.</p></details></div>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How can I prevent summer learning loss?","acceptedAnswer":{"@type":"Answer","text":"15-20 minutes of daily reading and word activities makes a big difference. Our word searches provide fun, low-pressure literacy practice that kids actually enjoy doing during summer break."}},{"@type":"Question","name":"Are these good for road trips?","acceptedAnswer":{"@type":"Answer","text":"Excellent for road trips! Print a variety before you leave. Word searches work great in the car — no motion sickness like reading books. Pack clipboards for easy writing surfaces."}},{"@type":"Question","name":"What spring and summer themes are available?","acceptedAnswer":{"@type":"Answer","text":"Baby animals, garden creatures, ocean animals, forest life, birds, butterflies, outdoor adventures, camping, and more. Seasonal variety keeps activities fresh all break long."}},{"@type":"Question","name":"How many activities should I plan per week?","acceptedAnswer":{"@type":"Answer","text":"2-3 word searches and 2-3 coloring pages per week is a great rhythm. Keep it flexible — some weeks more, some less. The goal is consistent engagement, not rigid schedules."}}]}) }} />
+      </section>
+      <section className="mb-10"><RelatedArticles currentSlug="spring-summer-printable-activities-kids" type="article" count={3} title="More Articles" /></section>
+      <Newsletter className="mb-12" />
+    </div></article>
+  </>);
+}

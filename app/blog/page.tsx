@@ -6,7 +6,7 @@ import BlogCardImage from "@/components/BlogCardImage";
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = generatePageMetadata({
   title: "Coloring Blog | Tips, Ideas & Inspiration | Tiny Animal Worlds",
-  description: "Explore our coloring blog with 41 articles on cute coloring pages, cozy coloring ideas, printable downloads, and creative inspiration for kids and adults!",
+  description: "Explore our coloring blog with 142+ articles on cute coloring pages, cozy coloring ideas, printable downloads, and creative inspiration for kids and adults!",
   path: "/blog",
   imageUrl: "/images/coloring/10_bear_cafe_reading_corner.jpg",
 });
@@ -90,7 +90,32 @@ export default function BlogPage() {
 
         <div className="text-center mt-12 text-cocoa/40 text-sm">
           Showing all {blogPosts.length} blog posts
-        </div>
+
+        {/* Related Content */}
+        <section className="bg-cream/20 border-t border-blush/20 mt-12 pt-10">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-cocoa mb-6">
+              <span>🎯</span> Explore More
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto">
+              {[
+                { icon: "🎨", label: "Coloring Pages", desc: "Explore 1600+ free printable coloring pages", href: "/coloring-pages" },
+                { icon: "🔍", label: "Word Search", desc: "Browse 1100+ printable word search puzzles", href: "/word-search" },
+                { icon: "🏷️", label: "Categories", desc: "Browse all categories and themes", href: "/categories" },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="bg-white rounded-cozy border border-blush/20 p-5 hover:shadow-md hover:-translate-y-0.5 transition-all text-center group"
+                >
+                  <span className="text-3xl block mb-3">{item.icon}</span>
+                  <p className="text-sm font-semibold text-cocoa group-hover:text-rose transition-colors">{item.label}</p>
+                  <p className="text-xs text-cocoa/50 mt-1">{item.desc}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>        </div>
       </div>
     </>
   );
