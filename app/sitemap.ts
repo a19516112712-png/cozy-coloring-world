@@ -35,15 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Legacy category routes — /categories/[slug] priority 0.7, weekly
-  const legacyCategoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
-    url: `${baseUrl}/categories/${cat.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
-
-  // Coloring page detail routes — /coloring/[slug] priority 0.7, monthly
+    // Coloring page detail routes — /coloring/[slug] priority 0.7, monthly
   const coloringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
     url: `${baseUrl}/coloring/${page.slug}`,
     lastModified: new Date(page.createdAt || now),
@@ -51,15 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Legacy coloring page routes — /coloring-pages/[slug] priority 0.5, monthly
-  const legacyColoringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
-    url: `${baseUrl}/coloring-pages/${page.slug}`,
-    lastModified: new Date(page.createdAt || now),
-    changeFrequency: "monthly",
-    priority: 0.5,
-  }));
-
-  // Blog post routes — priority 0.8, weekly
+    // Blog post routes — priority 0.8, weekly
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.date || now),
@@ -95,9 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticRoutes,
     ...categoryRoutes,
-    ...legacyCategoryRoutes,
     ...coloringRoutes,
-    ...legacyColoringRoutes,
     ...blogRoutes,
     ...collectionRoutes,
     ...faqRoutes,
