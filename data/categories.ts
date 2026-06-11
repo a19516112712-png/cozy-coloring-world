@@ -28,7 +28,7 @@ export const categories: Category[] = [
     color: "#FADADD",
     emoji: "🐱",
     imageUrl: "/images/coloring/5_Cute_bunny_picnic_meadow_color.jpg",
-    count: 320,
+    count: 350,
   },
   {
     id: "cozy-coloring",
