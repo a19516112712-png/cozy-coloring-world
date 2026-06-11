@@ -83,7 +83,7 @@ export default function BlogPost() {
               <Link href="/coloring/countryside-bakery" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/17_cottagecore_countryside_bakery.jpg" alt="Countryside Bakery Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/17_cottagecore_countryside_bakery.webp" alt="Countryside Bakery Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Countryside Bakery Coloring Page</p>
@@ -94,7 +94,7 @@ export default function BlogPost() {
               <Link href="/coloring/sewing-room-fabri" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/12_cottagecore_sewing_room__fabri.jpg" alt="Sewing Room Fabri Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/12_cottagecore_sewing_room__fabri.webp" alt="Sewing Room Fabri Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Sewing Room Fabri Coloring Page</p>
@@ -105,7 +105,7 @@ export default function BlogPost() {
               <Link href="/coloring/tiny-mouse-cheese-cafe" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/45_Tiny_Mouse_Cheese_Cafe.jpg" alt="Tiny Mouse Cheese Cafe Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/45_Tiny_Mouse_Cheese_Cafe.webp" alt="Tiny Mouse Cheese Cafe Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Tiny Mouse Cheese Cafe Coloring Page</p>
@@ -116,7 +116,7 @@ export default function BlogPost() {
               <Link href="/coloring/floating-island-villag" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/5_fantasy_floating_island_villag.jpg" alt="Floating Island Villag Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/5_fantasy_floating_island_villag.webp" alt="Floating Island Villag Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Floating Island Villag Coloring Page</p>
@@ -127,7 +127,7 @@ export default function BlogPost() {
               <Link href="/coloring/bunny-hot-air-balloon" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/3_fantasy_bunny_hot_air_balloon_.jpg" alt="Bunny Hot Air Balloon Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/3_fantasy_bunny_hot_air_balloon_.webp" alt="Bunny Hot Air Balloon Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Bunny Hot Air Balloon Coloring Page</p>
@@ -138,7 +138,7 @@ export default function BlogPost() {
               <Link href="/coloring/bedroom-with-fairy-lights" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/39_cozy_bedroom_with_fairy_lights.jpg" alt="Bedroom With Fairy Lights Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/39_cozy_bedroom_with_fairy_lights.webp" alt="Bedroom With Fairy Lights Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Bedroom With Fairy Lights Coloring Page</p>

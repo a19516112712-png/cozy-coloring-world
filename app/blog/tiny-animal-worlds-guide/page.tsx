@@ -83,7 +83,7 @@ export default function BlogPost() {
               <Link href="/coloring/harvest-squirrel-farm-market" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/1_Harvest_Squirrel_Farm_Market.jpg" alt="Harvest Squirrel Farm Market Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/1_Harvest_Squirrel_Farm_Market.webp" alt="Harvest Squirrel Farm Market Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Harvest Squirrel Farm Market Coloring Page</p>
@@ -94,7 +94,7 @@ export default function BlogPost() {
               <Link href="/coloring/tiny-squirrel-acorn-bakery" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/41_Tiny_Squirrel_Acorn_Bakery.jpg" alt="Tiny Squirrel Acorn Bakery Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/41_Tiny_Squirrel_Acorn_Bakery.webp" alt="Tiny Squirrel Acorn Bakery Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Tiny Squirrel Acorn Bakery Coloring Page</p>
@@ -105,7 +105,7 @@ export default function BlogPost() {
               <Link href="/coloring/squirrel-woodland-village" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/41_tiny_squirrel_woodland_village.jpg" alt="Squirrel Woodland Village Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/41_tiny_squirrel_woodland_village.webp" alt="Squirrel Woodland Village Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Squirrel Woodland Village Coloring Page</p>
@@ -116,7 +116,7 @@ export default function BlogPost() {
               <Link href="/coloring/tiny-panda-noodle-shop" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/42_Tiny_Panda_Noodle_Shop.jpg" alt="Tiny Panda Noodle Shop Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/42_Tiny_Panda_Noodle_Shop.webp" alt="Tiny Panda Noodle Shop Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Tiny Panda Noodle Shop Coloring Page</p>
@@ -127,7 +127,7 @@ export default function BlogPost() {
               <Link href="/coloring/duck-farmers-market-vege" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/42_tiny_duck_farmers_market__vege.jpg" alt="Duck Farmers Market Vege Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/42_tiny_duck_farmers_market__vege.webp" alt="Duck Farmers Market Vege Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Duck Farmers Market Vege Coloring Page</p>
@@ -138,7 +138,7 @@ export default function BlogPost() {
               <Link href="/coloring/tiny-duck-pancake-stand" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/43_Tiny_Duck_Pancake_Stand.jpg" alt="Tiny Duck Pancake Stand Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/43_Tiny_Duck_Pancake_Stand.webp" alt="Tiny Duck Pancake Stand Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Tiny Duck Pancake Stand Coloring Page</p>

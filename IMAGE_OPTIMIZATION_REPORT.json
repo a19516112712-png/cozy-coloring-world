@@ -1,0 +1,30 @@
+{
+  "collections": {
+    "coloring": {
+      "before": 1158544802,
+      "after": 111669060,
+      "count": 1579,
+      "converted": 1579,
+      "skipped": 0
+    },
+    "pinterest": {
+      "before": 144921910,
+      "after": 17030936,
+      "count": 354,
+      "converted": 354,
+      "skipped": 0
+    },
+    "blog-covers": {
+      "before": 3243241,
+      "after": 626978,
+      "count": 21,
+      "converted": 21,
+      "skipped": 0
+    }
+  },
+  "total": {
+    "before": 1306813064,
+    "after": 129375540,
+    "count": 1956
+  }
+}

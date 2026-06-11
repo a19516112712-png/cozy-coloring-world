@@ -83,7 +83,7 @@ export default function BlogPost() {
               <Link href="/coloring/hedgehog-enchanted-forest" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/11_Hedgehog_Enchanted_Forest.jpg" alt="Hedgehog Enchanted Forest Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/11_Hedgehog_Enchanted_Forest.webp" alt="Hedgehog Enchanted Forest Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Hedgehog Enchanted Forest Coloring Page</p>
@@ -94,7 +94,7 @@ export default function BlogPost() {
               <Link href="/coloring/panda-floating-island-home" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/12_Panda_Floating_Island_Home.jpg" alt="Panda Floating Island Home Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/12_Panda_Floating_Island_Home.webp" alt="Panda Floating Island Home Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Panda Floating Island Home Coloring Page</p>
@@ -105,7 +105,7 @@ export default function BlogPost() {
               <Link href="/coloring/mouse-crystal-cave" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/14_Mouse_Crystal_Cave.jpg" alt="Mouse Crystal Cave Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/14_Mouse_Crystal_Cave.webp" alt="Mouse Crystal Cave Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Mouse Crystal Cave Coloring Page</p>
@@ -116,7 +116,7 @@ export default function BlogPost() {
               <Link href="/coloring/frog-fairy-house" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/15_Frog_Fairy_House.jpg" alt="Frog Fairy House Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/15_Frog_Fairy_House.webp" alt="Frog Fairy House Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Frog Fairy House Coloring Page</p>
@@ -127,7 +127,7 @@ export default function BlogPost() {
               <Link href="/coloring/cat-potion-store" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/16_Cat_Potion_Store.jpg" alt="Cat Potion Store Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/16_Cat_Potion_Store.webp" alt="Cat Potion Store Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Cat Potion Store Coloring Page</p>
@@ -138,7 +138,7 @@ export default function BlogPost() {
               <Link href="/coloring/squirrel-forest-cabin" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/21_Squirrel_Forest_Cabin.jpg" alt="Squirrel Forest Cabin Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/21_Squirrel_Forest_Cabin.webp" alt="Squirrel Forest Cabin Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Squirrel Forest Cabin Coloring Page</p>

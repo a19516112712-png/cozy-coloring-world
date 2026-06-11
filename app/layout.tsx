@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
       </head>
       <body className="min-h-screen flex flex-col">
 
@@ -29,7 +29,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Tiny Animal Worlds",
               "url": "https://tinyanimalworlds.com",
-              "logo": "https://tinyanimalworlds.com/apple-touch-icon.png",
+              "logo": "https://tinyanimalworlds.com/apple-touch-icon.webp",
               "sameAs": [
                 "https://www.pinterest.com/tinyanimalworlds"
               ]

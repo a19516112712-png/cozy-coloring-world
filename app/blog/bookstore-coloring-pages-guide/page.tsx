@@ -83,7 +83,7 @@ export default function BlogPost() {
               <Link href="/coloring/fox-moonlight-library" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/18_Fox_Moonlight_Library.jpg" alt="Fox Moonlight Library Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/18_Fox_Moonlight_Library.webp" alt="Fox Moonlight Library Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Fox Moonlight Library Coloring Page</p>
@@ -94,7 +94,7 @@ export default function BlogPost() {
               <Link href="/coloring/raccoon-bookstore-owner" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/21_cute_raccoon_bookstore_owner__.jpg" alt="Raccoon Bookstore Owner Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/21_cute_raccoon_bookstore_owner__.webp" alt="Raccoon Bookstore Owner Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Raccoon Bookstore Owner Coloring Page</p>
@@ -105,7 +105,7 @@ export default function BlogPost() {
               <Link href="/coloring/cat-reading-books-kawaii" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/27_cute_cat_reading_books__kawaii.jpg" alt="Cat Reading Books Kawaii Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/27_cute_cat_reading_books__kawaii.webp" alt="Cat Reading Books Kawaii Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Cat Reading Books Kawaii Coloring Page</p>
@@ -116,7 +116,7 @@ export default function BlogPost() {
               <Link href="/coloring/squirrel-window-reading-corner" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/31_Squirrel_Window_Reading_Corner.jpg" alt="Squirrel Window Reading Corner Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/31_Squirrel_Window_Reading_Corner.webp" alt="Squirrel Window Reading Corner Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Squirrel Window Reading Corner Coloring Page</p>
@@ -127,7 +127,7 @@ export default function BlogPost() {
               <Link href="/coloring/frog-reading-on-a-rainy-day" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/40_Frog_Reading_On_A_Rainy_Day.jpg" alt="Frog Reading On A Rainy Day Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/40_Frog_Reading_On_A_Rainy_Day.webp" alt="Frog Reading On A Rainy Day Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Frog Reading On A Rainy Day Coloring Page</p>

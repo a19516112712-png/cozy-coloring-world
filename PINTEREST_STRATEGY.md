@@ -63,12 +63,12 @@ Current Progress:
 Before generating any CSV, copy selected images to:
 
 ```
-public/pinterest/dayXX/slug.jpg
+public/pinterest/dayXX/slug.webp
 ```
 
 Example:
 ```
-public/pinterest/day12/example-page.jpg
+public/pinterest/day12/example-page.webp
 ```
 
 ### Step 2: Generate CSV with Accessible URLs
@@ -76,12 +76,12 @@ public/pinterest/day12/example-page.jpg
 CSV Media URL field MUST use:
 
 ```
-https://tinyanimalworlds.com/pinterest/dayXX/slug.jpg
+https://tinyanimalworlds.com/pinterest/dayXX/slug.webp
 ```
 
 Example:
 ```
-https://tinyanimalworlds.com/pinterest/day12/example-page.jpg
+https://tinyanimalworlds.com/pinterest/day12/example-page.webp
 ```
 
 ### Step 3: Build and Deploy
@@ -94,7 +94,7 @@ After deployment, the URL is directly accessible.
 
 Every Media URL in the CSV must correspond to a real file:
 
-public/pinterest/dayXX/slug.jpg must exist on disk before CSV generation.
+public/pinterest/dayXX/slug.webp must exist on disk before CSV generation.
 
 ## Tracking Files
 

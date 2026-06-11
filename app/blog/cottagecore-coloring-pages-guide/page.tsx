@@ -83,7 +83,7 @@ export default function BlogPost() {
               <Link href="/coloring/cute-frog-fishing-village-colo" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/10_Cozy_Autumn_Fox_Cottage.jpg" alt="Cozy Autumn Fox Cottage Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/10_Cozy_Autumn_Fox_Cottage.webp" alt="Cozy Autumn Fox Cottage Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Cozy Autumn Fox Cottage Coloring Page</p>
@@ -94,7 +94,7 @@ export default function BlogPost() {
               <Link href="/coloring/herb-garden-rabbi" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/11_cottagecore_herb_garden__rabbi.jpg" alt="Herb Garden Rabbi Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/11_cottagecore_herb_garden__rabbi.webp" alt="Herb Garden Rabbi Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Herb Garden Rabbi Coloring Page</p>
@@ -105,7 +105,7 @@ export default function BlogPost() {
               <Link href="/coloring/sewing-room-fabri" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/12_cottagecore_sewing_room__fabri.jpg" alt="Sewing Room Fabri Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/12_cottagecore_sewing_room__fabri.webp" alt="Sewing Room Fabri Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Sewing Room Fabri Coloring Page</p>
@@ -116,7 +116,7 @@ export default function BlogPost() {
               <Link href="/coloring/picnic-with-woodla" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/13_cottagecore_picnic_with_woodla.jpg" alt="Picnic With Woodla Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/13_cottagecore_picnic_with_woodla.webp" alt="Picnic With Woodla Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Picnic With Woodla Coloring Page</p>
@@ -127,7 +127,7 @@ export default function BlogPost() {
               <Link href="/coloring/reading-nook-under" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/14_cottagecore_reading_nook_under.jpg" alt="Reading Nook Under Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/14_cottagecore_reading_nook_under.webp" alt="Reading Nook Under Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Reading Nook Under Coloring Page</p>
@@ -138,7 +138,7 @@ export default function BlogPost() {
               <Link href="/coloring/greenhouse-filled" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/15_cottagecore_greenhouse_filled_.jpg" alt="Greenhouse Filled Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/15_cottagecore_greenhouse_filled_.webp" alt="Greenhouse Filled Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Greenhouse Filled Coloring Page</p>

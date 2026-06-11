@@ -17,7 +17,7 @@ export const categories: Category[] = [
     description: "Free printable word search puzzles featuring adorable animals — fun educational activities for kids",
     color: "#D4F0E8",
     emoji: "🔍",
-    imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.jpg",
+    imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
     count: 100,
   },
   {
@@ -27,7 +27,7 @@ export const categories: Category[] = [
     description: "Adorable animal friends in charming everyday scenes — free to download and print",
     color: "#FADADD",
     emoji: "🐱",
-    imageUrl: "/images/coloring/5_Cute_bunny_picnic_meadow_color.jpg",
+    imageUrl: "/images/coloring/5_Cute_bunny_picnic_meadow_color.webp",
     count: 350,
   },
   {
@@ -37,7 +37,7 @@ export const categories: Category[] = [
     description: "Miniature village scenes with adorable animals in cozy tiny homes",
     color: "#FFF4D2",
     emoji: "🐭",
-    imageUrl: "/images/coloring/48_Cute_frog_mushroom_village_col.jpg",
+    imageUrl: "/images/coloring/48_Cute_frog_mushroom_village_col.webp",
     count: 222,
   },
   {
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     description: "Charming cottages, flower gardens, and countryside living scenes",
     color: "#FFF4D2",
     emoji: "🏡",
-    imageUrl: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.jpg",
+    imageUrl: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.webp",
     count: 221,
   },
   {
@@ -57,7 +57,7 @@ export const categories: Category[] = [
     description: "Cozy rainy window scenes and indoor comfort coloring pages",
     color: "#C5E0F0",
     emoji: "🌧️",
-    imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.jpg",
+    imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.webp",
     count: 171,
   },
   {
@@ -67,7 +67,7 @@ export const categories: Category[] = [
     description: "Magical creatures, enchanted forests, and fairy tale worlds to color",
     color: "#E8D5F5",
     emoji: "🦄",
-    imageUrl: "/images/coloring/33_Cute_unicorn_fairy_forest_colo.jpg",
+    imageUrl: "/images/coloring/33_Cute_unicorn_fairy_forest_colo.webp",
     count: 7,
   },
   {
@@ -77,7 +77,7 @@ export const categories: Category[] = [
     description: "Winter cabins, autumn scenes, spring gardens, and summer picnics",
     color: "#FFE5D0",
     emoji: "🍂",
-    imageUrl: "/images/coloring/35_Cute_bear_winter_cabin_colorin.jpg",
+    imageUrl: "/images/coloring/35_Cute_bear_winter_cabin_colorin.webp",
     count: 198,
   },
   {
@@ -87,7 +87,7 @@ export const categories: Category[] = [
     description: "Cozy bakeries, sweet shops, and delicious food-themed coloring pages",
     color: "#FFB5C2",
     emoji: "🥐",
-    imageUrl: "/images/coloring/8_Cute_cat_cupcake_bakery_colori.jpg",
+    imageUrl: "/images/coloring/8_Cute_cat_cupcake_bakery_colori.webp",
     count: 210,
   },
   {
@@ -97,7 +97,7 @@ export const categories: Category[] = [
     description: "Warm cafes, tea rooms, and cozy coffee shop coloring pages",
     color: "#D4C5B0",
     emoji: "☕",
-    imageUrl: "/images/coloring/30_cat_cafe_with_books_and_flower.jpg",
+    imageUrl: "/images/coloring/30_cat_cafe_with_books_and_flower.webp",
     count: 174,
   },
   {
@@ -107,7 +107,7 @@ export const categories: Category[] = [
     description: "Magical libraries, cozy bookshops, and reading nook scenes",
     color: "#FFF4D2",
     emoji: "📚",
-    imageUrl: "/images/coloring/36_Cute_hamster_bookstore_colorin.jpg",
+    imageUrl: "/images/coloring/36_Cute_hamster_bookstore_colorin.webp",
     count: 233,
   },
   {
@@ -117,7 +117,7 @@ export const categories: Category[] = [
     description: "Flower gardens, greenhouses, and botanical coloring pages",
     color: "#D4F0E8",
     emoji: "🌷",
-    imageUrl: "/images/coloring/35_Cute_cat_greenhouse_coloring_p.jpg",
+    imageUrl: "/images/coloring/35_Cute_cat_greenhouse_coloring_p.webp",
     count: 248,
   },
   {
@@ -127,7 +127,7 @@ export const categories: Category[] = [
     description: "Festive holiday scenes, winter wonderlands, and cozy Christmas pages",
     color: "#FFD4D4",
     emoji: "🎄",
-    imageUrl: "/images/coloring/34_Cute_penguin_winter_wonderland.jpg",
+    imageUrl: "/images/coloring/34_Cute_penguin_winter_wonderland.webp",
     count: 170,
   },
   {
@@ -137,7 +137,7 @@ export const categories: Category[] = [
     description: "Spooky cute Halloween scenes with pumpkins, ghosts, and autumn fun",
     color: "#FFE5D0",
     emoji: "🎃",
-    imageUrl: "/images/coloring/29_Cute_hedgehog_pumpkin_farm_col.jpg",
+    imageUrl: "/images/coloring/29_Cute_hedgehog_pumpkin_farm_col.webp",
     count: 168,
   },
   {
@@ -147,7 +147,7 @@ export const categories: Category[] = [
     description: "Cozy village streets, markets, and community gathering scenes",
     color: "#FFF4D2",
     emoji: "🏘️",
-    imageUrl: "/images/coloring/27_Cute_squirrel_village_square_c.jpg",
+    imageUrl: "/images/coloring/27_Cute_squirrel_village_square_c.webp",
     count: 193,
   },
   {
@@ -157,7 +157,7 @@ export const categories: Category[] = [
     description: "Quiet reading corners, cozy blankets, and peaceful coloring moments",
     color: "#E8D5F5",
     emoji: "📖",
-    imageUrl: "/images/coloring/28_Cute_bear_reading_nook_colorin.jpg",
+    imageUrl: "/images/coloring/28_Cute_bear_reading_nook_colorin.webp",
     count: 191,
   },
   {
@@ -167,7 +167,7 @@ export const categories: Category[] = [
     description: "Elegant tea parties with adorable animal hosts and sweet treats",
     color: "#FFB5C2",
     emoji: "🫖",
-    imageUrl: "/images/coloring/51_Cute_mouse_tea_garden_coloring.jpg",
+    imageUrl: "/images/coloring/51_Cute_mouse_tea_garden_coloring.webp",
     count: 211,
   },
 ];

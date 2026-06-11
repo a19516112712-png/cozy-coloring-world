@@ -21,7 +21,7 @@ export default function BlogPost() {
     "url": "https://tinyanimalworlds.com/blog/woodland-treehouse-coloring",
     "datePublished": "2026-06-07", "dateModified": "2026-06-07",
     "author": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com" },
-    "publisher": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com", "logo": { "@type": "ImageObject", "url": "https://tinyanimalworlds.com/apple-touch-icon.png" } }
+    "publisher": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com", "logo": { "@type": "ImageObject", "url": "https://tinyanimalworlds.com/apple-touch-icon.webp" } }
   };
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://tinyanimalworlds.com" },

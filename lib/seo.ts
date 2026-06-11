@@ -52,7 +52,7 @@ export const defaultMetadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Cozy Coloring World - Free Printable Coloring Pages for Kids and Adults",
@@ -64,7 +64,7 @@ export const defaultMetadata: Metadata = {
     card: "summary_large_image",
     title: "Cozy Coloring World | Free Printable Coloring Pages JPG",
     description: "Download free cute printable coloring pages for kids and adults.",
-    images: ["/og-image.png"],
+    images: ["/og-image.webp"],
     site: "@cozycoloringworld",
     creator: "@cozycoloringworld",
   },

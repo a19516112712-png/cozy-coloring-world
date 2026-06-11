@@ -25,7 +25,7 @@ export default function BlogPost() {
     "datePublished": "2026-06-05",
     "dateModified": "2026-06-05",
     "author": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com" },
-    "publisher": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com", "logo": { "@type": "ImageObject", "url": "https://tinyanimalworlds.com/apple-touch-icon.png" } }
+    "publisher": { "@type": "Organization", "name": "Tiny Animal Worlds", "url": "https://tinyanimalworlds.com", "logo": { "@type": "ImageObject", "url": "https://tinyanimalworlds.com/apple-touch-icon.webp" } }
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([

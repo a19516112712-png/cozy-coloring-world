@@ -83,7 +83,7 @@ export default function BlogPost() {
               <Link href="/coloring/duck-wearing-rain-boots" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/26_cute_duck_wearing_rain_boots__.jpg" alt="Duck Wearing Rain Boots Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/26_cute_duck_wearing_rain_boots__.webp" alt="Duck Wearing Rain Boots Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Duck Wearing Rain Boots Coloring Page</p>
@@ -94,7 +94,7 @@ export default function BlogPost() {
               <Link href="/coloring/duck-rain-boots-adventure" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/34_Duck_Rain_Boots_Adventure.jpg" alt="Duck Rain Boots Adventure Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/34_Duck_Rain_Boots_Adventure.webp" alt="Duck Rain Boots Adventure Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Duck Rain Boots Adventure Coloring Page</p>
@@ -105,7 +105,7 @@ export default function BlogPost() {
               <Link href="/coloring/mouse-cozy-cabin-in-rain" className="group bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-shadow border border-pink/10">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden bg-cream flex-shrink-0">
-                    <Image src="/images/coloring/35_Mouse_Cozy_Cabin_In_Rain.jpg" alt="Mouse Cozy Cabin In Rain Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
+                    <Image src="/images/coloring/35_Mouse_Cozy_Cabin_In_Rain.webp" alt="Mouse Cozy Cabin In Rain Coloring Page" width={48} height={48} className="object-cover w-full h-full" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-cocoa truncate group-hover:text-rose transition-colors">Mouse Cozy Cabin In Rain Coloring Page</p>

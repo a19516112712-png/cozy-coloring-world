@@ -36,7 +36,7 @@ const blogSchema = {
     "url": "https://tinyanimalworlds.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://tinyanimalworlds.com/apple-touch-icon.png"
+      "url": "https://tinyanimalworlds.com/apple-touch-icon.webp"
     }
   }
 };
