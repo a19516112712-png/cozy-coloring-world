@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { categories } from "@/data/categories";
+export const dynamic = "force-static";
 import { coloringPages } from "@/data/coloring-pages";
 import { blogPosts } from "@/data/blogPosts";
 import { collections } from "@/data/collections";
