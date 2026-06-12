@@ -546,8 +546,7 @@ export const blogPosts: BlogPost[] = [
     category: "Cute Animal",
     coverImage: "/images/coloring/100_Bold_Easy_Bunny_Face.webp",
     readTime: "8 min read",
-  }
-,
+  },
   {
     slug: "bold-easy-food-harvest-coloring-pages",
     title: "Bold Easy Food and Harvest Coloring Pages: Free Printable JPG Downloads",
@@ -750,8 +749,7 @@ export const blogPosts: BlogPost[] = [
     category: "Cozy Coloring",
     coverImage: "/images/coloring/10_Beaver_Hosting_a_River_Enginee.webp",
     readTime: "6 min read",
-  }
-,
+  },
   {
     slug: "harvest-festival-coloring",
     title: "Harvest Festival Coloring Pages: Free Printable Woodland Celebration Scenes",
@@ -796,8 +794,7 @@ export const blogPosts: BlogPost[] = [
     category: "Cute Animals",
     coverImage: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp",
     readTime: "7 min read",
-  }
-,
+  },
   {
     slug: "squirrel-acorn-coloring",
     title: "Squirrel Acorn Coloring Pages: 30 Free Printable Woodland Squirrel Scenes",
@@ -842,14 +839,12 @@ export const blogPosts: BlogPost[] = [
     category: "Bakery Coloring",
     coverImage: "/images/coloring/10_fantasy_dragon_bakery_village_.webp",
     readTime: "7 min read",
-  }
-,
+  },
   { slug: "tiny-woodland-helpers", title: "Tiny Woodland Helpers Coloring Pages: Free Printable Animal Worker Scenes", description: "Download free printable tiny woodland helper coloring pages! Bunnies building bridges, raccoons repairing fences, otters creating pathways — adorable animal workers in the forest.", date: "2026-06-07", category: "Cute Animals", coverImage: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp", readTime: "7 min read" },
   { slug: "tiny-woodland-shops", title: "Tiny Woodland Shops Coloring Pages: Free Printable Forest Market Scenes", description: "Explore tiny woodland shops and market stalls! Mice creating pottery, squirrels selling acorn preserves, rabbits running candle shops — free printable coloring pages.", date: "2026-06-07", category: "Cozy Coloring", coverImage: "/images/coloring/10_Tiny_mouse_toy_store__teddy_be.webp", readTime: "7 min read" },
   { slug: "woodland-explorers-coloring", title: "Woodland Explorers Coloring Pages: Free Printable Forest Adventure Scenes", description: "Join the woodland explorers! Foxes discovering cottages, otters finding crystal caves, deer making nature maps — free printable adventure coloring pages for kids.", date: "2026-06-07", category: "Cute Animals", coverImage: "/images/coloring/11_Chipmunk_Maintaining_a_Forest_.webp", readTime: "7 min read" },
   { slug: "woodland-craft-workshop", title: "Woodland Craft Workshop Coloring Pages: Free Printable DIY Forest Scenes", description: "Get creative with woodland craft workshop coloring pages! Foxes making clothes, bunnies painting signs, mice decorating mushrooms — free printable JPG downloads.", date: "2026-06-07", category: "Cozy Coloring", coverImage: "/images/coloring/13_Badger_Building_Miniature_Bird.webp", readTime: "6 min read" },
-  { slug: "squirrel-woodland-life", title: "Squirrel Woodland Life Coloring Pages: Free Printable Forest Living Scenes", description: "Discover squirrel woodland life! Acorn preserves, forest libraries, bird feeders, pine cone harvests — 30+ free printable squirrel coloring pages for all ages.", date: "2026-06-07", category: "Cute Animals", coverImage: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp", readTime: "7 min read" }
-,
+  { slug: "squirrel-woodland-life", title: "Squirrel Woodland Life Coloring Pages: Free Printable Forest Living Scenes", description: "Discover squirrel woodland life! Acorn preserves, forest libraries, bird feeders, pine cone harvests — 30+ free printable squirrel coloring pages for all ages.", date: "2026-06-07", category: "Cute Animals", coverImage: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp", readTime: "7 min read" },
   { slug: "tiny-woodland-workers", title: "Tiny Woodland Workers Coloring Pages: Free Printable Forest Job Scenes", description: "Download free printable tiny woodland worker coloring pages! Bunnies, raccoons, otters, and squirrels doing forest jobs — building, cooking, crafting, and more.", date: "2026-06-07", category: "Cute Animals", coverImage: "/images/coloring/13_Badger_Building_Miniature_Bird.webp", readTime: "7 min read" },
   { slug: "woodland-community-life", title: "Woodland Community Life Coloring Pages: Free Printable Forest Village Scenes", description: "Explore woodland community life! Animal festivals, forest markets, lantern celebrations, and village gatherings — free printable coloring pages for all ages.", date: "2026-06-07", category: "Cozy Coloring", coverImage: "/images/coloring/10_Cute_frog_fishing_village_colo.webp", readTime: "7 min read" },
   { slug: "woodland-building-scenes", title: "Woodland Building Scenes Coloring Pages: Free Printable Forest Construction", description: "Watch tiny animals build! Raccoons constructing bridges, bears building dams, bunnies making windmills — free printable woodland construction coloring pages.", date: "2026-06-07", category: "Cozy Coloring", coverImage: "/images/coloring/13_Badger_Building_Miniature_Bird.webp", readTime: "6 min read" },
@@ -860,8 +855,7 @@ export const blogPosts: BlogPost[] = [
   { slug: "woodland-treasure-collectors", title: "Woodland Treasure Collectors Coloring Pages: Free Printable Animal Collecting Scenes", description: "Discover woodland treasure collectors! Deer organizing butterfly gardens, raccoons gathering driftwood, mice arranging seashells u2014 free printable collecting and organizing coloring pages.", date: "2026-06-08", category: "Cute Animals", coverImage: "/images/coloring/10_fox_book_club_gathering.webp", readTime: "7 min read" },
   { slug: "cozy-collection-rooms", title: "Cozy Collection Rooms Coloring Pages: Free Printable Display Room Scenes", description: "Step into cozy collection rooms! Botanical displays, feather collections, lantern rooms, mushroom exhibits, and nature corners u2014 free printable display room coloring pages.", date: "2026-06-08", category: "Cozy Coloring", coverImage: "/images/coloring/100_Cozy_Attic_Reading_Nook.webp", readTime: "6 min read" },
   { slug: "woodland-music-scenes", title: "Woodland Music Scenes Coloring Pages: Free Printable Forest Concert & Melody", description: "Fill the forest with music! Cats in cozy music rooms, frogs playing guitar at woodland concerts, and adorable animals making melodies u2014 free printable music coloring pages.", date: "2026-06-08", category: "Cozy Coloring", coverImage: "/images/coloring/12_Tiny_cat_bakery_display_window.webp", readTime: "6 min read" },
-  { slug: "forest-toy-workshop", title: "Forest Toy Workshop Coloring Pages: Free Printable Animal Toy Shop Scenes", description: "Visit the forest toy workshop! Hamster toy shops, mouse toy workshops, bunnies assembling toy wagons u2014 free printable adorable animal toy making and playtime coloring pages.", date: "2026-06-08", category: "Cozy Coloring", coverImage: "/images/coloring/10_Tiny_mouse_toy_store__teddy_be.webp", readTime: "6 min read" }
-,
+  { slug: "forest-toy-workshop", title: "Forest Toy Workshop Coloring Pages: Free Printable Animal Toy Shop Scenes", description: "Visit the forest toy workshop! Hamster toy shops, mouse toy workshops, bunnies assembling toy wagons u2014 free printable adorable animal toy making and playtime coloring pages.", date: "2026-06-08", category: "Cozy Coloring", coverImage: "/images/coloring/10_Tiny_mouse_toy_store__teddy_be.webp", readTime: "6 min read" },
   {
     slug: "duck-pond-village-coloring-pages",
     title: "Duck Pond Village Coloring Pages: Free Printable Lakeside Duck Community Scenes",
@@ -906,8 +900,7 @@ export const blogPosts: BlogPost[] = [
     category: "Duck Tea & Bakery",
     coverImage: "/images/coloring/10_Cute_squirrel_tea_party_colori.webp",
     readTime: "7 min read",
-  }
-,
+  },
   {
     slug: "friends-family-word-search",
     title: "Friends & Family Word Search Puzzles: Free Printable Animal Activities",
@@ -997,8 +990,7 @@ export const blogPosts: BlogPost[] = [
     category: "Word Search",
     coverImage: "/images/coloring/100_Bold_Easy_Bunny_Face.webp",
     readTime: "7 min read",
-  }
-,
+  },
   {
     slug: "duckling-baby-duck-coloring-pages",
     title: "Duckling & Baby Duck Coloring Pages: Free Printable Adorable Duck Family Scenes",
@@ -1043,8 +1035,7 @@ export const blogPosts: BlogPost[] = [
     category: "Rainy Day Coloring",
     coverImage: "/images/coloring/10_duck_family_lakeside_cottage.webp",
     readTime: "7 min read",
-  }
-,
+  },
   {
     slug: "free-printable-word-search-classroom",
     title: "Free Printable Word Search for Classroom: Teacher-Approved Animal Puzzles",
@@ -1224,4 +1215,93 @@ export const blogPosts: BlogPost[] = [
     coverImage: "/images/coloring/10_bear_cafe_reading_corner.webp",
     readTime: "7 min read",
   },
-];
+  {
+    slug: "jungle-animal-word-search-printable",
+    title: "Jungle Animal Word Search: Free Printable Rainforest Puzzles for Kids",
+    description: "Explore the jungle with free printable animal word search puzzles. Perfect for learning about rainforest animals, habitats, and vocabulary. Fun educational activity!",
+    date: "2026-06-12",
+    category: "Word Search",
+    coverImage: "/images/coloring/5_cute_fox_reading_a_book_in_a_cozy.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "savanna-animal-learning-printables",
+    title: "Savanna Animal Learning: Free Printable Word Search & Coloring Pages",
+    description: "Discover savanna animals with engaging printable word search puzzles and coloring pages. Lions, zebras, giraffes and more — perfect for classroom and homeschool.",
+    date: "2026-06-12",
+    category: "Animal Learning",
+    coverImage: "/images/coloring/18_Bear_family_picnic_by_the_lake.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "arctic-animal-activities-kids-printable",
+    title: "Arctic Animal Activities for Kids: Free Printable Word Search Puzzles",
+    description: "Learn about polar bears, penguins, seals, and arctic foxes with free printable word search puzzles. Perfect winter learning activity for elementary students.",
+    date: "2026-06-12",
+    category: "Kids Activities",
+    coverImage: "/images/coloring/34_hedgehog_reading_corner.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "farmyard-animal-printable-classroom-resources",
+    title: "Farmyard Animal Printables: Free Classroom Resources for K-3 Teachers",
+    description: "Download free farmyard animal word search puzzles and coloring pages for your elementary classroom. Perfect for farm units, animal studies, and morning work.",
+    date: "2026-06-12",
+    category: "Classroom Activities",
+    coverImage: "/images/coloring/14_tiny_mouse_artist_painter.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "meadow-woodland-printable-homeschool-bundle",
+    title: "Meadow & Woodland Printable Homeschool Bundle: Word Search & Coloring",
+    description: "Complete meadow and woodland themed homeschool bundle with free printable word search puzzles, coloring pages, and activity sheets. Multi-grade learning at home.",
+    date: "2026-06-12",
+    category: "Homeschool Resources",
+    coverImage: "/images/coloring/21_deer_family_in_meadow.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "seaside-ocean-printable-activities-elementary",
+    title: "Seaside & Ocean Printable Activities for Elementary Kids: Word Search Fun",
+    description: "Dive into learning with seaside and ocean themed printable word search puzzles. Whales, dolphins, crabs, shells — free educational activities for curious kids.",
+    date: "2026-06-12",
+    category: "Printable Activities",
+    coverImage: "/images/coloring/24_camping_fox_family.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "wetlands-animal-vocabulary-printable-puzzles",
+    title: "Wetlands Animal Vocabulary: Free Printable Word Search Puzzles for Kids",
+    description: "Build vocabulary with wetlands animal word search puzzles. Herons, frogs, dragonflies, cattails — explore marsh and swamp ecosystems through fun printable activities.",
+    date: "2026-06-12",
+    category: "Educational Printables",
+    coverImage: "/images/coloring/30_bunny_garden_tea_party.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "garden-animal-word-search-coloring-pages",
+    title: "Garden Animal Word Search & Coloring Pages: 3000+ Free Printables",
+    description: "Discover garden animal themed word search puzzles and coloring pages. Butterflies, hummingbirds, bees, and flowers — free printable activities for spring and summer learning.",
+    date: "2026-06-12",
+    category: "Coloring Pages",
+    coverImage: "/images/coloring/8_Adorable_fox_and_bunny_having_a_tea_p.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "valley-woods-animal-printable-learning-kids",
+    title: "Valley & Woods Animal Printable Learning Activities for Kids",
+    description: "Explore valleys and woods with free printable animal word search puzzles. Hawks, deer, squirrels, mushrooms — nature-themed learning activities for curious young minds.",
+    date: "2026-06-12",
+    category: "Animal Learning",
+    coverImage: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+    readTime: "7 min read",
+  },
+  {
+    slug: "wildlife-habitats-printable-word-search-bundle",
+    title: "Wildlife Habitats Printable Bundle: Jungle, Savanna, Arctic & More",
+    description: "Ultimate wildlife habitats printable bundle! Jungle, savanna, arctic, wetlands, meadow, and seaside word search puzzles. 1300+ free puzzles for year-round learning.",
+    date: "2026-06-12",
+    category: "Printable Activities",
+    coverImage: "/images/coloring/10_bear_cafe_reading_corner.webp",
+    readTime: "7 min read",
+  }];

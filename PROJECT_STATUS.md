@@ -1,7 +1,7 @@
 # PROJECT STATUS
-> **Last Updated**: 2026/06/11 CST
-| **Pages** | 1658 | **Word Search** | 1201 | **Blogs** | 152 | **Pins** | 290 | **Build** | ✅ |
-| **Deploy** | Static Export (Cloudflare Pages) | **Images** | WebP optimized | **Output** | `out/` (9,109 files) |
-| **Latest** | Cloudflare Pages migration: enabled `output: 'export'`, removed server-side redirects, added `_redirects` file, images unoptimized |
-| **Recent blogs** | animal-word-search-benefits-kids-learning, coloring-word-search-homeschool-resources, animal-vocabulary-building-printable-puzzles |
-| **Recent word search** | fox-rainforest-word-search, chicken-coral-reef-word-search, deer-coral-reef-word-search |
+> **Last Updated**: 2026/06/12 CST
+| **Pages** | 1658 | **Word Search** | 1301 | **Blogs** | 162 | **Pins** | 290 | **Build** | ✅ |
+| **Deploy** | Static Export (Cloudflare Pages) | **Images** | WebP optimized | **Output** | `out/` |
+| **Latest** | SEO batch 3: +100 Word Search (jungle, savanna, arctic, wetlands, meadow, seaside, woods, valley, garden, farmyard), +10 SEO blogs |
+| **Recent blogs** | jungle-animal-word-search-printable, savanna-animal-learning-printables, arctic-animal-activities-kids-printable |
+| **Recent word search** | fox-jungle-word-search, bunny-jungle-word-search, deer-farmyard-word-search |
