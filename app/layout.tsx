@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { SITE_URL } from "@/lib/site";
 import { defaultMetadata } from "@/lib/seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -28,8 +29,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Tiny Animal Worlds",
-              "url": "https://tinyanimalworlds.com",
-              "logo": "https://tinyanimalworlds.com/apple-touch-icon.webp",
+              "url": SITE_URL,
+              "logo": `${SITE_URL}/apple-touch-icon.webp`,
               "sameAs": [
                 "https://www.pinterest.com/tinyanimalworlds"
               ]
@@ -43,10 +44,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Tiny Animal Worlds",
-              "url": "https://tinyanimalworlds.com",
+              "url": SITE_URL,
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://tinyanimalworlds.com/coloring-pages?q={search_term_string}",
+                "target": `${SITE_URL}/coloring-pages?q={search_term_string}`,
                 "query-input": "required name=search_term_string"
               }
             })

@@ -1,3 +1,5 @@
+import { SITE_URL } from "@/lib/site";
+
 export interface FAQItem {
   question: string;
   answer: string;
@@ -33,7 +35,7 @@ export function generateImageSchema(
     description: description,
     width: width,
     height: height,
-    license: "https://tinyanimalworlds.com/terms",
+    license: `${SITE_URL}/terms`,
   };
 }
 

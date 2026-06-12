@@ -1,14 +1,16 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
 import { categories } from "@/data/categories";
-export const dynamic = "force-static";
 import { coloringPages } from "@/data/coloring-pages";
 import { blogPosts } from "@/data/blogPosts";
 import { collections } from "@/data/collections";
 import { faqPages } from "@/data/faqs";
 import { wordSearches } from "@/data/wordSearches";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://tinyanimalworlds.com";
+  const baseUrl = SITE_URL;
   const now = new Date();
 
   // Static routes
@@ -29,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/affiliate-disclosure`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
   ];
 
-  // Category routes — /category/[slug] priority 0.9, weekly
+  // Category routes
   const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${baseUrl}/category/${cat.slug}`,
     lastModified: now,
@@ -37,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-    // Coloring page detail routes — /coloring/[slug] priority 0.7, monthly
+  // Coloring page detail routes
   const coloringRoutes: MetadataRoute.Sitemap = coloringPages.map((page) => ({
     url: `${baseUrl}/coloring/${page.slug}`,
     lastModified: new Date(page.createdAt || now),
@@ -45,7 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-    // Blog post routes — priority 0.8, weekly
+  // Blog post routes
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.date || now),
@@ -53,7 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Collection routes — priority 0.7, weekly
+  // Collection routes
   const collectionRoutes: MetadataRoute.Sitemap = collections.map((col) => ({
     url: `${baseUrl}/collections/${col.slug}`,
     lastModified: now,
@@ -61,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // FAQ routes — priority 0.6, monthly
+  // FAQ routes
   const faqRoutes: MetadataRoute.Sitemap = faqPages.map((faq) => ({
     url: `${baseUrl}/faq/${faq.slug}`,
     lastModified: now,
@@ -69,8 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-
-  // Word Search routes — priority 0.8, weekly
+  // Word Search routes
   const wordSearchRoutes: MetadataRoute.Sitemap = wordSearches.map((ws) => ({
     url: `${baseUrl}/word-search/${ws.slug}`,
     lastModified: new Date(ws.createdAt || now),

@@ -1,7 +1,8 @@
 import { Metadata } from "next";
+import { SITE_URL, SITE_NAME } from "@/lib/site";
 
-const siteUrl = "https://tinyanimalworlds.com";
-const siteName = "Cozy Coloring World";
+const siteUrl = SITE_URL;
+const siteName = SITE_NAME;
 const siteDescription =
   "Download free cute printable coloring pages for kids and adults. Cozy, kawaii, and cottagecore designs. New coloring pages added weekly! Free PDF downloads.";
 
