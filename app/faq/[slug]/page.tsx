@@ -80,7 +80,7 @@ export default async function FaqPage({ params }: Props) {
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">{faq.description}</p>
           
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Quick Answer</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-6">Our free printable coloring pages are designed to be easy to use for everyone. Simply browse our <Link href="/coloring-pages" className="text-rose hover:underline">collection of 1340+ pages</Link>, click to download the JPG, and print at home. No sign-up required!</p>
+          <p className="text-cocoa/75 leading-relaxed mb-6">Our free printable coloring pages are designed to be easy to use for everyone. Simply browse our <Link href="/coloring-pages" className="text-rose hover:underline">collection of 1700+ pages</Link>, click to download the JPG, and print at home. No sign-up required!</p>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Detailed Guide</h2>
           <p className="text-cocoa/75 leading-relaxed mb-6">For the best coloring experience, we recommend using cardstock paper (80lb or 120gsm) if using markers or watercolors. Regular printer paper works great with crayons and colored pencils. Always set your printer to High Quality mode for the crispest lines.</p>
@@ -88,7 +88,7 @@ export default async function FaqPage({ params }: Props) {
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Related Resources</h2>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring-pages" className="text-rose hover:underline">Browse All 1340+ Coloring Pages</Link></li>
+            <li><Link href="/coloring-pages" className="text-rose hover:underline">Browse All 1700+ Coloring Pages</Link></li>
             <li><Link href="/categories" className="text-rose hover:underline">Explore All Categories</Link></li>
             <li><Link href="/blog" className="text-rose hover:underline">Read Our Coloring Blog</Link></li>
           </ul>

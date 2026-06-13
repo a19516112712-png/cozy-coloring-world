@@ -3,7 +3,7 @@ import { generatePageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Cozy Coloring World | Free Printable Coloring Pages JPG',
-  description: 'Download free cute printable coloring pages for kids and adults. Cozy, kawaii, and cottagecore designs. 1340+ free JPG downloads added weekly!',
+  description: 'Download free cute printable coloring pages for kids and adults. Cozy, kawaii, and cottagecore designs. 1700+ free downloads added weekly!',
   path: '/',
 });
 
@@ -55,7 +55,7 @@ export default function HomePage() {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       "name": "Tiny Animal Worlds - Free Printable Coloring Pages",
-      "description": "Download 1340+ free printable coloring pages. Cute animals, cozy cottages, tea parties, gardens, and more!",
+      "description": "Download 1700+ free printable coloring pages. Cute animals, cozy cottages, tea parties, gardens, and more!",
       "url": "https://tinyanimalworlds.com"
     }) }} />
 
@@ -375,7 +375,7 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 max-w-2xl mx-auto">
           {[
-            { emoji: "🔍", title: "Browse & Choose", desc: "Pick from our cozy collections of 1340+ free designs" },
+            { emoji: "🔍", title: "Browse & Choose", desc: "Pick from our cozy collections of 1700+ free designs" },
             { emoji: "📥", title: "Download Free JPG", desc: "One click — no sign-up, no subscription needed" },
             { emoji: "🖍️", title: "Print & Color", desc: "Print at home and enjoy relaxing coloring time" },
           ].map((item, i) => (
