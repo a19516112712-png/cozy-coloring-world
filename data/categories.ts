@@ -38,7 +38,7 @@ export const categories: Category[] = [
     color: "#FFF4D2",
     emoji: "🐭",
     imageUrl: "/images/coloring/48_Cute_frog_mushroom_village_col.webp",
-    count: 340,
+    count: 396,
   },
   {
     id: "cozy-coloring",
