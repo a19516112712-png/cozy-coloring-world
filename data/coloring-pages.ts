@@ -24463,8 +24463,7 @@ export const coloringPages: ColoringPage[] = [
     keywords: ["coloring page", "printable coloring", "free coloring", "raccoon coloring", "cute raccoon", "animal coloring", "JPG download", "market coloring"],
     altText: "Raccoon Village Marketplace coloring page - free printable JPG featuring adorable raccoons at a market",
     createdAt: "2026-06-05T17:12:55+08:00",
-  }
-,
+  },
   {
     id: "squirrel-selling-handmade-craf",
     slug: "squirrel-selling-handmade-craf",
@@ -24884,8 +24883,7 @@ export const coloringPages: ColoringPage[] = [
     keywords: ["coloring page", "printable coloring", "free coloring", "squirrel coloring", "cute squirrel", "animal coloring", "JPG download", "woodland coloring"],
     altText: "Squirrel Bakery Treats Display coloring page - free printable JPG featuring adorable squirrels in a woodland scene",
     createdAt: "2026-06-06T16:12:42+08:00",
-  }
-,
+  },
   {
     id: "little-bunny-maintaining-a-woo",
     slug: "little-bunny-maintaining-a-woo",
@@ -26705,8 +26703,7 @@ export const coloringPages: ColoringPage[] = [
     keywords: ["coloring page","printable coloring","free coloring","duck coloring","cute duck","JPG download"],
     altText: "Duck Beside A Cozy Pond Cottag Coloring Page - free printable JPG featuring adorable duck scenes",
     createdAt: "2026-06-09T08:00:00+08:00",
-  }
-,
+  },
   {
     id: "mouse-relaxing-beside-a-bakery",
     slug: "mouse-relaxing-beside-a-bakery",
@@ -27127,7 +27124,6 @@ export const coloringPages: ColoringPage[] = [
     altText: "Cute Mouse Baking Fresh Bread  Coloring Page - free printable JPG featuring adorable mouse bakery scenes",
     createdAt: "2026-06-10T08:00:00+08:00",
   },
-,
   {
     id: "owl-enjoying-a-quiet-evening-i",
     slug: "owl-enjoying-a-quiet-evening-i",
