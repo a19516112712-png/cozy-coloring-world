@@ -506,7 +506,7 @@ export default function HomePage() {
           <div>
             <h3 className="text-sm font-semibold text-cocoa mb-3">📄 Info</h3>
             <ul className="space-y-1.5">
-              <li><Link href="/privacy" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Privacy</Link></li>
+              <li><Link href="/privacy-policy" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Privacy</Link></li>
               <li><Link href="/terms" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Terms</Link></li>
               <li><Link href="/contact" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Contact</Link></li>
               <li><a href="https://www.pinterest.com/tinyanimalworlds" target="_blank" rel="noopener noreferrer" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Pinterest ↗</a></li>

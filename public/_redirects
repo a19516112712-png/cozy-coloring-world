@@ -1,3 +1,4 @@
 # Cloudflare Pages redirects — legacy URL migration
 /coloring-pages/:slug /coloring/:slug 308
 /categories/:slug /category/:slug 308
+/privacy /privacy-policy 308

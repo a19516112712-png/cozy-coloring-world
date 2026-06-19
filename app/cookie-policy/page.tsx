@@ -156,7 +156,7 @@ export default function CookiePolicyPage() {
             <h2 className="text-xl font-semibold text-cocoa">8. Related Policies</h2>
             <ul className="space-y-1">
               <li>
-                <Link href="/privacy" className="text-rose hover:underline">Privacy Policy</Link>
+                <Link href="/privacy-policy" className="text-rose hover:underline">Privacy Policy</Link>
                 <span className="text-cocoa/60"> — Full privacy practices</span>
               </li>
               <li>
