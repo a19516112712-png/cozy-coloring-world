@@ -8,6 +8,7 @@ const links = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy Policy" },
+  { href: "/cookie-policy", label: "Cookie Policy" },
   { href: "/terms", label: "Terms of Use" },
   { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
 ];

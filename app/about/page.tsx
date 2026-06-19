@@ -4,8 +4,8 @@ import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "About Cozy Coloring World | Free Printable Coloring Pages",
-  description: "Learn more about Cozy Coloring World and our mission to provide free printable coloring pages for kids and adults. 300+ cute, cozy, and relaxing designs.",
+  title: "About Cozy Coloring World | Free Printable Coloring Pages for Kids & Adults",
+  description: "Learn about Cozy Coloring World — our mission to provide 2000+ free printable coloring pages and word search puzzles. Discover our story, team, values, and commitment to creative learning.",
   path: "/about",
 });
 
@@ -14,9 +14,9 @@ const orgSchema = {
   "@type": "Organization",
   name: "Cozy Coloring World",
   url: "https://tinyanimalworlds.com",
-  description: "Free printable coloring pages for kids and adults — 300+ cute, cozy, and relaxing designs.",
+  description: "Free printable coloring pages and word search puzzles for kids and adults — 2000+ cute, cozy, and educational designs.",
   email: "hello@tinyanimalworlds.com",
-  foundingDate: "2026",
+  foundingDate: "2025",
   sameAs: [
     "https://www.pinterest.com/tinyanimalworlds",
     "https://tinyanimalworlds.com",
@@ -32,7 +32,6 @@ export default function AboutPage() {
       />
       <div className="page-container py-12 sm:py-16">
         <div className="max-w-3xl mx-auto">
-          {/* Breadcrumb */}
           <nav className="mb-8 text-sm" aria-label="Breadcrumb">
             <Link href="/" className="text-rose hover:underline">Home</Link>
             <span className="mx-2 text-cocoa/30">/</span>
@@ -44,136 +43,177 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">
-            Welcome to Cozy Coloring World — your destination for free printable coloring 
-            pages for kids and adults. Our mission is simple: to provide relaxing, 
-            high-quality coloring pages that inspire creativity, mindfulness, and fun.
+            Welcome to <strong>Cozy Coloring World</strong> — your destination for free printable 
+            coloring pages and word search puzzles for kids, adults, families, teachers, and 
+            homeschoolers. Our mission is simple yet powerful: to make creative, screen-free 
+            activities accessible to everyone, everywhere, at no cost.
           </p>
 
-          {/* Section 1 */}
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-cocoa mb-4">Who We Are</h2>
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Our Story</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              We&apos;re a small, passionate team dedicated to creating the coziest coloring 
-              experience on the internet. Every coloring page on our site is carefully 
-              designed to bring a moment of calm and joy to your day.
+              Cozy Coloring World was born from a simple observation: in an increasingly digital 
+              world, people of all ages crave hands-on, creative activities that bring calm and 
+              joy. Coloring is one of the most accessible forms of creative expression — it requires 
+              no special skills, no expensive supplies, just a printed page and something to color with.
             </p>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              Our collections span a variety of beloved themes:
+              We started in 2025 with a small collection of handcrafted coloring pages, driven by a 
+              passion for cozy aesthetics — cottagecore scenes, tiny animal villages, kawaii characters, 
+              and warm, inviting illustrations that feel like a hug on paper. What began as a personal 
+              project quickly grew into a beloved resource for thousands of visitors from around the world.
             </p>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              Today, Cozy Coloring World offers over <strong>2,000 free printable coloring pages</strong> and 
+              more than <strong>1,900 word search puzzles</strong>, with new content added regularly. Our 
+              library spans dozens of themes — from cute animals and fantasy worlds to seasonal celebrations 
+              and educational activities.
+            </p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-4">What We Believe</h2>
+            <div className="space-y-4">
+              <div className="bg-cream/50 rounded-xl p-5">
+                <h3 className="font-semibold text-cocoa mb-1">🎨 Creativity Should Be Free</h3>
+                <p className="text-sm text-cocoa/70">
+                  We believe financial barriers should never stand between a person and their creative 
+                  potential. Every coloring page and puzzle on our site is completely free to download 
+                  and print — no sign-up, no subscription, no hidden costs.
+                </p>
+              </div>
+              <div className="bg-cream/50 rounded-xl p-5">
+                <h3 className="font-semibold text-cocoa mb-1">📚 Learning Through Play</h3>
+                <p className="text-sm text-cocoa/70">
+                  Our word search puzzles and educational coloring pages are designed to build vocabulary, 
+                  improve focus, and develop fine motor skills — all while having fun. We&apos;re proud to 
+                  be a trusted resource for teachers, homeschoolers, and parents worldwide.
+                </p>
+              </div>
+              <div className="bg-cream/50 rounded-xl p-5">
+                <h3 className="font-semibold text-cocoa mb-1">🌍 Screen-Free Joy</h3>
+                <p className="text-sm text-cocoa/70">
+                  In a world dominated by screens, we champion the simple pleasure of putting pencil to 
+                  paper. Coloring and puzzle-solving offer mindfulness, stress relief, and genuine 
+                  connection — no devices required.
+                </p>
+              </div>
+              <div className="bg-cream/50 rounded-xl p-5">
+                <h3 className="font-semibold text-cocoa mb-1">💛 Community First</h3>
+                <p className="text-sm text-cocoa/70">
+                  We listen to our community. The themes we create, the features we build, and the 
+                  content we prioritize are all shaped by feedback from our users — children, parents, 
+                  teachers, and coloring enthusiasts of all ages.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Who Uses Cozy Coloring World?</h2>
             <ul className="space-y-2 text-cocoa/70">
-              <li className="flex items-center gap-2">
-                <span className="text-rose">🏡</span>
-                <Link href="/category/cozy-coloring" className="text-rose hover:underline">Cozy Coloring Pages</Link>
-                <span>— warm interiors, reading nooks, and rainy day scenes</span>
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">👨‍👩‍👧‍👦</span>
+                <span><strong>Parents & Families</strong> — Quality time activities that everyone can enjoy together, from toddlers to grandparents.</span>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="text-rose">🐭</span>
-                <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Tiny Animal Worlds</Link>
-                <span>— miniature villages with adorable animal communities</span>
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">🍎</span>
+                <span><strong>Teachers & Educators</strong> — Classroom-ready printables for brain breaks, vocabulary lessons, and creative expression.</span>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="text-rose">🌿</span>
-                <Link href="/category/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>
-                <span>— charming cottages, flower gardens, and countryside living</span>
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">🏠</span>
+                <span><strong>Homeschoolers</strong> — Ready-to-use resources that integrate art, vocabulary, and science into daily learning.</span>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="text-rose">🌸</span>
-                <Link href="/category/cute-animals" className="text-rose hover:underline">Kawaii Coloring Pages</Link>
-                <span>— super cute, Japanese-inspired adorable designs</span>
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">🧘</span>
+                <span><strong>Adults Seeking Relaxation</strong> — Intricate cottagecore and cozy designs perfect for mindfulness and stress relief.</span>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="text-rose">🦄</span>
-                <Link href="/category/fantasy-coloring" className="text-rose hover:underline">Fantasy Coloring Pages</Link>
-                <span>— dragons, unicorns, and enchanted realms</span>
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">🎒</span>
+                <span><strong>Kids of All Ages</strong> — Easy, medium, and challenging designs that grow with your child&apos;s abilities.</span>
               </li>
             </ul>
           </section>
 
-          {/* Section 2 */}
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-cocoa mb-4">What We Offer</h2>
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Our Content</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                { icon: "🎨", title: "300+ Free Coloring Pages", desc: "A growing library of printable JPG downloads" },
-                { icon: "🖨️", title: "Printable JPG Downloads", desc: "High-resolution images ready to print at home" },
-                { icon: "📅", title: "New Pages Weekly", desc: "Fresh designs added every week for endless creativity" },
-                { icon: "📝", title: "Blog Articles & Tips", desc: "Coloring resources, guides, and inspiration" },
-              ].map((item, i) => (
-                <div key={i} className="bg-white rounded-xl p-5 border border-blush/20 shadow-card">
-                  <span className="text-2xl block mb-2">{item.icon}</span>
-                  <h3 className="font-semibold text-cocoa mb-1">{item.title}</h3>
-                  <p className="text-sm text-cocoa/60">{item.desc}</p>
+                { icon: "🏡", title: "Cottagecore Coloring", desc: "Charming cottages, flower gardens, and countryside living scenes" },
+                { icon: "🐭", title: "Tiny Animal Worlds", desc: "Miniature villages with adorable animal communities" },
+                { icon: "🐱", title: "Cute Animals", desc: "Kawaii-style animal friends in heartwarming everyday scenes" },
+                { icon: "🍞", title: "Food & Bakery", desc: "Cozy bakeries, sweet shops, and delicious food-themed pages" },
+                { icon: "🔍", title: "Word Search Puzzles", desc: "1,900+ educational puzzles for vocabulary building" },
+                { icon: "📝", title: "Educational Blog", desc: "200+ articles with activity ideas and learning resources" },
+              ].map((item) => (
+                <div key={item.title} className="bg-cream/50 rounded-xl p-4">
+                  <div className="text-xl mb-1">{item.icon}</div>
+                  <h3 className="font-semibold text-cocoa text-sm">{item.title}</h3>
+                  <p className="text-xs text-cocoa/60 mt-1">{item.desc}</p>
                 </div>
               ))}
             </div>
           </section>
 
-          {/* Section 3 */}
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-cocoa mb-4">Our Vision</h2>
+            <h2 className="text-2xl font-bold text-cocoa mb-4">How We Support the Site</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              We believe that coloring is for everyone — it&apos;s a simple, screen-free activity 
-              that helps children develop fine motor skills and creativity, while giving adults 
-              a peaceful way to de-stress and practice mindfulness.
+              Cozy Coloring World is free for everyone, but running a website with thousands of pages 
+              requires resources. We keep the lights on through:
             </p>
-            <p className="text-cocoa/70 leading-relaxed">
-              Our vision is to make high-quality, beautiful coloring pages accessible to everyone, 
-              everywhere — completely free. Whether you&apos;re a parent looking for screen-free 
-              activities, a teacher seeking classroom resources, or an adult exploring coloring 
-              for relaxation, we&apos;re here to help you find your perfect page.
+            <ul className="space-y-2 text-cocoa/70">
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">📢</span>
+                <span><strong>Advertising</strong> — We display Google AdSense ads on some pages. We strive to keep ads unobtrusive and family-friendly.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-rose mt-0.5">🛒</span>
+                <span><strong>Affiliate Links</strong> — As an Amazon Associate, we earn from qualifying purchases at no extra cost to you. See our{" "}
+                  <Link href="/affiliate-disclosure" className="text-rose hover:underline">Affiliate Disclosure</Link>.</span>
+              </li>
+            </ul>
+            <p className="text-cocoa/70 leading-relaxed mt-2">
+              These methods allow us to keep every coloring page and puzzle completely free — forever. 
+              We never charge for downloads, require subscriptions, or sell user data.
             </p>
           </section>
 
-          {/* Section 4 */}
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-cocoa mb-4">Contact</h2>
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Our Commitment to Quality</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              We&apos;d love to hear from you! Whether you have a question, suggestion, or just 
-              want to say hello — reach out anytime.
+              We hold ourselves to high standards for every piece of content we publish:
             </p>
-            <a
-              href="mailto:hello@tinyanimalworlds.com"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-rose/10 text-rose font-semibold hover:bg-rose/20 transition-colors"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              hello@tinyanimalworlds.com
-            </a>
+            <ul className="space-y-1 text-cocoa/70">
+              <li>✅ <strong>Original designs</strong> — Every coloring page features unique, original artwork</li>
+              <li>✅ <strong>Age-appropriate</strong> — All content is safe and suitable for all ages</li>
+              <li>✅ <strong>High resolution</strong> — Images are rendered for crisp, clear printing</li>
+              <li>✅ <strong>Accurate educational content</strong> — Word lists and blog posts are fact-checked</li>
+              <li>✅ <strong>Regular updates</strong> — New content added multiple times per week</li>
+            </ul>
+            <p className="text-cocoa/70 leading-relaxed mt-4">
+              Read our full{" "}
+              <Link href="/editorial-policy" className="text-rose hover:underline">Editorial Policy</Link>{" "}
+              to learn more about how we create and curate content.
+            </p>
           </section>
 
-          {/* Affiliate Disclosure */}
-          <section className="mb-10 p-6 bg-cream/50 rounded-xl">
-            <h2 className="text-lg font-bold text-cocoa mb-3">Amazon Affiliate Disclosure</h2>
-            <p className="text-sm text-cocoa/60 leading-relaxed">
-              Cozy Coloring World is a participant in the Amazon Services LLC Associates Program,
-              an affiliate advertising program designed to provide a means for sites to earn advertising
-              fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from
-              qualifying purchases at no additional cost to you.
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Join Our Community</h2>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              We love hearing from our users! Whether you have a suggestion for a new theme, 
+              found a bug, or just want to share your colored creations, we&apos;d love to hear 
+              from you.
             </p>
+            <div className="flex flex-wrap gap-4">
+              <Link href="/contact" className="inline-flex items-center px-6 py-3 bg-rose text-white rounded-full font-semibold hover:bg-rose/90 transition-colors">
+                📧 Contact Us
+              </Link>
+              <a href="https://www.pinterest.com/tinyanimalworlds" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors">
+                📌 Follow on Pinterest
+              </a>
+            </div>
           </section>
-          {/* Back to Home */}
-          <div className="text-center pt-6 border-t border-blush/20">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-cream text-cocoa font-medium hover:bg-blush/20 transition-colors"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
-              </svg>
-          {/* Affiliate Disclosure */}
-          <section className="mb-10 p-6 bg-cream/50 rounded-xl">
-            <h2 className="text-lg font-bold text-cocoa mb-3">Amazon Affiliate Disclosure</h2>
-            <p className="text-sm text-cocoa/60 leading-relaxed">
-              Cozy Coloring World is a participant in the Amazon Services LLC Associates Program,
-              an affiliate advertising program designed to provide a means for sites to earn advertising
-              fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from
-              qualifying purchases at no additional cost to you.
-            </p>
-          </section>
-              Back to Home
-            </Link>
-          </div>
+
           <LegalNav current="/about" />
         </div>
       </div>
