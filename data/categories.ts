@@ -18,7 +18,7 @@ export const categories: Category[] = [
     color: "#D4F0E8",
     emoji: "🔍",
     imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
-    count: 100,
+    count: 200,
   },
   {
     id: "cute-animals",
