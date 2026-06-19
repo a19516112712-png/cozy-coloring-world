@@ -13,7 +13,7 @@ export default function AdBanner({ slot = "1234567890", className = "" }: AdBann
         {/* Google AdSense placeholder — replace with actual AdSense code */}
         <ins
           className="adsbygoogle block"
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+          data-ad-client="ca-pub-6710458178434465"
           data-ad-slot={slot}
           data-ad-format="auto"
           data-full-width-responsive="true"
