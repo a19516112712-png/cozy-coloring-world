@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
+import { generateBreadcrumbSchema } from "@/lib/schema";
 import AdBanner from "@/components/AdBanner";
 import RelatedArticles from "@/components/RelatedArticles";
 import { tagCategories } from "@/data/tagCategories";
@@ -33,7 +34,15 @@ export default async function TagCategoryPage({ params }: Props) {
     .filter((p) => p.tags && p.tags.includes(tagCat.tag))
     .slice(0, 24);
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://tinyanimalworlds.com" },
+    { name: "Tags", url: "https://tinyanimalworlds.com/tag/${tagCat.slug}" },
+    { name: tagCat.title, url: "https://tinyanimalworlds.com/tag/${tagCat.slug}" }
+  ]);
+
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <article className="page-container py-12 sm:py-16">
       <div className="max-w-3xl mx-auto">
         <nav className="mb-6 text-sm">
@@ -87,4 +96,5 @@ export default async function TagCategoryPage({ params }: Props) {
           </section>
     </article>
   );
+  </>);
 }

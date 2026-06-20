@@ -6,6 +6,7 @@ import { blogPosts } from "@/data/blogPosts";
 import { collections } from "@/data/collections";
 import { faqPages } from "@/data/faqs";
 import { wordSearches } from "@/data/wordSearches";
+import { tagCategories } from "@/data/tagCategories";
 
 export const dynamic = "force-static";
 
@@ -21,7 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/collections`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/word-search`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${baseUrl}/pins`, lastModified: now, changeFrequency: "weekly", priority: 0.6 },
     { url: `${baseUrl}/html-sitemap`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/editorial-policy`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
@@ -73,6 +73,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // Word Search routes
+
+  // Tag routes
+  const tagRoutes: MetadataRoute.Sitemap = tagCategories.map((t) => ({
+    url: `${baseUrl}/tag/${t.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+
   const wordSearchRoutes: MetadataRoute.Sitemap = wordSearches.map((ws) => ({
     url: `${baseUrl}/word-search/${ws.slug}`,
     lastModified: new Date(ws.createdAt || now),
@@ -88,5 +97,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...collectionRoutes,
     ...faqRoutes,
     ...wordSearchRoutes,
+    ...tagRoutes,
   ];
 }
