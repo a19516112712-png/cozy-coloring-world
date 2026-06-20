@@ -73,7 +73,7 @@ export const defaultMetadata: Metadata = {
     canonical: siteUrl,
   },
   verification: {
-    google: "some-verification-token",
+    google: "",
     yandex: "",
   },
 };

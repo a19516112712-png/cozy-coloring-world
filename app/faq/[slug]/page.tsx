@@ -25,23 +25,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const pageFAQs = [
-  {
-    question: "How do I download and print coloring pages?",
-    answer: "Simply click the download button on any coloring page to get your free high-quality JPG. Open the file and print on standard 8.5x11 letter paper or A4 size. For best results, use cardstock or thicker paper, especially if using markers or watercolors.",
-  },
-  {
-    question: "Are these coloring pages really free?",
-    answer: "Yes! All coloring pages on Tiny Animal Worlds are 100% free to download and print for personal use. No sign-up, no subscription, no hidden costs. You can print as many copies as you like.",
-  },
-  {
-    question: "What materials work best for coloring?",
-    answer: "Our coloring pages work great with colored pencils, crayons, gel pens, fine-tip markers, and watercolor paints. For wet media like markers and paints, use cardstock (80lb+) to prevent bleed-through.",
-  },
-  {
-    question: "Can I use these in my classroom?",
-    answer: "Absolutely! Teachers can print our coloring pages for classroom use. We design pages with clear, bold outlines that work great for young children learning to color.",
-  },
-];
+    {
+      question: `How do I download and print these coloring pages?`,
+      answer: `Simply browse our collection, click the download button on any page to get your free JPG. Print on standard 8.5x11 letter paper or A4. For the best coloring experience, use cardstock (80lb+) to prevent bleed-through, especially with markers or watercolors.`,
+    },
+    {
+      question: `Are these coloring pages really free?`,
+      answer: `Yes! All coloring pages on Tiny Animal Worlds are 100% free — no sign-up, subscription, or hidden costs. Print unlimited copies for personal, classroom, or homeschool use. Our collection is updated regularly with new designs.`,
+    },
+    {
+      question: `What makes these coloring pages special?`,
+      answer: `Our coloring pages feature detailed, adorable scenes with charming animal characters in cozy, whimsical settings. Each page is designed with clear outlines that work beautifully with crayons, colored pencils, markers, and gel pens. The unique artwork brings personality and warmth to every page.`,
+    },
+    {
+      question: `How many coloring pages do you have for this topic?`,
+      answer: `We have dozens of coloring pages for each animal theme — foxes, bunnies, cats, deer, hedgehogs, and more. Each animal features in various charming scenes including bakeries, gardens, tea parties, and village settings. New pages are added weekly!`,
+    },
+    {
+      question: `Can I use these coloring pages in my classroom?`,
+      answer: `Absolutely! Teachers love our coloring pages for art centers, early finisher activities, animal-themed units, and quiet time. Print unlimited copies for your students. The animal themes work great for teaching about wildlife, habitats, and creative expression.`,
+    },
+  ];
 
 export default async function FaqPage({ params }: Props) {
   const { slug } = await params;
