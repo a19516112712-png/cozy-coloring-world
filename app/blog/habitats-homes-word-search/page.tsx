@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Habitats & Homes Word Search: Free Printable Animal Home Puzzles", description: "Learn where animals live with habitats and homes word searches! Forests, oceans, jungles, caves, burrows, and more — free printable JPG puzzles for curious kids and classrooms.", path: "/blog/habitats-homes-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_bear_cafe_reading_corner.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Habitats & Homes Word Search: Free Printable Animal Home Puzzles", description: "Learn where animals live with habitats and homes word searches! Forests, oceans, jungles, caves, burrows, and more — free printable JPG puzzles for curious kids and classrooms.", path: "/blog/habitats-homes-word-search" });
 
 export default function BlogPost() {
   const title = "Habitats & Homes Word Search: Animal Home Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Where do animals live? Our habitats and homes word search puzzles take kids on a journey through the diverse homes of the animal kingdom. From forest dens and ocean reefs to jungle canopies and arctic burrows, children learn about animal habitats while practicing their word-finding skills.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Exploring Animal Homes</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Every animal has a special place to call home. Our puzzles feature habitat words like forest, ocean, jungle, cave, burrow, nest, pond, meadow, den, hive, river, and hill. Foxes live in woodland dens, bears hibernate in cozy caves, bees buzz around hives, and birds build nests high in the trees. Each puzzle introduces a new animal and its unique home.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Science Meets Word Search</h2>

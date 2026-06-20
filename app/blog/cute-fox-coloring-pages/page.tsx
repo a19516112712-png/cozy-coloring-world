@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/3_Tiny_Fox_Managing_a_Cozy_Villa.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cute Fox Coloring Pages: Free Printable JPG Downloads",
   description: "Discover adorable cute fox coloring pages! Foxes running forest bakeries, chocolate shops, bookstores, candle shops, and woodland adventures. Free printable JPG downloads for kids and adults.",
   path: "/blog/cute-fox-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover adorable cute fox coloring pages! Foxes running forest bakeries, chocolate shops, bookstores, candle shops, and woodland adventures. Free printable JPG downloads for kids and adults....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Foxes Make the Perfect Coloring Subject</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Foxes are naturally charismatic — with their pointed ears, bushy tails, and clever expressions, they bring personality to every scene. Our collection places foxes in the coziest, most imaginative settings, from running chocolate factories to managing village bookstores. Each page tells a story you can bring to life with color.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Fox Bakeries and Sweet Shops</h2>

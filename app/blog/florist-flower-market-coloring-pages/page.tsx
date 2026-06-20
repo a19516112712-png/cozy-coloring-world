@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/19_Cute_rabbit_flower_shop_interi.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Florist & Flower Market Coloring Pages: Free Printable Blooming Shop Scenes",
   description: "Step into charming florist shops and flower markets! Adorable animal florists arranging bouquets, colorful flower stalls, and blooming storefronts. Free printable JPG coloring pages.",
   path: "/blog/florist-flower-market-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               Is there any shop more delightful than a florist? Buckets of fresh blooms spilling onto the sidewalk, the sweet fragrance of roses and lavender in the air, and the quiet artistry of arranging stems into beautiful bouquets. Our florist and flower market coloring pages capture all the charm of these beloved neighborhood shops, starring adorable animal florists tending to their colorful displays. Each page is a free JPG download, ready to blossom with your colors.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Florist Coloring Pages Are So Popular</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

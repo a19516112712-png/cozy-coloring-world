@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/22_animal_library_with_hidden_boo.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Hidden Objects & Search-and-Find Coloring Pages: Free Printable JPG Downloads",
   description: "Challenge your observation skills with hidden objects coloring pages! Search for hidden books, treasures, objects, and surprises in cozy animal scenes. Free printable JPG downloads for kids and adults.",
   path: "/blog/hidden-objects-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Challenge your observation skills with hidden objects coloring pages! Search for hidden books, treasures, objects, and surprises in cozy animal scenes. Free printable JPG downloads for kids and adults...</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Double Fun of Hidden Objects Coloring</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Why choose between coloring and puzzle games when you can have both? Our hidden objects coloring pages offer a unique two-in-one experience: first, search the detailed scene to find all the hidden items, then bring the entire illustration to life with color. It is coloring with a delightful twist!</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Library and Bookstore Hidden Object Scenes</h2>

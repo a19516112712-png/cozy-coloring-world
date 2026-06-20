@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Duck Market & Shopping Coloring Pages: Free Printable Countryside Duck Village Scenes", description: "Shop till you waddle! Adorable duck market and shopping coloring pages featuring flower carts, village markets, bakery visits, and countryside shopping trips. Free printable JPG downloads!", path: "/blog/duck-market-shopping-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Duck Market & Shopping Coloring Pages: Free Printable Countryside Duck Village Scenes", description: "Shop till you waddle! Adorable duck market and shopping coloring pages featuring flower carts, village markets, bakery visits, and countryside shopping trips. Free printable JPG downloads!", path: "/blog/duck-market-shopping-coloring-pages" });
 
 export default function BlogPost() {
   const title = "Duck Market & Shopping: Countryside Duck Village Coloring Pages"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Welcome to the most charming market in the animal kingdom — run entirely by ducks! Our duck market and shopping coloring pages transport you to a cozy countryside village where ducks sell fresh flowers from wooden carts, browse bakery windows, and stroll through bustling village markets. Every page is a delightful shopping adventure waiting to be colored.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">A Day at the Duck Village Market</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Picture a sunny morning at the duck village market. Ducks set up stalls with fresh produce, handmade goods, and beautiful flowers. Shoppers waddle from stand to stand, filling their baskets with treats and treasures. Our market scenes capture this lively community spirit with charming details — striped awnings, wooden crates, flower displays, and smiling duck vendors.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Flower Carts and Bakery Windows</h2>

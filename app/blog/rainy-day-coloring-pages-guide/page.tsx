@@ -8,6 +8,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/40_cozy_rainy_day_reading_nook__l.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Turn rainy days into creative adventures! Our rainy day coloring pages feature cozy window scenes, cute animals in rain boots, and peaceful indoor moments",
   description: "Turn rainy days into creative adventures! Our rainy day coloring pages feature cozy window scenes, cute animals in rain boots, and peaceful indoor moments. Free JPG downloads.",
   path: "/blog/rainy-day-coloring-pages-guide",
@@ -46,6 +49,9 @@ export default function BlogPost() {
             Rainy Day Coloring Pages: Cozy Indoor Scenes for Relaxing Creative Time
           </h1>
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-07-04 · 8 min read</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <AdBanner slot="blog-top" className="mb-8" />
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">

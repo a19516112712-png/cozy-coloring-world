@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Free Printable Word Search for Classroom: Teacher-Approved Animal Puzzles", description: "Download free printable word search puzzles for your classroom! 1000+ teacher-approved animal word searches for morning work, centers, and early finishers. Free JPG downloads!", path: "/blog/free-printable-word-search-classroom" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Free Printable Word Search for Classroom: Teacher-Approved Animal Puzzles", description: "Download free printable word search puzzles for your classroom! 1000+ teacher-approved animal word searches for morning work, centers, and early finishers. Free JPG downloads!", path: "/blog/free-printable-word-search-classroom" });
 
 export default function BlogPost() {
   const title = "Free Printable Word Search for Classroom Use"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Teachers, this one is for you! Our collection of 1000+ free printable animal word search puzzles is designed specifically for classroom use. From morning work and literacy centers to early finisher activities and sub plans, these puzzles are the versatile resource every elementary teacher needs in their toolbox.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Word Searches Belong in Every Classroom</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Word searches are more than just busy work — they build essential skills. Students practice letter recognition, develop visual scanning abilities, strengthen spelling patterns, and expand vocabulary — all while having fun. The animal themes keep kids engaged, and the multiple difficulty levels ensure every student can participate successfully.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Easy Differentiation with Three Levels</h2>

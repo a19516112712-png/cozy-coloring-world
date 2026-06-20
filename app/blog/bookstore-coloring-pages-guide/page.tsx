@@ -8,6 +8,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/44_tiny_cat_village_library__book.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Fall in love with our bookstore coloring pages! Charming bookshops, magical libraries, and cozy reading corners",
   description: "Fall in love with our bookstore coloring pages! Charming bookshops, magical libraries, and cozy reading corners. Free printable JPG downloads for book lovers.",
   path: "/blog/bookstore-coloring-pages-guide",
@@ -46,6 +49,9 @@ export default function BlogPost() {
             Bookstore Coloring Pages: Cozy Bookshop and Library Scenes to Color
           </h1>
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-07-06 · 8 min read</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <AdBanner slot="blog-top" className="mb-8" />
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">

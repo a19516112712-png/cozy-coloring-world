@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/cute-cat-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cute Cat Coloring Pages: Free Printable Cozy Kitty Scenes for Coloring Lovers",
   description: "Discover purr-fectly adorable cute cat coloring pages! From cozy cafes and bookshops to rainy window scenes and knitting rooms, free JPG downloads for cat lovers everywhere.",
   path: "/blog/cute-cat-coloring-pages",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover purr-fectly adorable cute cat coloring pages! From cozy cafes and bookshops to rainy window scenes and knitting rooms, free JPG downloads for cat lovers everywhere.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">Cats and coloring are a match made in coziness heaven. From cats curled up in bookshop windows to kitties baking cupcakes and felines tending greenhouse gardens, our cute cat coloring page collection celebrates cats in their most charming moments. Every page is a free JPG download, ready to print and color.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

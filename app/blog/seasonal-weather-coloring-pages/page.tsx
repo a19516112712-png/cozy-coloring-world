@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Seasonal and Weather Coloring Pages: Free Printable JPG Downloads", description: "Celebrate every season with bold easy seasonal coloring pages! Winter mittens, spring gardens, summer picnics, autumn harvests, snowflakes, rainbows, and more. Free printable JPG downloads.", path: "/blog/seasonal-weather-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/5_Bold_Easy_Forest_Adventure.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Seasonal and Weather Coloring Pages: Free Printable JPG Downloads", description: "Celebrate every season with bold easy seasonal coloring pages! Winter mittens, spring gardens, summer picnics, autumn harvests, snowflakes, rainbows, and more. Free printable JPG downloads.", path: "/blog/seasonal-weather-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Seasonal and Weather Coloring Pages: Free Printable JPG Downloads", description: "Celebrate every season with bold easy seasonal coloring pages! Winter mittens, spring gardens, summer picnics, autumn harvests, snowflakes, rainbows, and more. Free printable JPG downloads.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "seasonal coloring pages, weather coloring printable, four seasons coloring, winter spring summer autumn pages, bold easy seasonal" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Celebrate every season with bold easy seasonal coloring pages! Winter mittens, spring gardens, summer picnics, autumn harvests, snowflakes, rainbows, and more. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Coloring Through the Seasons</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Seasons give rhythm to our year, and our seasonal coloring collection celebrates each one with bold, easy designs. From winter mittens to spring gardens, summer picnics to autumn harvests, every page captures the unique beauty and activities of its season.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Winter Wonder</h2>

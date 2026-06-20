@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Duck Rain & Water Coloring Pages: Free Printable Rainy Pond Day Duck Scenes", description: "Splash into fun with duck rain and water coloring pages! Ducks enjoying rainy pond days, water ripples, puddle play, and cozy wet-weather scenes. Free printable JPG downloads!", path: "/blog/duck-rain-water-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Duck Rain & Water Coloring Pages: Free Printable Rainy Pond Day Duck Scenes", description: "Splash into fun with duck rain and water coloring pages! Ducks enjoying rainy pond days, water ripples, puddle play, and cozy wet-weather scenes. Free printable JPG downloads!", path: "/blog/duck-rain-water-coloring-pages" });
 
 export default function BlogPost() {
   const title = "Duck Rain & Water: Rainy Pond Day Coloring Pages"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">While most creatures head for cover when rain begins to fall, ducks are just getting started! Rain transforms their pond-side world into a fresh, glistening playground. Our duck rain and water coloring pages celebrate these splashy, puddle-filled moments with scenes that capture the unique beauty of a rainy day by the pond.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Ducks Love the Rain</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Ducks are perfectly adapted to wet weather, and our coloring pages celebrate their rain-loving nature. Watch ducks enjoying a rainy pond day as droplets create rings on the water's surface. See them splashing in puddles and shaking water droplets from their feathers. These pages are full of movement and energy — the exact opposite of a gloomy rainy day!</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Water Ripples and Reflections</h2>

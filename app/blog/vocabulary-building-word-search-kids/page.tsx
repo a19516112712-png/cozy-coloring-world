@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Vocabulary Building Word Search for Kids: Free Printable Learning Games", description: "Build vocabulary the fun way with free printable word search puzzles for kids! 1000+ animal-themed puzzles that teach spelling, word recognition, and science vocabulary. Free downloads!", path: "/blog/vocabulary-building-word-search-kids" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Vocabulary Building Word Search for Kids: Free Printable Learning Games", description: "Build vocabulary the fun way with free printable word search puzzles for kids! 1000+ animal-themed puzzles that teach spelling, word recognition, and science vocabulary. Free downloads!", path: "/blog/vocabulary-building-word-search-kids" });
 
 export default function BlogPost() {
   const title = "Vocabulary Building Word Search: Free Learning Games for Kids"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">What if building vocabulary felt less like studying and more like playing a game? That is exactly what our 1000+ free printable word search puzzles deliver. Each animal-themed puzzle is a stealth vocabulary lesson — children search for words like 'habitat,' 'migration,' and 'ecosystem' while fully believing they are just having fun.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Science of Word Search Learning</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Research shows that active engagement with words — seeing them, searching for them, and mentally processing letter patterns — creates stronger neural pathways than passive reading alone. Word searches require children to hold a word in memory while scanning for its letters, reinforcing spelling, letter sequence, and word recognition simultaneously. It is multi-sensory learning disguised as play.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">From Sight Words to Science Terms</h2>

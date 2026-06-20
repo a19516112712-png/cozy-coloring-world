@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Woodland Treehouse Coloring Pages: Free Printable Squirrel Treehouse Scenes",
   description: "Explore cozy woodland treehouse coloring pages! Squirrel treehouse porches, forest reading nooks, acorn shops in the trees — free printable JPG downloads.",
   path: "/blog/woodland-treehouse-coloring",
@@ -39,6 +42,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">There is something magical about a treehouse tucked among the branches, especially when it is run by adorable squirrels! Our new woodland treehouse coloring pages feature squirrels living, working, and playing in the most charming treehouse settings — from cozy reading nooks to bustling acorn shops high in the forest canopy.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Treehouse Coloring</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Treehouse pages are among the most detailed and rewarding to color. Squirrel Treehouse Porch captures a peaceful moment on a wooden deck among the leaves. Squirrel Reading in Treehouse features a cozy nook with books and soft lighting. Squirrel Treehouse Market shows a bustling shop built into the branches. Every page is rich with architectural details and natural beauty.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Treehouse Pages You Will Love</h2>

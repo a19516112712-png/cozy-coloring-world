@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Woodland Friends Coloring Pages: Otters, Raccoons & More Free Printables",
   description: "Download free printable woodland animal coloring pages featuring otters, raccoons, deer, foxes, and more. 60+ new pages added — cute, cozy, and free!",
   path: "/blog/woodland-friends-coloring",
@@ -49,6 +52,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Woodland animals have captured the hearts of coloring enthusiasts everywhere. With our latest additions — 30 otter pages and 30 raccoon pages — our woodland friends collection has grown to over 1,400 free printable coloring pages! Let us explore the cozy world of woodland animal coloring.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Meet the Woodland Friends</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Our woodland animal collection features a delightful cast of characters: playful otters by the river, industrious raccoons at the market, gentle deer in flower meadows, curious foxes in bookstores, and cozy hedgehogs in garden scenes. Each animal brings its own personality and charm to every coloring page.</p>

@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Teacher-Approved Classroom Printables: 3000+ Free Word Search & Coloring Pages", description: "Discover teacher-approved classroom printables! 3000+ free word search puzzles and coloring pages for K-5. Save time, save money, and keep students engaged all year long!", path: "/blog/teacher-approved-classroom-printables" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Teacher-Approved Classroom Printables: 3000+ Free Word Search & Coloring Pages", description: "Discover teacher-approved classroom printables! 3000+ free word search puzzles and coloring pages for K-5. Save time, save money, and keep students engaged all year long!", path: "/blog/teacher-approved-classroom-printables" });
 
 export default function BlogPost() {
   const title = "Teacher-Approved Classroom Printables: 3000+ Free Resources"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Teachers spend an average of $500-$750 of their own money on classroom supplies each year. Our collection of 3000+ free printable word search puzzles and coloring pages can dramatically reduce that spending while providing high-quality, teacher-approved resources your students will love. It is the budget-friendly classroom resource collection every teacher deserves.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Teachers Love Our Printables</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Teachers tell us they love three things about our resources: they are free, they require zero prep, and kids genuinely enjoy them. No cutting, laminating, or complicated instructions. Print and go. The animal themes appeal across grade levels, and the built-in differentiation means one resource serves every student in your classroom.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">A Full Year of Ready-to-Use Resources</h2>

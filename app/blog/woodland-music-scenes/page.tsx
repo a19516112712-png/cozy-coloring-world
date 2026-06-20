@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Music Scenes Coloring Pages: Free Printable Forest Concert & Melody", description: "Fill the forest with music! Cats in cozy music rooms, frogs playing guitar at woodland concerts, and adorable animals making melodies — free printable music coloring pages.", path: "/blog/woodland-music-scenes" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/12_Tiny_cat_bakery_display_window.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Music Scenes Coloring Pages: Free Printable Forest Concert & Melody", description: "Fill the forest with music! Cats in cozy music rooms, frogs playing guitar at woodland concerts, and adorable animals making melodies — free printable music coloring pages.", path: "/blog/woodland-music-scenes" });
 
 export default function BlogPost() {
   const title = "Woodland Music Scenes: Forest Concert Coloring Pages"; const date = "2026-06-08";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} &middot; 6 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Music fills the woodland air! From cozy indoor music rooms to lively outdoor concerts, these adorable animals are making beautiful melodies. Our newest coloring pages capture the joy of music — strumming guitars, practicing instruments, and gathering for woodland performances that bring the whole forest together.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Cozy Music Rooms</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Cute Cat Music Room is a cozy sanctuary filled with instruments, sheet music, and soft lamplight. Frog Music Room features a charming amphibian practicing among lily pads and pond-side melodies. These indoor music scenes are perfect for coloring cozy interiors with a musical twist — warm woods, soft lighting, and the gleam of polished instruments.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Forest Concerts</h2>

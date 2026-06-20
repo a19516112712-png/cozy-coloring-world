@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/19_Cute_rabbit_flower_shop_interi.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Greenhouse & Indoor Garden Coloring Pages: Free Printable Botanical Scenes",
   description: "Step into enchanting greenhouses and indoor gardens with our free printable coloring pages! Flower-filled glasshouses, cozy potting sheds, and botanical havens — all free JPG downloads.",
   path: "/blog/greenhouse-indoor-garden-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               There is something genuinely magical about a greenhouse. The way light filters through glass panes, the earthy scent of potting soil, the quiet companionship of thriving plants — it is one of the coziest places on earth. Now imagine bringing that same warmth to your coloring table. Our greenhouse and indoor garden coloring pages capture these beloved botanical spaces, from sun-drenched Victorian glasshouses to tiny rabbit-tended garden cottages. Every page is a free JPG download, ready to print.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Greenhouse Coloring Pages Are So Relaxing</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

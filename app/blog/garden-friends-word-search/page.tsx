@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Garden Friends Word Search: Free Printable Garden Animal Puzzles", description: "Discover garden friends with these delightful word searches! Flowers, butterflies, bees, ladybugs, and adorable garden animals — free printable JPG puzzles for young nature lovers.", path: "/blog/garden-friends-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Bold_Easy_Bunny_Face.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Garden Friends Word Search: Free Printable Garden Animal Puzzles", description: "Discover garden friends with these delightful word searches! Flowers, butterflies, bees, ladybugs, and adorable garden animals — free printable JPG puzzles for young nature lovers.", path: "/blog/garden-friends-word-search" });
 
 export default function BlogPost() {
   const title = "Garden Friends Word Search: Garden Animal Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Welcome to the garden! Our garden friends word search puzzles celebrate the tiny creatures and beautiful plants that make gardens magical. With words like flower, seed, soil, butterfly, bee, ladybug, watering, bloom, and vine, kids explore the wonders of garden life one word at a time.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Tiny Garden Creatures</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Gardens are bustling with life! Butterflies flutter from flower to flower, bees buzz busily collecting nectar, ladybugs crawl along stems, and worms wiggle through rich soil. Our garden friends puzzles introduce these charming creatures and the vocabulary of their world. Children learn to appreciate the smallest garden helpers.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Growing Vocabulary Skills</h2>

@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/8_Tiny_Bear_Camping_Beside_a_Mou.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cozy Animal Camping & Outdoor Adventures Coloring Pages: Free JPG Downloads",
   description: "Pack your imaginary backpack for cozy animal camping coloring pages! Bears camping by mountain lakes, foxes on woodland adventures, and squirrels in hot air balloons. Free printable JPG downloads.",
   path: "/blog/cozy-animal-camping-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Pack your imaginary backpack for cozy animal camping coloring pages! Bears camping by mountain lakes, foxes on woodland adventures, and squirrels in hot air balloons. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Outdoor Adventure Coloring</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Camping and outdoor coloring pages transport you to peaceful natural settings — mountain lakes, forest clearings, and starry night skies. Combined with our signature cute animals, these pages offer a mini mental vacation with every coloring session. Breathe in the fresh air through your colored pencils!</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Mountain Camping and Forest Adventures</h2>

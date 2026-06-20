@@ -8,6 +8,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/41_tiny_squirrel_woodland_village.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Discover the enchanting realm of tiny animal worlds! Miniature villages, market squares, and tiny homes filled with adorable animal communities",
   description: "Discover the enchanting realm of tiny animal worlds! Miniature villages, market squares, and tiny homes filled with adorable animal communities. Free printable JPG downloads.",
   path: "/blog/tiny-animal-worlds-guide",
@@ -46,6 +49,9 @@ export default function BlogPost() {
             Tiny Animal Worlds: Explore Miniature Villages and Adorable Communities
           </h1>
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-07-08 · 8 min read</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <AdBanner slot="blog-top" className="mb-8" />
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">

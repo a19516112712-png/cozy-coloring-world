@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/rainy-day-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Rainy Day Coloring Pages: Free Printable Cozy Rain Scenes",
   description: "Perfect for gloomy days! Cozy windows, umbrellas, and indoor comfort coloring pages.",
   path: "/blog/rainy-day-coloring-pages",
@@ -72,6 +75,9 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Perfect for gloomy days! Cozy windows, umbrellas, and indoor comfort coloring pages.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Coloring Pages Are Special</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">

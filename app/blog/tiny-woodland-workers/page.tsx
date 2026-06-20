@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Tiny Woodland Workers Coloring Pages: Free Printable Forest Job Scenes", description: "Download free printable tiny woodland worker coloring pages! Bunnies, raccoons, otters, and squirrels doing forest jobs — building, cooking, crafting, and more.", path: "/blog/tiny-woodland-workers" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/13_Badger_Building_Miniature_Bird.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Tiny Woodland Workers Coloring Pages: Free Printable Forest Job Scenes", description: "Download free printable tiny woodland worker coloring pages! Bunnies, raccoons, otters, and squirrels doing forest jobs — building, cooking, crafting, and more.", path: "/blog/tiny-woodland-workers" });
 
 export default function BlogPost() {
   const title = "Tiny Woodland Workers: Forest Job Coloring Pages"; const date = "2026-06-07";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} · 7 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">The woodland is buzzing with activity as tiny animals take on important jobs! Our latest collection features 50 adorable coloring pages of bunnies, raccoons, otters, squirrels, and more doing forest work — from building bridges and repairing trails to cooking feasts and organizing markets. These pages celebrate the charm of woodland community life.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Forest Jobs for Every Animal</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Each page showcases a different woodland job. Little Bunny Preparing a Forest Feast gathers ingredients for a community meal. Tiny Otter Building Stepping Stones creates pathways across the river. Baby Raccoon Operating a Woodland Cart delivers supplies through the forest. Every animal has a special role that keeps the woodland community thriving.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Building and Repairing</h2>

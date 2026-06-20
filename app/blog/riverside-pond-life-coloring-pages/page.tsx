@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/4_Tiny_Frog_Operating_a_Mushroom.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Riverside & Pond Life Coloring Pages: Free Printable JPG Downloads",
   description: "Relax by the water with riverside and pond life coloring pages! Frogs on lily pads, otters by rivers, ducks on ponds, and cozy waterside cottages. Free printable JPG downloads.",
   path: "/blog/riverside-pond-life-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Relax by the water with riverside and pond life coloring pages! Frogs on lily pads, otters by rivers, ducks on ponds, and cozy waterside cottages. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Calming Magic of Waterside Coloring</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is something inherently peaceful about water scenes. Whether it is a frog resting on a lily pad, an otter sailing a cozy houseboat, or a cottage reflected in a still pond — these pages invite you to slow down, breathe deeply, and lose yourself in gentle blues and soft greens.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Frog Pond Life: Lily Pads and Riverside Cottages</h2>

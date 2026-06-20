@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/bookstore-coloring-pages-blog.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Bookstore Coloring Pages: Free Printable Cozy Bookshop and Library Scenes",
   description: "Get lost in the pages of our bookstore coloring pages! Charming bookshops, magical libraries, and cozy reading corners, free JPG downloads for book lovers who love to color.",
   path: "/blog/bookstore-coloring-pages-blog",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Get lost in the pages of our bookstore coloring pages! Charming bookshops, magical libraries, and cozy reading corners, free JPG downloads for book lovers who love to color.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">For those who love the smell of old books and the quiet comfort of a cozy bookshop, our bookstore coloring pages are a dream come true. Each page captures the magic of literary spaces: floor-to-ceiling bookshelves, window seats with reading lamps, spiral staircases in grand libraries, and sleepy bookshop cats. Every design is a love letter to book culture.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

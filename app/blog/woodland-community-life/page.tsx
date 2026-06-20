@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Community Life Coloring Pages: Free Printable Forest Village Scenes", description: "Explore woodland community life! Animal festivals, forest markets, lantern celebrations, and village gatherings — free printable coloring pages for all ages.", path: "/blog/woodland-community-life" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Cute_frog_fishing_village_colo.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Community Life Coloring Pages: Free Printable Forest Village Scenes", description: "Explore woodland community life! Animal festivals, forest markets, lantern celebrations, and village gatherings — free printable coloring pages for all ages.", path: "/blog/woodland-community-life" });
 
 export default function BlogPost() {
   const title = "Woodland Community Life: Forest Village Coloring Pages"; const date = "2026-06-07";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} · 7 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">There is nothing cozier than a woodland community coming together! Our new coloring pages capture the warmth of forest village life — from lantern-lit evening markets and acorn festivals to community feasts and scavenger hunts. Every page celebrates friendship, cooperation, and the joy of living in a close-knit woodland community.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Community Celebrations</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">The festival pages are bursting with joyful energy. Baby Bunny Painting Signs for a Festival shows creative preparation. Squirrel Woodland Celebration captures dancing and music. Tiny Squirrel Managing a Forest Library opens knowledge to everyone. These pages remind us that the best communities are built on sharing and celebration.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Market Days and Gatherings</h2>

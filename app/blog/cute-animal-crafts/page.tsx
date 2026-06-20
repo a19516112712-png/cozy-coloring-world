@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Cute Animal Crafts Coloring Pages: Free Printable DIY Forest Projects", description: "Get crafty with woodland animals! Foxes sewing clothes, mice making pottery, bunnies creating candles — free printable cute animal craft coloring pages.", path: "/blog/cute-animal-crafts" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/13_Badger_Building_Miniature_Bird.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Cute Animal Crafts Coloring Pages: Free Printable DIY Forest Projects", description: "Get crafty with woodland animals! Foxes sewing clothes, mice making pottery, bunnies creating candles — free printable cute animal craft coloring pages.", path: "/blog/cute-animal-crafts" });
 
 export default function BlogPost() {
   const title = "Cute Animal Crafts: DIY Forest Project Coloring Pages"; const date = "2026-06-07";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} · 7 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">The woodland animals have opened their craft workshops and creativity is flowing! Our new coloring pages feature adorable animals engaged in handmade projects — from sewing and pottery to candle making and sign painting. These pages celebrate the joy of creating beautiful things with your own hands (or paws!).</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Craft Workshops in the Forest</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Cute Fox Creating Handmade Clothing shows a tiny tailor at work. Tiny Mouse Creating Handmade Pottery captures the peaceful rhythm of the potter&rsquo;s wheel. Little Bunny Creating Handmade Candles glows with warm workshop light. Each craft scene is rich with materials, tools, and the beautiful products being made.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Artistic Animals</h2>

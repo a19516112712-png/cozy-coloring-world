@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Beaver_Hosting_a_River_Enginee.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Otter Coloring Pages: 30 Free Printable Riverside Adventures",
   description: "Discover 30 adorable free printable otter coloring pages featuring riverside picnics, tea parties, fishing docks, and cozy cottage scenes. Download and print today!",
   path: "/blog/otter-riverside-coloring",
@@ -49,6 +52,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Otters are some of the most playful and charming animals in the woodland world, and our new collection of 30 otter coloring pages captures their riverside adventures perfectly! From family picnics by the river to cozy cottage porch scenes, these free printable coloring pages bring the magic of otter life to your coloring table.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Otter Coloring Pages Are So Popular</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Otters have exploded in popularity as a coloring subject. Their expressive faces, playful poses, and love of water create dynamic scenes that are endlessly fun to color. Whether they are fishing from a wooden dock, enjoying afternoon tea, or relaxing in a hammock by the river, each otter coloring page tells a story.</p>

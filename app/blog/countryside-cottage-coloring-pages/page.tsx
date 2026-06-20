@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/39_cozy_bedroom_with_fairy_lights.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Countryside Cottage Coloring Pages: Riverside Retreats & Meadow Homes",
   description: "Escape to the countryside with our cottage coloring pages! Riverside retreats, meadow cottages, winter cabins, and cozy rural homes with adorable animal residents. Free printable JPG downloads.",
   path: "/blog/countryside-cottage-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               Imagine a stone cottage nestled by a babbling brook, smoke curling from its chimney as ducks paddle in the stream below. Or a cozy winter cabin with frosted windows, a warm fire glowing inside, and snow blanketing the meadow outside. Our countryside cottage coloring pages capture these dreamy rural retreats, each one home to an adorable animal enjoying the simple pleasures of country life. Every page is a free JPG download — step into the countryside without leaving your coloring table.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Timeless Charm of Countryside Cottages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

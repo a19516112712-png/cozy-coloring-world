@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Cute_animal_fantasy_village_wi.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Tiny Village Community Coloring Pages: Market Day, Post Office & Train Station",
   description: "Explore charming tiny village community coloring pages! Market day squares, cozy post offices, and woodland train stations filled with adorable animal citizens. Free printable JPG downloads.",
   path: "/blog/tiny-village-community-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               There is something irresistible about a tiny village where everyone knows each other. The market square bustling with stalls, the post office where letters arrive with a friendly smile, the train station where adventures begin — these community spaces form the beating heart of any cozy town. Our tiny village community coloring pages bring these beloved neighborhood scenes to life, filled with adorable animal citizens going about their daily routines. Every page is a free JPG download, ready to transport you to a miniature world of warmth and togetherness.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Village Community Coloring Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

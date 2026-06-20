@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Forest Toy Workshop Coloring Pages: Free Printable Animal Toy Shop Scenes", description: "Visit the forest toy workshop! Hamster toy shops, mouse toy workshops, bunnies assembling toy wagons — free printable adorable animal toy making and playtime coloring pages.", path: "/blog/forest-toy-workshop" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Tiny_mouse_toy_store__teddy_be.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Forest Toy Workshop Coloring Pages: Free Printable Animal Toy Shop Scenes", description: "Visit the forest toy workshop! Hamster toy shops, mouse toy workshops, bunnies assembling toy wagons — free printable adorable animal toy making and playtime coloring pages.", path: "/blog/forest-toy-workshop" });
 
 export default function BlogPost() {
   const title = "Forest Toy Workshop: Animal Toy Shop Coloring Pages"; const date = "2026-06-08";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} &middot; 6 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Step into the most delightful corner of the forest — the toy workshop! Tiny animals design, build, and sell the most charming handmade toys you have ever seen. From hamster-run toy shops to mouse toy workshops brimming with teddy bears, and bunnies assembling colorful toy wagons, these pages are pure childhood magic ready to be colored.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Toy Shops of the Forest</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Cute Hamster Toy Shop features a bustling little storefront filled with handcrafted playthings. Tiny shelves display wooden trains, stuffed animals, and spinning tops — all made with love by tiny paws. Cute Mouse Toy Workshop reveals the behind-the-scenes magic where toys come to life. Sawdust, wood shavings, paint pots, and half-finished projects create the perfect workshop atmosphere.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Building Toys Together</h2>

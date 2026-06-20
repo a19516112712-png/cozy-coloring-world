@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_fantasy_dragon_bakery_village_.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Woodland Bakery Coloring Pages: Free Printable Forest Bakery Scenes",
   description: "Download 30 free printable woodland bakery coloring pages! Squirrel acorn bakeries, forest pastry shops, and adorable animals baking cozy treats in the woods.",
   path: "/blog/woodland-bakery-coloring",
@@ -39,6 +42,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">The smell of fresh acorn bread wafting through the forest, a squirrel baker arranging treats in a rustic display, a cozy bakery booth at the woodland market — our new woodland bakery coloring pages capture all the charm of forest baking! These pages are perfect for anyone who loves bakery-themed coloring with a woodland twist.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">A Taste of Woodland Baking</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Bakery coloring pages are consistently among our most popular, and this woodland collection takes the theme to new heights. Squirrel Woodland Bakery features a full forest bakery with rustic charm. Squirrel Acorn Bakery specializes in acorn-based treats. Squirrel Bakery Treats Display showcases an irresistible array of woodland pastries, breads, and sweets.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">More Bakery Delights</h2>

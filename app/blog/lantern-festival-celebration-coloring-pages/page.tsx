@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Cute_animal_fantasy_village_wi.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Lantern Festival & Celebration Coloring Pages: Magical Night Scenes",
   description: "Celebrate with lantern festival and holiday coloring pages! Glowing paper lanterns, festival night markets, and seasonal celebrations with adorable animals. Free printable JPG downloads.",
   path: "/blog/lantern-festival-celebration-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               There is something truly magical about a festival at night. Hundreds of paper lanterns floating into the sky, their warm glow reflected in the water below. Streets lined with colorful decorations, music drifting through the air, and the joyful chatter of a community coming together to celebrate. Our lantern festival and celebration coloring pages capture these enchanting nighttime gatherings, featuring adorable animals enjoying seasonal festivities. Every page is a free JPG download.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Enchantment of Night Festival Coloring Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

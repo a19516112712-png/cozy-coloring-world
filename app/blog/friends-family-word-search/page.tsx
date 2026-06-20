@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Friends & Family Word Search Puzzles: Free Printable Animal Activities", description: "Discover adorable friends and family themed word search puzzles! Perfect for kids to learn about relationships, animals, and family bonds while having fun. Free printable JPG downloads.", path: "/blog/friends-family-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Cozy_Autumn_Fox_Cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Friends & Family Word Search Puzzles: Free Printable Animal Activities", description: "Discover adorable friends and family themed word search puzzles! Perfect for kids to learn about relationships, animals, and family bonds while having fun. Free printable JPG downloads.", path: "/blog/friends-family-word-search" });
 
 export default function BlogPost() {
   const title = "Friends & Family Word Search: Free Animal Themed Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Word search puzzles with a heartwarming friends and family theme are a wonderful way for kids to practice vocabulary while reflecting on the important relationships in their lives. Our animal-themed word searches feature adorable creatures with their friends, siblings, parents, and community — making learning about family bonds and friendship both fun and educational.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Friends & Family Word Searches?</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">These puzzles introduce children to words like mom, dad, baby, friend, sister, brother, family, love, play, and home. Each word search features a different animal friend — from fox families to bunny buddies, bear clans to duck siblings. Kids connect emotionally with the themes while building essential reading and spelling skills. The adorable animal illustrations make each puzzle feel like a warm hug on paper.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Learning Through Animal Relationships</h2>

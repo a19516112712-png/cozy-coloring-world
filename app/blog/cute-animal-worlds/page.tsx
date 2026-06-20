@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/cute-animal-worlds.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cute Animal Worlds: Free Printable Tiny Animal Village and Fantasy Scenes",
   description: "Enter the enchanting realm of cute animal worlds! Tiny villages, miniature homes, and adorable animal communities. 180+ free JPG downloads for imaginative coloring adventures.",
   path: "/blog/cute-animal-worlds",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Enter the enchanting realm of cute animal worlds! Tiny villages, miniature homes, and adorable animal communities. 180+ free JPG downloads for imaginative coloring adventures.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">Imagine a world where animals live in tiny mushroom houses, run cozy village bakeries, and gather in charming town squares. Welcome to cute animal worlds, our most imaginative coloring category! These pages invite you into miniature realms where every detail tells a story. From squirrel-operated acorn cafes to mouse family treehouse villages, each scene is a gateway to whimsical creativity. All free JPG downloads.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

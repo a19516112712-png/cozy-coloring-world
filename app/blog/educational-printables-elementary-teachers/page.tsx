@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Educational Printables for Elementary Teachers: Free Word Search Resources", description: "Elementary teachers, save time with free educational printables! 1000+ animal word searches for grades K-5. Perfect for morning work, centers, homework, and sub plans!", path: "/blog/educational-printables-elementary-teachers" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Educational Printables for Elementary Teachers: Free Word Search Resources", description: "Elementary teachers, save time with free educational printables! 1000+ animal word searches for grades K-5. Perfect for morning work, centers, homework, and sub plans!", path: "/blog/educational-printables-elementary-teachers" });
 
 export default function BlogPost() {
   const title = "Educational Printables for Elementary Teachers: Free Resources"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Elementary teachers spend countless hours (and too much of their own money) searching for quality classroom resources. Our collection of 1000+ free educational printables — specifically animal-themed word search puzzles and coloring pages — is the time-saving, budget-friendly solution every K-5 teacher needs.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Zero Prep, Maximum Learning</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Every teacher knows the value of a truly zero-prep activity. Our word searches require nothing more than a printer and paper. No cutting, no laminating, no complicated instructions. Just print and distribute. Use them for morning work while you take attendance, center rotations during reading block, early finisher activities, or calm-down corner options.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Aligned with Elementary Learning Goals</h2>

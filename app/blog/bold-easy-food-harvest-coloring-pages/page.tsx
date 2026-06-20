@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Bold Easy Food and Harvest Coloring Pages: Free Printable JPG Downloads", description: "Color delicious bold easy food and harvest pages! Orange groves, cherry bowls, watermelon slices, pumpkin patches, apple baskets, and more. Free printable JPG downloads for kids.", path: "/blog/bold-easy-food-harvest-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/41_Bold_Easy_Orange_Grove.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Bold Easy Food and Harvest Coloring Pages: Free Printable JPG Downloads", description: "Color delicious bold easy food and harvest pages! Orange groves, cherry bowls, watermelon slices, pumpkin patches, apple baskets, and more. Free printable JPG downloads for kids.", path: "/blog/bold-easy-food-harvest-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Bold Easy Food and Harvest Coloring Pages: Free Printable JPG Downloads", description: "Color delicious bold easy food and harvest pages! Orange groves, cherry bowls, watermelon slices, pumpkin patches, apple baskets, and more. Free printable JPG downloads for kids.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "bold easy food coloring, harvest coloring pages, fruit coloring for kids, simple food coloring, pumpkin patch coloring, bold easy vegetables" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Color delicious bold easy food and harvest pages! Orange groves, cherry bowls, watermelon slices, pumpkin patches, apple baskets, and more. Free printable JPG downloads for kids....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Food Coloring Pages Are Always a Hit</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Food coloring pages are universally appealing because everyone has a connection to food! From juicy oranges to crisp apples, from sweet strawberries to festive pumpkins, these familiar subjects are satisfying to color and help children build vocabulary around healthy eating.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Fruit Baskets and Orchards</h2>

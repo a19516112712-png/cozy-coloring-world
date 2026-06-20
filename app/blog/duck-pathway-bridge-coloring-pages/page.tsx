@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Duck Pathway & Bridge Coloring Pages: Free Printable Duck Crossing & Garden Path Scenes", description: "Follow the duck along charming pathways and bridges! Crossing stepping stones, walking garden paths, and crossing wooden bridges over ponds. Free printable JPG coloring downloads.", path: "/blog/duck-pathway-bridge-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Duck Pathway & Bridge Coloring Pages: Free Printable Duck Crossing & Garden Path Scenes", description: "Follow the duck along charming pathways and bridges! Crossing stepping stones, walking garden paths, and crossing wooden bridges over ponds. Free printable JPG coloring downloads.", path: "/blog/duck-pathway-bridge-coloring-pages" });
 
 export default function BlogPost() {
   const title = "Duck Pathway & Bridge: Duck Crossing and Garden Path Coloring Pages"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">There's something wonderfully whimsical about watching a duck navigate its world — hopping across stepping stones, strolling down a garden pathway, and waddling across a wooden bridge. Our duck pathway and bridge coloring pages capture these charming moments of duck locomotion with scenes that invite you to follow along on a delightful countryside journey.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Art of Duck Crossing</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Ducks crossing stepping stones over a pond is one of nature's most endearing sights. Our pages capture these moments with careful detail — the ripple of water around each stone, the careful placement of webbed feet, and the duck's focused expression. These scenes are wonderful for teaching balance, patience, and the simple joy of navigating one's environment.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Garden Pathways and Wooden Bridges</h2>

@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Duckling & Baby Duck Coloring Pages: Free Printable Adorable Duck Family Scenes", description: "Discover the cutest duckling and baby duck coloring pages! Mama ducks feeding ducklings, duck families walking together, and precious pond-side moments. Free printable JPG downloads!", path: "/blog/duckling-baby-duck-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Duckling & Baby Duck Coloring Pages: Free Printable Adorable Duck Family Scenes", description: "Discover the cutest duckling and baby duck coloring pages! Mama ducks feeding ducklings, duck families walking together, and precious pond-side moments. Free printable JPG downloads!", path: "/blog/duckling-baby-duck-coloring-pages" });
 
 export default function BlogPost() {
   const title = "Duckling & Baby Duck: Adorable Duck Family Coloring Pages"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">There's nothing quite as heart-melting as a line of fluffy ducklings paddling behind their mama on a sun-dappled pond. Our duckling and baby duck coloring pages capture these tender family moments with adorable detail — from feeding time to family walks across wooden bridges and cozy pond-side gatherings.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Baby Ducklings</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Ducklings are symbols of new life, innocence, and the beauty of spring. Our coloring pages feature mama ducks tenderly feeding their babies, duck families waddling along garden pathways, and fluffy ducklings learning to swim. Each scene is designed with bold, easy-to-color outlines that make them perfect for young children while still offering enough detail to delight adult colorists.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Family Bonds on the Pond</h2>

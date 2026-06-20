@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Screen-Free Kids Activities: Free Printable Word Search & Coloring Fun", description: "Unplug and play with screen-free kids activities! 2000+ free printable word search puzzles and coloring pages. Perfect for reducing screen time while keeping kids learning and creating!", path: "/blog/screen-free-kids-activities-printable" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Screen-Free Kids Activities: Free Printable Word Search & Coloring Fun", description: "Unplug and play with screen-free kids activities! 2000+ free printable word search puzzles and coloring pages. Perfect for reducing screen time while keeping kids learning and creating!", path: "/blog/screen-free-kids-activities-printable" });
 
 export default function BlogPost() {
   const title = "Screen-Free Kids Activities: Printable Word Search & Coloring"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">In a world dominated by screens, finding engaging screen-free activities for kids can feel like a challenge. Our collection of 2000+ free printable word search puzzles and coloring pages is the ultimate screen-free solution — keeping children entertained, learning, and creating without a single pixel in sight.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Power of Unplugged Play</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Screen-free activities offer benefits that digital games simply cannot match. Word searches develop focused attention, visual scanning, and persistence. Coloring pages build fine motor skills, color awareness, and creative confidence. Both activities provide calming, meditative experiences that help children regulate emotions and reduce overstimulation from screens.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Easy Transition Away from Screens</h2>

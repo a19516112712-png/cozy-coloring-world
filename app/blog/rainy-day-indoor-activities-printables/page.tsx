@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Rainy Day Indoor Activities: Free Printable Word Search & Coloring Pages", description: "Save rainy days with free indoor activities! 2000+ printable word search puzzles and coloring pages to keep kids entertained and learning when stuck inside. Download now!", path: "/blog/rainy-day-indoor-activities-printables" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Rainy Day Indoor Activities: Free Printable Word Search & Coloring Pages", description: "Save rainy days with free indoor activities! 2000+ printable word search puzzles and coloring pages to keep kids entertained and learning when stuck inside. Download now!", path: "/blog/rainy-day-indoor-activities-printables" });
 
 export default function BlogPost() {
   const title = "Rainy Day Indoor Activities: Printable Word Search & Coloring"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Rainy days have a way of catching parents off guard. One minute the forecast looks fine, the next minute the kids are bouncing off the walls with nowhere to go. Our collection of 2000+ free printable word search puzzles and coloring pages is your rainy day emergency kit — instant, engaging, screen-free entertainment that saves the day every time.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Your Rainy Day Activity Emergency Kit</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Build your rainy day kit before the clouds roll in. Print a variety of word searches at different difficulty levels, add a stack of animal coloring pages, and store everything in a 'Rainy Day' folder. When the weather turns, you will be ready with zero scrambling. Add fresh puzzles weekly to keep the collection interesting and surprising.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Indoor Activities That Actually Engage</h2>

@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_animal_sweet_shop.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Forest Cafe Coloring Pages: Free Printable Woodland Coffee Shop Scenes",
   description: "Download free printable forest cafe coloring pages! Squirrel woodland cafes, acorn bakeries, forest coffee shops — cozy coloring scenes for all ages.",
   path: "/blog/forest-cafe-coloring",
@@ -39,6 +42,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Imagine a cozy cafe nestled in the forest, run by adorable squirrels serving acorn lattes and woodland pastries! Our new forest cafe coloring pages bring this dreamy concept to life — from quiet reading cafes in treehouses to bustling bakery displays filled with forest treats. These pages are pure cozy comfort for coloring enthusiasts.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Cozy World of Forest Cafes</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Forest cafe pages combine two of the most popular coloring themes: cozy interiors and adorable woodland animals. Squirrel Forest Cafe captures a warm, inviting coffee shop among the trees. Squirrel Woodland Bakery features a charming bakery with fresh acorn bread and pastries. Squirrel Bakery Treats Display showcases mouthwatering forest-themed baked goods.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Cafe Scenes to Warm Your Heart</h2>

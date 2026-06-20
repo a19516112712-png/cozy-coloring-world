@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Forest Discovery Coloring Pages: Free Printable Woodland Exploration Scenes", description: "Explore the forest with tiny animals! Foxes finding cottages, otters discovering caves, deer making nature maps — free printable discovery coloring pages.", path: "/blog/forest-discovery-coloring" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/11_Chipmunk_Maintaining_a_Forest_.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Forest Discovery Coloring Pages: Free Printable Woodland Exploration Scenes", description: "Explore the forest with tiny animals! Foxes finding cottages, otters discovering caves, deer making nature maps — free printable discovery coloring pages.", path: "/blog/forest-discovery-coloring" });
 
 export default function BlogPost() {
   const title = "Forest Discovery: Woodland Exploration Coloring Pages"; const date = "2026-06-07";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} · 7 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Adventure and discovery await in every corner of the woodland! Our newest coloring pages follow curious animals as they explore their forest world — finding hidden cottages, sparkling crystal caves, secret trails, and natural treasures. These pages capture the thrill of exploration and the beauty of discovering something new.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Explorers and Discoveries</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Cute Fox Exploring an Abandoned Cottage is full of mystery and charm. Cute Otter Exploring a Crystal Cave sparkles with magical underground beauty. Baby Deer Creating Nature Maps shows careful documentation of forest discoveries. Each page invites you to join the animals on their exciting adventures.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Nature&rsquo;s Treasures</h2>

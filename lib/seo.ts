@@ -57,7 +57,7 @@ export const defaultMetadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "Cozy Coloring World - Free Printable Coloring Pages for Kids and Adults",
-        type: "image/png",
+        type: "image/webp",
       },
     ],
   },
@@ -73,7 +73,7 @@ export const defaultMetadata: Metadata = {
     canonical: siteUrl,
   },
   verification: {
-    google: "",
+    google: "some-verification-token",
     yandex: "",
   },
 };

@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/best-free-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Best Free Coloring Pages: Top 180+ Printable JPG Downloads for 2026",
   description: "Discover the best free coloring pages of 2026! Our top-rated collection of 180+ printable JPG downloads. Cute, cozy, and creative designs for kids and adults.",
   path: "/blog/best-free-coloring-pages",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover the best free coloring pages of 2026! Our top-rated collection of 180+ printable JPG downloads. Cute, cozy, and creative designs for kids and adults.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">Looking for the best free coloring pages on the internet? You have found them. We have curated a collection of 180+ printable JPG downloads spanning fifteen delightful categories. Every page has been selected for quality, charm, and coloring satisfaction. Whether you are a parent, teacher, or coloring enthusiast, this guide highlights our community's most-loved designs. All pages are completely free with no sign-up required.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

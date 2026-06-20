@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/kawaii-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Kawaii Coloring Pages: Free Printable Super Cute Japanese-Inspired Designs",
   description: "Discover the adorable world of kawaii coloring pages! Super cute animals, smiling foods, pastel dreamscapes, and Japanese-inspired designs. All free JPG downloads for kawaii lovers.",
   path: "/blog/kawaii-coloring-pages",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover the adorable world of kawaii coloring pages! Super cute animals, smiling foods, pastel dreamscapes, and Japanese-inspired designs. All free JPG downloads for kawaii lovers.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">Kawaii, the Japanese culture of cuteness, has captured hearts worldwide, and our kawaii coloring pages bring that irresistible charm to your coloring collection. From blushing animals with oversized eyes to smiling desserts and pastel dreamscapes, each page embodies the joyful, heartwarming aesthetic that makes kawaii so beloved. Every design is a free JPG download.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

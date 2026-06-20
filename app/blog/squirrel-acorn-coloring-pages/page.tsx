@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/25_Tiny_Squirrel_Living_Inside_an.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cute Squirrel & Acorn Coloring Pages: Free Printable JPG Downloads",
   description: "Discover adorable squirrel and acorn coloring pages! Squirrels baking acorn cookies, running woodland cafes, flying hot air balloons, and living inside giant acorns. Free printable JPG downloads.",
   path: "/blog/squirrel-acorn-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover adorable squirrel and acorn coloring pages! Squirrels baking acorn cookies, running woodland cafes, flying hot air balloons, and living inside giant acorns. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Squirrels Are Coloring Favorites</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Squirrels embody the cozy woodland spirit — busy, cheerful, and endlessly charming. Their distinctive bushy tails, bright eyes, and association with acorns and autumn make them naturally appealing coloring subjects. Our squirrel pages place them in imaginative settings that go beyond the ordinary.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Squirrel Bakeries and Acorn Treats</h2>

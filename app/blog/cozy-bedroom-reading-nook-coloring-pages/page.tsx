@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/40_cozy_rainy_day_reading_nook__l.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cozy Bedroom & Reading Nook Coloring Pages | Free Printable JPG Downloads",
   description: "Relax with cozy bedroom and reading nook coloring pages! Warm blankets, soft pillows, bookshelves, fireplaces, and candles. Free printable JPG downloads for stress relief and creative comfort.",
   path: "/blog/cozy-bedroom-reading-nook-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Welcome to the coziest coloring corner on the internet! Our bedroom and reading nook coloring pages are designed to wrap you in warmth and comfort. Picture soft blankets draped over armchairs, floor-to-ceiling bookshelves, flickering fireplaces, and window seats with rainy day views. Every page is a sanctuary of calm. Free printable JPG downloads!</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Comfort of Coloring Cozy Interiors</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is a special kind of magic in coloring indoor scenes. Unlike landscapes or abstract designs, cozy room coloring pages invite you into a personal, intimate space. You can almost feel the warmth of the fireplace and hear the rustle of turning pages. These pages are perfect for mindfulness practice, stress relief, or simply escaping into a world of comfort for an hour or two.</p>

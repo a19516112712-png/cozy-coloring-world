@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Cute_squirrel_tea_party_colori.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Acorn Festival Coloring Pages: Free Printable Woodland Celebration Scenes",
   description: "Celebrate the acorn season with free printable coloring pages! Squirrel acorn festivals, lantern evening markets, woodland celebrations — download and print free!",
   path: "/blog/acorn-festival-coloring",
@@ -39,6 +42,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">When autumn arrives in the woodland, the squirrels throw the most delightful acorn festivals! Our new coloring pages capture these magical celebrations — lantern-lit evening markets, acorn picnics under the trees, and grand festivals with music, dancing, and mountains of acorns. Every page is a celebration waiting for your colors.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Festival Scenes Full of Joy</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Acorn festivals are some of our most detailed and joyful coloring pages. Squirrel Acorn Festival features dancing, decorations, and happy squirrel families. Squirrel Lantern Evening Market glows with warm light and festive energy. Squirrel Woodland Celebration captures the entire forest community coming together. These pages are bursting with details to discover.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">More Festival Favorites</h2>

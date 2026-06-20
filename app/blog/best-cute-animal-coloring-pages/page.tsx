@@ -8,6 +8,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/25_cute_fox_gardening__flowers_an.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Discover the best cute animal coloring pages! 50+ free printable JPG downloads featuring adorable cats, bunnies, bears, and more",
   description: "Discover the best cute animal coloring pages! 50+ free printable JPG downloads featuring adorable cats, bunnies, bears, and more. Perfect for kids and adults!",
   path: "/blog/best-cute-animal-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
             Best Cute Animal Coloring Pages: 50+ Free Printable JPG Downloads
           </h1>
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-07-01 · 8 min read</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <AdBanner slot="blog-top" className="mb-8" />
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">

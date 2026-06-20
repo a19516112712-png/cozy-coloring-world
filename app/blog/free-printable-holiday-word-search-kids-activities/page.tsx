@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/34_Cute_penguin_winter_wonderland.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Free Printable Holiday Word Search: Year-Round Kids Activities for Every Celebration",
   description: "Celebrate every holiday with free printable word search puzzles! From Mother's Day to Christmas, discover themed puzzles that make learning festive, fun, and screen-free for kids ages 4-12.",
   path: "/blog/free-printable-holiday-word-search-kids-activities",
@@ -39,6 +42,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
         <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Celebrate every holiday with free printable word search puzzles! From Mother's Day to Christmas, discover themed puzzles that make learning festive, fun, and screen-free for kids ages 4-12.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Printable Word Searches Are Perfect for Learning</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Printable word searches are one of the most versatile educational tools available to parents and teachers. Unlike digital apps that require screen time, printable puzzles provide a tactile, focused learning experience. Children circle words, practice letter recognition, and build vocabulary — all while developing fine motor skills and concentration. Research consistently shows that the physical act of finding and circling words on paper strengthens neural pathways for spelling and vocabulary retention more effectively than typing or tapping.</p>
         <p className="text-cocoa/75 leading-relaxed mb-4">At Tiny Animal Worlds, we have designed our word searches with adorable animal characters that make learning feel like play. From foxes exploring ancient Egypt to bunnies visiting world landmarks, every puzzle tells a story that captures children's imaginations. With over 2,000 puzzles covering science, geography, history, holidays, sports, and more, there is always a new theme to discover.</p>
@@ -59,14 +65,16 @@ export default function BlogPost() {
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Explore More Free Printable Resources</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Beyond word searches, browse thousands of free printable resources: visit our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 2,000+ puzzles, explore <Link href="/category/christmas-coloring" className="text-rose hover:underline">Coloring Pages</Link> for creative fun, and check our <Link href="/blog" className="text-rose hover:underline">Blog</Link> for learning tips and activity ideas.</p>
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Frequently Asked Questions</h2>
-        <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">What ages are these word searches designed for?</h3>
-        <p className="text-cocoa/75 leading-relaxed mb-4">Our puzzles span ages 4-12 across three difficulty levels. Easy puzzles (4-7 years) feature 8-10 short words in large grids. Medium puzzles (6-10 years) include 10-12 words. Hard puzzles (8-12 years) challenge with 12-15 longer words. Each page clearly displays the recommended age range.</p>
-        <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">Are these puzzles completely free?</h3>
-        <p className="text-cocoa/75 leading-relaxed mb-4">Yes! All 2,000+ word searches on Tiny Animal Worlds are 100% free — no sign-up, no subscription, no hidden fees. Print unlimited copies for personal, classroom, or homeschool use. We support our free content through advertising.</p>
-        <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How do I print the word searches?</h3>
-        <p className="text-cocoa/75 leading-relaxed mb-4">Navigate to any word search page and click the Print button. Our print-optimized layout shows only the puzzle grid and word list on a clean page — no headers, footers, or ads. Standard letter-size paper works best.</p>
-        <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">Can teachers use these in classrooms?</h3>
-        <p className="text-cocoa/75 leading-relaxed mb-4">Absolutely! Teachers are welcome to print and distribute our puzzles. Many align with Common Core vocabulary standards and NGSS science standards. We love teacher feedback — contact us with theme requests.</p>
+          
+          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How are these different from regular worksheets?</h3>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Our printables combine adorable animal characters with educational content, making learning feel like play. Each worksheet is designed to be visually appealing and engaging while meeting specific learning objectives.</p>
+          
+          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">Do these align with curriculum standards?</h3>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Many of our word searches and activities align with Common Core vocabulary standards and Next Generation Science Standards. Teachers use them as supplementary materials in elementary classrooms.</p>
+          
+          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">What subjects do you cover?</h3>
+          <p className="text-cocoa/75 leading-relaxed mb-4">We cover animals, science, geography, history, holidays, sports, arts, community, daily life, nature, and more — all through the lens of adorable animal characters that children love.</p>
+
         <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How often do you add new puzzles?</h3>
         <p className="text-cocoa/75 leading-relaxed mb-4">We add new word searches weekly! Our collection grows with teacher requests, seasonal themes, and new educational topics. Bookmark us or follow on Pinterest to catch every new release.</p>
       </div>

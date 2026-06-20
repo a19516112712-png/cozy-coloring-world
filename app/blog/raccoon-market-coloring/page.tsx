@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_raccoon_fresh_bread_booth.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Raccoon Market Coloring Pages: 30 Free Printable Woodland Market Scenes",
   description: "Explore 30 free printable raccoon coloring pages featuring farmers markets, bakery booths, flower stalls, and harvest festivals. Perfect for kids and adults!",
   path: "/blog/raccoon-market-coloring",
@@ -49,6 +52,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">There is something magical about a woodland market run by adorable raccoons! Our new collection of 30 raccoon coloring pages features bustling farmers markets, cozy bakery booths, charming flower stalls, and grand harvest festivals. Each page is a delightful scene waiting for your colors.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Charm of Raccoon Market Scenes</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Raccoons are natural merchants — clever, industrious, and full of personality. Our raccoon market coloring pages capture them selling fresh bread, arranging pumpkins, displaying homemade jam, and running flower carts. These scenes are rich with details that make coloring an immersive, relaxing experience.</p>

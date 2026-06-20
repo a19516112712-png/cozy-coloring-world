@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/coloring-pages-for-adults.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Coloring Pages for Adults: Free Printable Relaxing and Intricate Designs",
   description: "Discover the best coloring pages for adults! Intricate designs, detailed patterns, and relaxing scenes for stress relief. 180+ free JPG downloads for mindful coloring.",
   path: "/blog/coloring-pages-for-adults",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover the best coloring pages for adults! Intricate designs, detailed patterns, and relaxing scenes for stress relief. 180+ free JPG downloads for mindful coloring.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">Adult coloring has grown from a niche hobby into a mainstream wellness practice, and for excellent reasons. Studies show that coloring reduces anxiety, improves focus, and provides a meditative escape from daily stress. Our collection of coloring pages for adults features intricate designs, detailed patterns, and soothing scenes specifically selected for grown-up colorists. Every page is a free JPG download.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

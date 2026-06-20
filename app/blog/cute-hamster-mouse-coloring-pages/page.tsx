@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/29_Tiny_Hamster_Baking_Cupcakes_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cute Hamster & Mouse Coloring Pages | Free Printable JPG Downloads",
   description: "Download free cute hamster and mouse coloring pages! Adorable hamsters baking cupcakes, mice running tiny shops, and cozy rodent scenes. High-quality JPG downloads for all ages.",
   path: "/blog/cute-hamster-mouse-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Welcome to the tiniest, cutest corner of our coloring world! Our hamster and mouse coloring pages celebrate these beloved small animals in the most charming settings imaginable. From hamsters baking cupcakes in tiny kitchens to mice operating miniature train stations, every page is packed with personality. Free printable JPG downloads for coloring fans of all ages.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why We Love Hamster and Mouse Coloring Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Hamsters and mice are the ultimate cute coloring subjects. Their round cheeks, tiny paws, and expressive whiskers make every page irresistible. Our designs place these lovable rodents in richly detailed miniature worlds — hamster-sized bakeries, mouse-operated shops, and cozy homes that spark imagination and creativity.</p>

@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Building Scenes Coloring Pages: Free Printable Forest Construction", description: "Watch tiny animals build! Raccoons constructing bridges, bears building dams, bunnies making windmills — free printable woodland construction coloring pages.", path: "/blog/woodland-building-scenes" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/13_Badger_Building_Miniature_Bird.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Building Scenes Coloring Pages: Free Printable Forest Construction", description: "Watch tiny animals build! Raccoons constructing bridges, bears building dams, bunnies making windmills — free printable woodland construction coloring pages.", path: "/blog/woodland-building-scenes" });
 
 export default function BlogPost() {
   const title = "Woodland Building Scenes: Forest Construction Coloring Pages"; const date = "2026-06-07";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} · 6 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">The woodland is under construction — and the tiniest animals are the builders! Our new collection features adorable scenes of woodland animals constructing everything from bridges and dams to windmills and treehouses. These pages celebrate creativity, engineering, and the satisfaction of building something with your own paws.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Tiny Builders at Work</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Tiny Raccoon Building a Wooden Bridge shows careful planning and construction. Baby Bear Constructing a Miniature Dam demonstrates clever water engineering. Tiny Bunny Constructing a Mini Windmill captures the charm of renewable energy in the forest. Each building project is detailed with tools, materials, and proud builders.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Repairing and Restoring</h2>

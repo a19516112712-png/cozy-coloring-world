@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Bold & Easy Coloring Pages: Free Printable JPG Downloads for Beginners", description: "Discover our bold and easy coloring pages! Simple, large designs perfect for beginners, young children, and anyone who loves stress-free coloring. Free printable JPG downloads.", path: "/blog/bold-easy-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Bold_Easy_Cozy_Weekend.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Bold & Easy Coloring Pages: Free Printable JPG Downloads for Beginners", description: "Discover our bold and easy coloring pages! Simple, large designs perfect for beginners, young children, and anyone who loves stress-free coloring. Free printable JPG downloads.", path: "/blog/bold-easy-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Bold & Easy Coloring Pages: Free Printable JPG Downloads for Beginners", description: "Discover our bold and easy coloring pages! Simple, large designs perfect for beginners, young children, and anyone who loves stress-free coloring. Free printable JPG downloads.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "bold easy coloring pages, simple coloring pages for beginners, easy printable coloring, bold line coloring sheets, toddler coloring pages" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover our bold and easy coloring pages! Simple, large designs perfect for beginners, young children, and anyone who loves stress-free coloring. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Bold and Easy Coloring Pages Are So Popular</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Bold easy coloring pages have become incredibly popular because they remove the frustration of intricate details. The thick outlines and simple shapes make coloring accessible to everyone, from toddlers just learning to hold a crayon to adults who want a quick, relaxing creative break. No stress, just pure coloring joy.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Cozy Weekend and Everyday Scenes</h2>

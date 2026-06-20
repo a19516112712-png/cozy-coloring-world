@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Forest Exploration and Nature Trail Coloring Pages: Free JPG Downloads", description: "Hit the trail with forest exploration coloring pages! Lost routes, hidden crossings, secret lookouts, observation decks, and woodland navigation. Free printable JPG downloads for nature lovers.", path: "/blog/forest-exploration-trail-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/6_Lost_Woodland_Exploration_Base.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Forest Exploration and Nature Trail Coloring Pages: Free JPG Downloads", description: "Hit the trail with forest exploration coloring pages! Lost routes, hidden crossings, secret lookouts, observation decks, and woodland navigation. Free printable JPG downloads for nature lovers.", path: "/blog/forest-exploration-trail-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Forest Exploration and Nature Trail Coloring Pages: Free JPG Downloads", description: "Hit the trail with forest exploration coloring pages! Lost routes, hidden crossings, secret lookouts, observation decks, and woodland navigation. Free printable JPG downloads for nature lovers.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "forest exploration coloring, nature trail coloring, woodland adventure printable, lost trail coloring, forest navigation pages" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 9 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Hit the trail with forest exploration coloring pages! Lost routes, hidden crossings, secret lookouts, observation decks, and woodland navigation. Free printable JPG downloads for nature lovers....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Spirit of Forest Exploration</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Forest exploration coloring pages capture the thrill of discovery. Each page is a destination you might find on a woodland hike such as a hidden trail crossing, a secret observation deck with sweeping views, a mysterious compass trail, or a cozy expedition camp. These pages invite imagination and a love of nature.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Trail Crossings and Forest Routes</h2>

@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Hideaway and Secret Garden Coloring Pages: Free JPG Downloads", description: "Discover hidden woodland hideaways and secret garden coloring pages! Mysterious courtyards, hidden fountains, secret tunnels, and lost garden paths. Free printable JPG downloads.", path: "/blog/woodland-secret-garden-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/68_Secret_Garden_Labyrinth.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Hideaway and Secret Garden Coloring Pages: Free JPG Downloads", description: "Discover hidden woodland hideaways and secret garden coloring pages! Mysterious courtyards, hidden fountains, secret tunnels, and lost garden paths. Free printable JPG downloads.", path: "/blog/woodland-secret-garden-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Woodland Hideaway and Secret Garden Coloring Pages: Free JPG Downloads", description: "Discover hidden woodland hideaways and secret garden coloring pages! Mysterious courtyards, hidden fountains, secret tunnels, and lost garden paths. Free printable JPG downloads.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "woodland hideaway coloring, secret garden coloring pages, hidden garden printable, mystery courtyard coloring, secret tunnel coloring" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 9 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Discover hidden woodland hideaways and secret garden coloring pages! Mysterious courtyards, hidden fountains, secret tunnels, and lost garden paths. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Hidden Places</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is something deeply satisfying about discovering a secret place. Our woodland hideaway and secret garden pages bring that magic to your coloring table such as hidden fountains discovered through forest paths, secret courtyards behind ancient walls, and mystery garden labyrinths waiting to be explored.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Secret Gardens and Hidden Courtyards</h2>

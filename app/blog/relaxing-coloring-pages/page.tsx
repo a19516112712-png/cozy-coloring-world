@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/relaxing-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Relaxing Coloring Pages: Free Printable Calm and Soothing Designs for Stress Relief",
   description: "Unwind with our relaxing coloring pages! Calm scenes, gentle patterns, and soothing designs for stress relief and mindfulness. 180+ free JPG downloads for peaceful coloring.",
   path: "/blog/relaxing-coloring-pages",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Unwind with our relaxing coloring pages! Calm scenes, gentle patterns, and soothing designs for stress relief and mindfulness. 180+ free JPG downloads for peaceful coloring.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">In our fast-paced digital world, finding moments of genuine calm can feel challenging. That is where relaxing coloring pages come in. Designed specifically to promote tranquility and mindfulness, our collection features gentle scenes, flowing patterns, and cozy compositions that invite you to slow down, breathe deeply, and lose yourself in the simple joy of coloring. Every page is a free JPG download.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

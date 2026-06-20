@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Grove & Forest Vocabulary Building: Free Printable Word Search Puzzles", description: "Build vocabulary with grove and forest themed word search puzzles. Oaks, acorns, squirrels!", path: "/blog/grove-forest-vocabulary-building-kids-puzzles" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/14_tiny_mouse_artist_painter.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Grove & Forest Vocabulary Building: Free Printable Word Search Puzzles", description: "Build vocabulary with grove and forest themed word search puzzles. Oaks, acorns, squirrels!", path: "/blog/grove-forest-vocabulary-building-kids-puzzles" });
 
 export default function BlogPost() {
   const title = "Grove & Forest Vocabulary Building: Free Printa..."; const date = "2026-06-13";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Build vocabulary with grove and forest themed word search puzzles. Oaks, acorns, squirrels! Our ever-growing collection now features 1400+ animal word search puzzles and 1700+ free printable coloring pages.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Kids Activities Matters</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Printable activities like word searches and coloring pages are powerful educational tools. Kids develop fine motor skills, practice letter and word recognition, build vocabulary, and gain confidence.</p>
           <p className="text-cocoa/75 leading-relaxed mb-4">Whether for classroom morning work, homeschool curriculum, or screen-free entertainment, our printable resources are flexible, accessible, and educational.</p>

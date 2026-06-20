@@ -44,12 +44,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Tiny Animal Worlds",
-              "url": SITE_URL,
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": `${SITE_URL}/coloring-pages?q={search_term_string}`,
-                "query-input": "required name=search_term_string"
-              }
+              "url": SITE_URL
             })
           }}
         />

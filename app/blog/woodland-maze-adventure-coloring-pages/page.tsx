@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Maze and Adventure Coloring Pages: Free Printable JPG Downloads", description: "Embark on a coloring adventure with woodland maze and exploration pages! Hidden forests, secret trails, mystery paths, and lost route discoveries. Free printable JPG downloads.", path: "/blog/woodland-maze-adventure-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Hidden_Woodland_Adventure_Vill.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Maze and Adventure Coloring Pages: Free Printable JPG Downloads", description: "Embark on a coloring adventure with woodland maze and exploration pages! Hidden forests, secret trails, mystery paths, and lost route discoveries. Free printable JPG downloads.", path: "/blog/woodland-maze-adventure-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Woodland Maze and Adventure Coloring Pages: Free Printable JPG Downloads", description: "Embark on a coloring adventure with woodland maze and exploration pages! Hidden forests, secret trails, mystery paths, and lost route discoveries. Free printable JPG downloads.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "woodland maze coloring pages, forest adventure coloring, hidden trail coloring, mystery path printable, secret garden coloring" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 9 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Embark on a coloring adventure with woodland maze and exploration pages! Hidden forests, secret trails, mystery paths, and lost route discoveries. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Adventure Coloring</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">What makes woodland maze and adventure coloring pages special is the sense of discovery they bring. Each page is a destination on an imaginary journey such as a hidden village, a secret forest tunnel, a lost campfire circle, a mysterious stone path. As you color, you are not just filling in shapes but exploring a world.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Hidden Woodland Discoveries</h2>

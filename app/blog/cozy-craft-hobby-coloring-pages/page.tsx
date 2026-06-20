@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/22_Tiny_squirrel_knitting_corner_.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cozy Craft & Hobby Coloring Pages: Knitting, Sewing & Art Studios",
   description: "Discover charming craft room coloring pages! Knitting corners, sewing studios, and artist workspaces filled with yarn, fabric, and creativity. Free printable JPG downloads.",
   path: "/blog/cozy-craft-hobby-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               There is a reason craft rooms feel like the coziest places in any home. Baskets of colorful yarn, fabric scraps waiting to become something beautiful, easels by sunlit windows, and the peaceful rhythm of making something with your hands. Our cozy craft and hobby coloring pages capture that creative sanctuary feeling, featuring adorable animals in their knitting corners, sewing cottages, and artist studios. Every page is a free JPG download — print and color your own creative hideaway.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Coloring Craft Rooms Is So Satisfying</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

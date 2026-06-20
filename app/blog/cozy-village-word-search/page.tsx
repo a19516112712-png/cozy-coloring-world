@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Cozy Village Word Search: Free Printable Animal Community Puzzles", description: "Explore charming animal villages with cozy word searches! Cottages, bridges, markets, lanterns, bakeries, and more — free printable JPG puzzles for kids who love tiny communities.", path: "/blog/cozy-village-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Cozy_Attic_Reading_Nook.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Cozy Village Word Search: Free Printable Animal Community Puzzles", description: "Explore charming animal villages with cozy word searches! Cottages, bridges, markets, lanterns, bakeries, and more — free printable JPG puzzles for kids who love tiny communities.", path: "/blog/cozy-village-word-search" });
 
 export default function BlogPost() {
   const title = "Cozy Village Word Search: Animal Community Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Welcome to the coziest village in the animal kingdom! Our cozy village word search puzzles feature charming words like cottage, bridge, market, lantern, bakery, church, school, shop, park, pond, fence, and bell. Each puzzle is a stroll through a tiny animal community filled with warmth and wonder.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Life in a Tiny Animal Village</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Imagine a village where foxes run the bakery, bunnies teach at the schoolhouse, bears tend the market stalls, and ducks paddle across the village pond. Our cozy village puzzles bring this enchanting world to life with vocabulary that paints a picture of community, togetherness, and small-town charm.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Community Vocabulary for Kids</h2>

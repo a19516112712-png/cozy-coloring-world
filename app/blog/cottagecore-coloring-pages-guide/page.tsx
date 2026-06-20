@@ -8,6 +8,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/11_cottagecore_herb_garden__rabbi.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Embrace the cottagecore aesthetic with our coloring pages! Flower gardens, herb cottages, countryside bakeries, and pastoral scenes",
   description: "Embrace the cottagecore aesthetic with our coloring pages! Flower gardens, herb cottages, countryside bakeries, and pastoral scenes. Free printable JPG downloads.",
   path: "/blog/cottagecore-coloring-pages-guide",
@@ -46,6 +49,9 @@ export default function BlogPost() {
             Cottagecore Coloring Pages: Free Printable Charming Countryside Scenes
           </h1>
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-07-09 · 8 min read</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <AdBanner slot="blog-top" className="mb-8" />
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">

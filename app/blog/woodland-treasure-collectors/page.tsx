@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Treasure Collectors Coloring Pages: Free Printable Animal Collecting Scenes", description: "Discover woodland treasure collectors! Deer organizing butterfly gardens, raccoons gathering driftwood, mice arranging seashells — free printable collecting and organizing coloring pages.", path: "/blog/woodland-treasure-collectors" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_fox_book_club_gathering.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Treasure Collectors Coloring Pages: Free Printable Animal Collecting Scenes", description: "Discover woodland treasure collectors! Deer organizing butterfly gardens, raccoons gathering driftwood, mice arranging seashells — free printable collecting and organizing coloring pages.", path: "/blog/woodland-treasure-collectors" });
 
 export default function BlogPost() {
   const title = "Woodland Treasure Collectors: Animal Gathering Coloring Pages"; const date = "2026-06-08";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} &middot; 7 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Every tiny animal has a passion for collecting! Whether it&rsquo;s butterflies, driftwood, seashells, or shiny treasures, these woodland creatures take joy in gathering and organizing nature&rsquo;s gifts. Our newest coloring pages celebrate the art of collecting — each scene filled with carefully arranged natural treasures waiting to be brought to life with color.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Nature&rsquo;s Curators</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Tiny Deer Organizing a Butterfly Garden captures gentle care for delicate winged creatures. Little Fox Arranging Treasure Collection shows a clever fox curating a beautiful display. Tiny Raccoon Collecting Driftwood features a resourceful raccoon gathering nature&rsquo;s sculptural pieces. Each page reveals the personality of the collector through the treasures they choose.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Libraries and Collections</h2>

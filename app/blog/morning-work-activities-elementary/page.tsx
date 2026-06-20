@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Morning Work Activities for Elementary: Free Printable Word Search & Coloring", description: "Start the school day right with free morning work activities! 1000+ printable word searches and coloring pages perfect for K-5 morning routines. Download and print instantly!", path: "/blog/morning-work-activities-elementary" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Morning Work Activities for Elementary: Free Printable Word Search & Coloring", description: "Start the school day right with free morning work activities! 1000+ printable word searches and coloring pages perfect for K-5 morning routines. Download and print instantly!", path: "/blog/morning-work-activities-elementary" });
 
 export default function BlogPost() {
   const title = "Morning Work Activities: Free Printable Word Search & Coloring"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Those first 15 minutes of the school day set the tone for everything that follows. Our free printable morning work activities — 1000+ word search puzzles and 1600+ coloring pages — give teachers the perfect soft-start routine. Students settle in calmly, engage their brains, and transition smoothly into learning mode.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Perfect Soft Start Routine</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">A soft start to the school day reduces anxiety, builds independence, and gives teachers time for essential morning tasks. Students enter the classroom, find their word search or coloring page at their desk, and begin working independently. No instructions needed, no prep required, no chaos — just calm, focused activity from the moment the bell rings.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Differentiated Morning Work Made Easy</h2>

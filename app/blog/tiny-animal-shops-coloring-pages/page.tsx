@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/5_Tiny_Fox_Running_a_Forest_Bake.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Tiny Animal Shops & Marketplaces Coloring Pages | Free JPG Downloads",
   description: "Explore adorable tiny animal shops coloring pages! Fox bakeries, rabbit flower shops, squirrel bookstores, and more. Free printable JPG downloads featuring cute animals running charming businesses.",
   path: "/blog/tiny-animal-shops-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Step into the most charming shopping district ever imagined! Our tiny animal shops and marketplaces coloring pages feature adorable animals running the cutest businesses — from fox bakeries and rabbit flower shops to squirrel bookstores and otter tea houses. Every page is a miniature world of commerce and creativity. Free printable JPG downloads!</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Tiny Animal Shops</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is something irresistibly charming about tiny animals running shops. A cat organizing a cozy yarn shop, a bear operating a honey farm, a mouse managing a cheese cafe — these scenes combine the warmth of small businesses with the cuteness of animal characters. Each page invites you to color not just the animal, but an entire miniature shop filled with delightful details.</p>

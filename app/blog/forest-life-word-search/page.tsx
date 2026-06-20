@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Forest Life Word Search: Free Printable Woodland Animal Puzzles", description: "Step into the magical forest with woodland animal word searches! Mushrooms, acorns, pinecones, streams, and adorable forest creatures — free printable JPG downloads for kids.", path: "/blog/forest-life-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Hidden_Woodland_Treehouse_Maze.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Forest Life Word Search: Free Printable Woodland Animal Puzzles", description: "Step into the magical forest with woodland animal word searches! Mushrooms, acorns, pinecones, streams, and adorable forest creatures — free printable JPG downloads for kids.", path: "/blog/forest-life-word-search" });
 
 export default function BlogPost() {
   const title = "Forest Life Word Search: Woodland Animal Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Welcome to the enchanted forest! Our forest life word search puzzles capture the magic of woodland living with vocabulary like woods, mushroom, acorn, pinecone, stream, fern, moss, deer, owl, and path. Each puzzle is a walk through the forest with adorable animal guides leading the way.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Magic of Woodland Life</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">There&rsquo;s something truly special about forest life. The dappled sunlight through the trees, the crunch of leaves underfoot, the discovery of mushrooms and acorns along the path. Our forest-themed word searches bring this magic to the page with beautiful animal illustrations and carefully chosen woodland vocabulary.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Forest Animals as Word Guides</h2>

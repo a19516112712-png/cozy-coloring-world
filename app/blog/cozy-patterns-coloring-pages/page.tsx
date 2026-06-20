@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Cozy Patterns and Simple Designs Coloring Pages: Free Printable JPG Downloads", description: "Relax with cozy patterns and simple design coloring pages! Clouds, rainbows, stars, hearts, leaves, flowers, and more soothing patterns. Free printable JPG downloads for stress-free coloring.", path: "/blog/cozy-patterns-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Bold_Easy_Summer_Picnic.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Cozy Patterns and Simple Designs Coloring Pages: Free Printable JPG Downloads", description: "Relax with cozy patterns and simple design coloring pages! Clouds, rainbows, stars, hearts, leaves, flowers, and more soothing patterns. Free printable JPG downloads for stress-free coloring.", path: "/blog/cozy-patterns-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Cozy Patterns and Simple Designs Coloring Pages: Free Printable JPG Downloads", description: "Relax with cozy patterns and simple design coloring pages! Clouds, rainbows, stars, hearts, leaves, flowers, and more soothing patterns. Free printable JPG downloads for stress-free coloring.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "cozy pattern coloring pages, simple pattern coloring, easy design coloring sheets, relax pattern printable, beginner pattern coloring" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Relax with cozy patterns and simple design coloring pages! Clouds, rainbows, stars, hearts, leaves, flowers, and more soothing patterns. Free printable JPG downloads for stress-free coloring....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Calming Power of Pattern Coloring</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is a reason adult coloring books are filled with patterns. The repetitive motion of coloring repeating shapes induces a meditative state, lowers stress hormones, and improves focus. Our cozy pattern collection takes this further by using nature-inspired motifs that feel warm and familiar.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Sky and Weather Patterns</h2>

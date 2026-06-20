@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Animal Learning Printables for Kids: Free Word Search & Coloring Activities", description: "Make animal learning fun with free printable word searches and coloring pages! 2000+ activities featuring foxes, bears, owls, dolphins, and more. Perfect for curious young minds!", path: "/blog/animal-learning-printables-kids" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Animal Learning Printables for Kids: Free Word Search & Coloring Activities", description: "Make animal learning fun with free printable word searches and coloring pages! 2000+ activities featuring foxes, bears, owls, dolphins, and more. Perfect for curious young minds!", path: "/blog/animal-learning-printables-kids" });
 
 export default function BlogPost() {
   const title = "Animal Learning Printables: Free Word Search & Coloring for Kids"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Children are naturally fascinated by animals, and our animal learning printables harness that curiosity for educational fun! With over 2000 free printable word searches and coloring pages spanning 40+ animal species, kids can explore the animal kingdom while building essential reading, vocabulary, and creative skills.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Learning Through Animal Fascination</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">When kids are interested in a topic, learning happens naturally. Our animal-themed word searches introduce vocabulary like habitats, diet, and animal behaviors through engaging puzzle play. Coloring pages let children explore animal appearances, patterns, and environments through artistic expression. Every activity reinforces learning while feeling like pure fun.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">40+ Animals to Explore</h2>

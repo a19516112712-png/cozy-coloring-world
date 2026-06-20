@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Meadow & Woodland Printable Homeschool Bundle: Word Search & Coloring", description: "Complete meadow and woodland themed homeschool bundle with free printable word search puzzles, coloring pages, and activity sheets. Multi-grade learning at home.", path: "/blog/meadow-woodland-printable-homeschool-bundle" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/21_deer_family_in_meadow.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Meadow & Woodland Printable Homeschool Bundle: Word Search & Coloring", description: "Complete meadow and woodland themed homeschool bundle with free printable word search puzzles, coloring pages, and activity sheets. Multi-grade learning at home.", path: "/blog/meadow-woodland-printable-homeschool-bundle" });
 
 export default function BlogPost() {
   const title = "Meadow & Woodland Printable Homeschool Bundle: ..."; const date = "2026-06-12";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Complete meadow and woodland themed homeschool bundle with free printable word search puzzles, coloring pages, and activity sheets. Multi-grade learning at home. Our ever-growing collection now features 1300+ animal word search puzzles and 1600+ free printable coloring pages — all ready to download and print instantly.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Homeschool Resources Matters for Kids</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Printable activities like word searches and coloring pages are more than just fun — they're powerful educational tools. Kids develop fine motor skills, practice letter and word recognition, build vocabulary, and gain confidence with every completed puzzle. The animal theme keeps children naturally engaged, making learning feel like play.</p>
           <p className="text-cocoa/75 leading-relaxed mb-4">Whether you're a teacher looking for morning work activities, a homeschool parent building a curriculum, or a caregiver seeking screen-free entertainment, our printable resources are designed to be flexible, accessible, and educational. With three difficulty levels — Easy, Medium, and Hard — there's something for every age and skill level.</p>

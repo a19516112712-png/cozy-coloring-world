@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/20_Tiny_mouse_cottage_kitchen__co.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cottage Kitchen & Hearth Coloring Pages: Cozy Home Cooking Scenes",
   description: "Warm your heart with cottage kitchen and hearth coloring pages! Adorable animals cooking in rustic kitchens, baking by the fireplace, and preparing homemade meals. Free printable JPG downloads.",
   path: "/blog/cottage-kitchen-hearth-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               The kitchen is the heart of every home, and in a cozy cottage, it is the warmest room of all. Imagine a tiny mouse baking bread in a rustic kitchen, a duck stirring soup on a cast-iron stove, or a rabbit arranging fresh vegetables on a scrubbed wooden table. Our cottage kitchen and hearth coloring pages celebrate these scenes of home-cooked comfort, starring adorable animal cooks in the coziest kitchens imaginable. Every page is a free JPG download.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Cottage Kitchens Are So Wonderful to Color</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

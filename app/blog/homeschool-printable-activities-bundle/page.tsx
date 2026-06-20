@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Homeschool Printable Activities Bundle: Word Search & Coloring Pages", description: "Build the ultimate homeschool printable activities bundle! 2000+ free word search puzzles and coloring pages for daily learning. Perfect for homeschool families and co-ops!", path: "/blog/homeschool-printable-activities-bundle" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Homeschool Printable Activities Bundle: Word Search & Coloring Pages", description: "Build the ultimate homeschool printable activities bundle! 2000+ free word search puzzles and coloring pages for daily learning. Perfect for homeschool families and co-ops!", path: "/blog/homeschool-printable-activities-bundle" });
 
 export default function BlogPost() {
   const title = "Homeschool Printable Activities: Word Search & Coloring Bundle"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Homeschooling parents know the value of quality, screen-free learning resources. Our combined collection of 1000+ word search puzzles and 1600+ coloring pages creates the ultimate homeschool printable activities bundle — and it is all completely free. Build vocabulary, practice fine motor skills, and spark creativity with resources designed by educators.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Two Powerful Learning Tools, One Free Resource</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Word searches build reading, spelling, and vocabulary skills through active engagement with words. Coloring pages develop fine motor control, color recognition, and creative expression. Together, they form a complete learning package that covers multiple developmental domains. Print a word search for morning language arts and a coloring page for afternoon creative time.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Creating Your Daily Homeschool Routine</h2>

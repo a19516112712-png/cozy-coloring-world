@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Bold Easy Animal Faces Coloring Pages: Free Printable JPG Downloads", description: "Color adorable bold easy animal faces! Bunny, bear, fox, cat, puppy, owl, frog, squirrel, and more. Simple, large designs perfect for kids and beginners. Free printable JPG downloads.", path: "/blog/bold-easy-animal-faces-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Bold_Easy_Bunny_Face.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Bold Easy Animal Faces Coloring Pages: Free Printable JPG Downloads", description: "Color adorable bold easy animal faces! Bunny, bear, fox, cat, puppy, owl, frog, squirrel, and more. Simple, large designs perfect for kids and beginners. Free printable JPG downloads.", path: "/blog/bold-easy-animal-faces-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Bold Easy Animal Faces Coloring Pages: Free Printable JPG Downloads", description: "Color adorable bold easy animal faces! Bunny, bear, fox, cat, puppy, owl, frog, squirrel, and more. Simple, large designs perfect for kids and beginners. Free printable JPG downloads.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "bold easy animal faces, simple animal coloring, easy animal face coloring, toddler animal coloring, cute animal faces printable" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Color adorable bold easy animal faces! Bunny, bear, fox, cat, puppy, owl, frog, squirrel, and more. Simple, large designs perfect for kids and beginners. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Joy of Coloring Animal Faces</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Animal faces are the perfect coloring subject for beginners. They are instantly recognizable, emotionally engaging, and have clear, distinct features that are satisfying to complete. Our bold easy animal faces collection makes it even easier with thick outlines and large, simple shapes that young children can color with confidence.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Woodland Friends: Bears, Foxes, and Rabbits</h2>

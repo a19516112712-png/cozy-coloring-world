@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Nature & Outdoors Word Search: Free Printable Animal Adventure Puzzles", description: "Explore the great outdoors with nature-themed word search puzzles! Featuring trees, rivers, flowers, mountains, and adorable animals — free printable JPG downloads for kids and classrooms.", path: "/blog/nature-outdoors-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_deer_flower_cart.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Nature & Outdoors Word Search: Free Printable Animal Adventure Puzzles", description: "Explore the great outdoors with nature-themed word search puzzles! Featuring trees, rivers, flowers, mountains, and adorable animals — free printable JPG downloads for kids and classrooms.", path: "/blog/nature-outdoors-word-search" });
 
 export default function BlogPost() {
   const title = "Nature & Outdoors Word Search: Animal Adventure Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Take a journey into the natural world with our nature and outdoors themed word search puzzles! From towering trees and flowing rivers to blooming flowers and majestic mountains, kids will explore vocabulary connected to the beautiful world around them — all while searching for hidden words alongside their favorite animals.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Connecting Kids with Nature</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">In today&rsquo;s screen-filled world, connecting children with nature is more important than ever. Our nature-themed word searches introduce vocabulary like tree, river, flower, sun, cloud, mountain, lake, grass, rain, leaf, sky, and path. Each puzzle features a different animal exploring its natural habitat — foxes in the forest, ducks on the pond, bears by the mountain, and bunnies in the meadow.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Seasonal Nature Vocabulary</h2>

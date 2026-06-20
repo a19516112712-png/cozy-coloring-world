@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Beaver_Hosting_a_River_Enginee.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Riverside Otter Coloring Pages: 30 Cozy River Bank Scenes Free Printable",
   description: "Download 30 free printable riverside otter coloring pages! Fishing docks, tea tables, cottage porches, and sunset scenes — perfect cozy coloring for all ages.",
   path: "/blog/riverside-otter-coloring",
@@ -49,6 +52,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">There is nothing quite as peaceful as a riverside scene with adorable otters enjoying life by the water. Our new collection of 30 otter coloring pages captures every cozy riverside moment — from quiet fishing docks to lively tea parties on the riverbank.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Beauty of Riverside Coloring</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Riverside scenes offer a unique coloring experience. The flowing water, grassy banks, wooden docks, and cozy cottages create a soothing backdrop. Add playful otters — fishing, reading, boating, or sipping tea — and you have a coloring page that feels like a mini vacation.</p>

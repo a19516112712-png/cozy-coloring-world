@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/43_Cute_cat_rain_window_coloring_.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Educational Games Printable: Word Puzzles Kids Actually Want to Play",
   description: "Turn screen time into learning time! These free printable educational word search games feature adorable animals and fun themes that make vocabulary building feel like playtime.",
   path: "/blog/educational-games-printable-word-puzzles-kids",
@@ -42,6 +45,9 @@ export default function BlogPost() {
 
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Turn screen time into learning time! These free printable educational word search games feature adorable animals and fun themes that make vocabulary building feel like playtime.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Printables Matter for Learning</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Printable learning activities offer a unique combination of hands-on engagement and screen-free focus. Unlike digital games that demand constant device time, printable word searches and coloring pages give children the tactile experience of working with paper — circling words, coloring illustrations, and building fine motor skills alongside academic growth. Research consistently shows that the physical act of writing and circling reinforces neural pathways for vocabulary retention far more effectively than typing or tapping on a screen.</p>
@@ -73,17 +79,15 @@ export default function BlogPost() {
           
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Frequently Asked Questions</h2>
           
-          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">What age are these word searches suitable for?</h3>
-          <p className="text-cocoa/75 leading-relaxed mb-4">Our word searches are designed for ages 4-12, with three difficulty levels clearly marked on each puzzle. Easy puzzles feature 8-10 short words and large grids perfect for preschoolers and kindergarteners. Medium puzzles have 10-12 words and work well for grades 1-3. Hard puzzles include 12-15 longer words for grades 3-5. Each puzzle includes the recommended age range right on the page.</p>
+          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How are these different from regular worksheets?</h3>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Our printables combine adorable animal characters with educational content, making learning feel like play. Each worksheet is designed to be visually appealing and engaging while meeting specific learning objectives.</p>
           
-          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">Are these printables really free?</h3>
-          <p className="text-cocoa/75 leading-relaxed mb-4">Yes! All word searches and coloring pages on Tiny Animal Worlds are 100% free to download and print. No sign-up, no subscription, no hidden costs. You can print as many copies as you need for personal, classroom, or homeschool use. We support our site through advertising, which allows us to keep everything free for educators and families.</p>
+          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">Do these align with curriculum standards?</h3>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Many of our word searches and activities align with Common Core vocabulary standards and Next Generation Science Standards. Teachers use them as supplementary materials in elementary classrooms.</p>
           
-          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How do I print word searches?</h3>
-          <p className="text-cocoa/75 leading-relaxed mb-4">Simply navigate to any word search page, click the Print button, and your browser will open a clean print dialog showing just the puzzle. We have optimized our print layout to show only the puzzle grid and word list on a single page — no headers, footers, or ads appear in the printed version. Use standard letter-size paper (8.5x11 inches) for best results.</p>
-          
-          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">Can I use these in my classroom?</h3>
-          <p className="text-cocoa/75 leading-relaxed mb-4">Absolutely! Teachers are welcome to print and distribute our word searches and coloring pages to their students. Many of our puzzles align with Common Core vocabulary standards and Next Generation Science Standards. We love hearing from teachers who use our resources — feel free to contact us with feedback or requests for specific themes.</p>
+          <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">What subjects do you cover?</h3>
+          <p className="text-cocoa/75 leading-relaxed mb-4">We cover animals, science, geography, history, holidays, sports, arts, community, daily life, nature, and more — all through the lens of adorable animal characters that children love.</p>
+
           
           <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How often do you add new puzzles?</h3>
           <p className="text-cocoa/75 leading-relaxed mb-4">We add new word search puzzles and coloring pages regularly — often weekly! Our collection now includes over 2,000 word searches and 2,000+ coloring pages, with new themes added based on teacher requests, seasonal events, and educational trends. Bookmark our site or follow us on Pinterest to stay updated on new releases.</p>

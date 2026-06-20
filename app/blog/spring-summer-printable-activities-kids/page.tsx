@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Spring & Summer Printable Activities for Kids: Free Word Search & Coloring", description: "Keep kids learning all spring and summer with free printable activities! 2000+ word search puzzles and coloring pages featuring seasonal animals. Perfect for break and vacation!", path: "/blog/spring-summer-printable-activities-kids" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/1_Owl_enjoying_a_quiet_evening_i.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Spring & Summer Printable Activities for Kids: Free Word Search & Coloring", description: "Keep kids learning all spring and summer with free printable activities! 2000+ word search puzzles and coloring pages featuring seasonal animals. Perfect for break and vacation!", path: "/blog/spring-summer-printable-activities-kids" });
 
 export default function BlogPost() {
   const title = "Spring & Summer Printable Activities: Free Kids' Word Search & Coloring"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">School breaks are wonderful — until the 'I am bored' chorus begins. Our spring and summer printable activities collection is your boredom-busting secret weapon. With 2000+ free word search puzzles and coloring pages featuring seasonal animals, outdoor themes, and warm-weather fun, you will have engaging activities ready for every single day of break.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Beat Summer Learning Loss</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">The summer slide is real — students can lose up to two months of reading progress during break. Our word search puzzles provide consistent, low-pressure literacy practice that keeps reading skills sharp without feeling like summer school. Fifteen minutes of word search fun a few times per week makes a measurable difference in fall readiness.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Seasonal Themes Kids Love</h2>

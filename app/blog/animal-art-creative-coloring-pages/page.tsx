@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/16_animal_art_studio.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Animal Art Studio & Creative Workshop Coloring Pages: Free JPG Downloads",
   description: "Explore adorable animal art studios and creative workshops! Mice painting, bunnies sewing, cats knitting — cozy creative spaces filled with craft supplies. Free printable JPG downloads.",
   path: "/blog/animal-art-creative-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Explore adorable animal art studios and creative workshops! Mice painting, bunnies sewing, cats knitting — cozy creative spaces filled with craft supplies. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Joy of Coloring Creative Spaces</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is something magical about art studios and craft rooms — the colorful supplies, the works-in-progress, the creative energy in the air. Our animal art studio coloring pages capture this spirit with adorable animal artists surrounded by paints, fabrics, yarn, and tools of every creative trade.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Painting Studios and Art Workshops</h2>

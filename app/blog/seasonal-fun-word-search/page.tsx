@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Seasonal Fun Word Search: Free Printable All-Season Animal Puzzles", description: "Celebrate every season with fun animal word searches! Spring, summer, autumn, and winter puzzles featuring adorable animals — free printable JPG downloads for year-round learning.", path: "/blog/seasonal-fun-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Cozy_Autumn_Fox_Cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Seasonal Fun Word Search: Free Printable All-Season Animal Puzzles", description: "Celebrate every season with fun animal word searches! Spring, summer, autumn, and winter puzzles featuring adorable animals — free printable JPG downloads for year-round learning.", path: "/blog/seasonal-fun-word-search" });
 
 export default function BlogPost() {
   const title = "Seasonal Fun Word Search: All-Season Animal Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Every season brings new adventures, and our seasonal fun word search puzzles capture them all! From spring blooms and summer sunshine to autumn leaves and winter snow, these puzzles feature adorable animals enjoying each season. Words like spring, summer, autumn, winter, leaves, snow, bloom, harvest, sunshine, rainbow, breeze, and frost make every puzzle a seasonal celebration.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Four Seasons of Word Search Fun</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Why settle for one season when you can have all four? Our seasonal collection features puzzles for spring (blooming flowers, baby animals), summer (sunshine, outdoor adventures), autumn (colorful leaves, harvest time), and winter (snow, cozy indoor activities). Each season brings its own unique vocabulary and adorable animal characters.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Learning About the Calendar Year</h2>

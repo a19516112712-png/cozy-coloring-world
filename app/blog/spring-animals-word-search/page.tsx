@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Spring Animals Word Search: Free Printable Baby Animal & Bloom Puzzles", description: "Celebrate spring with adorable animal word searches! Baby animals, blooming flowers, butterflies, and garden fun — free printable JPG puzzles for springtime learning and play.", path: "/blog/spring-animals-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Bold_Easy_Bunny_Face.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Spring Animals Word Search: Free Printable Baby Animal & Bloom Puzzles", description: "Celebrate spring with adorable animal word searches! Baby animals, blooming flowers, butterflies, and garden fun — free printable JPG puzzles for springtime learning and play.", path: "/blog/spring-animals-word-search" });
 
 export default function BlogPost() {
   const title = "Spring Animals Word Search: Baby Animals & Blooms"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Spring has sprung, and so have our spring animals word search puzzles! Featuring vocabulary like bloom, hatch, nest, bunny, lamb, chick, duckling, tulip, garden, and rain, these puzzles celebrate the season of new life and renewal. Adorable baby animals make every word search a joyful springtime experience.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Baby Animals Welcome Spring</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Spring is the season of new beginnings, and nothing captures this better than baby animals! Our puzzles feature bunnies hopping through meadows, ducklings paddling in ponds, lambs frolicking in fields, and chicks peeping in nests. Each puzzle includes spring vocabulary that connects children to the natural rhythms of the season.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Spring Science and Nature Learning</h2>

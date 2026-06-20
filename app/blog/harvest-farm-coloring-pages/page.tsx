@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/11_cottagecore_herb_garden__rabbi.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Harvest Farm Coloring Pages: Strawberry Fields, Apple Orchards & Pumpkin Patches",
   description: "Celebrate the harvest season with our farm coloring pages! Strawberry fields, apple orchards, pumpkin patches, and adorable animal farmers. Free printable JPG downloads.",
   path: "/blog/harvest-farm-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               Few things capture the cozy charm of countryside life quite like harvest season. Rows of ruby-red strawberries gleaming in the sun, apple trees heavy with ripe fruit, and pumpkin patches dotted with orange gourds waiting to be picked. Our harvest farm coloring pages bring these idyllic agricultural scenes to life, featuring adorable animal farmers tending their crops with love and care. Every page is a free JPG download — pick your favorite harvest and start coloring.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Appeal of Farm and Harvest Coloring Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

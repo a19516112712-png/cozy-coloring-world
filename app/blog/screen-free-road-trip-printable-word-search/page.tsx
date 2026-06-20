@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Screen-Free Road Trip Fun: Free Printable Word Search Puzzles for Kids", description: "Keep kids entertained on long car rides with screen-free printable word search puzzles. Perfect travel activities that make learning fun on the go.", path: "/blog/screen-free-road-trip-printable-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/24_camping_fox_family.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Screen-Free Road Trip Fun: Free Printable Word Search Puzzles for Kids", description: "Keep kids entertained on long car rides with screen-free printable word search puzzles. Perfect travel activities that make learning fun on the go.", path: "/blog/screen-free-road-trip-printable-word-search" });
 
 export default function BlogPost() {
   const title = "Screen-Free Road Trip Fun: Free Printable Word ..."; const date = "2026-06-11";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Keep kids entertained on long car rides with screen-free printable word search puzzles. Perfect travel activities that make learning fun on the go. Our ever-growing collection now features 1200+ animal word search puzzles and 1600+ free printable coloring pages — all ready to download and print instantly.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Printable Activities Matters for Kids</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Printable activities like word searches and coloring pages are more than just fun — they're powerful educational tools. Kids develop fine motor skills, practice letter and word recognition, build vocabulary, and gain confidence with every completed puzzle. The animal theme keeps children naturally engaged, making learning feel like play.</p>
           <p className="text-cocoa/75 leading-relaxed mb-4">Whether you're a teacher looking for morning work activities, a homeschool parent building a curriculum, or a caregiver seeking screen-free entertainment, our printable resources are designed to be flexible, accessible, and educational. With three difficulty levels — Easy, Medium, and Hard — there's something for every age and skill level.</p>

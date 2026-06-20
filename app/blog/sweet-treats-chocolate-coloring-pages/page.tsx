@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/21_Tiny_Fox_Running_a_Forest_Choc.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Sweet Treats & Chocolate Factory Coloring Pages: Free Printable JPG Downloads",
   description: "Indulge in sweet treats and chocolate factory coloring pages! Fox chocolate shops, bear honey pancake cafes, squirrel acorn cookies, and candy-themed scenes. Free printable JPG downloads.",
   path: "/blog/sweet-treats-chocolate-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Indulge in sweet treats and chocolate factory coloring pages! Fox chocolate shops, bear honey pancake cafes, squirrel acorn cookies, and candy-themed scenes. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Sweet Treat Coloring Pages Are So Satisfying</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is something deeply satisfying about coloring desserts and sweet shops. Maybe it is the happy associations with treats and celebrations, or the way bright candy colors pop on the page. Our sweet treat coloring pages take this joy further by adding adorable animal bakers, chocolatiers, and shopkeepers.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Chocolate Shops and Candy Factories</h2>

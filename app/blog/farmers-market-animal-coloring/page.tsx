@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Cute_squirrel_tea_party_colori.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Farmers Market Coloring Pages: Cute Animal Market Scenes to Print Free",
   description: "Download 30+ free printable farmers market coloring pages featuring raccoons, otters, and woodland animals selling fresh produce, bread, flowers, and more!",
   path: "/blog/farmers-market-animal-coloring",
@@ -49,6 +52,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Farmers markets are one of the coziest settings for a coloring page — and when you add adorable woodland animals running the stalls, they become irresistible! Our new collection features raccoons and otters selling everything from fresh bread to flower bouquets in charming market settings.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">What Makes Market Coloring Pages Special</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Market scenes are rich with details to color: woven baskets of produce, rustic wooden stalls, jars of honey and jam, fresh loaves of bread, and colorful flower displays. Every stall tells its own story, making these pages perfect for long, relaxing coloring sessions.</p>

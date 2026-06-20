@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Fox Bookstore and Library Coloring Pages: Free Printable JPG Downloads", description: "Join a charming fox in cozy bookstores and magical libraries! Fox reading nooks, vintage bookshops, library ladders, and bookstore village streets. Free printable JPG downloads.", path: "/blog/fox-bookstore-library-coloring" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/12_fox_reading_under_tree.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Fox Bookstore and Library Coloring Pages: Free Printable JPG Downloads", description: "Join a charming fox in cozy bookstores and magical libraries! Fox reading nooks, vintage bookshops, library ladders, and bookstore village streets. Free printable JPG downloads.", path: "/blog/fox-bookstore-library-coloring" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Fox Bookstore and Library Coloring Pages: Free Printable JPG Downloads", description: "Join a charming fox in cozy bookstores and magical libraries! Fox reading nooks, vintage bookshops, library ladders, and bookstore village streets. Free printable JPG downloads.", datePublished: "2026-06-02", dateModified: "2026-06-02", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "fox coloring pages, bookstore coloring printable, library coloring pages, reading fox scenes, cozy bookshop coloring" };
 
@@ -19,6 +22,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-02 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Join a charming fox in cozy bookstores and magical libraries! Fox reading nooks, vintage bookshops, library ladders, and bookstore village streets. Free printable JPG downloads.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why You'll Love These Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Each coloring page in this collection is designed with bold, clear outlines that are easy to color with crayons, colored pencils, markers, or gel pens. Whether you are relaxing after a long day, planning a creative activity with kids, or looking for screen-free entertainment, these free printable pages deliver hours of coloring joy.</p>
             <p className="text-cocoa/75 leading-relaxed mb-6">What makes our coloring pages special? Every single one is completely free — no sign-up, no subscription required. Just download, print, and start coloring. We believe creative expression should be accessible to everyone.</p>

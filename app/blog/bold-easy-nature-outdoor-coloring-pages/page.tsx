@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Bold Easy Nature and Outdoor Scenes Coloring Pages: Free JPG Downloads", description: "Explore bold easy nature and outdoor coloring pages! Watermills, cabins, bridges, gazebos, greenhouses, lighthouses, barns, windmills, and treehouses. Free printable JPG downloads.", path: "/blog/bold-easy-nature-outdoor-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/21_Bold_Easy_Watermill.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Bold Easy Nature and Outdoor Scenes Coloring Pages: Free JPG Downloads", description: "Explore bold easy nature and outdoor coloring pages! Watermills, cabins, bridges, gazebos, greenhouses, lighthouses, barns, windmills, and treehouses. Free printable JPG downloads.", path: "/blog/bold-easy-nature-outdoor-coloring-pages" });
 
 const blogSchema = { "@context": "https://schema.org", "@type": "BlogPosting", headline: "Bold Easy Nature and Outdoor Scenes Coloring Pages: Free JPG Downloads", description: "Explore bold easy nature and outdoor coloring pages! Watermills, cabins, bridges, gazebos, greenhouses, lighthouses, barns, windmills, and treehouses. Free printable JPG downloads.", datePublished: "2026-06-01", dateModified: "2026-06-01", author: { "@type": "Organization", name: "Tiny Animal Worlds" }, publisher: { "@type": "Organization", name: "Tiny Animal Worlds" }, keywords: "bold easy nature coloring, outdoor scene coloring, simple landscape coloring, bold easy buildings, nature printable for kids" };
 
@@ -21,6 +24,9 @@ export default function BlogPost() {
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-06-01 - 8 min read</p>
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Explore bold easy nature and outdoor coloring pages! Watermills, cabins, bridges, gazebos, greenhouses, lighthouses, barns, windmills, and treehouses. Free printable JPG downloads....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Joy of Outdoor Scene Coloring</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Outdoor and landscape coloring pages transport you to peaceful places. A watermill by a gentle stream, a cabin nestled in the woods, a lighthouse standing tall by the sea. Our bold easy versions make these scenes accessible to even the youngest artists with thick outlines and simple, recognizable shapes.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Water and Riverside Buildings</h2>

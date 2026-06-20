@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_Cute_squirrel_tea_party_colori.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Squirrel Acorn Coloring Pages: 30 Free Printable Woodland Squirrel Scenes",
   description: "Download 30 free printable squirrel coloring pages! Acorn markets, treehouse villages, woodland bakeries, and adorable squirrel adventures. Perfect for kids and adults!",
   path: "/blog/squirrel-acorn-coloring",
@@ -39,6 +42,9 @@ export default function BlogPost() {
         <AdBanner slot="blog-top" className="mb-8" />
         <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Squirrels and acorns go together like coloring pages and crayons — they are a perfect pair! Our brand new collection of 30 squirrel coloring pages features the most adorable woodland scenes: bustling acorn markets, cozy treehouse porches, festival celebrations, and squirrels carrying giant acorns through the forest.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Meet the Squirrel Collection</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">This is our biggest squirrel release yet with 30 unique designs. From Grand Squirrel Woodland Festival with its sweeping celebration scenes to Panoramic Squirrel Acorn Market with its detailed market stalls, every page captures squirrel life in the most charming way. You will find Squirrel Acorn Storage Room, Squirrel Treehouse Village, and Squirrel Acorn Gift Shop — each one a delightful coloring adventure.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Squirrel Pages Are So Fun</h2>

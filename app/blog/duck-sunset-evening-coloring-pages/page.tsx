@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Duck Sunset & Evening Coloring Pages: Free Printable Golden Hour Pond Scenes", description: "Relax with beautiful duck sunset and evening coloring pages! Golden hour ponds, ducks enjoying twilight, lantern-lit reading by the water. Free printable JPG downloads for peaceful coloring.", path: "/blog/duck-sunset-evening-coloring-pages" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/10_duck_family_lakeside_cottage.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Duck Sunset & Evening Coloring Pages: Free Printable Golden Hour Pond Scenes", description: "Relax with beautiful duck sunset and evening coloring pages! Golden hour ponds, ducks enjoying twilight, lantern-lit reading by the water. Free printable JPG downloads for peaceful coloring.", path: "/blog/duck-sunset-evening-coloring-pages" });
 
 export default function BlogPost() {
   const title = "Duck Sunset & Evening: Golden Hour Pond Coloring Pages"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">There's a special kind of magic that happens when the sun begins to set over a quiet pond. The water turns golden, lanterns flicker to life, and ducks settle in for peaceful evening moments. Our duck sunset and evening coloring pages capture this golden hour beauty with scenes that are as relaxing to color as they are to behold.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Beauty of Golden Hour</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Golden hour — that brief, magical time just before sunset — transforms an ordinary pond into something extraordinary. Our coloring pages feature ducks enjoying sunset by the water, warm light reflecting off rippling ponds, and the soft glow of evening settling over cottage porches. These scenes invite colorists to play with warm yellows, soft oranges, and gentle pinks.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Lantern-Lit Evenings by the Pond</h2>

@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/cute-bear-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Cute Bear Coloring Pages: Free Printable Cozy Bear Scenes for All Ages",
   description: "Explore our adorable collection of cute bear coloring pages! From cozy winter cabins to honey shops and camping adventures, all free JPG downloads for kids and adults.",
   path: "/blog/cute-bear-coloring-pages",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Explore our adorable collection of cute bear coloring pages! From cozy winter cabins to honey shops and camping adventures, all free JPG downloads for kids and adults.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">There is something undeniably comforting about bears. Whether it is a sleepy bear tucked into a winter cabin, a cheerful bear running a honey shop, or a family of bears enjoying a camping trip under the stars, bear coloring pages capture a sense of warmth and coziness that appeals to colorists of all ages. Our complete collection of cute bear coloring pages is available as free JPG downloads with no sign-up required.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

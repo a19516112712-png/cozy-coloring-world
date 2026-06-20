@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/28_cute_bear_baking_cookies__prin.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Honey & Sweet Treat Shop Coloring Pages: Bear Honey Shops & Candy Stores",
   description: "Satisfy your sweet tooth with honey shop and candy store coloring pages! Cute bears running honey shops, candy-filled shelves, and sweet treat displays. Free printable JPG downloads.",
   path: "/blog/honey-sweet-treat-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               Is there anything sweeter than a tiny bear running a honey shop? Shelves lined with golden jars, honeycomb dripping with sweetness, and the warm amber glow of a shop dedicated to nature's most delightful treat. Our honey and sweet treat shop coloring pages capture the irresistible charm of these sugary storefronts, starring adorable animal shopkeepers. Every page is a free JPG download — indulge your sweet tooth without a single calorie.
             </p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Sweet Appeal of Honey Shop Coloring Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">

@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/blog-covers/printable-coloring-pages.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Printable Coloring Pages: The Ultimate Guide to Free JPG Downloads",
   description: "Your complete guide to printable coloring pages! Learn how to print, what paper to use, and discover 180+ free JPG coloring page downloads. Perfect for kids and adults.",
   path: "/blog/printable-coloring-pages",
@@ -44,6 +47,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Your complete guide to printable coloring pages! Learn how to print, what paper to use, and discover 180+ free JPG coloring page downloads. Perfect for kids and adults.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Welcome to Our Collection</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">Welcome to the ultimate resource for printable coloring pages! Whether you are a parent looking for screen-free activities, a teacher building classroom resources, or an adult seeking relaxing creative time, this guide covers everything you need to know. We share our complete collection of 180+ free printable coloring pages along with expert tips for getting the best prints every time.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why These Pages Are So Popular</h2>

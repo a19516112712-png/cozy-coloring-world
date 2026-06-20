@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Winter Animals Word Search: Free Printable Arctic & Snowy Puzzles", description: "Discover amazing winter animals with arctic and snowy word searches! Penguins, polar bears, seals, arctic foxes, and more — free printable JPG puzzles for winter learning fun.", path: "/blog/winter-animals-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/13_Cute_rabbit_winter_cabin_color.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Winter Animals Word Search: Free Printable Arctic & Snowy Puzzles", description: "Discover amazing winter animals with arctic and snowy word searches! Penguins, polar bears, seals, arctic foxes, and more — free printable JPG puzzles for winter learning fun.", path: "/blog/winter-animals-word-search" });
 
 export default function BlogPost() {
   const title = "Winter Animals Word Search: Arctic & Snowy Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Bundle up for a winter animal adventure! Our winter animals word search puzzles feature the amazing creatures that thrive in cold climates. With vocabulary like snow, ice, mittens, scarf, igloo, penguin, seal, walrus, arctic, and tundra, kids explore the frozen world while practicing their word-finding skills.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Animals of the Arctic and Beyond</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">From penguins sliding on Antarctic ice to polar bears roaming the Arctic tundra, winter animals are truly fascinating. Our puzzles introduce children to arctic foxes, seals, walruses, moose, and snowy owls. Each animal gets its own puzzle with vocabulary specific to its icy habitat. Kids learn about animal adaptations while having puzzle-solving fun.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Winter Vocabulary Building</h2>

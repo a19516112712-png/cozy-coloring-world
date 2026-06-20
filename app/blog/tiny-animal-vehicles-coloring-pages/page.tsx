@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/24_Tiny_Bear_Driving_a_Cozy_RV.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Tiny Animal Vehicles & Transportation Coloring Pages | Free JPG Downloads",
   description: "Discover adorable tiny animal vehicles coloring pages! Cats driving bookmobiles, bears in RVs, foxes on motorcycles, and more free printable JPG downloads for kids and adults.",
   path: "/blog/tiny-animal-vehicles-coloring-pages",
@@ -47,6 +50,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Get ready for the cutest road trip ever! Our tiny animal vehicles and transportation coloring pages feature your favorite miniature animals driving, flying, and riding the most adorable vehicles imaginable. From cats in vintage Vespas to bears in cozy RVs, every page is a whimsical adventure on wheels — or wings! Free printable JPG downloads for all ages.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Why Kids (and Adults!) Love Vehicle Coloring Pages</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">Vehicles spark imagination. Combine them with cute animals, and you have a coloring experience that is twice as engaging. A hamster driving a tiny school bus, a squirrel piloting a hot air balloon, or an otter steering a river boat — each scene tells a story. These pages help develop fine motor skills for younger kids while offering adults a nostalgic, stress-relieving escape.</p>

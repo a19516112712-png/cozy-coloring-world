@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Adventure Quest Word Search: Free Printable Animal Explorer Puzzles", description: "Embark on an adventure quest with animal-themed word searches! Explore, discover, and find hidden treasure words with foxes, bears, and more. Free printable JPG downloads!", path: "/blog/adventure-quest-word-search" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/19_Turtle_Reading_Adventure_Maps_.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Adventure Quest Word Search: Free Printable Animal Explorer Puzzles", description: "Embark on an adventure quest with animal-themed word searches! Explore, discover, and find hidden treasure words with foxes, bears, and more. Free printable JPG downloads!", path: "/blog/adventure-quest-word-search" });
 
 export default function BlogPost() {
   const title = "Adventure Quest Word Search: Animal Explorer Puzzles"; const date = "2026-06-10";
@@ -22,6 +25,9 @@ export default function BlogPost() {
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none">
           <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Get ready for an exciting adventure quest! Our adventure-themed word search puzzles take kids on a journey of discovery with brave animal explorers. From treasure maps and compasses to mysterious caves and hidden waterfalls, every puzzle is packed with thrilling vocabulary that sparks imagination and curiosity.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Thrill of Discovery</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">What child doesn&rsquo;t love a good adventure? Our adventure quest word searches feature exciting vocabulary like explore, discover, journey, treasure, map, compass, island, cave, waterfall, canyon, climb, valley, trail, quest, and brave. Foxes lead expeditions through the forest, bears climb mountains, and dolphins explore ocean depths — making each puzzle a mini-adventure.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Building Brave Vocabulary</h2>

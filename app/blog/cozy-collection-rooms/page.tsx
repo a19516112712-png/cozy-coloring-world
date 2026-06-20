@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Cozy Collection Rooms Coloring Pages: Free Printable Display Room Scenes", description: "Step into cozy collection rooms! Botanical displays, feather collections, lantern rooms, mushroom exhibits, and nature corners — free printable display room coloring pages.", path: "/blog/cozy-collection-rooms" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/100_Cozy_Attic_Reading_Nook.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Cozy Collection Rooms Coloring Pages: Free Printable Display Room Scenes", description: "Step into cozy collection rooms! Botanical displays, feather collections, lantern rooms, mushroom exhibits, and nature corners — free printable display room coloring pages.", path: "/blog/cozy-collection-rooms" });
 
 export default function BlogPost() {
   const title = "Cozy Collection Rooms: Display Room Coloring Pages"; const date = "2026-06-08";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} &middot; 6 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">There&rsquo;s something magical about a room dedicated to collecting and displaying beautiful things! Our cozy collection room coloring pages invite you into specially curated spaces filled with botanical specimens, delicate feathers, glowing lanterns, fascinating mushrooms, and treasured natural wonders. Each room is a miniature museum of woodland beauty.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Botanical and Nature Collections</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Cozy Botanical Collection Room overflows with pressed flowers, framed specimens, and potted plants. Cozy Bird Feather Collection Room displays iridescent feathers in delicate arrangements. Cozy Nature Collection Corner brings the outdoor world inside with stones, pinecones, and dried herbs beautifully arranged on shelves and tables.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Glowing Collections and Display Rooms</h2>

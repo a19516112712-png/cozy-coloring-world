@@ -7,6 +7,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/4_bear_baking_with_friends.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Bear Bakery & Pastry Shop Coloring Pages: Free JPG Downloads",
   description: "Step into the sweetest bear bakery coloring pages! Bears baking bread, decorating cakes, making donuts, and running charming pastry shops. Free printable JPG downloads for all ages.",
   path: "/blog/bear-bakery-pastry-coloring-pages",
@@ -46,6 +49,9 @@ export default function BlogPost() {
           <AdBanner slot="blog-top" className="mb-8" />
           <div className="prose prose-cocoa max-w-none">
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">Step into the sweetest bear bakery coloring pages! Bears baking bread, decorating cakes, making donuts, and running charming pastry shops. Free printable JPG downloads for all ages....</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Sweet World of Bear Bakeries</h2>
             <p className="text-cocoa/75 leading-relaxed mb-6">There is something magical about combining bears and bakeries. Bears are naturally associated with honey, berries, and cozy comforts — making them the perfect bakers! Our collection features dozens of bear bakery scenes, from individual bears decorating wedding cakes to entire bakery villages bustling with activity.</p>
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Baking Scenes: Mixing, Kneading, and Decorating</h2>

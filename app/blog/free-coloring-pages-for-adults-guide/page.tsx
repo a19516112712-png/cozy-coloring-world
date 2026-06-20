@@ -8,6 +8,9 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/31_cozy_evening_study_desk__candl.webp",
+  imageWidth: 1200,
+  imageHeight: 1500,
   title: "Discover the best free coloring pages for adults! 280+ relaxing printable designs for stress relief, mindfulness, and creative expression",
   description: "Discover the best free coloring pages for adults! 280+ relaxing printable designs for stress relief, mindfulness, and creative expression. Free JPG downloads.",
   path: "/blog/free-coloring-pages-for-adults-guide",
@@ -46,6 +49,9 @@ export default function BlogPost() {
             Free Coloring Pages for Adults: Relaxing Printable Designs for Stress Relief
           </h1>
           <p className="text-sm text-cocoa/40 mb-8">Published 2026-07-10 · 8 min read</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <AdBanner slot="blog-top" className="mb-8" />
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">

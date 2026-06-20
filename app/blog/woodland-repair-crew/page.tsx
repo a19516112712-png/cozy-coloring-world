@@ -6,7 +6,10 @@ import AdBanner from "@/components/AdBanner";
 import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
-export const metadata: Metadata = generatePageMetadata({ title: "Woodland Repair Crew Coloring Pages: Free Printable Forest Fix-It Scenes", description: "Join the woodland repair crew! Bunnies fixing bridges, bears repairing trail signs, raccoons mending fences — free printable forest repair coloring pages for kids and adults.", path: "/blog/woodland-repair-crew" });
+export const metadata: Metadata = generatePageMetadata({
+  imageUrl: "/images/coloring/13_Badger_Building_Miniature_Bird.webp",
+  imageWidth: 1200,
+  imageHeight: 1500, title: "Woodland Repair Crew Coloring Pages: Free Printable Forest Fix-It Scenes", description: "Join the woodland repair crew! Bunnies fixing bridges, bears repairing trail signs, raccoons mending fences — free printable forest repair coloring pages for kids and adults.", path: "/blog/woodland-repair-crew" });
 
 export default function BlogPost() {
   const title = "Woodland Repair Crew: Forest Fix-It Coloring Pages"; const date = "2026-06-08";
@@ -21,6 +24,9 @@ export default function BlogPost() {
       <p className="text-sm text-cocoa/40 mb-8">Published {date} &middot; 7 min read</p>
       <AdBanner slot="blog-top" className="mb-8" />
       <div className="prose prose-cocoa max-w-none"><p className="text-lg text-cocoa/70 leading-relaxed mb-6">Something is always breaking in the woodland — and the repair crew is always ready! Our newest coloring pages feature adorable animals fixing, mending, and maintaining everything from bridges and fences to trail signs and floating docks. These pages celebrate the quiet heroes who keep the forest running smoothly.</p>
+          <div className="my-6 p-4 bg-cream rounded-lg border border-mocha/10">
+            <p className="text-cocoa/70 leading-relaxed text-sm"><strong>Quick Facts About This Collection:</strong> Part of our <Link href="/blog" className="text-rose hover:underline">Kids Activities</Link> series · Free to download and print · No sign-up required · Unlimited copies for personal and classroom use · New content added regularly.</p>
+          </div>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Bridges and Pathways</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Little Bunny Maintaining a Woodland Bridge shows a careful bunny inspecting every plank. Cute Bear Repairing Hiking Trail Signs captures a helpful bear keeping hikers safe. These scenes remind us that trails and bridges need constant care — and tiny paws are perfect for the job!</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Fences, Docks, and Structures</h2>
