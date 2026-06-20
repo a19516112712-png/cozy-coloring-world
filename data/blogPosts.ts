@@ -2027,4 +2027,32 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
   },
 
+  {
+    slug: "printable-coloring-word-search-combo-activities",
+    title: "Printable Coloring and Word Search Combo: 2-in-1 Screen-Free Activities for Kids",
+    description: "Double the fun with combo printable activities! Pair our adorable animal coloring pages with matching word search puzzles for a complete screen-free learning bundle. Perfect for classrooms, homeschool, and rainy day fun.",
+    date: "2026-06-21",
+    category: "Kids Activities",
+    coverImage: "/images/coloring/5_Cute_bunny_picnic_meadow_color.webp",
+    readTime: "8 min read",
+  },
+  {
+    slug: "benefits-of-printable-puzzles-for-child-development",
+    title: "7 Science-Backed Benefits of Printable Puzzles for Child Development",
+    description: "Discover the research behind why printable puzzles like word searches boost cognitive development, fine motor skills, vocabulary, and concentration. Evidence-based insights for parents and educators.",
+    date: "2026-06-21",
+    category: "Educational Printables",
+    coverImage: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.webp",
+    readTime: "9 min read",
+  },
+  {
+    slug: "teacher-recommended-free-classroom-resources",
+    title: "Teacher-Recommended Free Classroom Resources: Printables That Save Prep Time",
+    description: "Real teachers share their favorite free printable resources for morning work, literacy centers, and early finisher activities. Word searches and coloring pages that actually engage students.",
+    date: "2026-06-21",
+    category: "Classroom Printables",
+    coverImage: "/images/coloring/36_Cute_hamster_bookstore_colorin.webp",
+    readTime: "7 min read",
+  },
+
 ];
