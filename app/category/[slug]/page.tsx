@@ -79,7 +79,7 @@ export default async function CategoryPage({ params }: Props) {
       {pages.length > 0 ? (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-10">
-            {pages.map((page) => (
+            {pages.slice(0, 50).map((page) => (
               <CategoryColoringCard key={page.id} page={page} />
             ))}
           </div>
@@ -87,7 +87,7 @@ export default async function CategoryPage({ params }: Props) {
           {/* Pagination info */}
           {totalPages > 1 && (
             <div className="text-center text-sm text-cocoa/40">
-              Showing all {pages.length} coloring pages in {category.name}
+              Showing {Math.min(pages.length, 50)} of {pages.length} coloring pages in {category.name}
             </div>
           )}
         </>
