@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">The Hardest Challenge Level</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Our adventure quest puzzles are primarily available at the hard difficulty level (ages 8-12) with 15 words featuring diagonal and backward placements. This makes them perfect for older kids who want a real challenge. The adventure theme keeps them motivated to push through and conquer the puzzle — just like real explorers!</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Adventure Quest Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/fox-adventure-quest-word-search" className="text-rose hover:underline">Fox Adventure Quest Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-exploring-forest-color" className="text-rose hover:underline">Fox Exploring Forest</Link></li>
-            <li><Link href="/coloring/cute-bear-mountain-adventure-c" className="text-rose hover:underline">Bear Mountain Adventure</Link></li>
-            <li><Link href="/coloring/cute-dolphin-ocean-adventure-c" className="text-rose hover:underline">Dolphin Ocean Adventure</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Fox Exploring Forest</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Bear Mountain Adventure</Link></li>
+            <li><Link href="/coloring/secret-woodland-adventure-camp" className="text-rose hover:underline">Dolphin Ocean Adventure</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

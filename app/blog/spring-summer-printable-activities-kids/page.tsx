@@ -40,7 +40,7 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/word-search/fox-spring-animals-word-search" className="text-rose hover:underline">Fox Spring Animals Word Search</Link></li>
             <li><Link href="/word-search/bunny-baby-animals-word-search" className="text-rose hover:underline">Bunny Baby Animals Word Search</Link></li>
-            <li><Link href="/word-search/dolphin-ocean-animals-word-search" className="text-rose hover:underline">Dolphin Ocean Animals Word Search</Link></li>
+            <li><Link href="/word-search/penguin-ocean-animals-word-search" className="text-rose hover:underline">Dolphin Ocean Animals Word Search</Link></li>
             <li><Link href="/word-search/duck-farm-animals-word-search" className="text-rose hover:underline">Duck Farm Animals Word Search</Link></li>
             <li><Link href="/word-search/deer-forest-animals-word-search" className="text-rose hover:underline">Deer Forest Animals Word Search</Link></li></ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>

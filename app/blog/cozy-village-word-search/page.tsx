@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Cozy Themes for Quiet Time</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">The cozy village theme is perfect for quiet, focused activity time. The gentle, comforting vocabulary creates a calm atmosphere that helps children concentrate. These puzzles are ideal for morning work, indoor recess, or winding down before bedtime. The warm, inviting aesthetic appeals to children and adults alike.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Cozy Village Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/fox-cozy-village-word-search" className="text-rose hover:underline">Fox Cozy Village Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-village-coloring-page" className="text-rose hover:underline">Fox Village Scene</Link></li>
-            <li><Link href="/coloring/cute-bear-market-coloring-page" className="text-rose hover:underline">Bear Market Scene</Link></li>
-            <li><Link href="/coloring/cute-duck-pond-village-coloring" className="text-rose hover:underline">Duck Pond Village</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Fox Village Scene</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Bear Market Scene</Link></li>
+            <li><Link href="/coloring/cute-duck-bakery-kitchen-brea" className="text-rose hover:underline">Duck Pond Village</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

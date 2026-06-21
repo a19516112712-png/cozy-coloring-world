@@ -48,9 +48,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-forest-coloring" className="text-rose hover:underline">Cute Fox Forest Coloring</Link></li>
-            <li><Link href="/coloring/cute-owl-reading-coloring-page" className="text-rose hover:underline">Cute Owl Reading</Link></li>
-            <li><Link href="/coloring/cute-bear-reading-coloring" className="text-rose hover:underline">Cute Bear Reading</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Cute Fox Forest Coloring</Link></li>
+            <li><Link href="/coloring/owl-cute-owl-reading-a-book-in-a" className="text-rose hover:underline">Cute Owl Reading</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Cute Bear Reading</Link></li>
           </ul>
       </div>
       <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">FAQ</h2><div className="space-y-3"><details key={0} className="group bg-cream/30 rounded-xl border border-blush/10 overflow-hidden"><summary className="flex items-center justify-between p-3.5 cursor-pointer hover:bg-cream transition-colors font-medium text-cocoa text-sm">Are these free?<span className="text-rose text-xs group-open:rotate-180 transition-transform ml-2">▼</span></summary><p className="px-3.5 pb-3.5 text-xs text-cocoa/65">Yes! All 1400+ puzzles and 1700+ coloring pages are completely free. No sign-up needed.</p></details>

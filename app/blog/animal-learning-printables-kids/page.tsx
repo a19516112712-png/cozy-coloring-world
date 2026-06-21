@@ -39,10 +39,10 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/word-search" className="text-rose hover:underline">1000+ Word Search Puzzles</Link> and <Link href="/coloring-pages" className="text-rose hover:underline">1600+ Coloring Pages</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/word-search/fox-nocturnal-animals-word-search" className="text-rose hover:underline">Fox Nocturnal Animals Word Search</Link></li>
-            <li><Link href="/word-search/dolphin-ocean-animals-word-search" className="text-rose hover:underline">Dolphin Ocean Animals Word Search</Link></li>
+            <li><Link href="/word-search/penguin-ocean-animals-word-search" className="text-rose hover:underline">Dolphin Ocean Animals Word Search</Link></li>
             <li><Link href="/word-search/lion-safari-animals-word-search" className="text-rose hover:underline">Lion Safari Animals Word Search</Link></li>
             <li><Link href="/word-search/horse-farm-animals-word-search" className="text-rose hover:underline">Horse Farm Animals Word Search</Link></li>
-            <li><Link href="/word-search/bat-nocturnal-animals-word-search" className="text-rose hover:underline">Bat Nocturnal Animals Word Search</Link></li></ul>
+            <li><Link href="/word-search/owl-nocturnal-animals-word-search" className="text-rose hover:underline">Bat Nocturnal Animals Word Search</Link></li></ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/coloring/fox-reading-by-fireplace" className="text-rose hover:underline">cute-fox-reading-coloring</Link></li>
             <li><Link href="/coloring/tiny-raccoon-building-wooden-t" className="text-rose hover:underline">cute-dolphin-ocean-coloring</Link></li>

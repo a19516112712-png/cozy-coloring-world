@@ -119,7 +119,7 @@ export default function BlogPost() {
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Discover More Cozy Coloring Inspiration</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">
-              If craft room pages spark your creativity, you will love our <Link href="/blog/cozy-interior-coloring-pages" className="text-rose hover:underline">cozy interior coloring pages</Link> featuring warm living spaces, and our <Link href="/blog/cottagecore-coloring-pages" className="text-rose hover:underline">cottagecore coloring pages</Link> with charming domestic scenes. For more relaxing themes, explore our <Link href="/blog/relaxing-coloring-pages" className="text-rose hover:underline">relaxing coloring pages collection</Link>.
+              If craft room pages spark your creativity, you will love our <Link href="/blog/cozy-coloring-pages" className="text-rose hover:underline">cozy interior coloring pages</Link> featuring warm living spaces, and our <Link href="/blog/cottagecore-coloring-pages" className="text-rose hover:underline">cottagecore coloring pages</Link> with charming domestic scenes. For more relaxing themes, explore our <Link href="/blog/relaxing-coloring-pages" className="text-rose hover:underline">relaxing coloring pages collection</Link>.
             </p>
             <p className="text-cocoa/75 leading-relaxed mb-6">
               Ready to color? Browse our <Link href="/coloring-pages" className="text-rose hover:underline">full collection of 300+ free printable coloring pages</Link>. Every design is a free JPG download.

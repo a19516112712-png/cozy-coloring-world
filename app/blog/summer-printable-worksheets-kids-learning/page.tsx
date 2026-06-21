@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/horse-snow-day-fun-word-search" className="text-rose hover:underline">Free Printable Word Search — Horse Snow Day Fun Word Search</Link></li>
-            <li><Link href="/word-search/cow-rainbow-chase-word-search" className="text-rose hover:underline">Free Printable Word Search — Cow Rainbow Chase Word Search</Link></li>
-            <li><Link href="/word-search/panda-thunderstorm-watch-word-search" className="text-rose hover:underline">Free Printable Word Search — Panda Thunderstorm Watch Word Search</Link></li>
-            <li><Link href="/word-search/koala-dinosaur-dig-word-search" className="text-rose hover:underline">Free Printable Word Search — Koala Dinosaur Dig Word Search</Link></li>
-            <li><Link href="/word-search/tiger-viking-ship-word-search" className="text-rose hover:underline">Free Printable Word Search — Tiger Viking Ship Word Search</Link></li>
+            <li><Link href="/word-search/dragonfly-snow-day-fun-word-search" className="text-rose hover:underline">Free Printable Word Search — Horse Snow Day Fun Word Search</Link></li>
+            <li><Link href="/word-search/caterpillar-rainbow-chase-word-search" className="text-rose hover:underline">Free Printable Word Search — Cow Rainbow Chase Word Search</Link></li>
+            <li><Link href="/word-search/ladybug-thunderstorm-watch-word-search" className="text-rose hover:underline">Free Printable Word Search — Panda Thunderstorm Watch Word Search</Link></li>
+            <li><Link href="/word-search/lion-dinosaur-dig-word-search" className="text-rose hover:underline">Free Printable Word Search — Koala Dinosaur Dig Word Search</Link></li>
+            <li><Link href="/word-search/monkey-viking-ship-word-search" className="text-rose hover:underline">Free Printable Word Search — Tiger Viking Ship Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

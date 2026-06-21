@@ -41,7 +41,7 @@ export default function HtmlSitemapPage() {
               { label: "🏷️ Categories", href: "/categories" },
               { label: "📚 Collections", href: "/collections" },
               { label: "📝 Blog", href: "/blog" },
-              { label: "📌 Pinterest", href: "/pins" },
+              { label: "📌 Pinterest", href: "/collections" },
               { label: "ℹ️ About", href: "/about" },
               { label: "📧 Contact", href: "/contact" },
               { label: "🔒 Privacy", href: "/privacy" },

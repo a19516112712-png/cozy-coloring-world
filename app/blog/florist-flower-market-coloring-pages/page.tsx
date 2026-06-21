@@ -111,7 +111,7 @@ export default function BlogPost() {
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Explore More Floral Delights</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">
-              Love flowers? You will adore our <Link href="/blog/garden-coloring-pages" className="text-rose hover:underline">garden coloring pages</Link> featuring outdoor flower gardens, and our <Link href="/blog/spring-flower-garden-coloring-pages" className="text-rose hover:underline">spring garden collection</Link>. For more shop-themed pages, explore our <Link href="/blog/cozy-shop-coloring-pages" className="text-rose hover:underline">cozy shop coloring pages</Link>.
+              Love flowers? You will adore our <Link href="/blog/garden-coloring-pages" className="text-rose hover:underline">garden coloring pages</Link> featuring outdoor flower gardens, and our <Link href="/blog/fox-wildflower-garden" className="text-rose hover:underline">spring garden collection</Link>. For more shop-themed pages, explore our <Link href="/blog/squirrel-cozy-shop-interior" className="text-rose hover:underline">cozy shop coloring pages</Link>.
             </p>
             <p className="text-cocoa/75 leading-relaxed mb-6">
               Browse our <Link href="/coloring-pages" className="text-rose hover:underline">full collection of 300+ free printable coloring pages</Link> — every page is a free JPG download.

@@ -9,7 +9,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = generatePageMetadata({
   title: "Cozy Interior Coloring Pages: Reading Nooks, Bedrooms, and Quiet Spaces",
   description: "Relax with cozy interior coloring pages! Reading nooks, quiet bedrooms with books, bookstore corners, and sewing rooms. Free printable JPG downloads for peaceful coloring.",
-  path: "/blog/cozy-interior-coloring-pages",
+  path: "/blog/cozy-coloring-pages",
 });
 
 const blogSchema = {

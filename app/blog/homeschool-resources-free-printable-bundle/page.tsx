@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/owl-medieval-castle-word-search" className="text-rose hover:underline">Free Printable Word Search — Owl Medieval Castle Word Search</Link></li>
-            <li><Link href="/word-search/lion-gold-rush-word-search" className="text-rose hover:underline">Free Printable Word Search — Lion Gold Rush Word Search</Link></li>
-            <li><Link href="/word-search/monkey-pirate-cove-word-search" className="text-rose hover:underline">Free Printable Word Search — Monkey Pirate Cove Word Search</Link></li>
-            <li><Link href="/word-search/elephant-space-mission-word-search" className="text-rose hover:underline">Free Printable Word Search — Elephant Space Mission Word Search</Link></li>
-            <li><Link href="/word-search/giraffe-mountain-peak-word-search" className="text-rose hover:underline">Free Printable Word Search — Giraffe Mountain Peak Word Search</Link></li>
+            <li><Link href="/word-search/tiger-medieval-castle-word-search" className="text-rose hover:underline">Free Printable Word Search — Owl Medieval Castle Word Search</Link></li>
+            <li><Link href="/word-search/giraffe-gold-rush-word-search" className="text-rose hover:underline">Free Printable Word Search — Lion Gold Rush Word Search</Link></li>
+            <li><Link href="/word-search/elephant-pirate-cove-word-search" className="text-rose hover:underline">Free Printable Word Search — Monkey Pirate Cove Word Search</Link></li>
+            <li><Link href="/word-search/zebra-space-mission-word-search" className="text-rose hover:underline">Free Printable Word Search — Elephant Space Mission Word Search</Link></li>
+            <li><Link href="/word-search/goat-mountain-peak-word-search" className="text-rose hover:underline">Free Printable Word Search — Giraffe Mountain Peak Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

@@ -39,8 +39,8 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/word-search" className="text-rose hover:underline">1000+ Word Search Puzzles</Link> and <Link href="/coloring-pages" className="text-rose hover:underline">1600+ Coloring Pages</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/word-search/fox-easy-word-search" className="text-rose hover:underline">Fox Easy Word Search</Link></li>
-            <li><Link href="/word-search/bear-medium-word-search" className="text-rose hover:underline">Bear Medium Word Search</Link></li>
-            <li><Link href="/word-search/owl-hard-word-search" className="text-rose hover:underline">Owl Hard Word Search</Link></li>
+            <li><Link href="/word-search/shark-forest-life-medium-word-search" className="text-rose hover:underline">Bear Medium Word Search</Link></li>
+            <li><Link href="/word-search/beaver-seasonal-fun-hard-word-search" className="text-rose hover:underline">Owl Hard Word Search</Link></li>
             <li><Link href="/word-search/deer-easy-word-search" className="text-rose hover:underline">Deer Easy Word Search</Link></li>
             <li><Link href="/word-search/cat-easy-word-search" className="text-rose hover:underline">Cat Easy Word Search</Link></li></ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>

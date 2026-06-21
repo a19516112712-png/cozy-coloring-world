@@ -138,7 +138,7 @@ export default function HomePage() {
           { emoji: "📝", label: "Blog", href: "/blog" },
           { emoji: "❓", label: "FAQ", href: faqPages.length > 0 ? `/faq/${faqPages[0].slug}` : "/faq" },
           { emoji: "🔍", label: "Word Search", href: "/word-search" },
-        { emoji: "📌", label: "Pinterest", href: "/pins" },
+        { emoji: "📌", label: "Pinterest", href: "/collections" },
         ].map((item) => (
           <Link
             key={item.href}
@@ -352,7 +352,7 @@ export default function HomePage() {
           Love our coloring pages? Save them to your Pinterest boards and share with friends!
         </p>
         <div className="flex flex-wrap justify-center gap-3">
-          <Link href="/pins" className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#e60023] text-white rounded-full text-sm font-semibold hover:bg-[#cc001f] transition-colors shadow-md">
+          <Link href="/collections" className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#e60023] text-white rounded-full text-sm font-semibold hover:bg-[#cc001f] transition-colors shadow-md">
             <span>📌</span> Browse Pinterest Pins
           </Link>
           <a
@@ -488,7 +488,7 @@ export default function HomePage() {
             <ul className="space-y-1.5">
               <li><Link href="/blog" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Blog</Link></li>
               <li><Link href="/faq/faq-what-paper-is-best-for-coloring-pages" className="text-xs text-cocoa/60 hover:text-rose transition-colors">FAQ</Link></li>
-              <li><Link href="/pins" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Pinterest</Link></li>
+              <li><Link href="/collections" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Pinterest</Link></li>
             </ul>
           </div>
           <div>

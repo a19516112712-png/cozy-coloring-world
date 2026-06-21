@@ -51,11 +51,11 @@ export default function BlogPost() {
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Each of our printable word searches features 10-15 carefully selected vocabulary words organized around a single engaging theme. Puzzles include the recommended age range and difficulty level, making it easy to choose the right challenge for every child.</p>
         <ul className="space-y-2 mb-6">
-          <li><Link href="/word-search/shark-ocean-floor-word-search" className="text-rose hover:underline">Free Printable Shark Ocean Floor Word Search</Link></li>
-          <li><Link href="/word-search/octopus-deep-sea-vent-word-search" className="text-rose hover:underline">Free Printable Octopus Deep Sea Vent Word Search</Link></li>
-          <li><Link href="/word-search/seal-mangrove-swamp-word-search" className="text-rose hover:underline">Free Printable Seal Mangrove Swamp Word Search</Link></li>
-          <li><Link href="/word-search/polar-bear-kelp-forest-word-search" className="text-rose hover:underline">Free Printable Polar Bear Kelp Forest Word Search</Link></li>
-          <li><Link href="/word-search/arctic-fox-nuclear-energy-word-search" className="text-rose hover:underline">Free Printable Arctic Fox Nuclear Energy Word Search</Link></li>
+          <li><Link href="/word-search/koala-ocean-floor-word-search" className="text-rose hover:underline">Free Printable Shark Ocean Floor Word Search</Link></li>
+          <li><Link href="/word-search/bunny-deep-sea-vent-word-search" className="text-rose hover:underline">Free Printable Octopus Deep Sea Vent Word Search</Link></li>
+          <li><Link href="/word-search/leopard-mangrove-swamp-word-search" className="text-rose hover:underline">Free Printable Seal Mangrove Swamp Word Search</Link></li>
+          <li><Link href="/word-search/bunny-kelp-forest-word-search" className="text-rose hover:underline">Free Printable Polar Bear Kelp Forest Word Search</Link></li>
+          <li><Link href="/word-search/panda-nuclear-energy-word-search" className="text-rose hover:underline">Free Printable Arctic Fox Nuclear Energy Word Search</Link></li>
         </ul>
         <AdBanner slot="blog-mid" className="my-8" />
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">How to Integrate Word Searches Into Daily Learning</h2>
@@ -63,7 +63,7 @@ export default function BlogPost() {
         <p className="text-cocoa/75 leading-relaxed mb-4">For homeschool families: Build multi-subject unit studies around our themed word search collections. Start the week with a coloring page introducing a new animal theme, reinforce vocabulary with a matching word search midweek, and wrap up with a related blog article or nature walk. The consistency of friendly animal hosts creates a comfortable learning rhythm children look forward to.</p>
         <p className="text-cocoa/75 leading-relaxed mb-4">For parents: Keep a folder stocked with printed word searches and coloring pages for quiet time, restaurant waiting, travel, or rainy afternoons. Children develop independence as they choose puzzles by theme and difficulty. The variety — from holiday celebrations to world landmarks — means there is always something fresh and engaging.</p>
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Explore More Free Printable Resources</h2>
-        <p className="text-cocoa/75 leading-relaxed mb-4">Beyond word searches, browse thousands of free printable resources: visit our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 2,000+ puzzles, explore <Link href="/category/cozy-coloring" className="text-rose hover:underline">Coloring Pages</Link> for creative fun, and check our <Link href="/blog" className="text-rose hover:underline">Blog</Link> for learning tips and activity ideas.</p>
+        <p className="text-cocoa/75 leading-relaxed mb-4">Beyond word searches, browse thousands of free printable resources: visit our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 2,000+ puzzles, explore <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Coloring Pages</Link> for creative fun, and check our <Link href="/blog" className="text-rose hover:underline">Blog</Link> for learning tips and activity ideas.</p>
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Frequently Asked Questions</h2>
           
           <h3 className="text-xl font-semibold text-cocoa mt-6 mb-2">How are these different from regular worksheets?</h3>

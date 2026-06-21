@@ -38,11 +38,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Printables</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/word-search" className="text-rose hover:underline">1000+ Word Search Puzzles</Link> and <Link href="/coloring-pages" className="text-rose hover:underline">1600+ Coloring Pages</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Word Search Puzzles</h3>
-          <ul className="space-y-2 mb-6"><li><Link href="/word-search/fox-rainy-day-word-search" className="text-rose hover:underline">Fox Rainy Day Word Search</Link></li>
-            <li><Link href="/word-search/duck-rainy-day-word-search" className="text-rose hover:underline">Duck Rainy Day Word Search</Link></li>
-            <li><Link href="/word-search/cat-rainy-day-word-search" className="text-rose hover:underline">Cat Rainy Day Word Search</Link></li>
-            <li><Link href="/word-search/owl-rainy-day-word-search" className="text-rose hover:underline">Owl Rainy Day Word Search</Link></li>
-            <li><Link href="/word-search/hedgehog-rainy-day-word-search" className="text-rose hover:underline">Hedgehog Rainy Day Word Search</Link></li></ul>
+          <ul className="space-y-2 mb-6"><li><Link href="/word-search/reindeer-rainy-day-word-search" className="text-rose hover:underline">Fox Rainy Day Word Search</Link></li>
+            <li><Link href="/word-search/reindeer-rainy-day-word-search" className="text-rose hover:underline">Duck Rainy Day Word Search</Link></li>
+            <li><Link href="/word-search/reindeer-rainy-day-word-search" className="text-rose hover:underline">Cat Rainy Day Word Search</Link></li>
+            <li><Link href="/word-search/reindeer-rainy-day-word-search" className="text-rose hover:underline">Owl Rainy Day Word Search</Link></li>
+            <li><Link href="/word-search/reindeer-rainy-day-word-search" className="text-rose hover:underline">Hedgehog Rainy Day Word Search</Link></li></ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/coloring/corner-cafe-interior" className="text-rose hover:underline">cute-fox-rain-window-coloring</Link></li>
             <li><Link href="/coloring/cozy-indoor-rainy-afternoon" className="text-rose hover:underline">cute-duck-rainy-pond-coloring</Link></li>

@@ -42,7 +42,7 @@ export default function BlogPost() {
             <li><Link href="/word-search/deer-woodland-animals-word-search" className="text-rose hover:underline">Deer Woodland Animals Word Search</Link></li>
             <li><Link href="/word-search/owl-birds-word-search" className="text-rose hover:underline">Owl Birds Word Search</Link></li>
             <li><Link href="/word-search/bear-baby-animals-word-search" className="text-rose hover:underline">Bear Baby Animals Word Search</Link></li>
-            <li><Link href="/word-search/rabbit-pets-word-search" className="text-rose hover:underline">Rabbit Pets Word Search</Link></li></ul>
+            <li><Link href="/word-search/cat-pets-word-search" className="text-rose hover:underline">Rabbit Pets Word Search</Link></li></ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/coloring/little-chinchilla-studying-mys" className="text-rose hover:underline">cute-fox-family-coloring-page</Link></li>
             <li><Link href="/coloring/bold-easy-rainbow-pattern" className="text-rose hover:underline">cute-deer-forest-coloring</Link></li>

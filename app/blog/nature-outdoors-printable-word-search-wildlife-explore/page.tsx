@@ -51,11 +51,11 @@ export default function BlogPost() {
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Each of our printable word searches features 10-15 carefully selected vocabulary words organized around a single engaging theme. Puzzles include the recommended age range and difficulty level, making it easy to choose the right challenge for every child.</p>
         <ul className="space-y-2 mb-6">
-          <li><Link href="/word-search/butterfly-animal-tracks-word-search" className="text-rose hover:underline">Free Printable Butterfly Animal Tracks Word Search</Link></li>
-          <li><Link href="/word-search/bee-bird-feeder-word-search" className="text-rose hover:underline">Free Printable Bee Bird Feeder Word Search</Link></li>
-          <li><Link href="/word-search/ladybug-butterfly-garden-word-search" className="text-rose hover:underline">Free Printable Ladybug Butterfly Garden Word Search</Link></li>
-          <li><Link href="/word-search/dragonfly-star-gazing-word-search" className="text-rose hover:underline">Free Printable Dragonfly Star Gazing Word Search</Link></li>
-          <li><Link href="/word-search/caterpillar-moon-phases-word-search" className="text-rose hover:underline">Free Printable Caterpillar Moon Phases Word Search</Link></li>
+          <li><Link href="/word-search/dolphin-animal-tracks-word-search" className="text-rose hover:underline">Free Printable Butterfly Animal Tracks Word Search</Link></li>
+          <li><Link href="/word-search/shark-bird-feeder-word-search" className="text-rose hover:underline">Free Printable Bee Bird Feeder Word Search</Link></li>
+          <li><Link href="/word-search/parrot-butterfly-garden-word-search" className="text-rose hover:underline">Free Printable Ladybug Butterfly Garden Word Search</Link></li>
+          <li><Link href="/word-search/octopus-star-gazing-word-search" className="text-rose hover:underline">Free Printable Dragonfly Star Gazing Word Search</Link></li>
+          <li><Link href="/word-search/seal-moon-phases-word-search" className="text-rose hover:underline">Free Printable Caterpillar Moon Phases Word Search</Link></li>
         </ul>
         <AdBanner slot="blog-mid" className="my-8" />
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">How to Integrate Word Searches Into Daily Learning</h2>

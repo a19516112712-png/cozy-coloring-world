@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Perfect for Winter Break Activities</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Looking for screen-free activities during winter break? These puzzles are ideal! Print a stack of winter animal word searches to keep kids engaged and learning during holiday downtime. They make great stocking stuffers, travel activities, or quiet-time entertainment while the snow falls outside.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Winter Animals Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/penguin-winter-animals-word-search" className="text-rose hover:underline">Penguin Winter Animals Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-penguin-winter-coloring-pa" className="text-rose hover:underline">Penguin in Winter</Link></li>
-            <li><Link href="/coloring/cute-polar-bear-arctic-colorin" className="text-rose hover:underline">Polar Bear Arctic</Link></li>
-            <li><Link href="/coloring/cute-seal-ice-coloring-page" className="text-rose hover:underline">Seal on Ice</Link></li>
+            <li><Link href="/coloring/cute-penguin-reading-room-colo" className="text-rose hover:underline">Penguin in Winter</Link></li>
+            <li><Link href="/coloring/34_Cute_penguin_winter_wonderland" className="text-rose hover:underline">Polar Bear Arctic</Link></li>
+            <li><Link href="/coloring/43_Cute_cat_rain_window_coloring_" className="text-rose hover:underline">Seal on Ice</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/fox-school-day-word-search" className="text-rose hover:underline">Free Printable Word Search — Fox School Day Word Search</Link></li>
-            <li><Link href="/word-search/bunny-doctor-visit-word-search" className="text-rose hover:underline">Free Printable Word Search — Bunny Doctor Visit Word Search</Link></li>
-            <li><Link href="/word-search/bear-dentist-office-word-search" className="text-rose hover:underline">Free Printable Word Search — Bear Dentist Office Word Search</Link></li>
-            <li><Link href="/word-search/deer-math-puzzle-word-search" className="text-rose hover:underline">Free Printable Word Search — Deer Math Puzzle Word Search</Link></li>
-            <li><Link href="/word-search/owl-science-fair-word-search" className="text-rose hover:underline">Free Printable Word Search — Owl Science Fair Word Search</Link></li>
+            <li><Link href="/word-search/llama-school-day-word-search" className="text-rose hover:underline">Free Printable Word Search — Fox School Day Word Search</Link></li>
+            <li><Link href="/word-search/owl-doctor-visit-word-search" className="text-rose hover:underline">Free Printable Word Search — Bunny Doctor Visit Word Search</Link></li>
+            <li><Link href="/word-search/cat-dentist-office-word-search" className="text-rose hover:underline">Free Printable Word Search — Bear Dentist Office Word Search</Link></li>
+            <li><Link href="/word-search/giraffe-math-puzzle-word-search" className="text-rose hover:underline">Free Printable Word Search — Deer Math Puzzle Word Search</Link></li>
+            <li><Link href="/word-search/horse-science-fair-word-search" className="text-rose hover:underline">Free Printable Word Search — Owl Science Fair Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />
@@ -75,7 +75,7 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">For parents at home: Keep a folder of printed word searches and coloring pages ready for quiet time, restaurant waiting, travel, or rainy afternoons. The simple act of having these activities on hand transforms idle moments into valuable learning opportunities. Children develop independence as they choose which puzzle or page to work on next.</p>
           
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">More Free Resources for Learning</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">Beyond word searches, our site offers thousands of free printable resources. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for hundreds of puzzles. Explore <Link href="/category/cozy-coloring" className="text-rose hover:underline">Coloring Pages</Link> for creative fun. Check our <Link href="/blog" className="text-rose hover:underline">Blog</Link> for more learning tips, and visit <Link href="/coloring-pages" className="text-rose hover:underline">All Coloring Pages</Link> to browse the complete collection.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">Beyond word searches, our site offers thousands of free printable resources. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for hundreds of puzzles. Explore <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Coloring Pages</Link> for creative fun. Check our <Link href="/blog" className="text-rose hover:underline">Blog</Link> for more learning tips, and visit <Link href="/coloring-pages" className="text-rose hover:underline">All Coloring Pages</Link> to browse the complete collection.</p>
           
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Frequently Asked Questions</h2>
           

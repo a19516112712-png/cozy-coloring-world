@@ -39,10 +39,10 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/category/cute-animals" className="text-rose hover:underline">Cute Animals</Link> category for 320+ pages, or explore <Link href="/categories" className="text-rose hover:underline">all categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Duck Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/duck-enjoying-rainy-pond-day" className="text-rose hover:underline">Duck Enjoying Rainy Pond Day Word Search</Link></li>
-            <li><Link href="/word-search/duck-feeding-fish" className="text-rose hover:underline">Duck Feeding Fish Word Search</Link></li>
+            <li><Link href="/word-search/deer-gardening-day-word-search" className="text-rose hover:underline">Duck Enjoying Rainy Pond Day Word Search</Link></li>
+            <li><Link href="/word-search/starfish-windmill-farm-word-search" className="text-rose hover:underline">Duck Feeding Fish Word Search</Link></li>
             <li><Link href="/word-search/duck-fishing-from-small-dock" className="text-rose hover:underline">Duck Fishing From Small Dock Word Search</Link></li>
-            <li><Link href="/word-search/duck-rowing-small-wooden-boat" className="text-rose hover:underline">Duck Rowing Small Wooden Boat Word Search</Link></li>
+            <li><Link href="/word-search/beaver-water-boatman-word-search" className="text-rose hover:underline">Duck Rowing Small Wooden Boat Word Search</Link></li>
             <li><Link href="/word-search/duck-picnic-beside-lake" className="text-rose hover:underline">Duck Picnic Beside Lake Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Duck Coloring Pages</h3>

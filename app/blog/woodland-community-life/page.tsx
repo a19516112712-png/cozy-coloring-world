@@ -35,13 +35,13 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">Use warm, inviting colors for community scenes — golden lantern light, colorful market stalls, bright festival banners. Soft greens and browns for the forest backdrop create a cozy contrast with vibrant community activities.</p>
       <AdBanner slot="blog-mid" className="my-8" />
       <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Pages</h2>
-      <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/categories/cozy-coloring" className="text-rose hover:underline">Cozy Coloring</Link>, <Link href="/categories/cute-animals" className="text-rose hover:underline">Cute Animals</Link>, <Link href="/categories/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>.</p>
-      <ul className="space-y-2 mb-6">            <li><Link href="/coloring/baby-bunny-painting-signs-for" className="text-rose hover:underline">Free Printable Baby Bunny Painting Signs For Coloring Page</Link></li>
+      <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Cozy Coloring</Link>, <Link href="/category/cute-animals" className="text-rose hover:underline">Cute Animals</Link>, <Link href="/category/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>.</p>
+      <ul className="space-y-2 mb-6">            <li><Link href="/coloring/bold-easy-baby-bunny" className="text-rose hover:underline">Free Printable Baby Bunny Painting Signs For Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-woodland-celebration" className="text-rose hover:underline">Free Printable Squirrel Woodland Celebration Coloring Page</Link></li>
             <li><Link href="/coloring/tiny-squirrel-managing-a-fores" className="text-rose hover:underline">Free Printable Tiny Squirrel Managing A Fores Coloring Page</Link></li>
             <li><Link href="/coloring/cute-otter-assembling-a-rivers" className="text-rose hover:underline">Free Printable Cute Otter Assembling A Rivers Coloring Page</Link></li>
             <li><Link href="/coloring/tiny-mouse-running-a-lantern-m" className="text-rose hover:underline">Free Printable Tiny Mouse Running A Lantern M Coloring Page</Link></li>
-            <li><Link href="/coloring/little-squirrel-organizing-wood" className="text-rose hover:underline">Free Printable Little Squirrel Organizing Wood Coloring Page</Link></li></ul>
+            <li><Link href="/coloring/little-squirrel-harvesting-pin" className="text-rose hover:underline">Free Printable Little Squirrel Organizing Wood Coloring Page</Link></li></ul>
       <p className="text-cocoa/75 leading-relaxed mb-6">1,480+ free coloring pages. Print unlimited copies!</p>
       </div>
       <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">Related Pages</h2><RelatedArticles categoryId="cozy-coloring" type="coloring" count={6} title="More to Color" /></section>

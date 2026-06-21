@@ -114,7 +114,7 @@ export default function BlogPost() {
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Continue the Cozy Glow</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">
-              If candlelight and cozy lighting warm your heart, you will love our <Link href="/blog/cozy-interior-coloring-pages" className="text-rose hover:underline">cozy interior coloring pages</Link> for more warm indoor scenes, and our <Link href="/blog/cozy-coloring-pages" className="text-rose hover:underline">cozy coloring pages collection</Link>. For nighttime ambiance, explore our <Link href="/blog/rainy-day-coloring-pages" className="text-rose hover:underline">rainy day coloring pages</Link>.
+              If candlelight and cozy lighting warm your heart, you will love our <Link href="/blog/cozy-coloring-pages" className="text-rose hover:underline">cozy interior coloring pages</Link> for more warm indoor scenes, and our <Link href="/blog/cozy-coloring-pages" className="text-rose hover:underline">cozy coloring pages collection</Link>. For nighttime ambiance, explore our <Link href="/blog/rainy-day-coloring-pages" className="text-rose hover:underline">rainy day coloring pages</Link>.
             </p>
             <p className="text-cocoa/75 leading-relaxed mb-6">
               Discover all 300+ pages in our <Link href="/coloring-pages" className="text-rose hover:underline">complete free printable coloring collection</Link>.

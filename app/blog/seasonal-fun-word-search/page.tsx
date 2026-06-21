@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Year-Round Classroom Resource</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Teachers love our seasonal puzzles because they provide relevant content all year long. Use spring puzzles during planting season, summer puzzles before break, autumn puzzles during harvest units, and winter puzzles for cozy indoor days. The seasonal variety keeps word search activities fresh and engaging month after month.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Seasonal Fun Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/fox-seasonal-fun-word-search" className="text-rose hover:underline">Fox Seasonal Fun Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-autumn-leaves-coloring" className="text-rose hover:underline">Fox in Autumn Leaves</Link></li>
-            <li><Link href="/coloring/cute-bear-winter-cabin-coloring" className="text-rose hover:underline">Bear Winter Cabin</Link></li>
-            <li><Link href="/coloring/cute-deer-spring-meadow-coloring" className="text-rose hover:underline">Deer Spring Meadow</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Fox in Autumn Leaves</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Bear Winter Cabin</Link></li>
+            <li><Link href="/coloring/cute-deer-decorating-a-woodlan" className="text-rose hover:underline">Deer Spring Meadow</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

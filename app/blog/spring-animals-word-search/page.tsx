@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Celebrating Growth and Renewal</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Spring is a time of growth — and these puzzles help children grow their vocabulary too! The uplifting themes of new life, blooming flowers, and baby animals create a positive, encouraging learning environment. Children feel a sense of accomplishment as they find each spring-themed word, building confidence alongside vocabulary.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Spring Animals Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/bunny-spring-animals-word-search" className="text-rose hover:underline">Bunny Spring Animals Word Search</Link></li>
@@ -47,8 +47,8 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-bunny-spring-meadow-color" className="text-rose hover:underline">Bunny Spring Meadow</Link></li>
-            <li><Link href="/coloring/cute-duckling-pond-coloring-pa" className="text-rose hover:underline">Duckling by Pond</Link></li>
+            <li><Link href="/coloring/29-cute-bunny-selling-carrots-and" className="text-rose hover:underline">Bunny Spring Meadow</Link></li>
+            <li><Link href="/coloring/bold-easy-cute-duckling" className="text-rose hover:underline">Duckling by Pond</Link></li>
             <li><Link href="/coloring/cute-chick-nest-coloring-page" className="text-rose hover:underline">Chick in Nest</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>

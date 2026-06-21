@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/parrot-bee-dance-word-search" className="text-rose hover:underline">Free Printable Word Search — Parrot Bee Dance Word Search</Link></li>
-            <li><Link href="/word-search/pelican-ant-colony-word-search" className="text-rose hover:underline">Free Printable Word Search — Pelican Ant Colony Word Search</Link></li>
-            <li><Link href="/word-search/butterfly-butterfly-migration-word-search" className="text-rose hover:underline">Free Printable Word Search — Butterfly Butterfly Migration Word Search</Link></li>
-            <li><Link href="/word-search/snail-ladybug-spot-word-search" className="text-rose hover:underline">Free Printable Word Search — Snail Ladybug Spot Word Search</Link></li>
-            <li><Link href="/word-search/starfish-firefly-glow-word-search" className="text-rose hover:underline">Free Printable Word Search — Starfish Firefly Glow Word Search</Link></li>
+            <li><Link href="/word-search/frog-bee-dance-word-search" className="text-rose hover:underline">Free Printable Word Search — Parrot Bee Dance Word Search</Link></li>
+            <li><Link href="/word-search/turtle-ant-colony-word-search" className="text-rose hover:underline">Free Printable Word Search — Pelican Ant Colony Word Search</Link></li>
+            <li><Link href="/word-search/whale-butterfly-migration-word-search" className="text-rose hover:underline">Free Printable Word Search — Butterfly Butterfly Migration Word Search</Link></li>
+            <li><Link href="/word-search/dolphin-ladybug-spot-word-search" className="text-rose hover:underline">Free Printable Word Search — Snail Ladybug Spot Word Search</Link></li>
+            <li><Link href="/word-search/zebra-firefly-glow-word-search" className="text-rose hover:underline">Free Printable Word Search — Starfish Firefly Glow Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/seahorse-plant-life-word-search" className="text-rose hover:underline">Free Printable Word Search — Seahorse Plant Life Word Search</Link></li>
-            <li><Link href="/word-search/flamingo-water-cycle-word-search" className="text-rose hover:underline">Free Printable Word Search — Flamingo Water Cycle Word Search</Link></li>
-            <li><Link href="/word-search/dragonfly-spring-bloom-word-search" className="text-rose hover:underline">Free Printable Word Search — Dragonfly Spring Bloom Word Search</Link></li>
-            <li><Link href="/word-search/raccoon-summer-camp-word-search" className="text-rose hover:underline">Free Printable Word Search — Raccoon Summer Camp Word Search</Link></li>
-            <li><Link href="/word-search/peacock-winter-sports-word-search" className="text-rose hover:underline">Free Printable Word Search — Peacock Winter Sports Word Search</Link></li>
+            <li><Link href="/word-search/whale-plant-life-word-search" className="text-rose hover:underline">Free Printable Word Search — Seahorse Plant Life Word Search</Link></li>
+            <li><Link href="/word-search/dolphin-water-cycle-word-search" className="text-rose hover:underline">Free Printable Word Search — Flamingo Water Cycle Word Search</Link></li>
+            <li><Link href="/word-search/pig-spring-bloom-word-search" className="text-rose hover:underline">Free Printable Word Search — Dragonfly Spring Bloom Word Search</Link></li>
+            <li><Link href="/word-search/chicken-summer-camp-word-search" className="text-rose hover:underline">Free Printable Word Search — Raccoon Summer Camp Word Search</Link></li>
+            <li><Link href="/word-search/wolf-winter-sports-word-search" className="text-rose hover:underline">Free Printable Word Search — Peacock Winter Sports Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

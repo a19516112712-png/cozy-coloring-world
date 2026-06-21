@@ -35,13 +35,13 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">Craft scenes are perfect for creative color palettes. Use bright, inspiring hues for art supplies and finished products. Keep workshop backgrounds warm and cozy with wood tones. Let your color choices match the creative energy of each crafty animal!</p>
       <AdBanner slot="blog-mid" className="my-8" />
       <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Pages</h2>
-      <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/categories/cozy-coloring" className="text-rose hover:underline">Cozy Coloring</Link>, <Link href="/categories/cute-animals" className="text-rose hover:underline">Cute Animals</Link>, <Link href="/categories/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>.</p>
+      <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Cozy Coloring</Link>, <Link href="/category/cute-animals" className="text-rose hover:underline">Cute Animals</Link>, <Link href="/category/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>.</p>
       <ul className="space-y-2 mb-6">            <li><Link href="/coloring/cute-fox-creating-handmade-clo" className="text-rose hover:underline">Free Printable Cute Fox Creating Handmade Clo Coloring Page</Link></li>
             <li><Link href="/coloring/tiny-mouse-creating-handmade-p" className="text-rose hover:underline">Free Printable Tiny Mouse Creating Handmade P Coloring Page</Link></li>
             <li><Link href="/coloring/little-bunny-creating-handmade" className="text-rose hover:underline">Free Printable Little Bunny Creating Handmade Coloring Page</Link></li>
-            <li><Link href="/coloring/baby-bunny-painting-signs-for" className="text-rose hover:underline">Free Printable Baby Bunny Painting Signs For Coloring Page</Link></li>
-            <li><Link href="/coloring/tiny-mouse-painting-mushroom-de" className="text-rose hover:underline">Free Printable Tiny Mouse Painting Mushroom De Coloring Page</Link></li>
-            <li><Link href="/coloring/little-fox-arranging-treasure" className="text-rose hover:underline">Free Printable Little Fox Arranging Treasure Coloring Page</Link></li></ul>
+            <li><Link href="/coloring/bold-easy-baby-bunny" className="text-rose hover:underline">Free Printable Baby Bunny Painting Signs For Coloring Page</Link></li>
+            <li><Link href="/coloring/tiny-mouse-running-a-specialty" className="text-rose hover:underline">Free Printable Tiny Mouse Painting Mushroom De Coloring Page</Link></li>
+            <li><Link href="/coloring/little-fox-arranging-treasure-" className="text-rose hover:underline">Free Printable Little Fox Arranging Treasure Coloring Page</Link></li></ul>
       <p className="text-cocoa/75 leading-relaxed mb-6">1,480+ free coloring pages. Print unlimited copies!</p>
       </div>
       <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">Related Pages</h2><RelatedArticles categoryId="cozy-coloring" type="coloring" count={6} title="More to Color" /></section>

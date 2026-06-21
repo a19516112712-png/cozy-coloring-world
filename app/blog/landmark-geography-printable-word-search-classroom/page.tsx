@@ -55,7 +55,7 @@ export default function BlogPost() {
           <li><Link href="/word-search/pig-great-barrier-reef-word-search" className="text-rose hover:underline">Free Printable Pig Great Barrier Reef Word Search</Link></li>
           <li><Link href="/word-search/goat-amazon-river-word-search" className="text-rose hover:underline">Free Printable Goat Amazon River Word Search</Link></li>
           <li><Link href="/word-search/chicken-sahara-desert-word-search" className="text-rose hover:underline">Free Printable Chicken Sahara Desert Word Search</Link></li>
-          <li><Link href="/word-search/dolphin-mount-everest-word-search" className="text-rose hover:underline">Free Printable Dolphin Mount Everest Word Search</Link></li>
+          <li><Link href="/word-search/wolf-mount-everest-word-search" className="text-rose hover:underline">Free Printable Dolphin Mount Everest Word Search</Link></li>
         </ul>
         <AdBanner slot="blog-mid" className="my-8" />
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">How to Integrate Word Searches Into Daily Learning</h2>

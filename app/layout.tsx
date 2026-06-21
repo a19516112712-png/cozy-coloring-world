@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <meta name="google-adsense-account" content="ca-pub-6710458178434465" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
       </head>
       <body className="min-h-screen flex flex-col">
 

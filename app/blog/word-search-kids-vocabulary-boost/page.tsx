@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/fox-fire-station-word-search" className="text-rose hover:underline">Free Printable Word Search — Fox Fire Station Word Search</Link></li>
-            <li><Link href="/word-search/bunny-police-station-word-search" className="text-rose hover:underline">Free Printable Word Search — Bunny Police Station Word Search</Link></li>
-            <li><Link href="/word-search/bear-school-day-word-search" className="text-rose hover:underline">Free Printable Word Search — Bear School Day Word Search</Link></li>
-            <li><Link href="/word-search/cat-astronomer-lab-word-search" className="text-rose hover:underline">Free Printable Word Search — Cat Astronomer Lab Word Search</Link></li>
-            <li><Link href="/word-search/deer-ancient-egypt-word-search" className="text-rose hover:underline">Free Printable Word Search — Deer Ancient Egypt Word Search</Link></li>
+            <li><Link href="/word-search/puppy-fire-station-word-search" className="text-rose hover:underline">Free Printable Word Search — Fox Fire Station Word Search</Link></li>
+            <li><Link href="/word-search/horse-police-station-tour-word-search" className="text-rose hover:underline">Free Printable Word Search — Bunny Police Station Word Search</Link></li>
+            <li><Link href="/word-search/llama-school-day-word-search" className="text-rose hover:underline">Free Printable Word Search — Bear School Day Word Search</Link></li>
+            <li><Link href="/word-search/dog-astronomer-lab-word-search" className="text-rose hover:underline">Free Printable Word Search — Cat Astronomer Lab Word Search</Link></li>
+            <li><Link href="/word-search/panda-ancient-egypt-word-search" className="text-rose hover:underline">Free Printable Word Search — Deer Ancient Egypt Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

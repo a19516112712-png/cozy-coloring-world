@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/fox-spring-bloom-word-search" className="text-rose hover:underline">Free Printable Word Search — Fox Spring Bloom Word Search</Link></li>
-            <li><Link href="/word-search/bunny-summer-camp-word-search" className="text-rose hover:underline">Free Printable Word Search — Bunny Summer Camp Word Search</Link></li>
-            <li><Link href="/word-search/bear-winter-sports-word-search" className="text-rose hover:underline">Free Printable Word Search — Bear Winter Sports Word Search</Link></li>
-            <li><Link href="/word-search/duck-first-frost-word-search" className="text-rose hover:underline">Free Printable Word Search — Duck First Frost Word Search</Link></li>
-            <li><Link href="/word-search/cat-harvest-festival-word-search" className="text-rose hover:underline">Free Printable Word Search — Cat Harvest Festival Word Search</Link></li>
+            <li><Link href="/word-search/pig-spring-bloom-word-search" className="text-rose hover:underline">Free Printable Word Search — Fox Spring Bloom Word Search</Link></li>
+            <li><Link href="/word-search/chicken-summer-camp-word-search" className="text-rose hover:underline">Free Printable Word Search — Bunny Summer Camp Word Search</Link></li>
+            <li><Link href="/word-search/wolf-winter-sports-word-search" className="text-rose hover:underline">Free Printable Word Search — Bear Winter Sports Word Search</Link></li>
+            <li><Link href="/word-search/otter-first-frost-word-search" className="text-rose hover:underline">Free Printable Word Search — Duck First Frost Word Search</Link></li>
+            <li><Link href="/word-search/beaver-harvest-festival-word-search" className="text-rose hover:underline">Free Printable Word Search — Cat Harvest Festival Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

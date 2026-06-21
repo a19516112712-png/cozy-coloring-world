@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/pig-rainforest-canopy-word-search" className="text-rose hover:underline">Free Printable Word Search — Pig Rainforest Canopy Word Search</Link></li>
-            <li><Link href="/word-search/dolphin-desert-oasis-word-search" className="text-rose hover:underline">Free Printable Word Search — Dolphin Desert Oasis Word Search</Link></li>
-            <li><Link href="/word-search/whale-coral-reef-dive-word-search" className="text-rose hover:underline">Free Printable Word Search — Whale Coral Reef Dive Word Search</Link></li>
+            <li><Link href="/word-search/cow-rainforest-canopy-word-search" className="text-rose hover:underline">Free Printable Word Search — Pig Rainforest Canopy Word Search</Link></li>
+            <li><Link href="/word-search/swan-desert-oasis-word-search" className="text-rose hover:underline">Free Printable Word Search — Dolphin Desert Oasis Word Search</Link></li>
+            <li><Link href="/word-search/pig-coral-reef-dive-word-search" className="text-rose hover:underline">Free Printable Word Search — Whale Coral Reef Dive Word Search</Link></li>
             <li><Link href="/word-search/otter-grasslands-safari-word-search" className="text-rose hover:underline">Free Printable Word Search — Otter Grasslands Safari Word Search</Link></li>
-            <li><Link href="/word-search/bee-human-body-word-search" className="text-rose hover:underline">Free Printable Word Search — Bee Human Body Word Search</Link></li>
+            <li><Link href="/word-search/turtle-human-body-word-search" className="text-rose hover:underline">Free Printable Word Search — Bee Human Body Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

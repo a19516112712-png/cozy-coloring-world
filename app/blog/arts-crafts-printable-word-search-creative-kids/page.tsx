@@ -51,11 +51,11 @@ export default function BlogPost() {
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Each of our printable word searches features 10-15 carefully selected vocabulary words organized around a single engaging theme. Puzzles include the recommended age range and difficulty level, making it easy to choose the right challenge for every child.</p>
         <ul className="space-y-2 mb-6">
-          <li><Link href="/word-search/giraffe-sewing-room-word-search" className="text-rose hover:underline">Free Printable Giraffe Sewing Room Word Search</Link></li>
-          <li><Link href="/word-search/zebra-scrapbooking-word-search" className="text-rose hover:underline">Free Printable Zebra Scrapbooking Word Search</Link></li>
-          <li><Link href="/word-search/wolf-jewelry-making-word-search" className="text-rose hover:underline">Free Printable Wolf Jewelry Making Word Search</Link></li>
-          <li><Link href="/word-search/otter-bead-craft-word-search" className="text-rose hover:underline">Free Printable Otter Bead Craft Word Search</Link></li>
-          <li><Link href="/word-search/moose-paper-craft-word-search" className="text-rose hover:underline">Free Printable Moose Paper Craft Word Search</Link></li>
+          <li><Link href="/word-search/raccoon-sewing-room-word-search" className="text-rose hover:underline">Free Printable Giraffe Sewing Room Word Search</Link></li>
+          <li><Link href="/word-search/deer-scrapbooking-word-search" className="text-rose hover:underline">Free Printable Zebra Scrapbooking Word Search</Link></li>
+          <li><Link href="/word-search/owl-jewelry-making-word-search" className="text-rose hover:underline">Free Printable Wolf Jewelry Making Word Search</Link></li>
+          <li><Link href="/word-search/penguin-bead-craft-word-search" className="text-rose hover:underline">Free Printable Otter Bead Craft Word Search</Link></li>
+          <li><Link href="/word-search/koala-paper-craft-word-search" className="text-rose hover:underline">Free Printable Moose Paper Craft Word Search</Link></li>
         </ul>
         <AdBanner slot="blog-mid" className="my-8" />
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">How to Integrate Word Searches Into Daily Learning</h2>

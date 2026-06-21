@@ -35,13 +35,13 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">For exploration scenes, use rich forest greens and earthy browns as your base. Add sparkling crystal blues, warm cottage golds, and bright butterfly colors for discoveries. The contrast between natural backgrounds and exciting finds creates engaging, dynamic coloring pages.</p>
       <AdBanner slot="blog-mid" className="my-8" />
       <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Pages</h2>
-      <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/categories/cute-animals" className="text-rose hover:underline">Cute Animals</Link>, <Link href="/categories/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>, <Link href="/categories/cozy-coloring" className="text-rose hover:underline">Cozy Coloring</Link>.</p>
+      <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/category/cute-animals" className="text-rose hover:underline">Cute Animals</Link>, <Link href="/category/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link>, <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Cozy Coloring</Link>.</p>
       <ul className="space-y-2 mb-6">            <li><Link href="/coloring/cute-fox-exploring-an-abandone" className="text-rose hover:underline">Free Printable Cute Fox Exploring An Abandone Coloring Page</Link></li>
             <li><Link href="/coloring/cute-otter-exploring-a-crystal" className="text-rose hover:underline">Free Printable Cute Otter Exploring A Crystal Coloring Page</Link></li>
             <li><Link href="/coloring/baby-deer-creating-nature-maps" className="text-rose hover:underline">Free Printable Baby Deer Creating Nature Maps Coloring Page</Link></li>
-            <li><Link href="/coloring/cute-mouse-arranging-seashell" className="text-rose hover:underline">Free Printable Cute Mouse Arranging Seashell Coloring Page</Link></li>
+            <li><Link href="/coloring/cute-mouse-moonlight-garden-co" className="text-rose hover:underline">Free Printable Cute Mouse Arranging Seashell Coloring Page</Link></li>
             <li><Link href="/coloring/tiny-deer-organizing-a-butterf" className="text-rose hover:underline">Free Printable Tiny Deer Organizing A Butterf Coloring Page</Link></li>
-            <li><Link href="/coloring/cute-deer-building-butterfly-ha" className="text-rose hover:underline">Free Printable Cute Deer Building Butterfly Ha Coloring Page</Link></li></ul>
+            <li><Link href="/coloring/cute-deer-decorating-a-woodlan" className="text-rose hover:underline">Free Printable Cute Deer Building Butterfly Ha Coloring Page</Link></li></ul>
       <p className="text-cocoa/75 leading-relaxed mb-6">1,480+ free coloring pages. Print unlimited copies!</p>
       </div>
       <section className="mb-10"><h2 className="text-2xl font-bold text-cocoa mb-6">Related Pages</h2><RelatedArticles categoryId="cute-animals" type="coloring" count={6} title="More to Color" /></section>

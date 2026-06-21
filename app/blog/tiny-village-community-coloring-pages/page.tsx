@@ -122,7 +122,7 @@ export default function BlogPost() {
 
             <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Continue Your Village Adventure</h2>
             <p className="text-cocoa/75 leading-relaxed mb-4">
-              If village community scenes warm your heart, you will love our <Link href="/blog/tiny-animal-coloring-pages" className="text-rose hover:underline">tiny animal coloring pages</Link> for more miniature world adventures, and our <Link href="/blog/cute-animal-worlds" className="text-rose hover:underline">cute animal worlds collection</Link>. For cozy domestic scenes, explore our <Link href="/blog/cozy-interior-coloring-pages" className="text-rose hover:underline">cozy interior coloring pages</Link>.
+              If village community scenes warm your heart, you will love our <Link href="/blog/tiny-animal-coloring-pages" className="text-rose hover:underline">tiny animal coloring pages</Link> for more miniature world adventures, and our <Link href="/blog/cute-animal-worlds" className="text-rose hover:underline">cute animal worlds collection</Link>. For cozy domestic scenes, explore our <Link href="/blog/cozy-coloring-pages" className="text-rose hover:underline">cozy interior coloring pages</Link>.
             </p>
             <p className="text-cocoa/75 leading-relaxed mb-6">
               Discover your next favorite page in our <Link href="/coloring-pages" className="text-rose hover:underline">complete collection of 300+ free printable coloring pages</Link>.

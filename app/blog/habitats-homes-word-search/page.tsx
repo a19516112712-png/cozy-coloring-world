@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">From Forest to Ocean</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">Our habitat collection spans every ecosystem imaginable. Forest animals like deer, owls, and foxes. Ocean creatures like whales, dolphins, and sharks. Jungle dwellers like tigers, monkeys, and elephants. Farm animals like horses, cows, and chickens. Each habitat group gets its own set of puzzles with vocabulary specific to that environment.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Habitats & Homes Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/bear-habitats-homes-word-search" className="text-rose hover:underline">Bear Habitats & Homes Word Search</Link></li>
@@ -47,7 +47,7 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-bear-cave-coloring-page" className="text-rose hover:underline">Bear in Cave</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Bear in Cave</Link></li>
             <li><Link href="/coloring/cute-whale-ocean-coloring-page" className="text-rose hover:underline">Whale in Ocean</Link></li>
             <li><Link href="/coloring/cute-monkey-jungle-coloring-pag" className="text-rose hover:underline">Monkey in Jungle</Link></li>
           </ul>

@@ -51,11 +51,11 @@ export default function BlogPost() {
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Each of our printable word searches features 10-15 carefully selected vocabulary words organized around a single engaging theme. Puzzles include the recommended age range and difficulty level, making it easy to choose the right challenge for every child.</p>
         <ul className="space-y-2 mb-6">
-          <li><Link href="/word-search/squirrel-town-hall-word-search" className="text-rose hover:underline">Free Printable Squirrel Town Hall Word Search</Link></li>
-          <li><Link href="/word-search/raccoon-post-office-word-search" className="text-rose hover:underline">Free Printable Raccoon Post Office Word Search</Link></li>
-          <li><Link href="/word-search/deer-fire-station-tour-word-search" className="text-rose hover:underline">Free Printable Deer Fire Station Tour Word Search</Link></li>
-          <li><Link href="/word-search/beaver-police-station-tour-word-search" className="text-rose hover:underline">Free Printable Beaver Police Station Tour Word Search</Link></li>
-          <li><Link href="/word-search/frog-city-park-word-search" className="text-rose hover:underline">Free Printable Frog City Park Word Search</Link></li>
+          <li><Link href="/word-search/giraffe-town-hall-word-search" className="text-rose hover:underline">Free Printable Squirrel Town Hall Word Search</Link></li>
+          <li><Link href="/word-search/puppy-post-office-word-search" className="text-rose hover:underline">Free Printable Raccoon Post Office Word Search</Link></li>
+          <li><Link href="/word-search/zebra-fire-station-tour-word-search" className="text-rose hover:underline">Free Printable Deer Fire Station Tour Word Search</Link></li>
+          <li><Link href="/word-search/horse-police-station-tour-word-search" className="text-rose hover:underline">Free Printable Beaver Police Station Tour Word Search</Link></li>
+          <li><Link href="/word-search/cow-city-park-word-search" className="text-rose hover:underline">Free Printable Frog City Park Word Search</Link></li>
         </ul>
         <AdBanner slot="blog-mid" className="my-8" />
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">How to Integrate Word Searches Into Daily Learning</h2>

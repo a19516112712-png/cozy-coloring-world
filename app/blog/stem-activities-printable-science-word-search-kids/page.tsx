@@ -56,11 +56,11 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We have curated some of our newest and most engaging printable word search puzzles that are perfect for learning at home or in the classroom. Each puzzle features 10-15 carefully selected words organized around a single theme, making them ideal for building subject-specific vocabulary.</p>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/shark-solar-system-tour-word-search" className="text-rose hover:underline">Free Printable Word Search — Shark Solar System Tour Word Search</Link></li>
-            <li><Link href="/word-search/octopus-human-body-word-search" className="text-rose hover:underline">Free Printable Word Search — Octopus Human Body Word Search</Link></li>
-            <li><Link href="/word-search/seal-water-cycle-word-search" className="text-rose hover:underline">Free Printable Word Search — Seal Water Cycle Word Search</Link></li>
-            <li><Link href="/word-search/polar-bear-rock-collection-word-search" className="text-rose hover:underline">Free Printable Word Search — Polar Bear Rock Collection Word Search</Link></li>
-            <li><Link href="/word-search/arctic-fox-electricity-lab-word-search" className="text-rose hover:underline">Free Printable Word Search — Arctic Fox Electricity Lab Word Search</Link></li>
+            <li><Link href="/word-search/frog-solar-system-tour-word-search" className="text-rose hover:underline">Free Printable Word Search — Shark Solar System Tour Word Search</Link></li>
+            <li><Link href="/word-search/turtle-human-body-word-search" className="text-rose hover:underline">Free Printable Word Search — Octopus Human Body Word Search</Link></li>
+            <li><Link href="/word-search/dolphin-water-cycle-word-search" className="text-rose hover:underline">Free Printable Word Search — Seal Water Cycle Word Search</Link></li>
+            <li><Link href="/word-search/shark-rock-collection-word-search" className="text-rose hover:underline">Free Printable Word Search — Polar Bear Rock Collection Word Search</Link></li>
+            <li><Link href="/word-search/octopus-electricity-lab-word-search" className="text-rose hover:underline">Free Printable Word Search — Arctic Fox Electricity Lab Word Search</Link></li>
           </ul>
           
           <AdBanner slot="blog-mid" className="my-8" />

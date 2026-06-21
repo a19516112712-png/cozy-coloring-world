@@ -40,10 +40,10 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Duck Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/duck-village-market-scene" className="text-rose hover:underline">Duck Village Market Scene Word Search</Link></li>
-            <li><Link href="/word-search/duck-carrying-basket-of-flower" className="text-rose hover:underline">Duck Carrying Basket Of Flower Word Search</Link></li>
-            <li><Link href="/word-search/duck-bakery-beside-pond" className="text-rose hover:underline">Duck Bakery Beside Pond Word Search</Link></li>
+            <li><Link href="/word-search/parrot-flower-meadow-word-search" className="text-rose hover:underline">Duck Carrying Basket Of Flower Word Search</Link></li>
+            <li><Link href="/word-search/zebra-dragonfly-pond-word-search" className="text-rose hover:underline">Duck Bakery Beside Pond Word Search</Link></li>
             <li><Link href="/word-search/duck-flower-cart-scene" className="text-rose hover:underline">Duck Flower Cart Scene Word Search</Link></li>
-            <li><Link href="/word-search/grand-lakeside-duck-market" className="text-rose hover:underline">Grand Lakeside Duck Market Word Search</Link></li>
+            <li><Link href="/word-search/chicken-farmers-market-word-search" className="text-rose hover:underline">Grand Lakeside Duck Market Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Duck Coloring Pages</h3>
           <ul className="space-y-2 mb-6">

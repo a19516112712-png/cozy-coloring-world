@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Perfect for Spring Learning</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">These puzzles shine brightest in spring when gardens come alive! Use them alongside seed-planting activities, butterfly life cycle lessons, or nature journal projects. The garden theme connects indoor learning with outdoor exploration. Many teachers incorporate these puzzles into their spring curriculum.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Garden Friends Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/bunny-garden-friends-word-search" className="text-rose hover:underline">Bunny Garden Friends Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-bunny-garden-coloring-page" className="text-rose hover:underline">Bunny in Garden</Link></li>
-            <li><Link href="/coloring/cute-hedgehog-flower-garden-col" className="text-rose hover:underline">Hedgehog Flower Garden</Link></li>
-            <li><Link href="/coloring/cute-cat-greenhouse-coloring-pag" className="text-rose hover:underline">Cat in Greenhouse</Link></li>
+            <li><Link href="/coloring/29-cute-bunny-selling-carrots-and" className="text-rose hover:underline">Bunny in Garden</Link></li>
+            <li><Link href="/coloring/cute-hedgehog-exploring-librar" className="text-rose hover:underline">Hedgehog Flower Garden</Link></li>
+            <li><Link href="/coloring/cute-cat-greenhouse-cottage-f" className="text-rose hover:underline">Cat in Greenhouse</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

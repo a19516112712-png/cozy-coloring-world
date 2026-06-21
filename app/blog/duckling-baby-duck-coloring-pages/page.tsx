@@ -40,10 +40,10 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Duck Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/duck-feeding-baby-ducklings" className="text-rose hover:underline">Duck Feeding Baby Ducklings Word Search</Link></li>
-            <li><Link href="/word-search/duck-family-walking-across-woo" className="text-rose hover:underline">Duck Family Walking Across Woo Word Search</Link></li>
-            <li><Link href="/word-search/magical-cozy-duck-village-over" className="text-rose hover:underline">Magical Cozy Duck Village Over Word Search</Link></li>
-            <li><Link href="/word-search/panoramic-duck-pond-village" className="text-rose hover:underline">Panoramic Duck Pond Village Word Search</Link></li>
-            <li><Link href="/word-search/duck-village-festival" className="text-rose hover:underline">Duck Village Festival Word Search</Link></li>
+            <li><Link href="/word-search/squirrel-woodland-animals-word-search" className="text-rose hover:underline">Duck Family Walking Across Woo Word Search</Link></li>
+            <li><Link href="/word-search/moose-sleepover-fun-word-search" className="text-rose hover:underline">Magical Cozy Duck Village Over Word Search</Link></li>
+            <li><Link href="/word-search/squirrel-cozy-village-easy-word-search" className="text-rose hover:underline">Panoramic Duck Pond Village Word Search</Link></li>
+            <li><Link href="/word-search/beaver-harvest-festival-word-search" className="text-rose hover:underline">Duck Village Festival Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Duck Coloring Pages</h3>
           <ul className="space-y-2 mb-6">

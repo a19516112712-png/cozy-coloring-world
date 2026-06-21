@@ -50,15 +50,15 @@ export default function BlogPost() {
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/fox-jungle-word-search" className="text-rose hover:underline">Fox Jungle Word Search</Link></li>
             <li><Link href="/word-search/bear-savanna-word-search" className="text-rose hover:underline">Bear Savanna Word Search</Link></li>
-            <li><Link href="/word-search/penguin-arctic-word-search" className="text-rose hover:underline">Penguin Arctic Word Search</Link></li>
+            <li><Link href="/word-search/arctic-fox-reptile-house-word-search" className="text-rose hover:underline">Penguin Arctic Word Search</Link></li>
             <li><Link href="/word-search/duck-wetlands-word-search" className="text-rose hover:underline">Duck Wetlands Word Search</Link></li>
             <li><Link href="/word-search/bunny-meadow-word-search" className="text-rose hover:underline">Bunny Meadow Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-forest-coloring" className="text-rose hover:underline">Cute Fox Forest Coloring Page</Link></li>
-            <li><Link href="/coloring/cute-owl-reading-coloring-page" className="text-rose hover:underline">Cute Owl Reading Coloring Page</Link></li>
-            <li><Link href="/coloring/cute-bear-reading-coloring" className="text-rose hover:underline">Cute Bear Reading Coloring Page</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Cute Fox Forest Coloring Page</Link></li>
+            <li><Link href="/coloring/owl-cute-owl-reading-a-book-in-a" className="text-rose hover:underline">Cute Owl Reading Coloring Page</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Cute Bear Reading Coloring Page</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1600+ free coloring pages and 1300+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

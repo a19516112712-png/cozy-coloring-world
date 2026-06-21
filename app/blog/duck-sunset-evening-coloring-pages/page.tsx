@@ -39,11 +39,11 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/category/cute-animals" className="text-rose hover:underline">Cute Animals</Link> category for 320+ pages, or explore <Link href="/categories" className="text-rose hover:underline">all categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Duck Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/duck-enjoying-sunset-by-pond" className="text-rose hover:underline">Duck Enjoying Sunset By Pond Word Search</Link></li>
+            <li><Link href="/word-search/zebra-dragonfly-pond-word-search" className="text-rose hover:underline">Duck Enjoying Sunset By Pond Word Search</Link></li>
             <li><Link href="/word-search/duck-sitting-on-cottage-porch" className="text-rose hover:underline">Duck Sitting On Cottage Porch Word Search</Link></li>
             <li><Link href="/word-search/duck-reading-beside-lantern" className="text-rose hover:underline">Duck Reading Beside Lantern Word Search</Link></li>
-            <li><Link href="/word-search/duck-reading-book-near-pond" className="text-rose hover:underline">Duck Reading Book Near Pond Word Search</Link></li>
-            <li><Link href="/word-search/duck-relaxing-under-willow-tre" className="text-rose hover:underline">Duck Relaxing Under Willow Tre Word Search</Link></li>
+            <li><Link href="/word-search/zebra-dragonfly-pond-word-search" className="text-rose hover:underline">Duck Reading Book Near Pond Word Search</Link></li>
+            <li><Link href="/word-search/jellyfish-willow-tree-word-search" className="text-rose hover:underline">Duck Relaxing Under Willow Tre Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Duck Coloring Pages</h3>
           <ul className="space-y-2 mb-6">

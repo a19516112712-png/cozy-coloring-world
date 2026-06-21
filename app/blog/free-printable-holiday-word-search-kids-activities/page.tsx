@@ -51,8 +51,8 @@ export default function BlogPost() {
         <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Featured Free Printable Word Searches</h2>
         <p className="text-cocoa/75 leading-relaxed mb-4">Each of our printable word searches features 10-15 carefully selected vocabulary words organized around a single engaging theme. Puzzles include the recommended age range and difficulty level, making it easy to choose the right challenge for every child.</p>
         <ul className="space-y-2 mb-6">
-          <li><Link href="/word-search/fox-mothers-day-word-search" className="text-rose hover:underline">Free Printable Fox Mothers Day Word Search</Link></li>
-          <li><Link href="/word-search/bunny-fathers-day-word-search" className="text-rose hover:underline">Free Printable Bunny Fathers Day Word Search</Link></li>
+          <li><Link href="/word-search/deer-gardening-day-word-search" className="text-rose hover:underline">Free Printable Fox Mothers Day Word Search</Link></li>
+          <li><Link href="/word-search/deer-gardening-day-word-search" className="text-rose hover:underline">Free Printable Bunny Fathers Day Word Search</Link></li>
           <li><Link href="/word-search/bear-grandparents-day-word-search" className="text-rose hover:underline">Free Printable Bear Grandparents Day Word Search</Link></li>
           <li><Link href="/word-search/duck-teacher-appreciation-word-search" className="text-rose hover:underline">Free Printable Duck Teacher Appreciation Word Search</Link></li>
           <li><Link href="/word-search/cat-memorial-day-word-search" className="text-rose hover:underline">Free Printable Cat Memorial Day Word Search</Link></li>

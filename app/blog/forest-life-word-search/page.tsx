@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Seasonal Forest Changes</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">The forest changes with every season, and our puzzles reflect this beautiful diversity. Spring brings new leaves and baby animals. Summer features lush green canopies and babbling streams. Autumn covers the forest floor in colorful leaves. Winter transforms the woods into a quiet, snowy wonderland. Each season gets its own special puzzles.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Forest Life Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/fox-forest-life-word-search" className="text-rose hover:underline">Fox Forest Life Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-forest-path-coloring-p" className="text-rose hover:underline">Fox on Forest Path</Link></li>
-            <li><Link href="/coloring/cute-deer-woodland-coloring-pag" className="text-rose hover:underline">Deer in Woodland</Link></li>
-            <li><Link href="/coloring/cute-owl-forest-coloring-page" className="text-rose hover:underline">Owl in Forest</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Fox on Forest Path</Link></li>
+            <li><Link href="/coloring/cute-deer-decorating-a-woodlan" className="text-rose hover:underline">Deer in Woodland</Link></li>
+            <li><Link href="/coloring/owl-cute-owl-reading-a-book-in-a" className="text-rose hover:underline">Owl in Forest</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

@@ -36,7 +36,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Puzzle Difficulty Levels</h2>
           <p className="text-cocoa/75 leading-relaxed mb-4">We offer three difficulty levels so every child can participate. Easy puzzles (ages 4-7) feature 8-10 short, common words with simple horizontal and vertical placements. Medium puzzles (ages 6-10) add more words with diagonal placements. Hard puzzles (ages 8-12) challenge older kids with 15+ words including backward and multi-directional placements.</p>
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Free Word Searches</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/categories/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/word-search" className="text-rose hover:underline">Word Search Hub</Link> for 1000+ puzzles, or check out <Link href="/category/word-search" className="text-rose hover:underline">Word Search Categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Friends & Family Word Search Puzzles Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/fox-friends-family-word-search" className="text-rose hover:underline">Fox Friends & Family Word Search</Link></li>
@@ -47,9 +47,9 @@ export default function BlogPost() {
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-family-scene-coloring" className="text-rose hover:underline">Cute Fox Family Scene</Link></li>
-            <li><Link href="/coloring/cute-bear-family-coloring-page" className="text-rose hover:underline">Cute Bear Family</Link></li>
-            <li><Link href="/coloring/cute-bunny-family-coloring" className="text-rose hover:underline">Cute Bunny Family</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Cute Fox Family Scene</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Cute Bear Family</Link></li>
+            <li><Link href="/coloring/29-cute-bunny-selling-carrots-and" className="text-rose hover:underline">Cute Bunny Family</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

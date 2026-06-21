@@ -51,14 +51,14 @@ export default function BlogPost() {
             <li><Link href="/word-search/fox-rainforest-word-search" className="text-rose hover:underline">Fox Rainforest Word Search</Link></li>
             <li><Link href="/word-search/bunny-desert-word-search" className="text-rose hover:underline">Bunny Desert Word Search</Link></li>
             <li><Link href="/word-search/bear-mountain-word-search" className="text-rose hover:underline">Bear Mountain Word Search</Link></li>
-            <li><Link href="/word-search/penguin-polar-word-search" className="text-rose hover:underline">Penguin Polar Word Search</Link></li>
-            <li><Link href="/word-search/whale-coral-reef-word-search" className="text-rose hover:underline">Whale Coral Reef Word Search</Link></li>
+            <li><Link href="/word-search/polar-bear-friends-family-word-search" className="text-rose hover:underline">Penguin Polar Word Search</Link></li>
+            <li><Link href="/word-search/bunny-coral-reef-word-search" className="text-rose hover:underline">Whale Coral Reef Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/coloring/cute-fox-forest-coloring" className="text-rose hover:underline">Cute Fox Forest Coloring Page</Link></li>
-            <li><Link href="/coloring/cute-owl-reading-coloring-page" className="text-rose hover:underline">Cute Owl Reading Coloring Page</Link></li>
-            <li><Link href="/coloring/cute-bear-reading-coloring" className="text-rose hover:underline">Cute Bear Reading Coloring Page</Link></li>
+            <li><Link href="/coloring/cute-fox-reading-beside-firepl" className="text-rose hover:underline">Cute Fox Forest Coloring Page</Link></li>
+            <li><Link href="/coloring/owl-cute-owl-reading-a-book-in-a" className="text-rose hover:underline">Cute Owl Reading Coloring Page</Link></li>
+            <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Cute Bear Reading Coloring Page</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1600+ free coloring pages and 1200+ word search puzzles at Tiny Animal Worlds — your destination for free, high-quality printable activities for kids!</p>
       </div>
