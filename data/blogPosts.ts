@@ -2055,4 +2055,32 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min read",
   },
 
+  {
+    slug: "homeschool-animal-science-unit-study-printables",
+    title: "Homeschool Animal Science Unit Study: Complete Printable Bundle for Grades K-5",
+    description: "Build a complete animal science unit study with free printable word searches, coloring pages, and vocabulary worksheets. Perfect for homeschool families teaching biology, habitats, and animal classification.",
+    date: "2026-06-22",
+    category: "Homeschool Resources",
+    coverImage: "/images/coloring/5_Cute_bunny_picnic_meadow_color.webp",
+    readTime: "9 min read",
+  },
+  {
+    slug: "printable-word-search-morning-work-elementary-classroom",
+    title: "Printable Word Search Morning Work: Engaging Elementary Classroom Routines That Work",
+    description: "Transform chaotic mornings into focused learning with printable word search morning work. Proven classroom management strategies using themed puzzles that align with elementary curriculum standards.",
+    date: "2026-06-22",
+    category: "Classroom Printables",
+    coverImage: "/images/coloring/36_Cute_hamster_bookstore_colorin.webp",
+    readTime: "8 min read",
+  },
+  {
+    slug: "screen-free-summer-learning-activities-printable-kids",
+    title: "Screen-Free Summer Learning Activities: Printable Bundle That Prevents Summer Slide",
+    description: "Stop the summer slide with 20+ screen-free learning activities! Free printable word searches, coloring pages, and educational games that keep young minds active during school break.",
+    date: "2026-06-22",
+    category: "Educational Printables",
+    coverImage: "/images/coloring/28_Cute_bunny_cottage_coloring_pa.webp",
+    readTime: "8 min read",
+  },
+
 ];
