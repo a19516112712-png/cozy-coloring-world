@@ -41,9 +41,9 @@ export default function BlogPost() {
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/deer-gardening-day-word-search" className="text-rose hover:underline">Duck Enjoying Rainy Pond Day Word Search</Link></li>
             <li><Link href="/word-search/starfish-windmill-farm-word-search" className="text-rose hover:underline">Duck Feeding Fish Word Search</Link></li>
-            <li><Link href="/word-search/duck-fishing-from-small-dock" className="text-rose hover:underline">Duck Fishing From Small Dock Word Search</Link></li>
+            <li><Link href="/word-search/duck-habitats-word-search" className="text-rose hover:underline">Duck Fishing From Small Dock Word Search</Link></li>
             <li><Link href="/word-search/beaver-water-boatman-word-search" className="text-rose hover:underline">Duck Rowing Small Wooden Boat Word Search</Link></li>
-            <li><Link href="/word-search/duck-picnic-beside-lake" className="text-rose hover:underline">Duck Picnic Beside Lake Word Search</Link></li>
+            <li><Link href="/word-search/duck-habitats-word-search" className="text-rose hover:underline">Duck Picnic Beside Lake Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Duck Coloring Pages</h3>
           <ul className="space-y-2 mb-6">

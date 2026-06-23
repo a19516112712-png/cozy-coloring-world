@@ -2083,4 +2083,32 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min read",
   },
 
+  {
+    slug: "classroom-word-search-literacy-centers-elementary",
+    title: "Classroom Word Search Literacy Centers: How to Set Up Engaging Stations for K-5",
+    description: "Transform your elementary literacy centers with free printable word searches. Proven setup strategies, differentiation tips, and ready-to-use animal-themed puzzles that build vocabulary independently.",
+    date: "2026-06-23",
+    category: "Classroom Resources",
+    coverImage: "/images/coloring/36_Cute_hamster_bookstore_colorin.webp",
+    readTime: "9 min read",
+  },
+  {
+    slug: "animal-habitats-science-word-search-homeschool",
+    title: "Animal Habitats Science Word Search: Complete Homeschool Unit for Grades 1-5",
+    description: "Build a complete animal habitats science unit with free printable word searches covering forests, oceans, deserts, and more. Step-by-step homeschool lesson plans with vocabulary activities.",
+    date: "2026-06-23",
+    category: "Homeschool Resources",
+    coverImage: "/images/coloring/48_Cute_frog_mushroom_village_col.webp",
+    readTime: "10 min read",
+  },
+  {
+    slug: "screen-free-road-trip-printable-word-search-family",
+    title: "Screen-Free Road Trip Printable Word Search: 20+ Activities That Keep Kids Entertained",
+    description: "Keep kids engaged on long car rides with 20+ screen-free printable word searches and coloring pages. Packing tips, age-appropriate recommendations, and parent-tested strategies.",
+    date: "2026-06-23",
+    category: "Kids Activities",
+    coverImage: "/images/coloring/5_Cute_bunny_picnic_meadow_color.webp",
+    readTime: "8 min read",
+  },
+
 ];

@@ -39,7 +39,7 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up required. Browse our <Link href="/category/cute-animals" className="text-rose hover:underline">Cute Animals</Link> category for 320+ pages, or explore <Link href="/categories" className="text-rose hover:underline">all categories</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Duck Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
-            <li><Link href="/word-search/duck-feeding-baby-ducklings" className="text-rose hover:underline">Duck Feeding Baby Ducklings Word Search</Link></li>
+            <li><Link href="/word-search/duck-habitats-word-search" className="text-rose hover:underline">Duck Feeding Baby Ducklings Word Search</Link></li>
             <li><Link href="/word-search/squirrel-woodland-animals-word-search" className="text-rose hover:underline">Duck Family Walking Across Woo Word Search</Link></li>
             <li><Link href="/word-search/moose-sleepover-fun-word-search" className="text-rose hover:underline">Magical Cozy Duck Village Over Word Search</Link></li>
             <li><Link href="/word-search/squirrel-cozy-village-easy-word-search" className="text-rose hover:underline">Panoramic Duck Pond Village Word Search</Link></li>

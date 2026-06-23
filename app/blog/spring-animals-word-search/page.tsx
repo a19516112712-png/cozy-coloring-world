@@ -49,7 +49,7 @@ export default function BlogPost() {
           <ul className="space-y-2 mb-6">
             <li><Link href="/coloring/29-cute-bunny-selling-carrots-and" className="text-rose hover:underline">Bunny Spring Meadow</Link></li>
             <li><Link href="/coloring/bold-easy-cute-duckling" className="text-rose hover:underline">Duckling by Pond</Link></li>
-            <li><Link href="/coloring/cute-chick-nest-coloring-page" className="text-rose hover:underline">Chick in Nest</Link></li>
+            <li><Link href="/coloring/cute-frog-fishing-village-colo" className="text-rose hover:underline">Chick in Nest</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

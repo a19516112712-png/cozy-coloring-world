@@ -48,8 +48,8 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/coloring/cute-bear-enjoying-forest-picn" className="text-rose hover:underline">Bear in Cave</Link></li>
-            <li><Link href="/coloring/cute-whale-ocean-coloring-page" className="text-rose hover:underline">Whale in Ocean</Link></li>
-            <li><Link href="/coloring/cute-monkey-jungle-coloring-pag" className="text-rose hover:underline">Monkey in Jungle</Link></li>
+            <li><Link href="/coloring/cute-frog-fishing-village-colo" className="text-rose hover:underline">Whale in Ocean</Link></li>
+            <li><Link href="/coloring/cute-frog-fishing-village-colo" className="text-rose hover:underline">Monkey in Jungle</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

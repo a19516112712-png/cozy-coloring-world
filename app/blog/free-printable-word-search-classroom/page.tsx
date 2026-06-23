@@ -39,9 +39,9 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">All free — no sign-up. Browse <Link href="/word-search" className="text-rose hover:underline">1000+ Word Search Puzzles</Link> and <Link href="/coloring-pages" className="text-rose hover:underline">1600+ Coloring Pages</Link>.</p>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/word-search/bee-school-day-word-search" className="text-rose hover:underline">Fox Classroom Word Search</Link></li>
-            <li><Link href="/word-search/dog-school-day-word-search" className="text-rose hover:underline">Bear Classroom Word Search</Link></li>
+            <li><Link href="/word-search/dog-habitats-word-search" className="text-rose hover:underline">Bear Classroom Word Search</Link></li>
             <li><Link href="/word-search/llama-school-day-word-search" className="text-rose hover:underline">Owl Classroom Word Search</Link></li>
-            <li><Link href="/word-search/puppy-school-day-word-search" className="text-rose hover:underline">Cat Classroom Word Search</Link></li>
+            <li><Link href="/word-search/puppy-breakfast-time-word-search" className="text-rose hover:underline">Cat Classroom Word Search</Link></li>
             <li><Link href="/word-search/bee-school-day-word-search" className="text-rose hover:underline">Bunny Classroom Word Search</Link></li></ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6"><li><Link href="/coloring/cozy-woodland-hobby-room" className="text-rose hover:underline">cute-owl-reading-coloring-page</Link></li>

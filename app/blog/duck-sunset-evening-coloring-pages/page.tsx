@@ -40,8 +40,8 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Duck Word Search Puzzles</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/word-search/zebra-dragonfly-pond-word-search" className="text-rose hover:underline">Duck Enjoying Sunset By Pond Word Search</Link></li>
-            <li><Link href="/word-search/duck-sitting-on-cottage-porch" className="text-rose hover:underline">Duck Sitting On Cottage Porch Word Search</Link></li>
-            <li><Link href="/word-search/duck-reading-beside-lantern" className="text-rose hover:underline">Duck Reading Beside Lantern Word Search</Link></li>
+            <li><Link href="/word-search/duck-habitats-word-search" className="text-rose hover:underline">Duck Sitting On Cottage Porch Word Search</Link></li>
+            <li><Link href="/word-search/duck-habitats-word-search" className="text-rose hover:underline">Duck Reading Beside Lantern Word Search</Link></li>
             <li><Link href="/word-search/zebra-dragonfly-pond-word-search" className="text-rose hover:underline">Duck Reading Book Near Pond Word Search</Link></li>
             <li><Link href="/word-search/jellyfish-willow-tree-word-search" className="text-rose hover:underline">Duck Relaxing Under Willow Tre Word Search</Link></li>
           </ul>
