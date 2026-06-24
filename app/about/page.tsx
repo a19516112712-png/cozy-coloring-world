@@ -5,7 +5,7 @@ import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "About Cozy Coloring World | Free Printable Coloring Pages for Kids & Adults",
-  description: "Learn about Cozy Coloring World — our mission to provide 2000+ free printable coloring pages and word search puzzles. Discover our story, team, values, and commitment to creative learning.",
+  description: "Learn about Cozy Coloring World — our mission to provide 4,300+ free printable coloring pages and word search puzzles. Discover our story, team, values, and commitment to creative learning.",
   path: "/about",
 });
 
@@ -49,6 +49,26 @@ export default function AboutPage() {
             activities accessible to everyone, everywhere, at no cost.
           </p>
 
+          {/* Meet the Creator */}
+          <section className="mb-10 bg-cream/30 rounded-xl p-6 border border-blush/10">
+            <h2 className="text-2xl font-bold text-cocoa mb-4">👋 Meet Sarah — The Creator Behind Cozy Coloring World</h2>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              Hi! I'm Sarah. I'm a mom of two young children, a former elementary teacher, and the person who makes every coloring page and word search on this site.
+            </p>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              I started Cozy Coloring World in 2025 from my kitchen table, late at night after the kids were asleep. I had no business plan, no budget, and no team — just a printer, basic design skills, and a frustration I couldn't shake: every 'free' printable site I visited wanted a subscription, and the actually-free sites had coloring pages my kids didn't want to color.
+            </p>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              The first page I made was a bunny in a meadow with mushrooms and flowers. It wasn't great — the lines were uneven, the proportions were off — but my five-year-old colored it for 45 minutes straight. As any parent knows, 45 minutes of focused, happy, screen-free activity is a miracle. I made five more pages that week. Then ten. Then fifty.
+            </p>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              My children are my quality control team. Every coloring page and word search gets tested with real kids before it goes live. If my kids don't immediately want to use it, I redesign it. If they fight over who gets to use it first, I know I have a winner. This approach — testing everything with real children — has become our unofficial quality standard that no algorithm can replicate.
+            </p>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              Today, Cozy Coloring World offers over <strong>2,000 free printable coloring pages</strong> and more than <strong>2,100 word search puzzles</strong>. But the philosophy hasn't changed: every resource must be something I'd happily hand to my own children. If it's not good enough for my kids, it's not good enough for yours.
+            </p>
+          </section>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-cocoa mb-4">Our Story</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
@@ -65,7 +85,7 @@ export default function AboutPage() {
             </p>
             <p className="text-cocoa/70 leading-relaxed mb-4">
               Today, Cozy Coloring World offers over <strong>2,000 free printable coloring pages</strong> and 
-              more than <strong>1,900 word search puzzles</strong>, with new content added regularly. Our 
+              more than <strong>2,100 word search puzzles</strong>, with new content added regularly. Our 
               library spans dozens of themes — from cute animals and fantasy worlds to seasonal celebrations 
               and educational activities.
             </p>

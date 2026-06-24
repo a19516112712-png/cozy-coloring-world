@@ -180,6 +180,9 @@ export default async function ColoringDetailPage({ params }: Props) {
               <span className={`text-sm font-medium px-3 py-1 rounded-pill ${difficultyColors[page.difficulty]}`}>
                 {page.difficulty}
               </span>
+              <span className="text-sm font-medium px-3 py-1 rounded-pill bg-mint/30 text-cocoa/70 border border-mint/20">
+                👶 {(() => { const ages: Record<string, string> = {"Easy": "Ages 3-6", "Medium": "Ages 5-10", "Hard": "Ages 8+"}; return ages[page.difficulty] || "Ages 4+"; })()}
+              </span>
               {category && (
                 <Link
                   href={`/categories/${category.slug}`}
@@ -200,6 +203,25 @@ export default async function ColoringDetailPage({ params }: Props) {
             <p className="text-lg text-cocoa/70 leading-relaxed mb-6">
               {page.description}. Download this free printable JPG and start coloring today!
             </p>
+
+            
+            {/* Learning Purpose */}
+            <div className="mb-6 p-5 bg-lavender/20 rounded-xl border border-lavender/30">
+              <h2 className="text-lg font-bold text-cocoa mb-2 flex items-center gap-2">
+                <span>📚</span> Learning Purpose
+              </h2>
+              <p className="text-cocoa/70 text-sm leading-relaxed">
+                {(() => {
+                  const purposes: Record<string, string> = {
+                    "Easy": "This coloring page helps young children develop fine motor skills, hand-eye coordination, and color recognition. The bold, simple outlines are designed to build coloring confidence in preschoolers and kindergarteners — a perfect first creative activity for little hands learning pencil grip and control.",
+                    "Medium": "This coloring page supports creative expression while building concentration and attention to detail. Children practice staying within lines, making intentional color choices, and completing a longer project — skills that transfer directly to handwriting, drawing, and other academic tasks.",
+                    "Hard": "This detailed coloring page challenges older children and adults to practice patience, precision, and artistic decision-making. The intricate patterns promote mindfulness, stress reduction, and sustained focus — making it an excellent creative break from screen time and structured academic work.",
+                  };
+                  const diff = page.difficulty || "Medium";
+                  return purposes[diff] || purposes["Medium"];
+                })()}
+              </p>
+            </div>
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-3 mb-8">
@@ -244,6 +266,33 @@ export default async function ColoringDetailPage({ params }: Props) {
                 printer settings.
               </p>
             </div>
+
+            
+            {/* Usage Scenario */}
+            <div className="bg-cream/50 rounded-xl p-5 border border-blush/10 mb-6">
+              <h3 className="text-lg font-semibold text-cocoa mb-3 flex items-center gap-2">
+                <span>🏠</span> Where to Use This Coloring Page
+              </h3>
+              <p className="text-cocoa/70 text-sm leading-relaxed mb-3">
+                {(() => {
+                  const animalName = pageAnimal ? pageAnimal.charAt(0).toUpperCase() + pageAnimal.slice(1) : "Animal";
+                  const scenarios = [
+                    `Perfect for a quiet afternoon at home — print this ${animalName.toLowerCase()} coloring page and set it at the kitchen table with crayons or colored pencils. My own kids will happily color for 30+ minutes with pages like this, giving parents a much-needed break.`,
+                    `Ideal for classroom art centers, early finisher activities, or take-home packets. Teachers tell us these ${animalName.toLowerCase()}-themed pages are among the most requested by their students. Print a class set and use with any coloring supplies you have on hand.`,
+                    `Great for travel and waiting rooms — keep a few printed copies in your bag for restaurants, doctor's appointments, or long car rides. No batteries, no WiFi, no screen-time negotiations. Just a paper and colors.`,
+                    `Wonderful for multi-age groups — younger children enjoy the bold shapes while older kids and adults can add shading, patterns, and creative color combinations. A single printed page can engage a 4-year-old and a 10-year-old simultaneously.`,
+                  ];
+                  // Deterministic selection based on slug
+                  let hash = 0;
+                  for (let i = 0; i < (page.slug?.length || 0); i++) {
+                    hash = ((hash << 5) - hash) + (page.slug?.charCodeAt(i) || 0);
+                    hash |= 0;
+                  }
+                  return scenarios[Math.abs(hash) % scenarios.length];
+                })()}
+              </p>
+            </div>
+
 
             {/* Amazon Book Promo */}
             <AmazonBookPromo className="mb-10" categoryId={page.category} />

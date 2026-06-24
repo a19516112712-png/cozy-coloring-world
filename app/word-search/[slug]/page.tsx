@@ -64,6 +64,62 @@ const animalEmojis: Record<string, string> = {
   elephant: "🐘", monkey: "🐵", giraffe: "🦒", zebra: "🦓",
 };
 
+
+// Helper: generate unique learning goal per puzzle
+function generateLearningGoal(animal: string, theme: string, difficulty: string, wordCount: number, ageRange: string, slug: string): string {
+  const animalName = animal.charAt(0).toUpperCase() + animal.slice(1);
+  const goals: Record<string, string[]> = {
+    "Easy": [
+      `Students will identify and circle ${wordCount} ${animalName.toLowerCase()}-related words, building early literacy skills and letter recognition confidence for ages ${ageRange}.`,
+      `Young learners will practice visual letter discrimination by finding ${wordCount} simple ${animalName.toLowerCase()} vocabulary words in a beginner-friendly grid designed for ages ${ageRange}.`,
+      `Children will develop foundational word recognition skills by locating ${wordCount} ${animalName.toLowerCase()}-themed words, suitable for independent work at ages ${ageRange}.`,
+    ],
+    "Medium": [
+      `Learners will strengthen spelling and vocabulary by searching for ${wordCount} ${animalName.toLowerCase()}-related words including horizontal, vertical, and diagonal placements. Designed to challenge students ages ${ageRange}.`,
+      `Students will expand their ${animalName.toLowerCase()} vocabulary knowledge by identifying ${wordCount} themed words across multiple directions — building reading fluency and spelling accuracy for ages ${ageRange}.`,
+      `Children will apply pattern recognition strategies to locate ${wordCount} ${animalName.toLowerCase()} vocabulary words, reinforcing both spelling and concentration skills at the ${ageRange} level.`,
+    ],
+    "Hard": [
+      `Advanced learners will master ${wordCount} challenging ${animalName.toLowerCase()}-related vocabulary words with backward, diagonal, and multi-directional placements — building advanced spelling proficiency for ages ${ageRange}.`,
+      `Students will demonstrate advanced visual scanning and vocabulary mastery by finding ${wordCount} ${animalName.toLowerCase()}-themed words in a complex multi-directional grid designed for confident readers ages ${ageRange}.`,
+      `Learners will strengthen upper-elementary vocabulary skills by tackling ${wordCount} ${animalName.toLowerCase()} words with challenging letter arrangements — an excellent assessment-ready activity for ages ${ageRange}.`,
+    ],
+  };
+  const pool = goals[difficulty] || goals["Easy"];
+  // Deterministic selection based on slug hash
+  let hash = 0;
+  for (let i = 0; i < (slug?.length || 0); i++) {
+    hash = ((hash << 5) - hash) + (slug?.charCodeAt(i) || 0);
+    hash |= 0;
+  }
+  return pool[Math.abs(hash) % pool.length];
+}
+
+// Helper: generate teacher note per puzzle
+function generateTeacherNote(animal: string, theme: string, difficulty: string, wordCount: number): string {
+  const animalName = animal.charAt(0).toUpperCase() + animal.slice(1);
+  const themeDesc = theme.replace(/-/g, " ");
+  if (difficulty === "Easy") {
+    return `This ${animalName.toLowerCase()} ${themeDesc} word search is ideal for morning warm-ups, literacy centers, and early finisher activities in K-1 classrooms. The ${wordCount}-word format with large-print letters keeps young learners engaged without overwhelming them. For best results, pair this puzzle with a read-aloud about ${animalName.toLowerCase()}s or a related science lesson on animal habitats. Students benefit from first hearing the vocabulary in context before searching for the words independently.`;
+  } else if (difficulty === "Medium") {
+    return `This ${animalName.toLowerCase()} ${themeDesc} puzzle works exceptionally well for grades 2-3 literacy stations, homework packets, and small group vocabulary instruction. With ${wordCount} words across multiple directions, students practice both spelling and persistence. Differentiate by allowing partners to work together on harder words, or challenge advanced students to write a sentence using each word after finding it. Great for connecting to science units on ${animalName.toLowerCase()}s and their ecosystems.`;
+  } else {
+    return `This challenging ${animalName.toLowerCase()} ${themeDesc} word search is designed for grades 3-5 students ready for multi-directional vocabulary work. The ${wordCount}-word format with backward and diagonal placements makes it perfect for gifted enrichment, test-prep vocabulary review, and upper-elementary literacy centers. Consider using it as an optional challenge activity — students feel genuine pride completing these harder puzzles. Excellent for building the persistence and focus skills essential for standardized testing success.`;
+  }
+}
+
+// Helper: generate how-to-use steps per puzzle
+function generateHowToUse(animal: string, difficulty: string, ageRange: string): Array<{step: number, title: string, desc: string}> {
+  const animalName = animal.charAt(0).toUpperCase() + animal.slice(1);
+  return [
+    { step: 1, title: "Preview the Words Together", desc: `Before searching, read through all ${animalName.toLowerCase()}-themed vocabulary words aloud. Discuss any unfamiliar terms — this preview step significantly boosts comprehension and success rate for ages ${ageRange}.` },
+    { step: 2, title: "Print at the Right Size", desc: "Use standard letter paper (8.5x11) or A4. Select 'Fit to Page' in your print settings for optimal sizing. For classroom reuse, print on cardstock and slip into sheet protectors — students can use dry-erase markers and puzzles last for years." },
+    { step: 3, title: difficulty === "Easy" ? "Start with Horizontal Words" : "Scan Methodically", desc: difficulty === "Easy" ? `Encourage children to scan left-to-right first for horizontal words, then top-to-bottom for vertical ones. This structured approach helps young learners ages ${ageRange} build systematic search skills.` : `Teach students to scan row by row, looking for the first letter of each target word. For diagonal and backward words, suggest starting from the last letter and working backwards — a technique that builds advanced visual processing skills.` },
+    { step: 4, title: "Celebrate Every Find", desc: `Each circled word is a small victory! For classroom use, consider letting students put a sticker next to each found word. The positive reinforcement builds confidence and encourages persistence through harder words in the ${difficulty.toLowerCase()} level puzzle.` },
+    { step: 5, title: "Extend the Learning", desc: `After completing the puzzle, challenge students to write a short story using 3-5 words from the word list. Or have them draw a picture of a ${animalName.toLowerCase()} in its habitat — connecting vocabulary to creative expression deepens retention and makes learning memorable.` },
+  ];
+}
+
 export default async function WordSearchPage({ params }: Props) {
   const { slug } = await params;
   const ws = wordSearches.find((w) => w.slug === slug);
@@ -101,6 +157,10 @@ export default async function WordSearchPage({ params }: Props) {
     { icon: "😊", title: "Confidence Boost", desc: "Finding each word gives kids a sense of accomplishment and builds self-esteem." },
     { icon: "👀", title: "Visual Discrimination", desc: "Distinguishing similar letters and patterns develops crucial early reading skills." },
   ];
+
+  
+  const teacherNote = generateTeacherNote(ws.animal, ws.theme, ws.difficulty, ws.wordCount);
+  const howToUseSteps = generateHowToUse(ws.animal, ws.difficulty, ws.ageRange);
 
   return (
     <>
@@ -148,6 +208,16 @@ export default async function WordSearchPage({ params }: Props) {
                 <p className="text-cocoa/60 text-lg leading-relaxed max-w-2xl">
                   {ws.description}
                 </p>
+              {/* Learning Goal */}
+              <div className="mb-6 p-5 bg-mint/20 rounded-xl border border-mint/30">
+                <h2 className="text-lg font-bold text-cocoa mb-2 flex items-center gap-2">
+                  <span>🎯</span> Learning Goal
+                </h2>
+                <p className="text-cocoa/70 text-sm leading-relaxed">
+                  {generateLearningGoal(ws.animal, ws.theme, ws.difficulty, ws.wordCount, ws.ageRange, ws.slug)}
+                </p>
+              </div>
+
               </div>
 
               {/* Ad Banner */}
@@ -203,7 +273,18 @@ export default async function WordSearchPage({ params }: Props) {
                   <h3 className="font-semibold text-cocoa mb-3 flex items-center gap-2">
                     <span>📝</span> Words to Find
                   </h3>
-                  <div className="flex flex-wrap gap-2">
+                  
+              {/* Teacher Note */}
+              <div className="mb-8 p-5 bg-lavender/20 rounded-xl border border-lavender/30">
+                <h2 className="text-lg font-bold text-cocoa mb-2 flex items-center gap-2">
+                  <span>🍎</span> Teacher Note
+                </h2>
+                <p className="text-cocoa/70 text-sm leading-relaxed">
+                  {teacherNote}
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-2">
                     {ws.wordList.map((word: string) => (
                       <span key={word} className="px-3 py-1 bg-white border border-blush/20 rounded-full text-sm font-medium text-cocoa capitalize">
                         {word}
@@ -215,50 +296,34 @@ export default async function WordSearchPage({ params }: Props) {
 
               {/* Educational Benefits */}
               <div className="bg-white rounded-cozy border border-blush/20 p-6 shadow-card mb-8">
-                <h2 className="text-xl font-bold text-cocoa mb-4 flex items-center gap-2">
-                  <span>🎓</span> Educational Benefits
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {educationalBenefits.map((benefit) => (
-                    <div key={benefit.title} className="flex gap-3 p-3 bg-cream/30 rounded-xl">
-                      <span className="text-2xl flex-shrink-0">{benefit.icon}</span>
-                      <div>
-                        <h4 className="font-semibold text-cocoa text-sm">{benefit.title}</h4>
-                        <p className="text-xs text-cocoa/60 mt-0.5">{benefit.desc}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Print Instructions */}
+                {/* How to Use + Print Instructions */}
               <div className="bg-white rounded-cozy border border-blush/20 p-6 shadow-card mb-8">
                 <h2 className="text-xl font-bold text-cocoa mb-4 flex items-center gap-2">
-                  <span>🖨️</span> Print Instructions
+                  <span>📋</span> How to Use This {animalName} Word Search
                 </h2>
-                <ol className="space-y-3">
-                  <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 bg-rose/10 text-rose rounded-full flex items-center justify-center text-xs font-bold">1</span>
-                    <div>
-                      <p className="text-sm font-medium text-cocoa">Open Print Dialog</p>
-                      <p className="text-xs text-cocoa/60">Press Ctrl+P (Windows) or Cmd+P (Mac) to open your browser print dialog.</p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 bg-rose/10 text-rose rounded-full flex items-center justify-center text-xs font-bold">2</span>
-                    <div>
-                      <p className="text-sm font-medium text-cocoa">Select Printer Settings</p>
-                      <p className="text-xs text-cocoa/60">Choose Fit to Page or Scale to Fit for best results. Select portrait orientation.</p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 bg-rose/10 text-rose rounded-full flex items-center justify-center text-xs font-bold">3</span>
-                    <div>
-                      <p className="text-sm font-medium text-cocoa">Print and Enjoy!</p>
-                      <p className="text-xs text-cocoa/60">Use standard 8.5x11 letter paper or A4. Cardstock recommended for classroom reuse.</p>
-                    </div>
-                  </li>
+                <ol className="space-y-4">
+                  {howToUseSteps.map((s) => (
+                    <li key={s.step} className="flex gap-3">
+                      <span className="flex-shrink-0 w-6 h-6 bg-rose/10 text-rose rounded-full flex items-center justify-center text-xs font-bold">{s.step}</span>
+                      <div>
+                        <p className="text-sm font-medium text-cocoa">{s.title}</p>
+                        <p className="text-xs text-cocoa/60 mt-0.5">{s.desc}</p>
+                      </div>
+                    </li>
+                  ))}
                 </ol>
+                <div className="mt-6 pt-6 border-t border-blush/10">
+                  <h3 className="text-sm font-semibold text-cocoa mb-3 flex items-center gap-2">
+                    <span>🖨️</span> Print Settings
+                  </h3>
+                  <ul className="space-y-2 text-xs text-cocoa/60">
+                    <li>• Use standard 8.5"x11" letter paper or A4</li>
+                    <li>• Select <strong>Fit to Page</strong> in your print dialog</li>
+                    <li>• Choose <strong>Portrait</strong> orientation for best fit</li>
+                    <li>• Cardstock recommended for classroom reuse</li>
+                  </ul>
+                </div>
+              </div>
               </div>
 
               {/* FAQ */}
