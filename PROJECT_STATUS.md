@@ -1,7 +1,7 @@
 # PROJECT STATUS
-> **Last Updated**: 2026/06/25 CST
-| **Pages** | 2030 | **Word Search** | 2100 | **Blogs** | 259 | **Pins** | 290 | **Build** | ✅ |
-| **Deploy** | Static Export (Cloudflare Pages) | **Images** | WebP optimized | **Output** | `out/` |
-| **Latest** | +3 first-person blogs (AdSense v3.3 sprint) — evening coloring routine, year-in-review founder story, kindergarten teacher fine motor skills. WS/coloring templates already upgraded from v3.2.
-| **Recent blogs** | my-evening-wind-down-routine-with-coloring-pages, what-i-learned-from-a-year-of-free-educational-content, how-kindergarten-teacher-uses-printables-fine-motor-skills
-| **Recent word search** | puppy-breakfast-time-word-search, kitten-teddy-bear-picnic-word-search, bunny-moon-magic-word-search
+> **Last Updated**: 2026/06/26 CST
+| **Pages** | 2030 | **Word Search** | 2100 | **Blogs** | 267 | **Pins** | 290 | **Build** | ✅ |
+| **Deploy** | Static Export (Cloudflare Pages) | **Images** | WebP optimized | **Output** |  |
+| **Latest** | +3 first-person blogs (homeschool planning system, classroom puzzle tradition, teacher burnout story) + 10 WS descriptions enhanced + 10 coloring long descriptions enhanced
+| **Recent blogs** | how-i-plan-homeschool-week-free-printables, classroom-puzzle-of-the-day-tradition, from-teacher-burnout-to-balance-printables
+| **Recent word search** | fox-adventure-quest-word-search, bunny-garden-friends-word-search, bear-cozy-village-word-search

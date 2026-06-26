@@ -2231,4 +2231,32 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
   },
 
+  {
+    slug: "how-i-plan-homeschool-week-free-printables",
+    title: "How I Plan a Week of Homeschool Lessons Using Only Free Printables: A Real Mom's Planning System",
+    description: "I plan an entire week of homeschool lessons for two kids using nothing but free printable worksheets, word searches, and coloring pages. Here's my exact planning system, the resources I use, and how much time it actually takes.",
+    date: "2026-06-26",
+    category: "Homeschool Resources",
+    coverImage: "/images/coloring/48_Cute_frog_mushroom_village_col.webp",
+    readTime: "10 min read",
+  },
+  {
+    slug: "classroom-puzzle-of-the-day-tradition",
+    title: "What Happened When I Started a Classroom 'Puzzle of the Day' Tradition: One Teacher's Year-Long Experiment",
+    description: "I started putting a fresh word search or coloring page on each student's desk every morning. A year later, I can tell you exactly how it changed attendance, behavior, and the entire classroom culture.",
+    date: "2026-06-26",
+    category: "Classroom Resources",
+    coverImage: "/images/coloring/36_Cute_hamster_bookstore_colorin.webp",
+    readTime: "9 min read",
+  },
+  {
+    slug: "from-teacher-burnout-to-balance-printables",
+    title: "From Teacher Burnout to Balance: How Simple Printables Helped Me Rediscover the Joy of Teaching",
+    description: "After 15 years in the classroom, I was ready to quit. Excessive screen time, endless grading, and constant pressure had drained every ounce of joy from teaching. Then I made one small change that changed everything.",
+    date: "2026-06-26",
+    category: "Classroom Resources",
+    coverImage: "/images/coloring/5_Cute_bunny_picnic_meadow_color.webp",
+    readTime: "10 min read",
+  },
+
 ];

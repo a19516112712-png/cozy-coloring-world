@@ -2158,7 +2158,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Squirrel Village Square C illustration! The design features an adorable squirrel in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A cheerful squirrel gathering acorns in a charming village square with cobblestone paths, tiny market stalls, flowering window boxes, and friendly woodland neighbors. This easy-difficulty page for ages 3-6 features bold, simple outlines that young children can color with confidence. The squirrel theme connects naturally with autumn activities, discussions about how animals prepare for winter, and nature walks to observe local wildlife. Young children find squirrels especially relatable — they are small, busy, and love collecting things, which mirrors preschoolers\' own collecting behaviors. An ideal choice for introducing coloring to toddlers and early preschoolers.',
 
 
 
@@ -2270,7 +2270,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Bunny Cottage illustration! The design features an adorable bunny in a cozy cottage setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A cozy bunny cottage nestled among flowers with charming architectural details — shutters, a welcoming front door, a stone chimney, and a flowering garden path. This medium-difficulty coloring page for ages 5-10 encourages creative storytelling as children color each detail. I designed this after my daughter asked for \'a house where a bunny family lives.\' Teachers pair this page with creative writing prompts: \'Who lives in the cottage? What are they doing inside?\' The combination of natural garden elements and architectural details provides varied coloring challenges for developing fine motor control. Perfect for spring units, cottagecore themes, or quiet afternoon coloring.',
 
 
 
@@ -2942,7 +2942,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Unicorn Fairy Forest Colo illustration! Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A magical unicorn with flowing mane and tail wandering through an enchanted forest filled with glowing mushrooms, twinkling fairy lights, and delicate woodland flowers. This hard-difficulty page for ages 8+ captivates children who love fantasy and detailed artwork. The intricate background — layered trees, individual leaves, tiny magical sparkles — challenges older children to build sustained attention and develop patience with complex coloring projects. Unicorn themes consistently appeal across ages 6-12, making this one of our most-requested fantasy pages. Excellent for creative writing connections or as an engaging reward activity.',
 
 
 
@@ -3054,7 +3054,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Penguin Winter Wonderland illustration! The design features an adorable penguin in a cozy winter setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'An adorable penguin waddling through a sparkling winter wonderland with snowflakes, ice formations, and distant snowy mountains. This medium-difficulty coloring page for ages 5-10 connects naturally with winter science units about polar animals and arctic habitats. The contrasting textures — smooth ice surfaces, fluffy snow banks, layered penguin feathers — provide varied coloring experiences that build fine motor discrimination. Teachers frequently request more penguin content because children are genuinely fascinated by these flightless birds. Consider pairing this page with a nonfiction read-aloud about penguins for a complete winter-themed learning activity.',
 
 
 
@@ -3110,7 +3110,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Bear Winter Cabin Colorin illustration! The design features an adorable bear in a cozy winter setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A cozy brown bear relaxing in a warm winter cabin while gentle snow falls outside frost-framed windows. Inside, the bear enjoys a crackling fireplace, a steaming mug, woven rugs, pinecone decorations, and comfortable wooden furniture. This medium-difficulty page for ages 5-10 creates a beautiful contrast between warm indoor comfort and cold outdoor scenery. The cabin interior details offer rich opportunities for creative color choices while the snowy window view adds seasonal atmosphere. This page is especially popular during winter months and pairs wonderfully with nonfiction read-alouds about hibernation, bear behavior, and how different animals survive cold weather.',
 
 
 
@@ -3222,7 +3222,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Hamster Bookstore Colorin illustration! The design features an adorable hamster in a cozy bookstore setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A book-loving hamster surrounded by towering bookshelves in a tiny, cozy bookstore filled with miniature books, a comfortable reading nook, a glowing lamp, and charming literary details. This hard-difficulty page for ages 8+ rewards patient colorers with countless tiny elements to discover. This page is particularly popular with children who love reading — the bookstore theme makes it a perfect reward after library visits, completing a chapter book, or during a classroom reading celebration. The detailed background encourages children to slow down and notice small details, building the same close observation skills that support reading comprehension.',
 
 
 
@@ -4286,7 +4286,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Frog Mushroom Village Col illustration! The design features an adorable frog in a cozy village setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A whimsical frog village featuring mushroom-shaped houses, winding paths, tiny lily pad bridges, and a peaceful pond surrounded by cattails and blooming flowers. This medium-difficulty coloring page for ages 5-10 combines nature study with imaginative storytelling. I designed this after my children became fascinated by the frogs living in our backyard pond. The mushroom house details — circular doors, curved roofs, spotted caps — delight children who love fairy-tale settings. This page works wonderfully alongside science units on amphibians, pond ecosystems, and wetland habitats.',
 
 
 
@@ -4566,7 +4566,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Mouse Tea Garden illustration! The design features an adorable mouse in a cozy tea setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A dainty mouse in a floral dress hosting an elegant tea party in a blooming garden with delicate teacups, a steaming teapot, tiered cake stands, butterflies, and climbing roses. This medium-difficulty page for ages 5-10 features charming details that reward close attention — tiny floral patterns on the teacups, individual petals on the roses, and dappled garden light effects. The tea party theme resonates especially with children who enjoy imaginative social play and storytelling. This page creates a naturally calm, focused atmosphere — perfect for quiet afternoon coloring after active play or as a wind-down activity.',
 
 
 
@@ -5070,7 +5070,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Bunny Picnic Meadow Color illustration! The design features an adorable bunny in a cozy picnic setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A sweet bunny enjoying a picnic blanket spread in a sunny meadow surrounded by daisies, butterflies, and gently rolling hills. This easy-difficulty coloring page is specially designed for ages 3-6 who are just beginning to develop fine motor skills. The bold, simple outlines and ample coloring spaces make the experience satisfying rather than frustrating for young children. My own kindergartner has colored this page at least a dozen times and still reaches for it first. Teachers report using this as a spring-themed art center activity because it is accessible enough for independent work yet engaging enough to hold attention for 15-20 minutes.',
 
 
 
@@ -5462,7 +5462,7 @@ export const coloringPages: ColoringPage[] = [
 
 
 
-    longDescription: 'Enjoy coloring this charming Cute Cat Cupcake Bakery Colori illustration! The design features an adorable cat in a cozy cupcake setting with delightful details throughout. Clear, bold outlines make this coloring page work beautifully with crayons, colored pencils, markers, or gel pens. Download the free JPG, print as many copies as you want, and bring this cute scene to life with your favorite colors! Perfect for cozy coloring time at home, in the classroom, or as a relaxing creative activity for all ages.',
+    longDescription: 'A fluffy cat with a chef hat decorating colorful cupcakes in a cozy bakery filled with cake stands, mixing bowls, frosting piping bags, and trays of fresh pastries. This medium-difficulty page appeals broadly to ages 5-10 who enjoy food-themed coloring and creative detail work. The bakery elements — swirls of frosting, sprinkle patterns, tiered displays — provide satisfying practice for children developing pencil control and color selection skills. This page consistently ranks among our most popular — something about the combination of a cute cat and a cupcake bakery is irresistible to young artists. Parents tell me this page inspired their children to try real baking.',
 
 
 
