@@ -10,7 +10,7 @@ const links = [
   { href: "/how-we-create-content", label: "How We Create Content" },
   { href: "/educational-purpose", label: "Educational Purpose" },
   { href: "/editorial-policy", label: "Editorial Policy" },
-  { href: "/privacy", label: "Privacy Policy" },
+  { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/cookie-policy", label: "Cookie Policy" },
   { href: "/terms", label: "Terms of Use" },
   { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },

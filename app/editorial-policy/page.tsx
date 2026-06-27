@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import LegalNav from "@/components/LegalNav";
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -70,6 +71,8 @@ export default function EditorialPolicyPage() {
             </p>
           </section>
         </div>
+
+        <LegalNav />
 
         <div className="mt-12 p-6 bg-cream rounded-xl border border-blush/20">
           <h3 className="font-semibold text-cocoa mb-2">📧 Have Feedback?</h3>

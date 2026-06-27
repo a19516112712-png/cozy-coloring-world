@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import LegalNav from "@/components/LegalNav";
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -169,6 +170,8 @@ export default function CookiePolicyPage() {
               </li>
             </ul>
           </section>
+
+          <LegalNav />
         </div>
       </div>
     </div>
