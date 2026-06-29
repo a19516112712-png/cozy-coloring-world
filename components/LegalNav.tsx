@@ -12,7 +12,7 @@ const links = [
   { href: "/editorial-policy", label: "Editorial Policy" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/cookie-policy", label: "Cookie Policy" },
-  { href: "/terms", label: "Terms of Use" },
+  { href: "/terms-of-service", label: "Terms of Service" },
   { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
 ];
 
