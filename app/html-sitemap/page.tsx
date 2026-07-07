@@ -63,7 +63,7 @@ export default function HtmlSitemapPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
             {categories.map((cat) => (
-              <Link key={cat.id} href={`/categories/${cat.slug}`} className="flex items-center gap-2 text-sm text-cocoa/70 hover:text-rose transition-colors py-1">
+              <Link key={cat.id} href={`/category/${cat.slug}`} className="flex items-center gap-2 text-sm text-cocoa/70 hover:text-rose transition-colors py-1">
                 <span>{cat.emoji}</span>
                 <span>{cat.name}</span>
                 <span className="text-xs text-cocoa/30">({cat.count})</span>

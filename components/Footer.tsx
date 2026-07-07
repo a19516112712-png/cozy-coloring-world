@@ -4,9 +4,9 @@ const footerLinks = {
   "Coloring Pages": [
     { href: "/categories", label: "All Categories" },
     { href: "/coloring-pages", label: "All Coloring Pages" },
-    { href: "/categories/cute-animals", label: "Cute Animals" },
-    { href: "/categories/cottagecore-coloring", label: "Cottagecore" },
-    { href: "/categories/cozy-coloring", label: "Cozy Scenes" },
+    { href: "/category/cute-animals", label: "Cute Animals" },
+    { href: "/category/cottagecore-coloring", label: "Cottagecore" },
+    { href: "/category/cozy-coloring", label: "Cozy Scenes" },
   ],
   "Word Search": [
     { href: "/word-search", label: "All Word Searches" },

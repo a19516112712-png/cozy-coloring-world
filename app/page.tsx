@@ -181,7 +181,7 @@ export default function HomePage() {
           {categories.map((cat) => (
             <Link
               key={cat.id}
-              href={`/categories/${cat.slug}`}
+              href={`/category/${cat.slug}`}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-blush/20 rounded-full text-xs sm:text-sm text-cocoa/70 hover:text-rose hover:border-rose hover:bg-blush/10 transition-all"
             >
               <span>{cat.emoji}</span>
@@ -428,7 +428,7 @@ export default function HomePage() {
             {categories.slice(0, 8).map((cat) => (
               <Link
                 key={cat.id}
-                href={`/categories/${cat.slug}`}
+                href={`/category/${cat.slug}`}
                 className="inline-flex items-center gap-1 px-3 py-1.5 bg-cream border border-blush/20 rounded-full text-xs text-cocoa/70 hover:text-rose hover:border-rose transition-all"
               >
                 {cat.emoji} {cat.name}
@@ -496,7 +496,7 @@ export default function HomePage() {
             <ul className="space-y-1.5">
               {categories.slice(0, 5).map((cat) => (
                 <li key={cat.id}>
-                  <Link href={`/categories/${cat.slug}`} className="text-xs text-cocoa/60 hover:text-rose transition-colors">
+                  <Link href={`/category/${cat.slug}`} className="text-xs text-cocoa/60 hover:text-rose transition-colors">
                     {cat.emoji} {cat.name}
                   </Link>
                 </li>

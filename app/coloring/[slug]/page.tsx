@@ -109,7 +109,7 @@ export default async function ColoringDetailPage({ params }: Props) {
     { name: "Coloring Pages", url: `${baseUrl}/coloring-pages` },
   ];
   if (category) {
-    breadcrumbItems.push({ name: category.name, url: `${baseUrl}/categories/${category.slug}` });
+    breadcrumbItems.push({ name: category.name, url: `${baseUrl}/category/${category.slug}` });
   }
   breadcrumbItems.push({ name: page.title, url: `${baseUrl}/coloring/${page.slug}` });
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems);
@@ -144,7 +144,7 @@ export default async function ColoringDetailPage({ params }: Props) {
           {category && (
             <>
               <span className="mx-2 text-cocoa/30">/</span>
-              <Link href={`/categories/${category.slug}`} className="text-rose hover:underline">
+              <Link href={`/category/${category.slug}`} className="text-rose hover:underline">
                 {category.name}
               </Link>
             </>
@@ -185,7 +185,7 @@ export default async function ColoringDetailPage({ params }: Props) {
               </span>
               {category && (
                 <Link
-                  href={`/categories/${category.slug}`}
+                  href={`/category/${category.slug}`}
                   className="text-sm font-medium px-3 py-1 rounded-pill bg-cream border border-blush/30 text-cocoa/70 hover:text-rose hover:border-rose transition-colors"
                 >
                   {category.emoji} {category.name}
@@ -438,7 +438,7 @@ export default async function ColoringDetailPage({ params }: Props) {
                   {categories.map((cat) => (
                     <Link
                       key={cat.id}
-                      href={`/categories/${cat.slug}`}
+                      href={`/category/${cat.slug}`}
                       className="flex items-center gap-3 p-2.5 rounded-xl hover:bg-cream transition-colors group"
                     >
                       <span className="text-xl">{cat.emoji}</span>
