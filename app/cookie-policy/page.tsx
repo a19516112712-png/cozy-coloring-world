@@ -161,7 +161,7 @@ export default function CookiePolicyPage() {
                 <span className="text-cocoa/60"> — Full privacy practices</span>
               </li>
               <li>
-                <Link href="/terms" className="text-rose hover:underline">Terms of Use</Link>
+                <Link href="/terms-of-service" className="text-rose hover:underline">Terms of Use</Link>
                 <span className="text-cocoa/60"> — Site usage terms</span>
               </li>
               <li>
@@ -171,7 +171,17 @@ export default function CookiePolicyPage() {
             </ul>
           </section>
 
-          <LegalNav />
+          <section className="mb-10">
+            <h2 className="text-xl font-semibold text-cocoa">Related Policies</h2>
+            <ul className="space-y-2 text-cocoa/70 mt-3">
+              <li><Link href="/privacy-policy" className="text-rose hover:underline">Privacy Policy</Link> — Full privacy practices</li>
+              <li><Link href="/terms-of-service" className="text-rose hover:underline">Terms of Service</Link> — Complete terms and conditions</li>
+              <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Learn who we are</li>
+              <li><Link href="/contact" className="text-rose hover:underline">Contact</Link> — Get in touch</li>
+            </ul>
+          </section>
+
+          <LegalNav current="/cookie-policy" />
         </div>
       </div>
     </div>

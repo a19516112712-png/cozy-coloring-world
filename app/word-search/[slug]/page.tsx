@@ -13,6 +13,7 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export const dynamicParams = false;
 export function generateStaticParams() {
   return wordSearches.map((ws) => ({ slug: ws.slug }));
 }
@@ -149,14 +150,6 @@ export default async function WordSearchPage({ params }: Props) {
     { name: ws.title, url: `${baseUrl}/word-search/${ws.slug}` },
   ]);
 
-  const educationalBenefits = [
-    { icon: "🧠", title: "Cognitive Skills", desc: "Word searches strengthen pattern recognition, visual scanning, and problem-solving abilities." },
-    { icon: "📝", title: "Vocabulary Building", desc: `Kids learn and reinforce ${animalName.toLowerCase()}-related vocabulary while having fun.` },
-    { icon: "🔤", title: "Spelling Practice", desc: "Searching for correctly spelled words reinforces proper spelling through repeated exposure." },
-    { icon: "🎯", title: "Focus & Concentration", desc: "Completing a word search requires sustained attention, helping build concentration skills." },
-    { icon: "😊", title: "Confidence Boost", desc: "Finding each word gives kids a sense of accomplishment and builds self-esteem." },
-    { icon: "👀", title: "Visual Discrimination", desc: "Distinguishing similar letters and patterns develops crucial early reading skills." },
-  ];
 
   
   const teacherNote = generateTeacherNote(ws.animal, ws.theme, ws.difficulty, ws.wordCount);

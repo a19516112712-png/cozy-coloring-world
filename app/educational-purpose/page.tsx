@@ -67,6 +67,17 @@ export default function EducationalPurposePage() {
           <p className="text-cocoa/70 leading-relaxed mb-4">Learn more about <Link href="/how-we-create-content" className="text-rose hover:underline">how we create our content</Link> or <Link href="/about" className="text-rose hover:underline">read our full story</Link>.</p>
         </section>
 
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-cocoa mb-4">Related Pages</h2>
+          <ul className="space-y-2 text-cocoa/70">
+            <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Our story and mission</li>
+            <li><Link href="/how-we-create-content" className="text-rose hover:underline">How We Create Content</Link> — Our quality process</li>
+            <li><Link href="/editorial-policy" className="text-rose hover:underline">Editorial Policy</Link> — Content standards</li>
+            <li><Link href="/privacy-policy" className="text-rose hover:underline">Privacy Policy</Link> — How we protect your data</li>
+            <li><Link href="/contact" className="text-rose hover:underline">Contact</Link> — Get in touch</li>
+          </ul>
+        </section>
+
         <LegalNav />
       </div>
     </div>

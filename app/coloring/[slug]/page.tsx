@@ -15,6 +15,7 @@ import { categories } from "@/data/categories";
 interface Props {
   params: Promise<{ slug: string }>;
 }
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return coloringPages.map((page) => ({ slug: page.slug }));

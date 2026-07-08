@@ -6,7 +6,7 @@ import { generatePageMetadata } from "@/lib/seo";
 export const metadata: Metadata = generatePageMetadata({
   title: "Privacy Policy | Cozy Coloring World",
   description: "Privacy Policy for Cozy Coloring World. Learn how we collect, use, and protect your personal information when you visit our free printable coloring pages website.",
-  path: "/privacy",
+  path: "/privacy-policy",
 });
 
 export default function PrivacyPage() {
@@ -230,7 +230,17 @@ export default function PrivacyPage() {
           </section>
         </div>
 
-        <LegalNav current="/privacy" />
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold text-cocoa">Related Policies</h2>
+          <ul className="space-y-2 text-cocoa/70 mt-3">
+            <li><Link href="/cookie-policy" className="text-rose hover:underline">Cookie Policy</Link> — Details about cookies we use</li>
+            <li><Link href="/terms" className="text-rose hover:underline">Terms of Use</Link> — Rules for using our site</li>
+            <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Learn who we are</li>
+            <li><Link href="/contact" className="text-rose hover:underline">Contact</Link> — Get in touch</li>
+          </ul>
+        </section>
+
+        <LegalNav current="/privacy-policy" />
       </div>
     </div>
   );

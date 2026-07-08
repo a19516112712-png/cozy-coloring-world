@@ -41,13 +41,18 @@ export default function HtmlSitemapPage() {
               { label: "🏷️ Categories", href: "/categories" },
               { label: "📚 Collections", href: "/collections" },
               { label: "📝 Blog", href: "/blog" },
-              { label: "📌 Pinterest", href: "/collections" },
+              { label: "📌 Pinterest", href: "https://www.pinterest.com/tinyanimalworlds" },
               { label: "ℹ️ About", href: "/about" },
               { label: "📧 Contact", href: "/contact" },
-              { label: "🔒 Privacy", href: "/privacy" },
+              { label: "🔒 Privacy", href: "/privacy-policy" },
               { label: "📜 Terms", href: "/terms" },
               { label: "📋 Editorial Policy", href: "/editorial-policy" },
               { label: "🗺️ HTML Sitemap", href: "/html-sitemap" },
+              { label: "🍪 Cookie Policy", href: "/cookie-policy" },
+              { label: "📜 Terms of Service", href: "/terms-of-service" },
+              { label: "💰 Affiliate Disclosure", href: "/affiliate-disclosure" },
+              { label: "🎓 Educational Purpose", href: "/educational-purpose" },
+              { label: "🔬 How We Create Content", href: "/how-we-create-content" },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="text-sm text-cocoa/70 hover:text-rose transition-colors py-1">
                 {item.label}
@@ -89,7 +94,7 @@ export default function HtmlSitemapPage() {
         {/* FAQ Pages */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-cocoa mb-4">
-            <Link href="/blog" className="hover:text-rose transition-colors">❓ FAQ Pages ({faqPages.length})</Link>
+            <Link href={`/faq/${faqPages[0]?.slug || "faq-foxes-coloring"}`} className="hover:text-rose transition-colors">❓ FAQ Pages ({faqPages.length})</Link>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
             {faqPages.map((faq) => (

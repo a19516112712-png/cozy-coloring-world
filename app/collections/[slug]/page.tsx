@@ -14,6 +14,7 @@ export function generateStaticParams() {
   return collections.map((c) => ({ slug: c.slug }));
 }
 
+export const dynamicParams = false;
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const collection = collections.find((c) => c.slug === slug);

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
@@ -11,6 +12,11 @@ export const metadata: Metadata = generatePageMetadata({
 export default function TermsOfServicePage() {
   return (
     <div className="page-container py-12 sm:py-16 max-w-3xl">
+      <nav className="mb-8 text-sm" aria-label="Breadcrumb">
+        <Link href="/" className="text-rose hover:underline">Home</Link>
+        <span className="mx-2 text-cocoa/30">/</span>
+        <span className="text-cocoa/60">Terms of Service</span>
+      </nav>
       <h1 className="text-3xl sm:text-4xl font-bold text-cocoa mb-8">Terms of Service</h1>
       <div className="prose prose-cocoa max-w-none space-y-4 text-cocoa/80 leading-relaxed">
         <p><strong>Last updated:</strong> June 29, 2026</p>
@@ -73,7 +79,8 @@ export default function TermsOfServicePage() {
           TinyAnimalWorlds may contain links to third-party websites and participates
           in affiliate advertising programs, including the Amazon Services LLC Associates
           Program. As an Amazon Associate, we earn from qualifying purchases. We are not
-          responsible for the content or practices of any third-party sites.
+          responsible for the content or practices of any third-party sites. Read our full{" "}
+          <Link href="/affiliate-disclosure" className="text-rose hover:underline">Affiliate Disclosure</Link>.
         </p>
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">9. Changes to Terms</h2>
@@ -86,7 +93,9 @@ export default function TermsOfServicePage() {
         <h2 className="text-xl font-semibold text-cocoa mt-8">10. Contact</h2>
         <p>
           If you have any questions about these Terms of Service, please visit our{" "}
-          <a href="/contact" className="text-rose hover:underline">Contact page</a>.
+          <Link href="/contact" className="text-rose hover:underline">Contact page</Link>
+          {" "}or read our{" "}
+          <Link href="/about" className="text-rose hover:underline">About page</Link>.
         </p>
       </div>
       <LegalNav current="/terms-of-service" />

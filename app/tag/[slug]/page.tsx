@@ -14,6 +14,7 @@ export function generateStaticParams() {
   return tagCategories.map((t) => ({ slug: t.slug }));
 }
 
+export const dynamicParams = false;
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const tag = tagCategories.find((t) => t.slug === slug);
@@ -36,8 +37,8 @@ export default async function TagCategoryPage({ params }: Props) {
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://tinyanimalworlds.com" },
-    { name: "Tags", url: "https://tinyanimalworlds.com/tag/${tagCat.slug}" },
-    { name: tagCat.title, url: "https://tinyanimalworlds.com/tag/${tagCat.slug}" }
+    { name: "Tags", url: `https://tinyanimalworlds.com/tag/${tagCat.slug}` },
+    { name: tagCat.title, url: `https://tinyanimalworlds.com/tag/${tagCat.slug}` }
   ]);
 
   return (

@@ -114,6 +114,31 @@ export default function ContactPage() {
           </p>
         </section>
 
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-cocoa mb-4">Related Pages</h2>
+          <p className="text-cocoa/70 leading-relaxed mb-4">
+            You might also find these pages helpful:
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <Link href="/about" className="bg-cream/50 rounded-xl p-4 hover:bg-cream transition-colors">
+              <h3 className="font-semibold text-cocoa text-sm">About Us</h3>
+              <p className="text-xs text-cocoa/60 mt-1">Learn about our story and mission</p>
+            </Link>
+            <Link href="/privacy-policy" className="bg-cream/50 rounded-xl p-4 hover:bg-cream transition-colors">
+              <h3 className="font-semibold text-cocoa text-sm">Privacy Policy</h3>
+              <p className="text-xs text-cocoa/60 mt-1">How we protect your data</p>
+            </Link>
+            <Link href="/terms" className="bg-cream/50 rounded-xl p-4 hover:bg-cream transition-colors">
+              <h3 className="font-semibold text-cocoa text-sm">Terms of Use</h3>
+              <p className="text-xs text-cocoa/60 mt-1">Rules for using our site</p>
+            </Link>
+            <Link href="/editorial-policy" className="bg-cream/50 rounded-xl p-4 hover:bg-cream transition-colors">
+              <h3 className="font-semibold text-cocoa text-sm">Editorial Policy</h3>
+              <p className="text-xs text-cocoa/60 mt-1">How we create content</p>
+            </Link>
+          </div>
+        </section>
+
         <LegalNav current="/contact" />
       </div>
     </div>

@@ -4,7 +4,8 @@ import Link from "next/link";
 import { generatePageMetadata } from "@/lib/seo";
 import AdBanner from "@/components/AdBanner";
 import RelatedArticles from "@/components/RelatedArticles";
-import Breadcrumb from "@/components/Breadcrumb";import CategoryColoringCard from "@/components/CategoryColoringCard";
+import Breadcrumb from "@/components/Breadcrumb";
+import CategoryColoringCard from "@/components/CategoryColoringCard";
 import { categories } from "@/data/categories";
 import { coloringPages } from "@/data/coloring-pages";
 
@@ -12,6 +13,7 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export const dynamicParams = false;
 export function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
 }

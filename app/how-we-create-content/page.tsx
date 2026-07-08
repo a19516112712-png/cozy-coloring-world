@@ -61,6 +61,16 @@ export default function HowWeCreateContentPage() {
           <p className="text-cocoa/70 leading-relaxed mb-4">We believe free educational resources should still be high-quality educational resources. Every page on this site reflects that commitment. If you ever find a resource that doesn't meet your expectations, <Link href="/contact" className="text-rose hover:underline">please tell us</Link>. We read every message and make improvements based on what real users tell us.</p>
         </section>
 
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-cocoa mb-4">Related Pages</h2>
+          <ul className="space-y-2 text-cocoa/70">
+            <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Our story and mission</li>
+            <li><Link href="/educational-purpose" className="text-rose hover:underline">Educational Purpose</Link> — Why we create free resources</li>
+            <li><Link href="/editorial-policy" className="text-rose hover:underline">Editorial Policy</Link> — Content standards</li>
+            <li><Link href="/contact" className="text-rose hover:underline">Contact</Link> — Get in touch</li>
+          </ul>
+        </section>
+
         <LegalNav />
       </div>
     </div>

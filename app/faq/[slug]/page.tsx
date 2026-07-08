@@ -13,6 +13,7 @@ export function generateStaticParams() {
   return faqPages.map((f) => ({ slug: f.slug }));
 }
 
+export const dynamicParams = false;
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const faq = faqPages.find((f) => f.slug === slug);

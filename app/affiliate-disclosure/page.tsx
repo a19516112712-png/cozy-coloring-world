@@ -57,6 +57,16 @@ export default function AffiliateDisclosurePage() {
         </p>
       </div>
 
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-cocoa">Related Pages</h2>
+        <ul className="space-y-2 text-cocoa/70 mt-3">
+          <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Learn about Cozy Coloring World</li>
+          <li><Link href="/editorial-policy" className="text-rose hover:underline">Editorial Policy</Link> — How we create content</li>
+          <li><Link href="/terms" className="text-rose hover:underline">Terms of Use</Link> — Site usage terms</li>
+          <li><Link href="/contact" className="text-rose hover:underline">Contact</Link> — Get in touch</li>
+        </ul>
+      </section>
+
       <LegalNav current="/affiliate-disclosure" />
     </div>
   );

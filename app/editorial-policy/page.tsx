@@ -72,7 +72,19 @@ export default function EditorialPolicyPage() {
           </section>
         </div>
 
-        <LegalNav />
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold text-cocoa">Related Pages</h2>
+          <ul className="space-y-2 text-cocoa/70 mt-3">
+            <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Our story and mission</li>
+            <li><Link href="/privacy-policy" className="text-rose hover:underline">Privacy Policy</Link> — How we protect your data</li>
+            <li><Link href="/cookie-policy" className="text-rose hover:underline">Cookie Policy</Link> — Cookie usage details</li>
+            <li><Link href="/terms" className="text-rose hover:underline">Terms of Use</Link> — Site usage terms</li>
+            <li><Link href="/affiliate-disclosure" className="text-rose hover:underline">Affiliate Disclosure</Link> — Our Amazon partnership</li>
+            <li><Link href="/educational-purpose" className="text-rose hover:underline">Educational Purpose</Link> — Why we create free resources</li>
+          </ul>
+        </section>
+
+        <LegalNav current="/editorial-policy" />
 
         <div className="mt-12 p-6 bg-cream rounded-xl border border-blush/20">
           <h3 className="font-semibold text-cocoa mb-2">📧 Have Feedback?</h3>

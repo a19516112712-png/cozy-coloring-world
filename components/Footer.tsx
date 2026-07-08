@@ -24,10 +24,15 @@ const footerLinks = {
   ],
   Legal: [
     { href: "/about", label: "About" },
-    { href: "/privacy-policy", label: "Privacy Policy" },
-    { href: "/terms-of-service", label: "Terms of Service" },
     { href: "/contact", label: "Contact" },
+    { href: "/privacy-policy", label: "Privacy Policy" },
+    { href: "/cookie-policy", label: "Cookie Policy" },
+    { href: "/terms", label: "Terms of Use" },
+    { href: "/terms-of-service", label: "Terms of Service" },
+    { href: "/editorial-policy", label: "Editorial Policy" },
     { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
+    { href: "/educational-purpose", label: "Educational Purpose" },
+    { href: "/how-we-create-content", label: "How We Create Content" },
   ],
 };
 

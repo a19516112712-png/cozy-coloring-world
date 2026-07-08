@@ -506,8 +506,15 @@ export default function HomePage() {
           <div>
             <h3 className="text-sm font-semibold text-cocoa mb-3">📄 Info</h3>
             <ul className="space-y-1.5">
+              <li><Link href="/about" className="text-xs text-cocoa/60 hover:text-rose transition-colors">About</Link></li>
               <li><Link href="/privacy-policy" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Privacy</Link></li>
+              <li><Link href="/cookie-policy" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Cookie Policy</Link></li>
               <li><Link href="/terms" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Terms</Link></li>
+              <li><Link href="/terms-of-service" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Terms of Service</Link></li>
+              <li><Link href="/editorial-policy" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Editorial Policy</Link></li>
+              <li><Link href="/affiliate-disclosure" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Affiliate Disclosure</Link></li>
+              <li><Link href="/educational-purpose" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Educational Purpose</Link></li>
+              <li><Link href="/how-we-create-content" className="text-xs text-cocoa/60 hover:text-rose transition-colors">How We Create Content</Link></li>
               <li><Link href="/contact" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Contact</Link></li>
               <li><a href="https://www.pinterest.com/tinyanimalworlds" target="_blank" rel="noopener noreferrer" className="text-xs text-cocoa/60 hover:text-rose transition-colors">Pinterest ↗</a></li>
             </ul>

@@ -234,6 +234,24 @@ export default function AboutPage() {
             </div>
           </section>
 
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Policies &amp; Legal</h2>
+            <p className="text-cocoa/70 leading-relaxed mb-4">
+              We believe in transparency. Please review our policies to understand how we operate, 
+              protect your privacy, and maintain the quality of our content.
+            </p>
+            <ul className="space-y-2 text-cocoa/70">
+              <li><Link href="/privacy-policy" className="text-rose hover:underline">Privacy Policy</Link> — How we handle your data</li>
+              <li><Link href="/cookie-policy" className="text-rose hover:underline">Cookie Policy</Link> — How we use cookies</li>
+              <li><Link href="/terms" className="text-rose hover:underline">Terms of Use</Link> — Rules for using our site</li>
+              <li><Link href="/terms-of-service" className="text-rose hover:underline">Terms of Service</Link> — Complete terms and conditions</li>
+              <li><Link href="/editorial-policy" className="text-rose hover:underline">Editorial Policy</Link> — How we create and curate content</li>
+              <li><Link href="/affiliate-disclosure" className="text-rose hover:underline">Affiliate Disclosure</Link> — Our Amazon Associates relationship</li>
+              <li><Link href="/educational-purpose" className="text-rose hover:underline">Educational Purpose</Link> — Why we create free resources</li>
+              <li><Link href="/how-we-create-content" className="text-rose hover:underline">How We Create Content</Link> — Our quality process</li>
+            </ul>
+          </section>
+
           <LegalNav current="/about" />
         </div>
       </div>
