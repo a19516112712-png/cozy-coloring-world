@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/14_tiny_mouse_artist_painter.webp",
+  imageUrl: "/images/coloring/48_Tiny_Mouse_Operating_a_Cozy_Wo.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Best Printable Activities for Kindergarten Classrooms: Word Search & Coloring", description: "Top-rated printable activities for kindergarten teachers. Free word search puzzles and coloring pages designed for young learners in classroom settings.", path: "/blog/kindergarten-classroom-printable-activities" });
 

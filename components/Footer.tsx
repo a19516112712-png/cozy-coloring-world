@@ -6,7 +6,7 @@ const footerLinks = {
     { href: "/coloring-pages", label: "All Coloring Pages" },
     { href: "/category/cute-animals", label: "Cute Animals" },
     { href: "/category/cottagecore-coloring", label: "Cottagecore" },
-    { href: "/category/cozy-coloring", label: "Cozy Scenes" },
+    { href: "/category/tiny-animal-worlds", label: "Cozy Scenes" },
   ],
   "Word Search": [
     { href: "/word-search", label: "All Word Searches" },
@@ -98,7 +98,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-cream/10">
           <p className="text-center text-sm text-cream/40">
-            &copy; {new Date().getFullYear()} Cozy Coloring World. All coloring pages and word searches are free for personal use. 🎨
+            &copy; {new Date().getFullYear()} Tiny Animal Worlds. All coloring pages and word searches are free for personal use. 🎨
             <br /><span className="text-cocoa/30 text-xs">As an Amazon Associate, we earn from qualifying purchases.</span>
           </p>
         </div>

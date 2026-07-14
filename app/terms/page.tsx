@@ -4,8 +4,8 @@ import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Terms of Use | Cozy Coloring World",
-  description: "Terms of use for Cozy Coloring World. All coloring pages, word searches, and printables are free for personal, non-commercial, and educational use. Learn about restrictions, intellectual property, and user responsibilities.",
+  title: "Terms of Use | Tiny Animal Worlds",
+  description: "Terms of use for Tiny Animal Worlds. All coloring pages, word searches, and printables are free for personal, non-commercial, and educational use. Learn about restrictions, intellectual property, and user responsibilities.",
   path: "/terms",
 });
 
@@ -24,7 +24,7 @@ export default function TermsPage() {
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">1. Free Coloring Pages</h2>
         <p>
-          All coloring pages on Cozy Coloring World are 100% free to download and print 
+          All coloring pages on Tiny Animal Worlds are 100% free to download and print 
           for personal, non-commercial use. You may print as many copies as you like for 
           yourself, your family, or your classroom.
         </p>
@@ -38,22 +38,22 @@ export default function TermsPage() {
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">3. Intellectual Property</h2>
         <p>
-          All content on Cozy Coloring World, including coloring page designs, word search 
+          All content on Tiny Animal Worlds, including coloring page designs, word search 
           puzzles, blog articles, illustrations, and website code, is the intellectual 
-          property of Cozy Coloring World and is protected by applicable copyright and 
+          property of Tiny Animal Worlds and is protected by applicable copyright and 
           trademark laws.
         </p>
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">4. User Conduct</h2>
         <p>
-          You agree to use Cozy Coloring World only for lawful purposes. You may not 
+          You agree to use Tiny Animal Worlds only for lawful purposes. You may not 
           use the website in any way that could damage, disable, overburden, or impair 
           our servers or interfere with any other party's use of the website.
         </p>
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">5. Disclaimer of Warranties</h2>
         <p>
-          All content on Cozy Coloring World is provided &ldquo;as is&rdquo; for 
+          All content on Tiny Animal Worlds is provided &ldquo;as is&rdquo; for 
           entertainment and educational purposes. We make no warranties, expressed or 
           implied, regarding the accuracy, completeness, or suitability of the content 
           for any particular purpose.
@@ -61,14 +61,14 @@ export default function TermsPage() {
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">6. Limitation of Liability</h2>
         <p>
-          Cozy Coloring World and its owners shall not be liable for any direct, indirect, 
+          Tiny Animal Worlds and its owners shall not be liable for any direct, indirect, 
           incidental, consequential, or punitive damages arising from your use of, or 
           inability to use, this website or its content.
         </p>
 
         <h2 className="text-xl font-semibold text-cocoa mt-8">7. Third-Party Links &amp; Affiliate Disclosure</h2>
         <p>
-          Cozy Coloring World may contain links to third-party websites and participates 
+          Tiny Animal Worlds may contain links to third-party websites and participates 
           in affiliate advertising programs, including the Amazon Services LLC Associates 
           Program. As an Amazon Associate, we earn from qualifying purchases. We are not 
           responsible for the content or practices of any third-party sites. Read our full{" "}

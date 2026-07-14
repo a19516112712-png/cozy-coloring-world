@@ -4,8 +4,8 @@ import LegalNav from "@/components/LegalNav";
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Cookie Policy | Cozy Coloring World",
-  description: "Cookie Policy for Cozy Coloring World. Learn about the cookies we use, how they work, and how you can manage your cookie preferences on our free printable coloring website.",
+  title: "Cookie Policy | Tiny Animal Worlds",
+  description: "Cookie Policy for Tiny Animal Worlds. Learn about the cookies we use, how they work, and how you can manage your cookie preferences on our free printable coloring website.",
   path: "/cookie-policy",
 });
 
@@ -37,7 +37,7 @@ export default function CookiePolicyPage() {
           <section>
             <h2 className="text-xl font-semibold text-cocoa">2. How We Use Cookies</h2>
             <p className="text-cocoa/70 leading-relaxed">
-              Cozy Coloring World (tinyanimalworlds.com) uses cookies for the following purposes:
+              Tiny Animal Worlds (tinyanimalworlds.com) uses cookies for the following purposes:
             </p>
 
             <div className="space-y-3 mt-3">

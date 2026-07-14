@@ -4,15 +4,15 @@ import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "About Cozy Coloring World | Free Printable Coloring Pages for Kids & Adults",
-  description: "Learn about Cozy Coloring World — our mission to provide 4,300+ free printable coloring pages and word search puzzles. Discover our story, team, values, and commitment to creative learning.",
+  title: "About Tiny Animal Worlds | Free Printable Coloring Pages for Kids & Adults",
+  description: "Learn about Tiny Animal Worlds — our mission to provide 4,300+ free printable coloring pages and word search puzzles. Discover our story, team, values, and commitment to creative learning.",
   path: "/about",
 });
 
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Cozy Coloring World",
+  name: "Tiny Animal Worlds",
   url: "https://tinyanimalworlds.com",
   description: "Free printable coloring pages and word search puzzles for kids and adults — 2000+ cute, cozy, and educational designs.",
   email: "hello@tinyanimalworlds.com",
@@ -39,11 +39,11 @@ export default function AboutPage() {
           </nav>
 
           <h1 className="text-3xl sm:text-4xl font-bold text-cocoa mb-6">
-            About Cozy Coloring World
+            About Tiny Animal Worlds
           </h1>
 
           <p className="text-lg text-cocoa/80 leading-relaxed mb-10">
-            Welcome to <strong>Cozy Coloring World</strong> — your destination for free printable 
+            Welcome to <strong>Tiny Animal Worlds</strong> — your destination for free printable 
             coloring pages and word search puzzles for kids, adults, families, teachers, and 
             homeschoolers. Our mission is simple yet powerful: to make creative, screen-free 
             activities accessible to everyone, everywhere, at no cost.
@@ -51,12 +51,12 @@ export default function AboutPage() {
 
           {/* Meet the Creator */}
           <section className="mb-10 bg-cream/30 rounded-xl p-6 border border-blush/10">
-            <h2 className="text-2xl font-bold text-cocoa mb-4">👋 Meet Sarah — The Creator Behind Cozy Coloring World</h2>
+            <h2 className="text-2xl font-bold text-cocoa mb-4">👋 Meet Sarah — The Creator Behind Tiny Animal Worlds</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
               Hi! I'm Sarah. I'm a mom of two young children, a former elementary teacher, and the person who makes every coloring page and word search on this site.
             </p>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              I started Cozy Coloring World in 2025 from my kitchen table, late at night after the kids were asleep. I had no business plan, no budget, and no team — just a printer, basic design skills, and a frustration I couldn't shake: every 'free' printable site I visited wanted a subscription, and the actually-free sites had coloring pages my kids didn't want to color.
+              I started Tiny Animal Worlds in 2025 from my kitchen table, late at night after the kids were asleep. I had no business plan, no budget, and no team — just a printer, basic design skills, and a frustration I couldn't shake: every 'free' printable site I visited wanted a subscription, and the actually-free sites had coloring pages my kids didn't want to color.
             </p>
             <p className="text-cocoa/70 leading-relaxed mb-4">
               The first page I made was a bunny in a meadow with mushrooms and flowers. It wasn't great — the lines were uneven, the proportions were off — but my five-year-old colored it for 45 minutes straight. As any parent knows, 45 minutes of focused, happy, screen-free activity is a miracle. I made five more pages that week. Then ten. Then fifty.
@@ -65,14 +65,14 @@ export default function AboutPage() {
               My children are my quality control team. Every coloring page and word search gets tested with real kids before it goes live. If my kids don't immediately want to use it, I redesign it. If they fight over who gets to use it first, I know I have a winner. This approach — testing everything with real children — has become our unofficial quality standard that no algorithm can replicate.
             </p>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              Today, Cozy Coloring World offers over <strong>2,000 free printable coloring pages</strong> and more than <strong>2,100 word search puzzles</strong>. But the philosophy hasn't changed: every resource must be something I'd happily hand to my own children. If it's not good enough for my kids, it's not good enough for yours.
+              Today, Tiny Animal Worlds offers over <strong>2,000 free printable coloring pages</strong> and more than <strong>2,100 word search puzzles</strong>. But the philosophy hasn't changed: every resource must be something I'd happily hand to my own children. If it's not good enough for my kids, it's not good enough for yours.
             </p>
           </section>
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-cocoa mb-4">Our Story</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              Cozy Coloring World was born from a simple observation: in an increasingly digital 
+              Tiny Animal Worlds was born from a simple observation: in an increasingly digital 
               world, people of all ages crave hands-on, creative activities that bring calm and 
               joy. Coloring is one of the most accessible forms of creative expression — it requires 
               no special skills, no expensive supplies, just a printed page and something to color with.
@@ -84,7 +84,7 @@ export default function AboutPage() {
               project quickly grew into a beloved resource for thousands of visitors from around the world.
             </p>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              Today, Cozy Coloring World offers over <strong>2,000 free printable coloring pages</strong> and 
+              Today, Tiny Animal Worlds offers over <strong>2,000 free printable coloring pages</strong> and 
               more than <strong>2,100 word search puzzles</strong>, with new content added regularly. Our 
               library spans dozens of themes — from cute animals and fantasy worlds to seasonal celebrations 
               and educational activities.
@@ -130,7 +130,7 @@ export default function AboutPage() {
           </section>
 
           <section className="mb-10">
-            <h2 className="text-2xl font-bold text-cocoa mb-4">Who Uses Cozy Coloring World?</h2>
+            <h2 className="text-2xl font-bold text-cocoa mb-4">Who Uses Tiny Animal Worlds?</h2>
             <ul className="space-y-2 text-cocoa/70">
               <li className="flex items-start gap-2">
                 <span className="text-rose mt-0.5">👨‍👩‍👧‍👦</span>
@@ -178,7 +178,7 @@ export default function AboutPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-cocoa mb-4">How We Support the Site</h2>
             <p className="text-cocoa/70 leading-relaxed mb-4">
-              Cozy Coloring World is free for everyone, but running a website with thousands of pages 
+              Tiny Animal Worlds is free for everyone, but running a website with thousands of pages 
               requires resources. We keep the lights on through:
             </p>
             <ul className="space-y-2 text-cocoa/70">

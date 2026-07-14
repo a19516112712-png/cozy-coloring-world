@@ -42,7 +42,7 @@ export default function BlogPost() {
             <li><Link href="/word-search/duck-habitats-word-search" className="text-rose hover:underline">Duck Village Market Scene Word Search</Link></li>
             <li><Link href="/word-search/parrot-flower-meadow-word-search" className="text-rose hover:underline">Duck Carrying Basket Of Flower Word Search</Link></li>
             <li><Link href="/word-search/zebra-dragonfly-pond-word-search" className="text-rose hover:underline">Duck Bakery Beside Pond Word Search</Link></li>
-            <li><Link href="/word-search/duck-flower-cart-scene" className="text-rose hover:underline">Duck Flower Cart Scene Word Search</Link></li>
+            <li><Link href="/word-search" className="text-rose hover:underline">Duck Flower Cart Scene Word Search</Link></li>
             <li><Link href="/word-search/chicken-farmers-market-word-search" className="text-rose hover:underline">Grand Lakeside Duck Market Word Search</Link></li>
           </ul>
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Featured Duck Coloring Pages</h3>

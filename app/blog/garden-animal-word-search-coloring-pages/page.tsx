@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/8_Adorable_fox_and_bunny_having_a_tea_p.webp",
+  imageUrl: "/images/coloring/29_Cute_bunny_arranging_candy_jar.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Garden Animal Word Search & Coloring Pages: 3000+ Free Printables", description: "Discover garden animal themed word search puzzles and coloring pages. Butterflies, hummingbirds, bees, and flowers — free printable activities for spring and summer learning.", path: "/blog/garden-animal-word-search-coloring-pages" });
 

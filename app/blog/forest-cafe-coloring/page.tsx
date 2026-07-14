@@ -53,12 +53,12 @@ export default function BlogPost() {
           <p className="text-cocoa/75 leading-relaxed mb-4">For cafe interiors, use warm, comforting colors: cream walls, rich brown wood tones, soft amber lighting. Add sage green for plants and forest views through the windows. For bakery pages, golden browns for fresh bread, rich berry colors for pastries, and soft pastels for cafe decor create irresistibly cozy results.</p>
           <AdBanner slot="blog-mid" className="my-8" />
           <h2 className="text-2xl font-bold text-cocoa mt-10 mb-4">Download Your Free Coloring Pages</h2>
-          <p className="text-cocoa/75 leading-relaxed mb-4">All pages are 100% free — no sign-up needed. Browse our <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Cozy Coloring</Link>, <Link href="/category/bakery-coloring" className="text-rose hover:underline">Bakery Coloring</Link>, <Link href="/category/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link> sections.</p>
+          <p className="text-cocoa/75 leading-relaxed mb-4">All pages are 100% free — no sign-up needed. Browse our <Link href="/category/tiny-animal-worlds" className="text-rose hover:underline">Cozy Coloring</Link>, <Link href="/category/food-bakery" className="text-rose hover:underline">Bakery Coloring</Link>, <Link href="/category/cottagecore-coloring" className="text-rose hover:underline">Cottagecore Coloring</Link> sections.</p>
           <ul className="space-y-2 mb-6">            <li><Link href="/coloring/squirrel-forest-cafe" className="text-rose hover:underline">Free Printable Squirrel Forest Cafe Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-woodland-bakery" className="text-rose hover:underline">Free Printable Squirrel Woodland Bakery Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-bakery-treats-display" className="text-rose hover:underline">Free Printable Squirrel Bakery Treats Display Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-forest-pathway" className="text-rose hover:underline">Free Printable Squirrel Forest Pathway Coloring Page</Link></li>
-            <li><Link href="/coloring/squirrel-cozy-shop-interior" className="text-rose hover:underline">Free Printable Squirrel Cozy Shop Interior Coloring Page</Link></li>
+            <li><Link href="/coloring-pages" className="text-rose hover:underline">Free Printable Squirrel Cozy Shop Interior Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-acorn-bakery" className="text-rose hover:underline">Free Printable Squirrel Acorn Bakery Coloring Page</Link></li></ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">With 1,400+ free printable coloring pages, there is always something new. Download, print, and enjoy!</p>
         </div>

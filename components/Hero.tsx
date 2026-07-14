@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="relative w-full max-w-sm sm:max-w-md aspect-[4/5] rounded-cozy shadow-hover overflow-hidden rotate-1 hover:rotate-0 transition-transform duration-500">
               <Image
                 src="/images/hero-cover.svg"
-                alt="Cozy Coloring World — free printable coloring pages for kids and adults. Cute cottagecore and kawaii designs."
+                alt="Tiny Animal Worlds — free printable coloring pages for kids and adults. Cute cottagecore and kawaii designs."
                 fill
                 className="object-cover"
                 priority

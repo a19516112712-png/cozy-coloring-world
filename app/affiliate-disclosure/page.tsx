@@ -4,8 +4,8 @@ import { generatePageMetadata } from "@/lib/seo";
 import LegalNav from "@/components/LegalNav";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Affiliate Disclosure | Cozy Coloring World",
-  description: "Learn about our participation in the Amazon Associates affiliate program and how affiliate links help support Cozy Coloring World.",
+  title: "Affiliate Disclosure | Tiny Animal Worlds",
+  description: "Learn about our participation in the Amazon Associates affiliate program and how affiliate links help support Tiny Animal Worlds.",
   path: "/affiliate-disclosure",
 });
 
@@ -24,7 +24,7 @@ export default function AffiliateDisclosurePage() {
 
       <div className="prose prose-cocoa max-w-none space-y-6 text-cocoa/80 leading-relaxed">
         <p>
-          Cozy Coloring World participates in the Amazon Services LLC Associates Program,
+          Tiny Animal Worlds participates in the Amazon Services LLC Associates Program,
           an affiliate advertising program designed to provide a means for sites to earn
           advertising fees by advertising and linking to Amazon.com.
         </p>
@@ -60,7 +60,7 @@ export default function AffiliateDisclosurePage() {
       <section className="mb-10">
         <h2 className="text-xl font-semibold text-cocoa">Related Pages</h2>
         <ul className="space-y-2 text-cocoa/70 mt-3">
-          <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Learn about Cozy Coloring World</li>
+          <li><Link href="/about" className="text-rose hover:underline">About Us</Link> — Learn about Tiny Animal Worlds</li>
           <li><Link href="/editorial-policy" className="text-rose hover:underline">Editorial Policy</Link> — How we create content</li>
           <li><Link href="/terms" className="text-rose hover:underline">Terms of Use</Link> — Site usage terms</li>
           <li><Link href="/contact" className="text-rose hover:underline">Contact</Link> — Get in touch</li>

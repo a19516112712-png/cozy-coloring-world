@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/18_Bear_family_picnic_by_the_lake.webp",
+  imageUrl: "/images/coloring/10_Cozy_Woodland_Retreat_Loft.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Prairie & Grassland Animal Learning: Free Printable Word Search Bundle", description: "Discover prairie and grassland animals with engaging printable word search puzzles. Bison, hawks, coyotes!", path: "/blog/prairie-grassland-animal-learning-printables" });
 

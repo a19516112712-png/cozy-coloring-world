@@ -46,7 +46,7 @@ const pageFAQs = [
   },
   {
     question: "Are these coloring pages really free?",
-    answer: "Yes! All coloring pages on Cozy Coloring World are 100% free to download and print for personal use. You can print as many copies as you like for yourself, your family, or your classroom.",
+    answer: "Yes! All coloring pages on Tiny Animal Worlds are 100% free to download and print for personal use. You can print as many copies as you like for yourself, your family, or your classroom.",
   },
   {
     question: "What materials work best for coloring these pages?",
@@ -171,7 +171,7 @@ export default async function ColoringDetailPage({ params }: Props) {
               <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
                 <PinterestSaveButton
                   imageUrl={page.imageUrl}
-                  description={`Free printable ${page.title} coloring page from Cozy Coloring World. Download this cute coloring page JPG! ${page.description}`}
+                  description={`Free printable ${page.title} coloring page from Tiny Animal Worlds. Download this cute coloring page JPG! ${page.description}`}
                 />
               </div>
             </div>
@@ -229,7 +229,7 @@ export default async function ColoringDetailPage({ params }: Props) {
               <DownloadButton imageUrl={page.imageUrl} title={page.title} />
               <PinterestSaveButton
                 imageUrl={page.imageUrl}
-                description={`Free printable ${page.title} coloring page. ${page.description}. Download this cute JPG from Cozy Coloring World!`}
+                description={`Free printable ${page.title} coloring page. ${page.description}. Download this cute JPG from Tiny Animal Worlds!`}
               />
             </div>
 

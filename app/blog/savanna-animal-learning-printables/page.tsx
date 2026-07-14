@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/18_Bear_family_picnic_by_the_lake.webp",
+  imageUrl: "/images/coloring/10_Cozy_Woodland_Retreat_Loft.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Savanna Animal Learning: Free Printable Word Search & Coloring Pages", description: "Discover savanna animals with engaging printable word search puzzles and coloring pages. Lions, zebras, giraffes and more — perfect for classroom and homeschool.", path: "/blog/savanna-animal-learning-printables" });
 

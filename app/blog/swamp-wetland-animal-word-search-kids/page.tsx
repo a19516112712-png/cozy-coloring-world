@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/5_cute_fox_reading_a_book_in_a_cozy.webp",
+  imageUrl: "/images/coloring/10_bear_cafe_reading_corner.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Swamp & Wetland Animal Word Search: Free Printable Puzzles for Kids", description: "Explore swamps and wetlands with free printable animal word search puzzles. Alligators, herons, turtles, and more!", path: "/blog/swamp-wetland-animal-word-search-kids" });
 

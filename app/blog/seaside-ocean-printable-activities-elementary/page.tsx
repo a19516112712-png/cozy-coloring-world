@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/24_camping_fox_family.webp",
+  imageUrl: "/images/coloring/22_frog_cafe_terrace_with_lantern.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Seaside & Ocean Printable Activities for Elementary Kids: Word Search Fun", description: "Dive into learning with seaside and ocean themed printable word search puzzles. Whales, dolphins, crabs, shells — free educational activities for curious kids.", path: "/blog/seaside-ocean-printable-activities-elementary" });
 

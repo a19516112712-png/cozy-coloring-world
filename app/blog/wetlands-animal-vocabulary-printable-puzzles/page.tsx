@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/30_bunny_garden_tea_party.webp",
+  imageUrl: "/images/coloring/14_Cute_duck_carrying_a_basket_of.jpg",
   imageWidth: 1200,
   imageHeight: 1500, title: "Wetlands Animal Vocabulary: Free Printable Word Search Puzzles for Kids", description: "Build vocabulary with wetlands animal word search puzzles. Herons, frogs, dragonflies, cattails — explore marsh and swamp ecosystems through fun printable activities.", path: "/blog/wetlands-animal-vocabulary-printable-puzzles" });
 

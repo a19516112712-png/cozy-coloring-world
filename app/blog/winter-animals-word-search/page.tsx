@@ -48,8 +48,8 @@ export default function BlogPost() {
           <h3 className="text-xl font-bold text-cocoa mt-8 mb-3">Related Coloring Pages</h3>
           <ul className="space-y-2 mb-6">
             <li><Link href="/coloring/cute-penguin-reading-room-colo" className="text-rose hover:underline">Penguin in Winter</Link></li>
-            <li><Link href="/coloring/34_Cute_penguin_winter_wonderland" className="text-rose hover:underline">Polar Bear Arctic</Link></li>
-            <li><Link href="/coloring/43_Cute_cat_rain_window_coloring_" className="text-rose hover:underline">Seal on Ice</Link></li>
+            <li><Link href="/coloring-pages" className="text-rose hover:underline">Polar Bear Arctic</Link></li>
+            <li><Link href="/coloring-pages" className="text-rose hover:underline">Seal on Ice</Link></li>
           </ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">Explore 1500+ free printable coloring pages and 1000+ word search puzzles at Tiny Animal Worlds!</p>
       </div>

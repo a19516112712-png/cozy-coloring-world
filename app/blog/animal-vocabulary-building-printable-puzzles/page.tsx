@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/8_Adorable_fox_and_bunny_having_a_tea_p.webp",
+  imageUrl: "/images/coloring/29_Cute_bunny_arranging_candy_jar.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Animal Vocabulary Building: Free Printable Puzzles for Language Development", description: "Build your child's animal vocabulary with engaging printable word search puzzles. Learn animal names, habitats, and characteristics while having fun.", path: "/blog/animal-vocabulary-building-printable-puzzles" });
 

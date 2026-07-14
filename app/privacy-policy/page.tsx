@@ -4,8 +4,8 @@ import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Privacy Policy | Cozy Coloring World",
-  description: "Privacy Policy for Cozy Coloring World. Learn how we collect, use, and protect your personal information when you visit our free printable coloring pages website.",
+  title: "Privacy Policy | Tiny Animal Worlds",
+  description: "Privacy Policy for Tiny Animal Worlds. Learn how we collect, use, and protect your personal information when you visit our free printable coloring pages website.",
   path: "/privacy-policy",
 });
 
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-semibold text-cocoa">1. Introduction</h2>
             <p className="text-cocoa/70 leading-relaxed">
-              Cozy Coloring World (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) operates the website 
+              Tiny Animal Worlds (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) operates the website 
               located at <strong>tinyanimalworlds.com</strong> (the &quot;Site&quot;). This Privacy 
               Policy explains how we collect, use, disclose, and safeguard your information when you 
               visit our Site. Please read this policy carefully. By using the Site, you agree to the 

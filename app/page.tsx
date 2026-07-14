@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { generatePageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Cozy Coloring World | Free Printable Coloring Pages JPG',
+  title: 'Tiny Animal Worlds | Free Printable Coloring Pages JPG',
   description: 'Download free cute printable coloring pages for kids and adults. Cozy, kawaii, and cottagecore designs. 1700+ free downloads added weekly!',
   path: '/',
 });

@@ -9,8 +9,8 @@ const siteDescription =
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Cozy Coloring World | Free Printable Coloring Pages JPG",
-    template: "%s | Cozy Coloring World",
+    default: "Tiny Animal Worlds | Free Printable Coloring Pages JPG",
+    template: "%s | Tiny Animal Worlds",
   },
   description: siteDescription,
   keywords: [
@@ -30,9 +30,9 @@ export const defaultMetadata: Metadata = {
     "JPG coloring pages free",
     "coloring pages to print",
   ],
-  authors: [{ name: "Cozy Coloring World", url: siteUrl }],
-  creator: "Cozy Coloring World",
-  publisher: "Cozy Coloring World",
+  authors: [{ name: "Tiny Animal Worlds", url: siteUrl }],
+  creator: "Tiny Animal Worlds",
+  publisher: "Tiny Animal Worlds",
   robots: {
     index: true,
     follow: true,
@@ -49,21 +49,21 @@ export const defaultMetadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName,
-    title: "Cozy Coloring World | Free Printable Coloring Pages JPG",
+    title: "Tiny Animal Worlds | Free Printable Coloring Pages JPG",
     description: siteDescription,
     images: [
       {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Cozy Coloring World - Free Printable Coloring Pages for Kids and Adults",
+        alt: "Tiny Animal Worlds - Free Printable Coloring Pages for Kids and Adults",
         type: "image/webp",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cozy Coloring World | Free Printable Coloring Pages JPG",
+    title: "Tiny Animal Worlds | Free Printable Coloring Pages JPG",
     description: "Download free cute printable coloring pages for kids and adults.",
     images: ["/og-image.webp"],
     site: "@cozycoloringworld",

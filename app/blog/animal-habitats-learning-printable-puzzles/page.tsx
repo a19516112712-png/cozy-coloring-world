@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/21_deer_family_in_meadow.webp",
+  imageUrl: "/images/coloring/10_bear_cafe_reading_corner.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Animal Habitats Learning: Explore Nature Through Printable Puzzles", description: "Teach kids about rainforests, deserts, oceans, and more with printable animal habitat word search puzzles. Free educational activities for curious minds.", path: "/blog/animal-habitats-learning-printable-puzzles" });
 

@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/5_cute_fox_reading_a_book_in_a_cozy.webp",
+  imageUrl: "/images/coloring/40_Tiny_fox_organizing_a_camping_.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Coloring Pages & Word Search: Ultimate Homeschool Resources Bundle", description: "Combine free printable coloring pages and word search puzzles for a complete homeschool curriculum. Perfect for multi-age learning at home.", path: "/blog/coloring-word-search-homeschool-resources" });
 

@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/14_tiny_mouse_artist_painter.webp",
+  imageUrl: "/images/coloring/48_Tiny_Mouse_Operating_a_Cozy_Wo.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Farmyard Animal Printables: Free Classroom Resources for K-3 Teachers", description: "Download free farmyard animal word search puzzles and coloring pages for your elementary classroom. Perfect for farm units, animal studies, and morning work.", path: "/blog/farmyard-animal-printable-classroom-resources" });
 

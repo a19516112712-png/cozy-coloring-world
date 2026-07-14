@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/14_tiny_mouse_artist_painter.webp",
+  imageUrl: "/images/coloring/48_Tiny_Mouse_Operating_a_Cozy_Wo.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Grove & Forest Vocabulary Building: Free Printable Word Search Puzzles", description: "Build vocabulary with grove and forest themed word search puzzles. Oaks, acorns, squirrels!", path: "/blog/grove-forest-vocabulary-building-kids-puzzles" });
 

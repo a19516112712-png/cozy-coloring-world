@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/24_camping_fox_family.webp",
+  imageUrl: "/images/coloring/22_frog_cafe_terrace_with_lantern.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Screen-Free Road Trip Fun: Free Printable Word Search Puzzles for Kids", description: "Keep kids entertained on long car rides with screen-free printable word search puzzles. Perfect travel activities that make learning fun on the go.", path: "/blog/screen-free-road-trip-printable-word-search" });
 

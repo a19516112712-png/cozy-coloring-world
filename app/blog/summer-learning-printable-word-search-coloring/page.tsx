@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/18_Bear_family_picnic_by_the_lake.webp",
+  imageUrl: "/images/coloring/10_Cozy_Woodland_Retreat_Loft.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Summer Learning Activities: Free Printable Word Search & Coloring Pages", description: "Prevent summer slide with fun printable word search puzzles and coloring pages. Keep kids engaged and learning all summer long with free activities.", path: "/blog/summer-learning-printable-word-search-coloring" });
 

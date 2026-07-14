@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/34_hedgehog_reading_corner.webp",
+  imageUrl: "/images/coloring/40_Tiny_fox_organizing_a_camping_.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Coloring + Word Search: Powerful Multi-Sensory Learning Activities", description: "Combine coloring pages and word search puzzles for multi-sensory learning. Research shows combining visual and cognitive activities boosts retention and engagement.", path: "/blog/coloring-word-search-multisensory-learning" });
 

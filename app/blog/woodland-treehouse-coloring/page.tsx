@@ -58,7 +58,7 @@ export default function BlogPost() {
             <li><Link href="/coloring/squirrel-reading-in-treehouse" className="text-rose hover:underline">Free Printable Squirrel Reading In Treehouse Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-treehouse-market" className="text-rose hover:underline">Free Printable Squirrel Treehouse Market Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-treehouse-village" className="text-rose hover:underline">Free Printable Squirrel Treehouse Village Coloring Page</Link></li>
-            <li><Link href="/coloring/squirrel-cozy-shop-interior" className="text-rose hover:underline">Free Printable Squirrel Cozy Shop Interior Coloring Page</Link></li>
+            <li><Link href="/coloring-pages" className="text-rose hover:underline">Free Printable Squirrel Cozy Shop Interior Coloring Page</Link></li>
             <li><Link href="/coloring/squirrel-acorn-shop-storefront" className="text-rose hover:underline">Free Printable Squirrel Acorn Shop Storefront Coloring Page</Link></li></ul>
           <p className="text-cocoa/75 leading-relaxed mb-6">With 1,400+ free printable coloring pages, there is always something new. Download, print, and enjoy!</p>
         </div>

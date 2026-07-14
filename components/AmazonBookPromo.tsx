@@ -26,7 +26,7 @@ export default function AmazonBookPromo({ className = "", categoryId }: AmazonBo
             <div className="aspect-[3/4] rounded-xl overflow-hidden shadow-lg border border-pink/10">
               <Image
                 src="/images/kdp-cover.webp"
-                alt="Cozy Coloring World — Premium Coloring Book on Amazon"
+                alt="Tiny Animal Worlds — Premium Coloring Book on Amazon"
                 width={220}
                 height={294}
                 className="w-full h-full object-cover"

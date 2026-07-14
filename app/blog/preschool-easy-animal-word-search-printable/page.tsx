@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/30_bunny_garden_tea_party.webp",
+  imageUrl: "/images/coloring/14_Cute_duck_carrying_a_basket_of.jpg",
   imageWidth: 1200,
   imageHeight: 1500, title: "Easy Animal Word Searches for Preschool and Pre-K: Free Printable Puzzles", description: "Simple and fun animal word search puzzles designed for preschoolers. Large print, easy words, and cute animal themes perfect for early learners.", path: "/blog/preschool-easy-animal-word-search-printable" });
 

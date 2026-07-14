@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/21_deer_family_in_meadow.webp",
+  imageUrl: "/images/coloring/11_cat_walking_through_cozy_villa.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Meadow & Woodland Printable Homeschool Bundle: Word Search & Coloring", description: "Complete meadow and woodland themed homeschool bundle with free printable word search puzzles, coloring pages, and activity sheets. Multi-grade learning at home.", path: "/blog/meadow-woodland-printable-homeschool-bundle" });
 

@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/21_deer_family_in_meadow.webp",
+  imageUrl: "/images/coloring/11_cat_walking_through_cozy_villa.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Orchard & Harvest Printable Coloring Pages: Free Word Search for Kids", description: "Celebrate orchards and harvest season with free printable word search and coloring pages. Apples, blossoms, cider!", path: "/blog/orchard-harvest-printable-coloring-pages-kids" });
 

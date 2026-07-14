@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/8_Adorable_fox_and_bunny_having_a_tea_p.webp",
+  imageUrl: "/images/coloring/29_Cute_bunny_arranging_candy_jar.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Marsh Habitat Animal Printable Worksheets: Free Word Search Activities", description: "Explore marsh habitats with free printable animal word search worksheets. Cattails, dragonflies, egrets!", path: "/blog/marsh-habitat-animal-printable-worksheets" });
 

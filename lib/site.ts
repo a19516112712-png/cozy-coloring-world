@@ -4,7 +4,7 @@
  */
 
 export const SITE_URL = "https://tinyanimalworlds.com";
-export const SITE_NAME = "Cozy Coloring World";
+export const SITE_NAME = "Tiny Animal Worlds";
 export const SITE_DOMAIN = "tinyanimalworlds.com";
 
 // For client components that need the URL

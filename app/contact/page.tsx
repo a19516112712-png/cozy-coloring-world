@@ -4,8 +4,8 @@ import LegalNav from '@/components/LegalNav';
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Contact Us | Cozy Coloring World",
-  description: "Get in touch with Cozy Coloring World. We welcome your feedback, suggestions, and questions about our free printable coloring pages and word search puzzles.",
+  title: "Contact Us | Tiny Animal Worlds",
+  description: "Get in touch with Tiny Animal Worlds. We welcome your feedback, suggestions, and questions about our free printable coloring pages and word search puzzles.",
   path: "/contact",
 });
 
@@ -73,7 +73,7 @@ export default function ContactPage() {
             <details className="bg-cream/50 rounded-xl p-4 group">
               <summary className="font-semibold text-cocoa cursor-pointer">Are the coloring pages really free?</summary>
               <p className="text-sm text-cocoa/70 mt-2">
-                Yes! Every coloring page and word search puzzle on Cozy Coloring World is completely 
+                Yes! Every coloring page and word search puzzle on Tiny Animal Worlds is completely 
                 free to download and print. No sign-up, no subscription, no hidden fees — ever.
               </p>
             </details>

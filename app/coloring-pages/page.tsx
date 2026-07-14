@@ -5,7 +5,7 @@ import AdBanner from "@/components/AdBanner";
 import { coloringPages } from "@/data/coloring-pages";
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = generatePageMetadata({
-  title: "All Free Coloring Pages | Cozy Coloring World",
+  title: "All Free Coloring Pages | Tiny Animal Worlds",
   description: "Browse and download all our free printable coloring pages for kids and adults. New pages added weekly!",
   path: "/coloring-pages",
 });

@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/34_hedgehog_reading_corner.webp",
+  imageUrl: "/images/coloring/11_cat_walking_through_cozy_villa.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Arctic Animal Activities for Kids: Free Printable Word Search Puzzles", description: "Learn about polar bears, penguins, seals, and arctic foxes with free printable word search puzzles. Perfect winter learning activity for elementary students.", path: "/blog/arctic-animal-activities-kids-printable" });
 

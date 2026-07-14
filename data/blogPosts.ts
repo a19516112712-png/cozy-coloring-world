@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -8,7 +11,7 @@ export interface BlogPost {
   readTime: string;
 }
 
-export const blogPosts: BlogPost[] = [
+const allBlogPosts: BlogPost[] = [
   {
     slug: "tiny-animal-coloring-pages",
     title: "Tiny Animal Coloring Pages: Free Printable Miniature World Scenes",
@@ -2215,3 +2218,22 @@ export const blogPosts: BlogPost[] = [
   },
 
 ];
+
+const validCoverImage = "/images/coloring/10_bear_cafe_reading_corner.webp";
+const missingCoverImages = new Set([
+  "/images/coloring/5_cute_fox_reading_a_book_in_a_cozy.webp",
+  "/images/coloring/8_Adorable_fox_and_bunny_having_a_tea_p.webp",
+  "/images/coloring/14_tiny_mouse_artist_painter.webp",
+  "/images/coloring/18_Bear_family_picnic_by_the_lake.webp",
+  "/images/coloring/21_deer_family_in_meadow.webp",
+  "/images/coloring/24_camping_fox_family.webp",
+  "/images/coloring/30_bunny_garden_tea_party.webp",
+  "/images/coloring/34_hedgehog_reading_corner.webp",
+]);
+
+export const blogPosts = allBlogPosts
+  .filter((post) => fs.existsSync(path.join(process.cwd(), "app", "blog", post.slug, "page.tsx")))
+  .map((post) => ({
+    ...post,
+    coverImage: missingCoverImages.has(post.coverImage) ? validCoverImage : post.coverImage,
+  }));

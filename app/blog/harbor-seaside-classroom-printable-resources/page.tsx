@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = generatePageMetadata({
-  imageUrl: "/images/coloring/34_hedgehog_reading_corner.webp",
+  imageUrl: "/images/coloring/40_Tiny_fox_organizing_a_camping_.webp",
   imageWidth: 1200,
   imageHeight: 1500, title: "Harbor & Seaside Classroom Printables: Free Word Search Puzzles", description: "Download free harbor and seaside themed word search puzzles for your classroom. Lighthouses, docks, sailboats!", path: "/blog/harbor-seaside-classroom-printable-resources" });
 

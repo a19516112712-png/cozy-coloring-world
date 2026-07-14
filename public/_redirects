@@ -2,3 +2,4 @@
 /coloring-pages/:slug /coloring/:slug 308
 /categories/:slug /category/:slug 308
 /privacy /privacy-policy 308
+/* /404.html 404
