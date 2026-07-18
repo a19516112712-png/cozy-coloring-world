@@ -69,9 +69,6 @@ export const defaultMetadata: Metadata = {
     site: "@cozycoloringworld",
     creator: "@cozycoloringworld",
   },
-  alternates: {
-    canonical: siteUrl,
-  },
   verification: {
     google: "",
     yandex: "",
