@@ -67,7 +67,7 @@ export default async function ColoringDetailPage({ params }: Props) {
   const page = coloringPages.find((p) => p.slug === slug);
   if (!page) notFound();
 
-  const category = categories.find((c) => c.id === page.category);
+  const category = categories.find((c) => c.slug === page.category);
   const baseUrl = "https://tinyanimalworlds.com";
 
   // Detect animal from slug
@@ -102,7 +102,7 @@ export default async function ColoringDetailPage({ params }: Props) {
   // Popular from other categories
   const popularPages = coloringPages
     .filter((p) => p.category !== page.category)
-    .sort(() => Math.random() - 0.5)
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, 4);
   const faqSchema = generateFAQSchema(pageFAQs);
   const breadcrumbItems = [
