@@ -123,20 +123,20 @@ export default async function ColoringDetailPage({ params }: Props) {
   return (
     <>
       {/* Structured Data */}
-      <script
+      <script key="breadcrumb"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <script
+      <script key="faq"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <script
+      <script key="image"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(imageSchema) }}
       />
 
-      <article className="page-container py-12 sm:py-16">
+      <article key={page.slug} className="page-container py-12 sm:py-16">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm" aria-label="Breadcrumb">
           <Link href="/" className="text-rose hover:underline">Home</Link>
